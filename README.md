@@ -1,6 +1,6 @@
 ## Baidu Hi iOS RDs 非官方技术周报
 
-[http://baiduhidevios.github.io/]()
+[http://baiduhidevios.github.io/](http://baiduhidevios.github.io/)
 
 FAQ
 ## 0. Why?
