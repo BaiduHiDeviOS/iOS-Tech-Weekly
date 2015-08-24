@@ -68,4 +68,6 @@ theme: apollo
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repository: git@github.com:BaiduHiDeviOS/BaiduHiDeviOS.github.io.git
+  branch: master
