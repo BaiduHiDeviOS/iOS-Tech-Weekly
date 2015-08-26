@@ -1,3 +1,9 @@
+# swift 2.0 官方文档中文版 
+
+学渣的福音~（内有离线下载PDF）
+
+《[The Swift Programming Language](http://wiki.jikexueyuan.com/project/swift/)》 recommended by [黑蛋]
+
 # 两篇Objective-C向Swift演化的文章：
 
 《[Adopting Nullability Annotations](http://www.miqu.me/blog/2015/04/17/adopting-nullability-annotations/)》 recommended by [zhangmeng](https://github.com/nightfade)
