@@ -15,3 +15,7 @@
 最近学Swift，新建项目以后发现找不到以前的main函数了。就查了一下怎么回事，详见此文：
 
 《[@UIApplicationMain](http://swifter.tips/uiapplicationmain/)》 recommended by [zhangmeng](https://github.com/nightfade)
+
+# [iOS 学习资料整理](https://github.com/Aufree/trip-to-iOS) 
+
+一个iOS学习资料汇总的repo， 包括一些学习iOS中的一些问题，各个阶段都有对应的资料链接。真是居家常备呀！
