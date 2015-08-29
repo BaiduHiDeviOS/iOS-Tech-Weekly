@@ -26,7 +26,7 @@
 * [Singleton如何测试](http://zixun.github.io/blog/2015/04/16/iosdan-yuan-ce-shi-xi-lie-singletonru-he-ce-shi/)
 * [单元测试编码规范](http://zixun.github.io/blog/2015/04/16/iosdan-yuan-ce-shi-xi-lie-dan-yuan-ce-shi-bian-ma-gui-fan/)
 
-#Facebook 
+#[Facebook iOS Blog](https://code.facebook.com/ios/)
 * [Reducing FOOMs in the Facebook iOS app](https://code.facebook.com/posts/1146930688654547/reducing-fooms-in-the-facebook-ios-app/?utm_campaign=iOS%2BDev%2BWeekly&utm_medium=email&utm_source=iOS_Dev_Weekly_Issue_213)
 
 这篇文章介绍了Facebook如何减少由于系统内存压力导致的应用Crash。为追踪非应用本身Bug 造成的crash提供了一个思路。
