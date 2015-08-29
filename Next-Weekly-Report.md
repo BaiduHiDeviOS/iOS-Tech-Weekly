@@ -31,4 +31,6 @@
 
 这篇文章介绍了Facebook如何减少由于系统内存压力导致的应用Crash。为追踪非应用本身Bug 造成的crash提供了一个思路。
 
+* [Faster Photos in Facebook for iOS](https://code.facebook.com/posts/857662304298232/faster-photos-in-facebook-for-ios/)
 
+这篇文章介绍了Facebook使用Progressive JPEG加快图片加载的优缺点对比。附上一个Progressive image的[开源库](https://github.com/contentful-labs/Concorde)
