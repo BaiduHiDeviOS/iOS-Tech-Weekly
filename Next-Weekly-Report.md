@@ -13,10 +13,11 @@ recommended by [zhangmeng](https://github.com/nightfade)
 
 《[The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)》，虽然是针对`JavaScript`的`Rx`库的，但是对`Reactive Programming`思想描述的非常清晰明了。
 
-两篇`ReactiveCocoa` 3.0的入门文章。
-《[A FIRST LOOK AT REACTIVECOCOA 3.0](http://blog.scottlogic.com/2015/04/24/first-look-reactive-cocoa-3.html)》
-《[REACTIVECOCOA 3.0 - SIGNAL PRODUCERS AND API CLARITY](http://blog.scottlogic.com/2015/04/28/reactive-cocoa-3-continued.html)》
+两篇`ReactiveCocoa` 3.0的API入门文章：
 
+《[A FIRST LOOK AT REACTIVECOCOA 3.0](http://blog.scottlogic.com/2015/04/24/first-look-reactive-cocoa-3.html)》
+
+《[REACTIVECOCOA 3.0 - SIGNAL PRODUCERS AND API CLARITY](http://blog.scottlogic.com/2015/04/28/reactive-cocoa-3-continued.html)》
 
 
 ---
