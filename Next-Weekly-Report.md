@@ -1,27 +1,11 @@
-《[Enemy of the State](https://github.com/jspahrsummers/enemy-of-the-state)》recommended by [zhangmeng](https://github.com/nightfade)
+###开源完整IM：
 
-主要是讲程序设计中`state`的坏处，以及用`stateless`编程的好处。这也是近些年来`Functional Programming`重新流行起来的很重要的原因之一。
-BTW，推荐这个Slides也是为了安利`ReactiveCocoa`：），可以大幅度的减少iOS开发中的`state`。
+MessageDisplayKit 模仿微信样式的开源IM
+[MessageDisplayKit](https://github.com/xhzengAIB/MessageDisplayKit)
 
-# ReactiveCocoa
+蘑菇街开源IM
+[TeamTalk](https://github.com/mogujie/TeamTalk)
 
-recommended by [zhangmeng](https://github.com/nightfade)
+###开源聊天界面组件：
+[JSQMessagesViewController](https://github.com/jessesquires/JSQMessagesViewController)
 
-再推荐几篇`ReactiveCocoa`相关的文章，之前`ReactiveCocoa` 2.x由于`Objective-C`自身语言特性的限制，API还是显得比较繁重。有了更加函数式的`Swift`语言之后，用`Swift`重写的`ReactiveCocoa` 3.x更加充分的展现了`Reactive Functional Programming`的特点，API更加轻量清晰，语法更简洁，非常推荐入手。
-
-开源项目『[ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa)』，内有文档。
-
-《[The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)》，虽然是针对`JavaScript`的`Rx`库的，但是对`Reactive Programming`思想描述的非常清晰明了。
-
-两篇`ReactiveCocoa` 3.0的API入门文章：
-
-《[A FIRST LOOK AT REACTIVECOCOA 3.0](http://blog.scottlogic.com/2015/04/24/first-look-reactive-cocoa-3.html)》
-
-《[REACTIVECOCOA 3.0 - SIGNAL PRODUCERS AND API CLARITY](http://blog.scottlogic.com/2015/04/28/reactive-cocoa-3-continued.html)》
-
-
----
-
-[Leveling Up](https://www.bignerdranch.com/blog/leveling-up/) 
-
-个人觉得是一篇很好的iOS进阶提升的一个好文章，推荐给有一定iOS开发经验并想继续提升自己的同学。
