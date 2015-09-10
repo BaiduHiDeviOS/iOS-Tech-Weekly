@@ -9,3 +9,5 @@ MessageDisplayKit 模仿微信样式的开源IM
 ###开源聊天界面组件：
 [JSQMessagesViewController](https://github.com/jessesquires/JSQMessagesViewController)
 
+### Code Formatter
+《[Automatically Formatting Your Objective-C](http://tonyarnold.com/2014/05/31/autoformatting-your-code.html)》 by zhangmeng
