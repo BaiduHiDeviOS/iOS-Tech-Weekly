@@ -12,9 +12,12 @@ MessageDisplayKit 模仿微信样式的开源IM
 ### Code Formatter
 《[Automatically Formatting Your Objective-C](http://tonyarnold.com/2014/05/31/autoformatting-your-code.html)》 by zhangmeng
 
+### 两篇CALayer动画的教程
+by zhangmeng
+《[CALayer Animation实践（一）：让应用灵动起来！](http://www.csdn.net/article/2015-09-07/2825633/1)》
+《[CALayer动画实践（二）：CAReplicatorLayer的用法](http://www.csdn.net/article/2015-09-09/2825659/2)》
 
-
-iOS 7
+### iOS 7
 
 1. [Text Kit](https://developer.apple.com/library/ios/documentation/StringsTextFonts/Conceptual/TextAndWebiPhoneOS/Introduction/Introduction.html#//apple_ref/doc/uid/TP40009542)
 
@@ -39,7 +42,7 @@ iOS 7
 	* SafariServices.framework - 用程序添加URL到用户Safari的阅读列表等
 
 
-iOS 8
+### iOS 8
 
 0. Swift 1.0
 
@@ -61,7 +64,7 @@ iOS 8
 8. Size class
 9. Metal - 替代OpenGL ES
 
-iOS 9
+### iOS 9
 
 0. Swift 2.0: 错误处理，Availability, Protocol extensions等
 1. iPad 多任务
