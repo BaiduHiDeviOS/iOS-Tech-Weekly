@@ -13,8 +13,11 @@ MessageDisplayKit 模仿微信样式的开源IM
 《[Automatically Formatting Your Objective-C](http://tonyarnold.com/2014/05/31/autoformatting-your-code.html)》 by zhangmeng
 
 ### 两篇CALayer动画的教程
+
 by zhangmeng
+
 《[CALayer Animation实践（一）：让应用灵动起来！](http://www.csdn.net/article/2015-09-07/2825633/1)》
+
 《[CALayer动画实践（二）：CAReplicatorLayer的用法](http://www.csdn.net/article/2015-09-09/2825659/2)》
 
 ### iOS 7
