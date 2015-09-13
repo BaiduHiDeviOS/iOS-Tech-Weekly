@@ -2,7 +2,6 @@
 https://developer.apple.com/ios/3d-touch/
 
 
-
 ###开源完整IM：
 
 MessageDisplayKit 模仿微信样式的开源IM
@@ -25,7 +24,12 @@ by zhangmeng
 
 《[CALayer动画实践（二）：CAReplicatorLayer的用法](http://www.csdn.net/article/2015-09-09/2825659/2)》
 
-### iOS 7
+
+
+
+##iOS 7 - 9 新特性
+
+###iOS 7
 
 1. [Text Kit](https://developer.apple.com/library/ios/documentation/StringsTextFonts/Conceptual/TextAndWebiPhoneOS/Introduction/Introduction.html#//apple_ref/doc/uid/TP40009542)
 
@@ -50,7 +54,7 @@ by zhangmeng
 	* SafariServices.framework - 用程序添加URL到用户Safari的阅读列表等
 
 
-### iOS 8
+###iOS 8
 
 0. Swift 1.0
 
@@ -72,7 +76,7 @@ by zhangmeng
 8. Size class
 9. Metal - 替代OpenGL ES
 
-### iOS 9
+###iOS 9
 
 0. Swift 2.0: 错误处理，Availability, Protocol extensions等
 1. iPad 多任务
@@ -83,6 +87,8 @@ by zhangmeng
 6. 新系统字体San francisco
 7. Safari View Controller
 8. Contacts Framework
+9. 3D Touch
+10. Live Photo
 
 参考资料：
 1.https://developer.apple.com/library/ios/releasenotes/General/WhatsNewIniOS/Articles/iOS7.html
