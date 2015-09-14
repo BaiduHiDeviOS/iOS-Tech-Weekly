@@ -89,6 +89,7 @@ by zhangmeng
 8. Contacts Framework
 9. 3D Touch
 10. Live Photo
+11. UIStackView
 
 参考资料：
 1.https://developer.apple.com/library/ios/releasenotes/General/WhatsNewIniOS/Articles/iOS7.html
