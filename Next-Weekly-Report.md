@@ -1,4 +1,4 @@
-
+曹华投稿:
 
 Facebook的开源库 [React Native](http://facebook.github.io/react-native/)，使用 React.js 开发原生应用 
 
