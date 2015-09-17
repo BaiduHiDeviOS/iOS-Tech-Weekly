@@ -8,4 +8,6 @@ Facebook的开源库 [React Native](http://facebook.github.io/react-native/)，�
 
 [技术债务：究竟让你付出了多大代价？](http://blog.jobbole.com/25137/)
 
+zhangmeng:
 
+《[CocoaPods的一些略为高级一丁点的使用](http://supermao.cn/cocoapodsde-xie-lue-wei-gao-ji-ding-dian-de-shi-yong/)》
