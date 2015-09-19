@@ -18,7 +18,7 @@ zhangmeng:
 
 [Code examples for the new features of iOS 9](https://github.com/shu223/iOS-9-Sampler)
 
-《[On Using SQLite and FMDB Instead of Core Data](https://www.objc.io/issues/4-core-data/SQLite-instead-of-core-data/)》：关于使用Sqlite的一些实践，对我们项目里Sqlite有很多可以借鉴的东西。
+《[On Using SQLite and FMDB Instead of Core Data](https://www.objc.io/issues/4-core-data/SQLite-instead-of-core-data/)》：关于使用Sqlite的一些实践，对我们项目里Sqlite的使用有很多可以借鉴的东西。
 
 开源库[FCModel](https://github.com/marcoarment/FCModel)依据这些实践做了实现。
 
