@@ -35,3 +35,6 @@ anyuan:
 [SwiftGG](http://swift.gg/)
 
 翻译的Swift国外优秀技术博客
+
+
+(introducing protocol oriented programming in swift 2)[http://www.raywenderlich.com/109156/introducing-protocol-oriented-programming-in-swift-2]
