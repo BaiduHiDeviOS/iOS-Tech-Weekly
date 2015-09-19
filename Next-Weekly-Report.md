@@ -16,6 +16,8 @@ zhangmeng:
 
 《[iOS 9 开发高级技巧 - 通过 12 个团队所提供的技巧来快速适配 iOS 9](https://realm.io/cn/news/tips-for-ios-9-development/)》
 
+[Code examples for the new features of iOS 9](https://github.com/shu223/iOS-9-Sampler)
+
 anyuan:
 
 [Thinking in Swift, Part 1: Saving ponies](http://alisoftware.github.io/swift/2015/09/06/thinking-in-swift-1/)
