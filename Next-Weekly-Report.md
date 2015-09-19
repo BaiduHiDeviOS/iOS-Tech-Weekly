@@ -12,6 +12,9 @@ zhangmeng:
 
 《[CocoaPods的一些略为高级一丁点的使用](http://supermao.cn/cocoapodsde-xie-lue-wei-gao-ji-ding-dian-de-shi-yong/)》
 
+《[iOS9适配系列教程](https://github.com/ChenYilong/iOS9AdaptationTips)》
+
+《[iOS 9 开发高级技巧 - 通过 12 个团队所提供的技巧来快速适配 iOS 9](https://realm.io/cn/news/tips-for-ios-9-development/)》
 
 anyuan:
 
