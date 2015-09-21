@@ -22,6 +22,8 @@ zhangmeng:
 
 开源库[FCModel](https://github.com/marcoarment/FCModel)依据这些实践做了实现。
 
+新的依赖管理工具 [Carthage](https://github.com/Carthage/Carthage)，和Cocoapods相比，Carthage是非侵入式的，不会修改xcode工程文件，只是帮助build出来frameworks。更灵活更干净。
+
 anyuan:
 
 [Thinking in Swift, Part 1: Saving ponies](http://alisoftware.github.io/swift/2015/09/06/thinking-in-swift-1/)
