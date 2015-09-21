@@ -8,3 +8,4 @@
 
 [SnapKit](https://github.com/SnapKit/SnapKit): SnapKit is a DSL to make Auto Layout easy on both iOS and OS X.
 
+[XcodeColors](https://github.com/robbiehanson/XcodeColors): 日志按类别显示颜色插件
