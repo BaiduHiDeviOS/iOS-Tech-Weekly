@@ -1,5 +1,9 @@
 # iOS技术周报分类
 
+### 周报博客地址：[点我](http://baiduhidevios.github.io/)
+
+
+
 ## Swift
 
 名称  |  简介
@@ -116,5 +120,3 @@
 
 ## 4. How？
 * 大家投稿可以直接编辑Next-Weekly-Report.md 文件， 每周发布前，会对大家的投稿进行整理，发布。
-
-# 博客地址：[Baidu Hi iOS RDs 非官方技术周报](http://baiduhidevios.github.io/)
