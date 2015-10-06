@@ -80,6 +80,7 @@
 [Kevin Blog](http://zhowkev.in) | 周楷雯, 秒视创始人, 知名 iOS 工程师, 做出了 [PNChart](https://github.com/kevinzhow/PNChart) 和 [Waver](https://github.com/kevinzhow/Waver) 这样的好项目, 在博客中也有谈到具体的实现过程
 [IMTX](http://imtx.me) | 图拉鼎, 知名 Apple 平台开发者, 曾经的 Ubuntu 平台开发者, 文章有不少干货, 大多讲解技术实现和学习经验
 [Facebook iOS技术博客](https://code.facebook.com/ios/) | Facebook 在iOS上的一些优秀实践，很多值得我们学习，希望大家也多多关注。
+[SwiftGG](http://swift.gg/) | 翻译的Swift国外优秀技术博客
 
 ## 文章
 
@@ -99,7 +100,7 @@
 [CocoaPods的一些略为高级一丁点的使用](http://supermao.cn/cocoapodsde-xie-lue-wei-gao-ji-ding-dian-de-shi-yong/) | CocoaPods的一些略为高级一丁点的使用
 [iOS9适配系列教程](https://github.com/ChenYilong/iOS9AdaptationTips) | iOS9适配系列教程
 [iOS 9 开发高级技巧 - 通过 12 个团队所提供的技巧来快速适配 iOS 9](https://realm.io/cn/news/tips-for-ios-9-development/) | iOS 9 开发高级技巧 - 通过 12 个团队所提供的技巧来快速适配 iOS 9
-[SwiftGG](http://swift.gg/) | 翻译的Swift国外优秀技术博客
+
 ## 工具/插件
 
 工具/插件  |  简介
