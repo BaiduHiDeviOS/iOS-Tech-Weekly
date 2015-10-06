@@ -17,6 +17,13 @@
 [Enums as constants](http://alisoftware.github.io/swift/enum/constants/2015/07/19/enums-as-constants/) | 本文介绍了很多Swift中enum的使用场景，很值得学习。
 [Swift 模式识别详解](http://appventure.me/2015/08/20/swift-pattern-matching-in-detail/) | 详细解读如何使用Swift的模式识别
 [Swift 2.0 如何写单例](http://krakendev.io/blog/the-right-way-to-write-a-singleton) | Swift 2.0 单例写法
+[Controlling Complexity in Swift](https://realm.io/news/andy-matuschak-controlling-complexity/) | 使用Swift的Value type来控制程序的复杂度
+[An Observable Pattern Implementation in Swift](http://colindrake.me/2015/10/01/an-observable-pattern-implementation-in-swift/) | Swift的观察者模式实现
+[When to Use Swift Structs and Classes](https://www.mikeash.com/pyblog/friday-qa-2015-07-17-when-to-use-swift-structs-and-classes.html) | Swift中何时使用Structs和Classes
+[Optional Computed Properties in Swift Protocols](http://matthewpalmer.net/blog/2015/08/29/optional-computed-property-swift-protocol-non-objc/) | 声明Optional Computed properties
+[Protocol Oriented Programming in the Real World](http://matthewpalmer.net/blog/2015/08/30/protocol-oriented-programming-in-the-real-world/) | Swift Protocol Oriented Programming的使用例子。
+[Swift Functors, Applicatives, and Monads in Pictures](http://www.mokacoding.com/blog/functor-applicative-monads-in-pictures/) | 学了点`haskell`，在`swift`中新加的很多语言特性都是从`haskell`那里“抄”来的，比如强大的枚举、`switch`等等。`functor`、`applicative`和`monads`历来是`haskell`学习中相对比较难理解的概念，这篇文章用`swift`简明易懂的做了解释。
+
 
 ## Objective-C
 
@@ -54,7 +61,9 @@
 [SnapKit](https://github.com/SnapKit/SnapKit) | SnapKit is a DSL to make Auto Layout easy on both iOS and OS X.
 [Hacking With Swift](https://github.com/twostraws/HackingWithSwift) | Swift 教程，以做小项目学习Swift
 [Decodable](https://github.com/Anviking/Decodable) | Swift 解析JSON, Chris Lattner(LLVM 作者) 推荐
-
+[Blurable](https://github.com/FlexMonkey/Blurable) | Apply a Gaussian Blur to any UIView with Swift Protocol Extensions
+[Neon](https://github.com/mamaral/Neon) | A powerful Swift programmatic UI layout framework.Build dynamic and beautiful user interfaces like a boss, with Swift.
+[Async](https://github.com/duemunk/Async) | Syntactic sugar in Swift for asynchronous dispatches in Grand Central Dispatch
 ## 博客
 
 博客地址 | 博主信息
