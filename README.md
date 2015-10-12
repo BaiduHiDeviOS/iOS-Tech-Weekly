@@ -23,7 +23,8 @@
 [Optional Computed Properties in Swift Protocols](http://matthewpalmer.net/blog/2015/08/29/optional-computed-property-swift-protocol-non-objc/) | 声明Optional Computed properties
 [Protocol Oriented Programming in the Real World](http://matthewpalmer.net/blog/2015/08/30/protocol-oriented-programming-in-the-real-world/) | Swift Protocol Oriented Programming的使用例子。
 [Swift Functors, Applicatives, and Monads in Pictures](http://www.mokacoding.com/blog/functor-applicative-monads-in-pictures/) | 学了点`haskell`，在`swift`中新加的很多语言特性都是从`haskell`那里“抄”来的，比如强大的枚举、`switch`等等。`functor`、`applicative`和`monads`历来是`haskell`学习中相对比较难理解的概念，这篇文章用`swift`简明易懂的做了解释。
-
+| [Advanced NSOperations](https://developer.apple.com/videos/play/wwdc2015-226/) | 对于使用NSOperation提供了一个新颖的使用方案，比较开拓思路，此seesion有[sample code](https://developer.apple.com/sample-code/wwdc/2015/downloads/Advanced-NSOperations.zip)结合观看效果更加 
+| [Inside Swift](http://www.eswick.com/2014/06/inside-swift/) | Swift的内部机制
 
 ## Objective-C
 
@@ -31,11 +32,13 @@
 ---- | ----
 [Adopting Nullability Annotations](http://www.miqu.me/blog/2015/04/17/adopting-nullability-annotations/) | OC新特性，标记对象是否可以为空，为了更好的适配Swift。
 [Adopting Objective-C Generics](http://www.miqu.me/blog/2015/06/09/adopting-objectivec-generics/) | OC新特性，标记集合对象（NSArray, NSDictionary, NSSet）中保存对象类型，为了更好的适配Swift。
+| [Objective-C vs Swift messages dispatch](http://blog.untitledkingdom.co.uk/obj-c-vs-swift/) | Objective-C和Swift的消息派发机制
 
 ## 技术实践
 
 文章名称  |  简介
 ---- | ----
+[iOS应用架构谈](http://casatwy.com/iosying-yong-jia-gou-tan-kai-pian.html) | 对iOS应用架构的深入探讨文章，推荐阅读。
 [单元测试框架选型](http://zixun.github.io/blog/2015/04/11/iosdan-yuan-ce-shi-xi-lie-dan-yuan-ce-shi-kuang-jia-xuan-xing/) | 介绍单元测试框架选型，对比几个知名测试框架
 [OCMock常见使用方式](http://zixun.github.io/blog/2015/04/16/iosdan-yuan-ce-shi-xi-lie-yi-ocmockchang-jian-shi-yong-fang-shi/) | 介绍CMock常见使用方式
 [Singleton如何测试](http://zixun.github.io/blog/2015/04/16/iosdan-yuan-ce-shi-xi-lie-singletonru-he-ce-shi/) | 介绍Singleton如何测试
@@ -47,6 +50,10 @@
 ## 开源代码
 名称 | 推荐理由
 ------- | -------
+[FDStackView](https://github.com/forkingdog/FDStackView) | Use UIStackView directly in iOS6+ ,百度知道团队开源代码 
+| [Reachability.swift](https://github.com/ashleymills/Reachability.swift) | Replacement for Apple's Reachability re-written in Swift with closures. 
+| [Swift Radio Pro](https://github.com/swiftcodex/Swift-Radio-Pro) | 完整的Swift 2.0的App 开源应用。
+| [Advanced NSOperations sampel code](https://developer.apple.com/sample-code/wwdc/2015/downloads/Advanced-NSOperations.zip) | WWDC 2015 [Advanced NSOperations](https://developer.apple.com/videos/play/wwdc2015-226/) 的sample code
 [PromiseKit](https://github.com/mxcl/PromiseKit) | Modern development is highly asynchronous: isn’t it about time we had tools that made programming asynchronously powerful, easy and delightful?
 [Concorde](https://github.com/contentful-labs/Concorde) | Progressive JPEG 图片加载的三方库。
 [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) | ReactiveCocoa
@@ -64,29 +71,12 @@
 [Blurable](https://github.com/FlexMonkey/Blurable) | Apply a Gaussian Blur to any UIView with Swift Protocol Extensions
 [Neon](https://github.com/mamaral/Neon) | A powerful Swift programmatic UI layout framework.Build dynamic and beautiful user interfaces like a boss, with Swift.
 [Async](https://github.com/duemunk/Async) | Syntactic sugar in Swift for asynchronous dispatches in Grand Central Dispatch
-## 博客
 
-博客地址 | 博主信息
-------- | -------
-[OneV's Den](http://onevcat.com/#blog) | 王巍(喵神), 现居日本, 就职于 LINE, 知名 iOS 开发者, 写的文章大多深入浅出, 内容广泛, 目前在维护的 [Swifter](http://swifter.tips) 也值得收藏
-[唐巧的技术博客](http://blog.devtang.com) | 唐巧, 国内知名 iOS 开发者, 现就职于猿题库, 博客推出的 iOS 移动开发周报很受欢迎, 更新频繁
-[txx's blog](http://blog.txx.im) | 90 后 iOS 开发者, 人称虾神, 文章内容讲解大多浅白易懂, 很值得看
-[破船之家](http://beyondvincent.com) | 博主也是 iOS 大神一个, 经常更新一些 iOS 教程, 文章的质量都很高, 非常值得看
-[NSHipster](http://nshipster.cn) | NSHipster 的中文网站, 主要对 NSHipster 的英文网站进行翻译, 博文出自 Mattt 大神之手, 文章大都写得很深入, 详细, 每周一更
-[Limboy 无网不剩](http://blog.leezhong.com) | 李忠, 知乎前员工, 目前在负责花瓣 iOS 开发, 不少文章里面有介绍博主个人的学习方法, 让读者在学到技术的同时也掌握学习的技巧
-[iOS技术周报](http://weekly.ios-wiki.com/history) | 吴发伟, 天猫资深软件开发工程师, iOS 技术周报每周一更, 推送一些 iOS 技巧, 代码库, 设计等资讯.
-[iWangKe.me](http://www.iwangke.me) | 王轲, IndieBros Studio 创始人, 优秀的 iOS 开发工程师, 写的文章深入浅出, 很多问题分析透彻, 非常有条理性
-[叶孤城](http://www.jianshu.com/p/99e8b3f6f377) | 叶孤城, 优秀 iOS 开发工程师, 发表的文章都有很多干货, 对源码解析类文章写得浅显易懂, 并时常总结一些 iOS 开发技巧, 值得一读
-[Kevin Blog](http://zhowkev.in) | 周楷雯, 秒视创始人, 知名 iOS 工程师, 做出了 [PNChart](https://github.com/kevinzhow/PNChart) 和 [Waver](https://github.com/kevinzhow/Waver) 这样的好项目, 在博客中也有谈到具体的实现过程
-[IMTX](http://imtx.me) | 图拉鼎, 知名 Apple 平台开发者, 曾经的 Ubuntu 平台开发者, 文章有不少干货, 大多讲解技术实现和学习经验
-[Facebook iOS技术博客](https://code.facebook.com/ios/) | Facebook 在iOS上的一些优秀实践，很多值得我们学习，希望大家也多多关注。
-[SwiftGG](http://swift.gg/) | 翻译的Swift国外优秀技术博客
 
 ## 文章
 
 标题  | 内容简介
 ---- | -----
-[iOS应用架构谈](http://casatwy.com/iosying-yong-jia-gou-tan-kai-pian.html) | 对iOS应用架构的深入探讨文章，推荐阅读。
 [Automatically Formatting Your Objective-C](http://tonyarnold.com/2014/05/31/autoformatting-your-code.html) | 自动格式化代码工具[ClangFormat-Xcode](https://github.com/travisjeffery/ClangFormat-Xcode/)使用。
 [CALayer Animation实践（一）：让应用灵动起来！](http://www.csdn.net/article/2015-09-07/2825633/1) | CALayer 动画实践（一）
 [CALayer动画实践（二）：CAReplicatorLayer的用法](http://www.csdn.net/article/2015-09-09/2825659/2) | CALayer 动画实践（二）
@@ -110,7 +100,23 @@
 [XcodeColors](https://github.com/robbiehanson/XcodeColors) | 使 Xcode 调试控制台色彩更丰富
 [ClangFormat-Xcode](https://github.com/travisjeffery/ClangFormat-Xcode/) | 代码格式化工具
 
+## 博客
 
+博客地址 | 博主信息
+------- | -------
+[OneV's Den](http://onevcat.com/#blog) | 王巍(喵神), 现居日本, 就职于 LINE, 知名 iOS 开发者, 写的文章大多深入浅出, 内容广泛, 目前在维护的 [Swifter](http://swifter.tips) 也值得收藏
+[唐巧的技术博客](http://blog.devtang.com) | 唐巧, 国内知名 iOS 开发者, 现就职于猿题库, 博客推出的 iOS 移动开发周报很受欢迎, 更新频繁
+[txx's blog](http://blog.txx.im) | 90 后 iOS 开发者, 人称虾神, 文章内容讲解大多浅白易懂, 很值得看
+[破船之家](http://beyondvincent.com) | 博主也是 iOS 大神一个, 经常更新一些 iOS 教程, 文章的质量都很高, 非常值得看
+[NSHipster](http://nshipster.cn) | NSHipster 的中文网站, 主要对 NSHipster 的英文网站进行翻译, 博文出自 Mattt 大神之手, 文章大都写得很深入, 详细, 每周一更
+[Limboy 无网不剩](http://blog.leezhong.com) | 李忠, 知乎前员工, 目前在负责花瓣 iOS 开发, 不少文章里面有介绍博主个人的学习方法, 让读者在学到技术的同时也掌握学习的技巧
+[iOS技术周报](http://weekly.ios-wiki.com/history) | 吴发伟, 天猫资深软件开发工程师, iOS 技术周报每周一更, 推送一些 iOS 技巧, 代码库, 设计等资讯.
+[iWangKe.me](http://www.iwangke.me) | 王轲, IndieBros Studio 创始人, 优秀的 iOS 开发工程师, 写的文章深入浅出, 很多问题分析透彻, 非常有条理性
+[叶孤城](http://www.jianshu.com/p/99e8b3f6f377) | 叶孤城, 优秀 iOS 开发工程师, 发表的文章都有很多干货, 对源码解析类文章写得浅显易懂, 并时常总结一些 iOS 开发技巧, 值得一读
+[Kevin Blog](http://zhowkev.in) | 周楷雯, 秒视创始人, 知名 iOS 工程师, 做出了 [PNChart](https://github.com/kevinzhow/PNChart) 和 [Waver](https://github.com/kevinzhow/Waver) 这样的好项目, 在博客中也有谈到具体的实现过程
+[IMTX](http://imtx.me) | 图拉鼎, 知名 Apple 平台开发者, 曾经的 Ubuntu 平台开发者, 文章有不少干货, 大多讲解技术实现和学习经验
+[Facebook iOS技术博客](https://code.facebook.com/ios/) | Facebook 在iOS上的一些优秀实践，很多值得我们学习，希望大家也多多关注。
+[SwiftGG](http://swift.gg/) | 翻译的Swift国外优秀技术博客
 
 
 
