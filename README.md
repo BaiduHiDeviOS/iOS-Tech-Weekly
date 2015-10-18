@@ -38,7 +38,8 @@
 
 文章名称  |  简介
 ---- | ----
-[iOS应用架构谈](http://casatwy.com/iosying-yong-jia-gou-tan-kai-pian.html) | 对iOS应用架构的深入探讨文章，推荐阅读。
+[iOS APP安全杂谈之三](http://drops.wooyun.org/papers/9598) | iOS APP安全杂谈之三
+[iOS高性能图片架构与设计](http://mp.weixin.qq.com/s?__biz=MzI1MTA1MzM2Nw==&mid=207840007&idx=1&sn=ce09553e5774f5581c696b5e28f0c7e8#rd)| iOS高性能图片架构与设计
 [单元测试框架选型](http://zixun.github.io/blog/2015/04/11/iosdan-yuan-ce-shi-xi-lie-dan-yuan-ce-shi-kuang-jia-xuan-xing/) | 介绍单元测试框架选型，对比几个知名测试框架
 [OCMock常见使用方式](http://zixun.github.io/blog/2015/04/16/iosdan-yuan-ce-shi-xi-lie-yi-ocmockchang-jian-shi-yong-fang-shi/) | 介绍CMock常见使用方式
 [Singleton如何测试](http://zixun.github.io/blog/2015/04/16/iosdan-yuan-ce-shi-xi-lie-singletonru-he-ce-shi/) | 介绍Singleton如何测试
@@ -47,9 +48,23 @@
 [Faster Photos in Facebook for iOS](https://code.facebook.com/posts/857662304298232/faster-photos-in-facebook-for-ios/) | 这篇文章介绍了Facebook使用Progressive JPEG加快图片加载的优缺点对比。附上一个Progressive image的[开源库](https://github.com/contentful-labs/Concorde)
 [On Using SQLite and FMDB Instead of Core Data](https://www.objc.io/issues/4-core-data/SQLite-instead-of-core-data/) | 关于使用Sqlite的一些实践，对我们项目里Sqlite的使用有很多可以借鉴的东西。
 
+##应用架构相关
+文章名称  |  简介
+---- | ----
+[跳出面向对象思想(一) 继承](http://casatwy.com/tiao-chu-mian-xiang-dui-xiang-si-xiang-yi-ji-cheng.html)| 跳出面向对象思想(一) 继承
+[跳出面向对象思想(二) 多态](http://casatwy.com/tiao-chu-mian-xiang-dui-xiang-si-xiang-er-duo-tai.html)| 跳出面向对象思想(二) 多态
+[跳出面向对象思想(三) 封装](http://casatwy.com/tiao-chu-mian-xiang-dui-xiang-si-xiang-san-feng-zhuang.html)| 跳出面向对象思想(三) 封装
+[iOS应用架构谈 开篇](http://casatwy.com/iosying-yong-jia-gou-tan-kai-pian.html)| iOS应用架构谈 开篇
+[iOS应用架构谈 view层的组织和调用方案](http://casatwy.com/iosying-yong-jia-gou-tan-viewceng-de-zu-zhi-he-diao-yong-fang-an.html)| iOS应用架构谈 view层的组织和调用方案
+[iOS应用架构谈 网络层设计方案](http://casatwy.com/iosying-yong-jia-gou-tan-wang-luo-ceng-she-ji-fang-an.html)| iOS应用架构谈 网络层设计方案
+[iOS应用架构谈 本地持久化方案及动态部署](http://casatwy.com/iosying-yong-jia-gou-tan-ben-di-chi-jiu-hua-fang-an-ji-dong-tai-bu-shu.html)| iOS应用架构谈 本地持久化方案及动态部署
+[Software Architecture Patterns pdf](http://www.oreilly.com/programming/free/files/software-architecture-patterns.pdf)| Software Architecture Patterns | 
+[构建iOS稳定应用架构时方案选择的思考](http://www.starming.com/index.php?v=index&view=83)| 构建iOS稳定应用架构时方案选择的思考
+
 ## 开源代码
 名称 | 推荐理由
 ------- | -------
+[Aspects](https://github.com/steipete/Aspects)|再也不用自己写丑陋的`method swizzling`代码了。
 [FDStackView](https://github.com/forkingdog/FDStackView) | Use UIStackView directly in iOS6+ ,百度知道团队开源代码 
 | [Reachability.swift](https://github.com/ashleymills/Reachability.swift) | Replacement for Apple's Reachability re-written in Swift with closures. 
 | [Swift Radio Pro](https://github.com/swiftcodex/Swift-Radio-Pro) | 完整的Swift 2.0的App 开源应用。
@@ -80,21 +95,35 @@
 [Automatically Formatting Your Objective-C](http://tonyarnold.com/2014/05/31/autoformatting-your-code.html) | 自动格式化代码工具[ClangFormat-Xcode](https://github.com/travisjeffery/ClangFormat-Xcode/)使用。
 [CALayer Animation实践（一）：让应用灵动起来！](http://www.csdn.net/article/2015-09-07/2825633/1) | CALayer 动画实践（一）
 [CALayer动画实践（二）：CAReplicatorLayer的用法](http://www.csdn.net/article/2015-09-09/2825659/2) | CALayer 动画实践（二）
-[iOS 7 - 9新特性总结](http://anyuan.me/ios-7-9-xin-te-xing-zong-jie/) | 总结iOS7-9开发者应该关注的变化。
 [代码整洁之所以重要的七个理由](http://blog.jobbole.com/61312/) | 为什么代码整洁是如此重要
 [技术债务：究竟让你付出了多大代价？](http://blog.jobbole.com/25137/) | 技术债务：究竟让你付出了多大代价？
+[如何配置一个高效的 Mac 工作环境](http://blog.jobbole.com/63130/)| 如何配置一个高效的 Mac 工作环境
+[CocoaPods的一些略为高级一丁点的使用](http://supermao.cn/cocoapodsde-xie-lue-wei-gao-ji-ding-dian-de-shi-yong/) | CocoaPods的一些略为高级一丁点的使用
+[10 Things You Need to Know About Cocoa Auto Layout](http://oleb.net/blog/2013/03/things-you-need-to-know-about-cocoa-autolayout/) | 10 Things You Need to Know About Cocoa Auto Layout
+[iOS Auto Layout: Fun Facts and Tips](https://www.bignerdranch.com/blog/ios-autolayout-fun-facts-and-tips/) | iOS Auto Layout: Fun Facts and Tips
+
+##Reactive Cocoa & Functional Programming
+标题  | 内容简介
+---- | -----
 [Enemy of the State](https://github.com/jspahrsummers/enemy-of-the-state) | 主要是讲程序设计中`state`的坏处，以及用`stateless`编程的好处。这也是近些年来`Functional Programming`重新流行起来的很重要的原因之一。BTW，推荐这个Slides也是为了安利`ReactiveCocoa`：），可以大幅度的减少iOS开发中的`state`。
 [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754) | 虽然是针对`JavaScript`的`Rx`库的，但是对`Reactive Programming`思想描述的非常清晰明了。
 [A FIRST LOOK AT REACTIVECOCOA 3.0](http://blog.scottlogic.com/2015/04/24/first-look-reactive-cocoa-3.html) | `ReactiveCocoa` 3.0的API入门文章
 [REACTIVECOCOA 3.0 - SIGNAL PRODUCERS AND API CLARITY](http://blog.scottlogic.com/2015/04/28/reactive-cocoa-3-continued.html) | `ReactiveCocoa` 3.0的API入门文章
-[CocoaPods的一些略为高级一丁点的使用](http://supermao.cn/cocoapodsde-xie-lue-wei-gao-ji-ding-dian-de-shi-yong/) | CocoaPods的一些略为高级一丁点的使用
+
+
+##iOS 新特性
+标题  | 内容简介
+---- | -----
 [iOS9适配系列教程](https://github.com/ChenYilong/iOS9AdaptationTips) | iOS9适配系列教程
-[iOS 9 开发高级技巧 - 通过 12 个团队所提供的技巧来快速适配 iOS 9](https://realm.io/cn/news/tips-for-ios-9-development/) | iOS 9 开发高级技巧 - 通过 12 个团队所提供的技巧来快速适配 iOS 9
+[iOS 9 开发高级技巧 - 通过 12 个团队所提供的技巧来快速适配 iOS 9](https://realm.io/cn/news/tips-for-ios-9-development/) | iOS 9 开发高级技巧 - 通过 12 个团队所提供的技巧来快速适配 iOS 9 |
+[iOS 7 - 9新特性总结](http://anyuan.me/ios-7-9-xin-te-xing-zong-jie/) | 总结iOS7-9开发者应该关注的变化。
 
 ## 工具/插件
 
 工具/插件  |  简介
 ---- | ----
+[Alcatraz](http://alcatraz.io) | Xcode插件管理工具 |
+[XTodo](https://github.com/trawor/XToDo) |收集项目中的所有TODO,FIXME,???, !!!，并提供了一个页面用于查看。
 [Carthage](https://github.com/Carthage/Carthage) | 新的依赖管理工具 Carthage，和Cocoapods相比，Carthage是非侵入式的，不会修改xcode工程文件，只是帮助build出来frameworks。更灵活更干净。
 [LANTERN](https://getlantern.org/) | 科学上网神器，速度快，稳定。
 [XcodeColors](https://github.com/robbiehanson/XcodeColors) | 使 Xcode 调试控制台色彩更丰富
