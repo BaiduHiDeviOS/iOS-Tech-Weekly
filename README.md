@@ -10,7 +10,6 @@
 ---- | ----
 [What's New in Swift 2.0](https://developer.apple.com/videos/wwdc/2015/?id=106) | WWDC 2015 关于Swift 2.0 新特性的介绍Session, 可以通过此视频快速了解Swift 2.0的主要变化。
 [@UIApplicationMain](http://swifter.tips/uiapplicationmain/) | 最近学Swift，新建项目以后发现找不到以前的main函数了。就查了一下怎么回事，详见此文。
-[@UIApplicationMain](http://swifter.tips/uiapplicationmain/) | 最近学Swift，新建项目以后发现找不到以前的main函数了。就查了一下怎么回事，详见此文。
 [The Swift Programming Language](http://wiki.jikexueyuan.com/project/swift/) | Swift 官方文档中文翻译。
 [Thinking in Swift, Part 1: Saving ponies](http://alisoftware.github.io/swift/2015/09/06/thinking-in-swift-1/) | 这篇文章对比oc和Swift， 来帮助读者更快适应Swift的思考方式。
 [Thinking in Swift, Part 2: map those arrays](http://alisoftware.github.io/swift/2015/09/20/thinking-in-swift-2/) | 这篇文章对比oc和Swift， 来帮助读者更快适应Swift的思考方式。
