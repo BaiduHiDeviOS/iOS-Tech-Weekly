@@ -37,6 +37,9 @@
 
 文章名称  |  简介
 ---- | ----
+[JSPatch实现原理详解](https://github.com/bang590/JSPatch/wiki/JSPatch-%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86%E8%AF%A6%E8%A7%A3) | JSPatch作者对JSPatch实现原理的详解。
+[JSPatch 部署安全策略](http://blog.cnbang.net/tech/2879/) | JSPatch 部署安全策略
+[JSPatch Convertor实现原理详解](http://blog.cnbang.net/tech/2915/) | JSPatch Convertor 可以自动把 Objective-C 代码转为 JSPatch 脚本。|
 [iOS APP安全杂谈之三](http://drops.wooyun.org/papers/9598) | iOS APP安全杂谈之三
 [iOS高性能图片架构与设计](http://mp.weixin.qq.com/s?__biz=MzI1MTA1MzM2Nw==&mid=207840007&idx=1&sn=ce09553e5774f5581c696b5e28f0c7e8#rd)| iOS高性能图片架构与设计
 [单元测试框架选型](http://zixun.github.io/blog/2015/04/11/iosdan-yuan-ce-shi-xi-lie-dan-yuan-ce-shi-kuang-jia-xuan-xing/) | 介绍单元测试框架选型，对比几个知名测试框架
@@ -63,6 +66,8 @@
 ## 开源代码
 名称 | 推荐理由
 ------- | -------
+[JSPatch](https://github.com/bang590/JSPatch) | JSPatch bridge Objective-C and Javascript using the Objective-C runtime. You can call any Objective-C class and method in JavaScript by just including a small engine. JSPatch is generally use for hotfix iOS App.
+[JSPatchConvertor](https://github.com/bang590/JSPatchConvertor)| JSPatch Convertor is a tool that converts Objective-C code to JSPatch script automatically.
 [Aspects](https://github.com/steipete/Aspects)|再也不用自己写丑陋的`method swizzling`代码了。
 [FDStackView](https://github.com/forkingdog/FDStackView) | Use UIStackView directly in iOS6+ ,百度知道团队开源代码 
 | [Reachability.swift](https://github.com/ashleymills/Reachability.swift) | Replacement for Apple's Reachability re-written in Swift with closures. 
@@ -91,6 +96,7 @@
 
 标题  | 内容简介
 ---- | -----
+[Elastic view animation using UIBezierPath](http://iostuts.io/2015/10/17/elastic-bounce-using-uibezierpath-and-pan-gesture/) | Elastic view animation using UIBezierPath
 [Automatically Formatting Your Objective-C](http://tonyarnold.com/2014/05/31/autoformatting-your-code.html) | 自动格式化代码工具[ClangFormat-Xcode](https://github.com/travisjeffery/ClangFormat-Xcode/)使用。
 [CALayer Animation实践（一）：让应用灵动起来！](http://www.csdn.net/article/2015-09-07/2825633/1) | CALayer 动画实践（一）
 [CALayer动画实践（二）：CAReplicatorLayer的用法](http://www.csdn.net/article/2015-09-09/2825659/2) | CALayer 动画实践（二）
@@ -104,6 +110,7 @@
 ##Reactive Cocoa & Functional Programming
 标题  | 内容简介
 ---- | -----
+[Swift 2.0: 深入浅出 Map 和 FlatMap 概念](http://gold.xitu.io/entry/5627bfa200b0ee7f823b2fec) | 又来一篇Swift和Functional
 [Enemy of the State](https://github.com/jspahrsummers/enemy-of-the-state) | 主要是讲程序设计中`state`的坏处，以及用`stateless`编程的好处。这也是近些年来`Functional Programming`重新流行起来的很重要的原因之一。BTW，推荐这个Slides也是为了安利`ReactiveCocoa`：），可以大幅度的减少iOS开发中的`state`。
 [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754) | 虽然是针对`JavaScript`的`Rx`库的，但是对`Reactive Programming`思想描述的非常清晰明了。
 [A FIRST LOOK AT REACTIVECOCOA 3.0](http://blog.scottlogic.com/2015/04/24/first-look-reactive-cocoa-3.html) | `ReactiveCocoa` 3.0的API入门文章
@@ -116,7 +123,8 @@
 [iOS9适配系列教程](https://github.com/ChenYilong/iOS9AdaptationTips) | iOS9适配系列教程
 [iOS 9 开发高级技巧 - 通过 12 个团队所提供的技巧来快速适配 iOS 9](https://realm.io/cn/news/tips-for-ios-9-development/) | iOS 9 开发高级技巧 - 通过 12 个团队所提供的技巧来快速适配 iOS 9 |
 [iOS 7 - 9新特性总结](http://anyuan.me/ios-7-9-xin-te-xing-zong-jie/) | 总结iOS7-9开发者应该关注的变化。
-
+[Integrating JavaScript into Native Apps](https://developer.apple.com/videos/play/wwdc2013-615/) | WWDC: Introducing a new Objective-C API to JavaScriptCore. iOS developers can now integrate scripting into their apps without having to bundle custom language interpreters. This API builds on top of the existing C API to JavaScriptCore available on Mac, and makes programming with JavaScript much easier and less error-prone.
+[Web Inspector and Modern JavaScript](https://developer.apple.com/videos/play/wwdc2014-512/) | WWDC: Web Inspector, the powerful debugging tool in WebKit, is now available to JavaScriptCore-based apps. Find out how to leverage Web Inspector in your WebKit- and JavaScriptCore-based apps on iOS and OS X. Gain an overview of what's new in the JavaScript language and how to use modern JavaScript in your apps.
 ## 工具/插件
 
 工具/插件  |  简介
