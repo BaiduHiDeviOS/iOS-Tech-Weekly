@@ -8,6 +8,8 @@
 
 名称  |  简介
 ---- | ----
+[纯Swift2.0工程CocoaChina+从0到1遇到的坑和解决方案](http://zixun.github.io/blog/2015/10/25/chun-swift2-dot-0gong-cheng-cocoachina-plus-cong-0dao-1yu-dao-de-keng-he-jie-jue-fang-an/)|纯Swift2.0工程CocoaChina+从0到1遇到的坑和解决方案
+[Advanced & Practical Enum usage in Swift](http://appventure.me/2015/10/17/advanced-practical-enum-examples/)|Swift中Enum的使用实践
 [What's New in Swift 2.0](https://developer.apple.com/videos/wwdc/2015/?id=106) | WWDC 2015 关于Swift 2.0 新特性的介绍Session, 可以通过此视频快速了解Swift 2.0的主要变化。
 [@UIApplicationMain](http://swifter.tips/uiapplicationmain/) | 最近学Swift，新建项目以后发现找不到以前的main函数了。就查了一下怎么回事，详见此文。
 [The Swift Programming Language](http://wiki.jikexueyuan.com/project/swift/) | Swift 官方文档中文翻译。
@@ -37,9 +39,6 @@
 
 文章名称  |  简介
 ---- | ----
-[JSPatch实现原理详解](https://github.com/bang590/JSPatch/wiki/JSPatch-%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86%E8%AF%A6%E8%A7%A3) | JSPatch作者对JSPatch实现原理的详解。
-[JSPatch 部署安全策略](http://blog.cnbang.net/tech/2879/) | JSPatch 部署安全策略
-[JSPatch Convertor实现原理详解](http://blog.cnbang.net/tech/2915/) | JSPatch Convertor 可以自动把 Objective-C 代码转为 JSPatch 脚本。|
 [iOS APP安全杂谈之三](http://drops.wooyun.org/papers/9598) | iOS APP安全杂谈之三
 [iOS高性能图片架构与设计](http://mp.weixin.qq.com/s?__biz=MzI1MTA1MzM2Nw==&mid=207840007&idx=1&sn=ce09553e5774f5581c696b5e28f0c7e8#rd)| iOS高性能图片架构与设计
 [单元测试框架选型](http://zixun.github.io/blog/2015/04/11/iosdan-yuan-ce-shi-xi-lie-dan-yuan-ce-shi-kuang-jia-xuan-xing/) | 介绍单元测试框架选型，对比几个知名测试框架
@@ -66,8 +65,8 @@
 ## 开源代码
 名称 | 推荐理由
 ------- | -------
-[JSPatch](https://github.com/bang590/JSPatch) | JSPatch bridge Objective-C and Javascript using the Objective-C runtime. You can call any Objective-C class and method in JavaScript by just including a small engine. JSPatch is generally use for hotfix iOS App.
-[JSPatchConvertor](https://github.com/bang590/JSPatchConvertor)| JSPatch Convertor is a tool that converts Objective-C code to JSPatch script automatically.
+[Instructions](https://github.com/ephread/Instructions)|新手引导
+[PhoneNumberKit](https://github.com/marmelroy/PhoneNumberKit)|Swift framework for parsing, formatting and validating international phone numbers. Inspired by Google's libphonenumber.
 [Aspects](https://github.com/steipete/Aspects)|再也不用自己写丑陋的`method swizzling`代码了。
 [FDStackView](https://github.com/forkingdog/FDStackView) | Use UIStackView directly in iOS6+ ,百度知道团队开源代码 
 | [Reachability.swift](https://github.com/ashleymills/Reachability.swift) | Replacement for Apple's Reachability re-written in Swift with closures. 
@@ -96,6 +95,8 @@
 
 标题  | 内容简介
 ---- | -----
+[Facebook开源的Parse源码分析](https://github.com/ChenYilong/ParseSourceCodeStudy)|Facebook开源的Parse源码分析
+[利用UIWebView打造一个炫酷的视频背景视图（OC & Swift）](http://www.cocoachina.com/ios/20151023/13860.html)| 视频背景View， 适合做Hi 5.0的登录窗口。
 [Elastic view animation using UIBezierPath](http://iostuts.io/2015/10/17/elastic-bounce-using-uibezierpath-and-pan-gesture/) | Elastic view animation using UIBezierPath
 [Automatically Formatting Your Objective-C](http://tonyarnold.com/2014/05/31/autoformatting-your-code.html) | 自动格式化代码工具[ClangFormat-Xcode](https://github.com/travisjeffery/ClangFormat-Xcode/)使用。
 [CALayer Animation实践（一）：让应用灵动起来！](http://www.csdn.net/article/2015-09-07/2825633/1) | CALayer 动画实践（一）
@@ -110,12 +111,28 @@
 ##Reactive Cocoa & Functional Programming
 标题  | 内容简介
 ---- | -----
+[写给程序猿的范畴论 · 序](https://segmentfault.com/a/1190000003882331)|写给程序猿的范畴论 · 序
+[范畴：复合的本质](http://segmentfault.com/a/1190000003883257)|范畴：复合的本质
+[类型与函数](https://segmentfault.com/a/1190000003888544)|类型与函数
+[范畴，可大可小](http://segmentfault.com/a/1190000003894116)|范畴，可大可小
+[Kleisli 范畴](http://segmentfault.com/a/1190000003898795)|Kleisli 范畴
+[积与余积](http://segmentfault.com/a/1190000003913079)|积与余积
+[对单子的求索](http://garfileo.is-programmer.com/2012/8/22/monads-for-the-curious-programmer-zh_cn.35206.html)|对单子的求索
 [Swift 2.0: 深入浅出 Map 和 FlatMap 概念](http://gold.xitu.io/entry/5627bfa200b0ee7f823b2fec) | 又来一篇Swift和Functional
 [Enemy of the State](https://github.com/jspahrsummers/enemy-of-the-state) | 主要是讲程序设计中`state`的坏处，以及用`stateless`编程的好处。这也是近些年来`Functional Programming`重新流行起来的很重要的原因之一。BTW，推荐这个Slides也是为了安利`ReactiveCocoa`：），可以大幅度的减少iOS开发中的`state`。
 [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754) | 虽然是针对`JavaScript`的`Rx`库的，但是对`Reactive Programming`思想描述的非常清晰明了。
 [A FIRST LOOK AT REACTIVECOCOA 3.0](http://blog.scottlogic.com/2015/04/24/first-look-reactive-cocoa-3.html) | `ReactiveCocoa` 3.0的API入门文章
 [REACTIVECOCOA 3.0 - SIGNAL PRODUCERS AND API CLARITY](http://blog.scottlogic.com/2015/04/28/reactive-cocoa-3-continued.html) | `ReactiveCocoa` 3.0的API入门文章
 
+##iOS HotFix相关
+标题  | 内容简介
+---- | -----
+[alibaba/wax](https://github.com/alibaba/wax)|Wax is a framework that lets you write native iPhone apps in Lua.
+[JSPatch实现原理详解](https://github.com/bang590/JSPatch/wiki/JSPatch-%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86%E8%AF%A6%E8%A7%A3) | JSPatch作者对JSPatch实现原理的详解。
+[JSPatch 部署安全策略](http://blog.cnbang.net/tech/2879/) | JSPatch 部署安全策略
+[JSPatch Convertor实现原理详解](http://blog.cnbang.net/tech/2915/) | JSPatch Convertor 可以自动把 Objective-C 代码转为 JSPatch 脚本。|
+[JSPatch](https://github.com/bang590/JSPatch) | JSPatch bridge Objective-C and Javascript using the Objective-C runtime. You can call any Objective-C class and method in JavaScript by just including a small engine. JSPatch is generally use for hotfix iOS App.
+[JSPatchConvertor](https://github.com/bang590/JSPatchConvertor)| JSPatch Convertor is a tool that converts Objective-C code to JSPatch script automatically.
 
 ##iOS 新特性
 标题  | 内容简介
@@ -125,6 +142,7 @@
 [iOS 7 - 9新特性总结](http://anyuan.me/ios-7-9-xin-te-xing-zong-jie/) | 总结iOS7-9开发者应该关注的变化。
 [Integrating JavaScript into Native Apps](https://developer.apple.com/videos/play/wwdc2013-615/) | WWDC: Introducing a new Objective-C API to JavaScriptCore. iOS developers can now integrate scripting into their apps without having to bundle custom language interpreters. This API builds on top of the existing C API to JavaScriptCore available on Mac, and makes programming with JavaScript much easier and less error-prone.
 [Web Inspector and Modern JavaScript](https://developer.apple.com/videos/play/wwdc2014-512/) | WWDC: Web Inspector, the powerful debugging tool in WebKit, is now available to JavaScriptCore-based apps. Find out how to leverage Web Inspector in your WebKit- and JavaScriptCore-based apps on iOS and OS X. Gain an overview of what's new in the JavaScript language and how to use modern JavaScript in your apps.
+
 ## 工具/插件
 
 工具/插件  |  简介
