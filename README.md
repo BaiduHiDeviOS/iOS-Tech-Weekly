@@ -31,6 +31,9 @@
 
 名称  |  简介
 ---- | ----
+[深入理解Objective-C：Category](http://tech.meituan.com/DiveIntoCategory.html) | 来自美团技术团队的优质技术文章，深入讲解了Category
+[深入理解Objective-C：方法缓存](http://tech.meituan.com/DiveIntoMethodCache.html) | 来自美团技术团队的优质技术文章， 深入讲解了OC中方法调用缓存的相关知识。
+[Objective-C 的现代语法和新特性](http://www.cocoachina.com/cms/wap.php?action=article&id=13924)| Objective-C 的现代语法和新特性
 [Adopting Nullability Annotations](http://www.miqu.me/blog/2015/04/17/adopting-nullability-annotations/) | OC新特性，标记对象是否可以为空，为了更好的适配Swift。
 [Adopting Objective-C Generics](http://www.miqu.me/blog/2015/06/09/adopting-objectivec-generics/) | OC新特性，标记集合对象（NSArray, NSDictionary, NSSet）中保存对象类型，为了更好的适配Swift。
 | [Objective-C vs Swift messages dispatch](http://blog.untitledkingdom.co.uk/obj-c-vs-swift/) | Objective-C和Swift的消息派发机制
@@ -39,6 +42,8 @@
 
 文章名称  |  简介
 ---- | ----
+[iOS 处理图片的一些小 Tip](http://blog.ibireme.com/2015/11/02/ios_image_tips/) | iOS 处理图片的一些小 Tip
+[移动端图片格式调研](http://blog.ibireme.com/2015/11/02/mobile_image_benchmark/)| 移动端图片格式调研
 [iOS APP安全杂谈之三](http://drops.wooyun.org/papers/9598) | iOS APP安全杂谈之三
 [iOS高性能图片架构与设计](http://mp.weixin.qq.com/s?__biz=MzI1MTA1MzM2Nw==&mid=207840007&idx=1&sn=ce09553e5774f5581c696b5e28f0c7e8#rd)| iOS高性能图片架构与设计
 [单元测试框架选型](http://zixun.github.io/blog/2015/04/11/iosdan-yuan-ce-shi-xi-lie-dan-yuan-ce-shi-kuang-jia-xuan-xing/) | 介绍单元测试框架选型，对比几个知名测试框架
@@ -65,6 +70,8 @@
 ## 开源代码
 名称 | 推荐理由
 ------- | -------
+[YYWebImage](https://github.com/ibireme/YYWebImage)|YYWebImage is an asynchronous image loading framework (a component of YYKit).It was created as an improved replacement for SDWebImage, PINRemoteImage and FLAnimatedImage.
+[SwiftGen](https://github.com/AliSoftware/SwiftGen)| This is a suite of tools written in Swift 2 to auto-generate Swift 2 code for various assets of your project: 1.enums for your Assets Catalogs 2.enums for your Localizable.strings strings.3.enums for your UIStoryboard and their Scenes. 4.enums for your UIColors.
 [Instructions](https://github.com/ephread/Instructions)|新手引导
 [PhoneNumberKit](https://github.com/marmelroy/PhoneNumberKit)|Swift framework for parsing, formatting and validating international phone numbers. Inspired by Google's libphonenumber.
 [Aspects](https://github.com/steipete/Aspects)|再也不用自己写丑陋的`method swizzling`代码了。
@@ -111,6 +118,10 @@
 ##Reactive Cocoa & Functional Programming
 标题  | 内容简介
 ---- | -----
+[细说ReactiveCocoa的冷信号与热信号（一）](http://tech.meituan.com/talk-about-reactivecocoas-cold-signal-and-hot-signal-part-1.html) | 细说ReactiveCocoa的冷信号与热信号（一）
+[细说ReactiveCocoa的冷信号与热信号（二）：为什么要区分冷热信号](http://tech.meituan.com/talk-about-reactivecocoas-cold-signal-and-hot-signal-part-2.html)| 细说ReactiveCocoa的冷信号与热信号（二）
+[细说ReactiveCocoa的冷信号与热信号（三）：怎么处理冷信号与热信号](http://tech.meituan.com/talk-about-reactivecocoas-cold-signal-and-hot-signal-part-3.html)| 细说ReactiveCocoa的冷信号与热信号（三）
+[RACSignal的Subscription深入分析](http://tech.meituan.com/RACSignalSubscription.html)| RACSignal的Subscription深入分析
 [写给程序猿的范畴论 · 序](https://segmentfault.com/a/1190000003882331)|写给程序猿的范畴论 · 序
 [范畴：复合的本质](http://segmentfault.com/a/1190000003883257)|范畴：复合的本质
 [类型与函数](https://segmentfault.com/a/1190000003888544)|类型与函数
@@ -158,6 +169,7 @@
 
 博客地址 | 博主信息
 ------- | -------
+[Garan no Dou](http://blog.ibireme.com/) | @ibireme 文章深入， 开源代码质量高，值得关注
 [OneV's Den](http://onevcat.com/#blog) | 王巍(喵神), 现居日本, 就职于 LINE, 知名 iOS 开发者, 写的文章大多深入浅出, 内容广泛, 目前在维护的 [Swifter](http://swifter.tips) 也值得收藏
 [唐巧的技术博客](http://blog.devtang.com) | 唐巧, 国内知名 iOS 开发者, 现就职于猿题库, 博客推出的 iOS 移动开发周报很受欢迎, 更新频繁
 [txx's blog](http://blog.txx.im) | 90 后 iOS 开发者, 人称虾神, 文章内容讲解大多浅白易懂, 很值得看
