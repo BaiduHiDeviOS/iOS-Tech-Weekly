@@ -24,7 +24,7 @@
 [Optional Computed Properties in Swift Protocols](http://matthewpalmer.net/blog/2015/08/29/optional-computed-property-swift-protocol-non-objc/) | 声明Optional Computed properties
 [Protocol Oriented Programming in the Real World](http://matthewpalmer.net/blog/2015/08/30/protocol-oriented-programming-in-the-real-world/) | Swift Protocol Oriented Programming的使用例子。
 [Swift Functors, Applicatives, and Monads in Pictures](http://www.mokacoding.com/blog/functor-applicative-monads-in-pictures/) | 学了点`haskell`，在`swift`中新加的很多语言特性都是从`haskell`那里“抄”来的，比如强大的枚举、`switch`等等。`functor`、`applicative`和`monads`历来是`haskell`学习中相对比较难理解的概念，这篇文章用`swift`简明易懂的做了解释。
-| [Advanced NSOperations](https://developer.apple.com/videos/play/wwdc2015-226/) | 对于使用NSOperation提供了一个新颖的使用方案，比较开拓思路，此seesion有[sample code](https://developer.apple.com/sample-code/wwdc/2015/downloads/Advanced-NSOperations.zip)结合观看效果更加 
+| [Advanced NSOperations](https://developer.apple.com/videos/play/wwdc2015-226/) | 对于使用NSOperation提供了一个新颖的使用方案，比较开拓思路，此seesion有[sample code](https://developer.apple.com/sample-code/wwdc/2015/downloads/Advanced-NSOperations.zip)结合观看效果更加
 | [Inside Swift](http://www.eswick.com/2014/06/inside-swift/) | Swift的内部机制
 
 ## Objective-C
@@ -42,6 +42,10 @@
 
 文章名称  |  简介
 ---- | ----
+[iOS 保持界面流畅的技巧](http://blog.ibireme.com/2015/11/12/smooth_user_interfaces_for_ios/) | iOS 保持界面流畅的技巧
+[AFNetworking2.0源码解析<一>](http://blog.cnbang.net/tech/2320/) | AFNetworking2.0源码解析<一>
+[AFNetworking2.0源码解析<二>](http://blog.cnbang.net/tech/2371/) | AFNetworking2.0源码解析<二>
+[AFNetworking2.0源码解析<三>](http://blog.cnbang.net/tech/2416/) | AFNetworking2.0源码解析<三>
 [iOS 处理图片的一些小 Tip](http://blog.ibireme.com/2015/11/02/ios_image_tips/) | iOS 处理图片的一些小 Tip
 [移动端图片格式调研](http://blog.ibireme.com/2015/11/02/mobile_image_benchmark/)| 移动端图片格式调研
 [iOS APP安全杂谈之三](http://drops.wooyun.org/papers/9598) | iOS APP安全杂谈之三
@@ -64,19 +68,19 @@
 [iOS应用架构谈 view层的组织和调用方案](http://casatwy.com/iosying-yong-jia-gou-tan-viewceng-de-zu-zhi-he-diao-yong-fang-an.html)| iOS应用架构谈 view层的组织和调用方案
 [iOS应用架构谈 网络层设计方案](http://casatwy.com/iosying-yong-jia-gou-tan-wang-luo-ceng-she-ji-fang-an.html)| iOS应用架构谈 网络层设计方案
 [iOS应用架构谈 本地持久化方案及动态部署](http://casatwy.com/iosying-yong-jia-gou-tan-ben-di-chi-jiu-hua-fang-an-ji-dong-tai-bu-shu.html)| iOS应用架构谈 本地持久化方案及动态部署
-[Software Architecture Patterns pdf](http://www.oreilly.com/programming/free/files/software-architecture-patterns.pdf)| Software Architecture Patterns | 
+[Software Architecture Patterns pdf](http://www.oreilly.com/programming/free/files/software-architecture-patterns.pdf)| Software Architecture Patterns |
 [构建iOS稳定应用架构时方案选择的思考](http://www.starming.com/index.php?v=index&view=83)| 构建iOS稳定应用架构时方案选择的思考
 
 ## 开源代码
 名称 | 推荐理由
 ------- | -------
-[YYWebImage](https://github.com/ibireme/YYWebImage)|YYWebImage is an asynchronous image loading framework (a component of YYKit).It was created as an improved replacement for SDWebImage, PINRemoteImage and FLAnimatedImage.
+[YYKit](https://github.com/ibireme/YYKit) | YYKit 是一组庞大、功能丰富的 iOS 组件。
 [SwiftGen](https://github.com/AliSoftware/SwiftGen)| This is a suite of tools written in Swift 2 to auto-generate Swift 2 code for various assets of your project: 1.enums for your Assets Catalogs 2.enums for your Localizable.strings strings.3.enums for your UIStoryboard and their Scenes. 4.enums for your UIColors.
 [Instructions](https://github.com/ephread/Instructions)|新手引导
 [PhoneNumberKit](https://github.com/marmelroy/PhoneNumberKit)|Swift framework for parsing, formatting and validating international phone numbers. Inspired by Google's libphonenumber.
 [Aspects](https://github.com/steipete/Aspects)|再也不用自己写丑陋的`method swizzling`代码了。
-[FDStackView](https://github.com/forkingdog/FDStackView) | Use UIStackView directly in iOS6+ ,百度知道团队开源代码 
-| [Reachability.swift](https://github.com/ashleymills/Reachability.swift) | Replacement for Apple's Reachability re-written in Swift with closures. 
+[FDStackView](https://github.com/forkingdog/FDStackView) | Use UIStackView directly in iOS6+ ,百度知道团队开源代码
+| [Reachability.swift](https://github.com/ashleymills/Reachability.swift) | Replacement for Apple's Reachability re-written in Swift with closures.
 | [Swift Radio Pro](https://github.com/swiftcodex/Swift-Radio-Pro) | 完整的Swift 2.0的App 开源应用。
 | [Advanced NSOperations sampel code](https://developer.apple.com/sample-code/wwdc/2015/downloads/Advanced-NSOperations.zip) | WWDC 2015 [Advanced NSOperations](https://developer.apple.com/videos/play/wwdc2015-226/) 的sample code
 [PromiseKit](https://github.com/mxcl/PromiseKit) | Modern development is highly asynchronous: isn’t it about time we had tools that made programming asynchronously powerful, easy and delightful?
@@ -184,4 +188,3 @@
 [IMTX](http://imtx.me) | 图拉鼎, 知名 Apple 平台开发者, 曾经的 Ubuntu 平台开发者, 文章有不少干货, 大多讲解技术实现和学习经验
 [Facebook iOS技术博客](https://code.facebook.com/ios/) | Facebook 在iOS上的一些优秀实践，很多值得我们学习，希望大家也多多关注。
 [SwiftGG](http://swift.gg/) | 翻译的Swift国外优秀技术博客
-
