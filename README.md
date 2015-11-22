@@ -42,6 +42,10 @@
 
 文章名称  |  简介
 ---- | ----
+[AFNetworking 3.0迁移指南](http://www.cocoachina.com/ios/20151022/13831.html)|为了迎合iOS新版本的升级，AFNetworking在3.0版本中删除了基于 NSURLConnection API的所有支持。如果你的项目以前使用过这些API，建议您立即升级到基于NSURLSession的API的AFNetworking的版本。
+[iOS开发系列--让你的应用“动”起来](http://www.cnblogs.com/kenshincui/p/3972100.html) | 讲解IOS 动画相关~博主的文笔和排版灰常赞~其系列博文值得一读
+[优化Facebook iOS app启动时间](https://code.facebook.com/posts/1675399786008080/optimizing-facebook-for-ios-start-time/)|优化Facebook iOS app启动时间
+[Lessons learned with 3D Touch](http://engineering.instagram.com/posts/465414923641286/lessons-learned-with-3D-touch) | 详细介绍了3D touch 在instagram app中的应用。
 [iOS 保持界面流畅的技巧](http://blog.ibireme.com/2015/11/12/smooth_user_interfaces_for_ios/) | iOS 保持界面流畅的技巧
 [AFNetworking2.0源码解析<一>](http://blog.cnbang.net/tech/2320/) | AFNetworking2.0源码解析<一>
 [AFNetworking2.0源码解析<二>](http://blog.cnbang.net/tech/2371/) | AFNetworking2.0源码解析<二>
@@ -74,6 +78,7 @@
 ## 开源代码
 名称 | 推荐理由
 ------- | -------
+[REVERT](https://github.com/revealapp/Revert/)|Reveal出品，一个项目教会你Swift的基本UI开发。配合reveal更加直观。
 [YYKit](https://github.com/ibireme/YYKit) | YYKit 是一组庞大、功能丰富的 iOS 组件。
 [SwiftGen](https://github.com/AliSoftware/SwiftGen)| This is a suite of tools written in Swift 2 to auto-generate Swift 2 code for various assets of your project: 1.enums for your Assets Catalogs 2.enums for your Localizable.strings strings.3.enums for your UIStoryboard and their Scenes. 4.enums for your UIColors.
 [Instructions](https://github.com/ephread/Instructions)|新手引导
@@ -106,6 +111,8 @@
 
 标题  | 内容简介
 ---- | -----
+[Spelunkhead](https://www.bignerdranch.com/blog/spelunkhead/)|跟着博文作者一起探索iOS系统framework。
+[moby.sh](https://gist.github.com/tvon/5224569)|下载所有framework head文件，并放入一个输出文件夹中，方便搜索查看API接口，新API等。
 [Facebook开源的Parse源码分析](https://github.com/ChenYilong/ParseSourceCodeStudy)|Facebook开源的Parse源码分析
 [利用UIWebView打造一个炫酷的视频背景视图（OC & Swift）](http://www.cocoachina.com/ios/20151023/13860.html)| 视频背景View， 适合做Hi 5.0的登录窗口。
 [Elastic view animation using UIBezierPath](http://iostuts.io/2015/10/17/elastic-bounce-using-uibezierpath-and-pan-gesture/) | Elastic view animation using UIBezierPath
@@ -151,6 +158,18 @@
 [Integrating JavaScript into Native Apps](https://developer.apple.com/videos/play/wwdc2013-615/) | WWDC: Introducing a new Objective-C API to JavaScriptCore. iOS developers can now integrate scripting into their apps without having to bundle custom language interpreters. This API builds on top of the existing C API to JavaScriptCore available on Mac, and makes programming with JavaScript much easier and less error-prone.
 [Web Inspector and Modern JavaScript](https://developer.apple.com/videos/play/wwdc2014-512/) | WWDC: Web Inspector, the powerful debugging tool in WebKit, is now available to JavaScriptCore-based apps. Find out how to leverage Web Inspector in your WebKit- and JavaScriptCore-based apps on iOS and OS X. Gain an overview of what's new in the JavaScript language and how to use modern JavaScript in your apps.
 
+##AsyncDisplayKit
+标题  | 内容简介
+---- | -----
+[AsyncDisplayKit源码](https://github.com/facebook/AsyncDisplayKit)|AsyncDisplayKit源码
+[AsyncDisplayKit 文档](http://asyncdisplaykit.org/guide/) | AsyncDisplayKit 文档
+[Introducing AsyncDisplayKit: For smooth and responsive apps on iOS](https://code.facebook.com/posts/721586784561674/introducing-asyncdisplaykit-for-smooth-and-responsive-apps-on-ios/)|Introducing AsyncDisplayKit: For smooth and responsive apps on iOS
+[Building paper](https://code.facebook.com/posts/656530327776932/building-paper/) |Building paper
+[Asynchronous UI](https://www.youtube.com/watch?v=h4QDbgB7RLo)| Asynchronous UI
+[Effortless Responsiveness with AsyncDisplayKit](https://www.youtube.com/v/ZPL4Nse76oY?vq=hd1080p50)| Effortless Responsiveness with AsyncDisplayKit
+[AsyncDisplayKit 2.0](https://www.youtube.com/watch?v=RY_X7l1g79Q)|AsyncDisplayKit 2.0新特性介绍
+
+
 ##iOS 新特性
 标题  | 内容简介
 ---- | -----
@@ -169,6 +188,13 @@
 [LANTERN](https://getlantern.org/) | 科学上网神器，速度快，稳定。
 [XcodeColors](https://github.com/robbiehanson/XcodeColors) | 使 Xcode 调试控制台色彩更丰富
 [ClangFormat-Xcode](https://github.com/travisjeffery/ClangFormat-Xcode/) | 代码格式化工具
+
+## 程序员的自我修养
+
+文章  |  简介
+---- | ----
+[ABC: Always be coding](https://medium.com/@davidbyttow/abc-always-be-coding-d5f8051afce2#.ci0q5suo8)| 如何提（准）升（备）自（面）己（试）。
+[Leveling Up](https://www.bignerdranch.com/blog/leveling-up/)|个人觉得是一篇很好的iOS进阶提升的一个好文章，推荐给有一定iOS开发经验并想继续提升自己的同学。
 
 ## 博客
 
