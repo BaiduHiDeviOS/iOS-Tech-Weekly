@@ -169,8 +169,7 @@
 [Asynchronous UI](https://www.youtube.com/watch?v=h4QDbgB7RLo)| Asynchronous UI
 [Effortless Responsiveness with AsyncDisplayKit](https://www.youtube.com/v/ZPL4Nse76oY?vq=hd1080p50)| Effortless Responsiveness with AsyncDisplayKit
 [AsyncDisplayKit 2.0](https://www.youtube.com/watch?v=RY_X7l1g79Q)|AsyncDisplayKit 2.0新特性介绍
-[AsyncDisplayKit Google Group](https://groups.google.com/forum/#!forum/asyncdisplaykit)
-[Runloop work distribution](https://github.com/facebook/AsyncDisplayKit/issues/42)
+[AsyncDisplayKit Google Group](https://groups.google.com/forum/#!forum/asyncdisplaykit)|AsyncDisplayKit Google Group
 
 
 ##iOS 新特性
