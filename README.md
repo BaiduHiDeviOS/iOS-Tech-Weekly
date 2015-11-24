@@ -156,8 +156,8 @@
 [JSPatch](https://github.com/bang590/JSPatch) | JSPatch bridge Objective-C and Javascript using the Objective-C runtime. You can call any Objective-C class and method in JavaScript by just including a small engine. JSPatch is generally use for hotfix iOS App.
 [JSPatchConvertor](https://github.com/bang590/JSPatchConvertor)| JSPatch Convertor is a tool that converts Objective-C code to JSPatch script automatically.
 [Integrating JavaScript into Native Apps](https://developer.apple.com/videos/play/wwdc2013-615/) | WWDC: Introducing a new Objective-C API to JavaScriptCore. iOS developers can now integrate scripting into their apps without having to bundle custom language interpreters. This API builds on top of the existing C API to JavaScriptCore available on Mac, and makes programming with JavaScript much easier and less error-prone.
-[Web Inspector and Modern JavaScript](https://developer.apple.com/videos/play/wwdc2014-512/) | WWDC: Web Inspector, the powerful debugging tool in WebKit, is now available to JavaScriptCore-based apps. Find out how to leverage Web Inspector in your WebKit- and JavaScriptCore-based apps on iOS and OS X. Gain an overview of what's new in the JavaScript language and how to use modern JavaScript in your apps.
-[Objective-C Runtime Guide](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ObjCRuntimeGuide/ObjCRuntimeGuide.pdf): OC runtime相关知识， 对了解JSPatch有一定帮助。
+[Web Inspector and Modern JavaScript](https://developer.apple.com/videos/play/wwdc2014-512/) | WWDC: Web Inspector, the powerful debugging tool in WebKit, is now available to JavaScriptCore-based apps. Find out how to leverage Web Inspector in your WebKit- and JavaScriptCore-based apps on iOS and OS X. Gain an overview of what's new in the JavaScript language and how to use modern JavaScript in your apps.|
+[Objective-C Runtime Guide](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ObjCRuntimeGuide/ObjCRuntimeGuide.pdf)| OC runtime相关知识， 对了解JSPatch有一定帮助。
 
 ##AsyncDisplayKit
 标题  | 内容简介
