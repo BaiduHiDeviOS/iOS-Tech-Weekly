@@ -78,6 +78,7 @@
 ## 开源代码
 名称 | 推荐理由
 ------- | -------
+[SlackTextViewController](https://github.com/slackhq/SlackTextViewController)| A drop-in UIViewController subclass with a growing text input view and other useful messaging features.
 [REVERT](https://github.com/revealapp/Revert/)|Reveal出品，一个项目教会你Swift的基本UI开发。配合reveal更加直观。
 [YYKit](https://github.com/ibireme/YYKit) | YYKit 是一组庞大、功能丰富的 iOS 组件。
 [SwiftGen](https://github.com/AliSoftware/SwiftGen)| This is a suite of tools written in Swift 2 to auto-generate Swift 2 code for various assets of your project: 1.enums for your Assets Catalogs 2.enums for your Localizable.strings strings.3.enums for your UIStoryboard and their Scenes. 4.enums for your UIColors.
@@ -111,6 +112,7 @@
 
 标题  | 内容简介
 ---- | -----
+[详说CMDeviceMotion](http://www.cocoachina.com/ios/20141103/10111.html)| 来自NSHipster 的翻译文章，获取陀螺仪、加速器和磁力仪(罗盘)等传感器数据，get交互灵感
 [Spelunkhead](https://www.bignerdranch.com/blog/spelunkhead/)|跟着博文作者一起探索iOS系统framework。
 [moby.sh](https://gist.github.com/tvon/5224569)|下载所有framework head文件，并放入一个输出文件夹中，方便搜索查看API接口，新API等。
 [Facebook开源的Parse源码分析](https://github.com/ChenYilong/ParseSourceCodeStudy)|Facebook开源的Parse源码分析
@@ -169,8 +171,18 @@
 [Asynchronous UI](https://www.youtube.com/watch?v=h4QDbgB7RLo)| Asynchronous UI
 [Effortless Responsiveness with AsyncDisplayKit](https://www.youtube.com/v/ZPL4Nse76oY?vq=hd1080p50)| Effortless Responsiveness with AsyncDisplayKit
 [AsyncDisplayKit 2.0](https://www.youtube.com/watch?v=RY_X7l1g79Q)|AsyncDisplayKit 2.0新特性介绍
-[AsyncDisplayKit Google Group](https://groups.google.com/forum/#!forum/asyncdisplaykit)|AsyncDisplayKit Google Group
+[AsyncDisplayKit Google Group](https://groups.google.com/forum/#!forum/asyncdisplaykit)|AsyncDisplayKit Google Group | 
+[AsyncMessagesViewController](https://github.com/nguyenhuy/AsyncMessagesViewController)| A smooth, responsive and flexible messages UI library for iOS. Built on top of the awesome AsyncDisplayKit framework, it takes full advantage of asynchronous sizing, (non-auto) layout and text rendering to deliver a 5x fps (subject to increase) scrolling experience.
+[iOS App Performance: Graphics and Animations](https://developer.apple.com/videos/play/wwdc2012-238/)|iOS App Performance: Graphics and Animations
+[iOS App Performance: Memory](https://developer.apple.com/videos/play/wwdc2012-242/)|iOS App Performance: Memory
+[iOS App Performance: Responsiveness](https://developer.apple.com/videos/play/wwdc2012-235/)|iOS App Performance: Responsiveness
 
+##Debug
+标题  | 内容简介
+---- | -----
+[手把手教你如何分析 iOS 系统栈 crash](http://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&mid=401345907&idx=2&sn=48a7eba21b218d8fec9dafb52b0b2b26&scene=0&key=ff7411024a07f3eb8bc0c14c5749836340744b2c4098567c144c87554887ba7c7107f1c64e7cd4261575168353bd8783)|手把手教你如何分析 iOS 系统栈 crash
+[与调试器共舞 - LLDB 的华尔兹](http://objccn.io/issue-19-2/)| Xcode LLDB 详解
+[使用LLDB调试程序](http://casatwy.com/shi-yong-lldbdiao-shi-cheng-xu.html)|使用LLDB调试程序
 
 ##iOS 新特性
 标题  | 内容简介
@@ -190,11 +202,15 @@
 [LANTERN](https://getlantern.org/) | 科学上网神器，速度快，稳定。
 [XcodeColors](https://github.com/robbiehanson/XcodeColors) | 使 Xcode 调试控制台色彩更丰富
 [ClangFormat-Xcode](https://github.com/travisjeffery/ClangFormat-Xcode/) | 代码格式化工具
+[A quick reference for iOS devices.](http://iosres.com/)| iOS 设备属性查询
 
 ## 程序员的自我修养
 
 文章  |  简介
 ---- | ----
+[teach yourself programming in ten years](http://norvig.com/21-days.html)|Peter Norvig一篇如何学习编程。
+[how to be a hacker](http://www.catb.org/esr/faqs/hacker-howto.html)|how to be a hacker
+[Test-Driven Development is Stupid](http://geometrian.com/programming/tutorials/testing/test-first.php)|关于TDD的一篇文章，可以看看，以及Hacker News上的[讨论](https://news.ycombinator.com/item?id=10620275)|
 [ABC: Always be coding](https://medium.com/@davidbyttow/abc-always-be-coding-d5f8051afce2#.ci0q5suo8)| 如何提（准）升（备）自（面）己（试）。
 [Leveling Up](https://www.bignerdranch.com/blog/leveling-up/)|个人觉得是一篇很好的iOS进阶提升的一个好文章，推荐给有一定iOS开发经验并想继续提升自己的同学。
 
