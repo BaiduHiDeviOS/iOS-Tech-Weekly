@@ -112,6 +112,9 @@
 
 标题  | 内容简介
 ---- | -----
+[iOS同步对象性能对比](http://ksnowlv.github.io/blog/2014/09/07/ios-tong-bu-suo-xing-neng-dui-bi/) | iOS同步对象性能对比
+[深入理解Kingfisher（上）](http://www.jianshu.com/p/326527a4d4f9)|深入理解Kingfisher（上）
+[深入理解Kingfisher（下）](http://www.jianshu.com/p/0a5cdf3f7e9c)|深入理解Kingfisher（下)
 [详说CMDeviceMotion](http://www.cocoachina.com/ios/20141103/10111.html)| 来自NSHipster 的翻译文章，获取陀螺仪、加速器和磁力仪(罗盘)等传感器数据，get交互灵感
 [Spelunkhead](https://www.bignerdranch.com/blog/spelunkhead/)|跟着博文作者一起探索iOS系统framework。
 [moby.sh](https://gist.github.com/tvon/5224569)|下载所有framework head文件，并放入一个输出文件夹中，方便搜索查看API接口，新API等。
@@ -187,6 +190,8 @@
 ##iOS 新特性
 标题  | 内容简介
 ---- | -----
+[WWDC 2014 Session笔记 - iOS界面开发的大一统](http://onevcat.com/2014/07/ios-ui-unique/) |什么时候可以抛弃iOS 7了，好多UI实现都可以换了
+[初探 iOS8 中的 Size Class](http://blog.callmewhy.com/2014/09/12/learn-ios8-size-class/)|初探 iOS8 中的 Size Class
 [iOS9适配系列教程](https://github.com/ChenYilong/iOS9AdaptationTips) | iOS9适配系列教程
 [iOS 9 开发高级技巧 - 通过 12 个团队所提供的技巧来快速适配 iOS 9](https://realm.io/cn/news/tips-for-ios-9-development/) | iOS 9 开发高级技巧 - 通过 12 个团队所提供的技巧来快速适配 iOS 9 |
 [iOS 7 - 9新特性总结](http://anyuan.me/ios-7-9-xin-te-xing-zong-jie/) | 总结iOS7-9开发者应该关注的变化。
@@ -208,6 +213,7 @@
 
 文章  |  简介
 ---- | ----
+[技术高手如何炼成](http://zhuanlan.zhihu.com/zhengyun/20270317)|技术高手如何炼成
 [teach yourself programming in ten years](http://norvig.com/21-days.html)|Peter Norvig一篇如何学习编程。
 [how to be a hacker](http://www.catb.org/esr/faqs/hacker-howto.html)|how to be a hacker
 [Test-Driven Development is Stupid](http://geometrian.com/programming/tutorials/testing/test-first.php)|关于TDD的一篇文章，可以看看，以及Hacker News上的[讨论](https://news.ycombinator.com/item?id=10620275)|
