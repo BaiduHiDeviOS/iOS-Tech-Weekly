@@ -42,6 +42,8 @@
 
 文章名称  |  简介
 ---- | ----
+[What the 55 Swift Standard Library Protocols Taught Me](https://www.youtube.com/watch?v=_kpYI6GjCuw)|作者为raywenderlich长期教程作者，主要介绍了其从Swift标准库提供的protocol学到了哪些，推荐观看，需翻墙。
+[iOS开发之如何跳到系统设置里的各种设置界面](http://mp.weixin.qq.com/s?__biz=MjM5OTM0MzIwMQ==&mid=401517056&idx=5&sn=ad89f960098b485035006eef656efe16&scene=0#wechat_redirect)|iOS开发之如何跳到系统设置里的各种设置界面
 [AFNetworking 3.0迁移指南](http://www.cocoachina.com/ios/20151022/13831.html)|为了迎合iOS新版本的升级，AFNetworking在3.0版本中删除了基于 NSURLConnection API的所有支持。如果你的项目以前使用过这些API，建议您立即升级到基于NSURLSession的API的AFNetworking的版本。
 [iOS开发系列--让你的应用“动”起来](http://www.cnblogs.com/kenshincui/p/3972100.html) | 讲解IOS 动画相关~博主的文笔和排版灰常赞~其系列博文值得一读
 [优化Facebook iOS app启动时间](https://code.facebook.com/posts/1675399786008080/optimizing-facebook-for-ios-start-time/)|优化Facebook iOS app启动时间
@@ -78,6 +80,7 @@
 ## 开源代码
 名称 | 推荐理由
 ------- | -------
+[Swiftbeaver](https://github.com/skreutzberger/SwiftyBeaver)| Swift 记log工具 和一篇介绍 [文章](https://littlebitesofcocoa.com/142-colorful-logging-with-swiftybeaver)
 [SlackTextViewController](https://github.com/slackhq/SlackTextViewController)| A drop-in UIViewController subclass with a growing text input view and other useful messaging features.
 [REVERT](https://github.com/revealapp/Revert/)|Reveal出品，一个项目教会你Swift的基本UI开发。配合reveal更加直观。
 [YYKit](https://github.com/ibireme/YYKit) | YYKit 是一组庞大、功能丰富的 iOS 组件。
@@ -112,6 +115,8 @@
 
 标题  | 内容简介
 ---- | -----
+[Open-source Swift: Booleans](http://swiftunboxed.com/open-source/Bool/)| Booleans -- Swift源码阅读
+[NSCache](https://github.com/nixzhu/dev-blog/blob/master/2015-12-09-nscache.md)| NSCache -- Swift源码阅读
 [iOS同步对象性能对比](http://ksnowlv.github.io/blog/2014/09/07/ios-tong-bu-suo-xing-neng-dui-bi/) | iOS同步对象性能对比
 [深入理解Kingfisher（上）](http://www.jianshu.com/p/326527a4d4f9)|深入理解Kingfisher（上）
 [深入理解Kingfisher（下）](http://www.jianshu.com/p/0a5cdf3f7e9c)|深入理解Kingfisher（下)
@@ -174,7 +179,7 @@
 [Asynchronous UI](https://www.youtube.com/watch?v=h4QDbgB7RLo)| Asynchronous UI
 [Effortless Responsiveness with AsyncDisplayKit](https://www.youtube.com/v/ZPL4Nse76oY?vq=hd1080p50)| Effortless Responsiveness with AsyncDisplayKit
 [AsyncDisplayKit 2.0](https://www.youtube.com/watch?v=RY_X7l1g79Q)|AsyncDisplayKit 2.0新特性介绍
-[AsyncDisplayKit Google Group](https://groups.google.com/forum/#!forum/asyncdisplaykit)|AsyncDisplayKit Google Group | 
+[AsyncDisplayKit Google Group](https://groups.google.com/forum/#!forum/asyncdisplaykit)|AsyncDisplayKit Google Group |
 [AsyncMessagesViewController](https://github.com/nguyenhuy/AsyncMessagesViewController)| A smooth, responsive and flexible messages UI library for iOS. Built on top of the awesome AsyncDisplayKit framework, it takes full advantage of asynchronous sizing, (non-auto) layout and text rendering to deliver a 5x fps (subject to increase) scrolling experience.
 [iOS App Performance: Graphics and Animations](https://developer.apple.com/videos/play/wwdc2012-238/)|iOS App Performance: Graphics and Animations
 [iOS App Performance: Memory](https://developer.apple.com/videos/play/wwdc2012-242/)|iOS App Performance: Memory
@@ -183,6 +188,7 @@
 ##Debug
 标题  | 内容简介
 ---- | -----
+[Using CocoaPods in Xcode Playgrounds 🍩🎪](https://littlebitesofcocoa.com/138-using-cocoapods-in-xcode-playgrounds)|在Playground中使用CocoaPods
 [手把手教你如何分析 iOS 系统栈 crash](http://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&mid=401345907&idx=2&sn=48a7eba21b218d8fec9dafb52b0b2b26&scene=0&key=ff7411024a07f3eb8bc0c14c5749836340744b2c4098567c144c87554887ba7c7107f1c64e7cd4261575168353bd8783)|手把手教你如何分析 iOS 系统栈 crash
 [与调试器共舞 - LLDB 的华尔兹](http://objccn.io/issue-19-2/)| Xcode LLDB 详解
 [使用LLDB调试程序](http://casatwy.com/shi-yong-lldbdiao-shi-cheng-xu.html)|使用LLDB调试程序
@@ -201,6 +207,8 @@
 
 工具/插件  |  简介
 ---- | ----
+[Quiver](http://happenapps.com/#quiver)| 记事本工具软件，记录代码可以有各种语言语法高亮，支持markdown， LaTeX；支持同步备份等功能。
+[How to update an Xcode plug-in for the latest version of Xcode](http://www.mokacoding.com/blog/xcode-plugins-update/)| 解决更新Xcode后，插件无法使用的方法。注：示例上用的是XVim，把插件换成对应名称即可。
 [Alcatraz](http://alcatraz.io) | Xcode插件管理工具 |
 [XTodo](https://github.com/trawor/XToDo) |收集项目中的所有TODO,FIXME,???, !!!，并提供了一个页面用于查看。
 [Carthage](https://github.com/Carthage/Carthage) | 新的依赖管理工具 Carthage，和Cocoapods相比，Carthage是非侵入式的，不会修改xcode工程文件，只是帮助build出来frameworks。更灵活更干净。
@@ -213,6 +221,7 @@
 
 文章  |  简介
 ---- | ----
+[作为一个程序员，进步完全取决于自己](http://mp.weixin.qq.com/s?__biz=MjM5NzMyMjAwMA==&mid=401268306&idx=1&sn=3eb48ec9f939478f5955a55872145aae)| 文章中说道，作为一个程序员要不断尝试学习新的知识，充实自己。不要在乎学的东西现在有没有用处，要让自己的大脑不断接触新的东西。
 [技术高手如何炼成](http://zhuanlan.zhihu.com/zhengyun/20270317)|技术高手如何炼成
 [teach yourself programming in ten years](http://norvig.com/21-days.html)|Peter Norvig一篇如何学习编程。
 [how to be a hacker](http://www.catb.org/esr/faqs/hacker-howto.html)|how to be a hacker
