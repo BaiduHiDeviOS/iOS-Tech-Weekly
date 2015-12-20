@@ -42,6 +42,8 @@
 
 文章名称  |  简介
 ---- | ----
+[利用贝塞尔曲线实现Q弹的下拉刷新](http://pandara.xyz/2015/10/29/jelly_refresh/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)|利用贝塞尔曲线实现Q弹的下拉刷新
+[看，这白白的液体滴了一地](http://pandara.xyz/2015/11/24/ios_water_drop/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)| 液态效果动画
 [What the 55 Swift Standard Library Protocols Taught Me](https://www.youtube.com/watch?v=_kpYI6GjCuw)|作者为raywenderlich长期教程作者，主要介绍了其从Swift标准库提供的protocol学到了哪些，推荐观看，需翻墙。
 [iOS开发之如何跳到系统设置里的各种设置界面](http://mp.weixin.qq.com/s?__biz=MjM5OTM0MzIwMQ==&mid=401517056&idx=5&sn=ad89f960098b485035006eef656efe16&scene=0#wechat_redirect)|iOS开发之如何跳到系统设置里的各种设置界面
 [AFNetworking 3.0迁移指南](http://www.cocoachina.com/ios/20151022/13831.html)|为了迎合iOS新版本的升级，AFNetworking在3.0版本中删除了基于 NSURLConnection API的所有支持。如果你的项目以前使用过这些API，建议您立即升级到基于NSURLSession的API的AFNetworking的版本。
@@ -80,6 +82,7 @@
 ## 开源代码
 名称 | 推荐理由
 ------- | -------
+[Moya](https://github.com/Moya/Moya)| Network abstraction layer written in Swift.
 [Swiftbeaver](https://github.com/skreutzberger/SwiftyBeaver)| Swift 记log工具 和一篇介绍 [文章](https://littlebitesofcocoa.com/142-colorful-logging-with-swiftybeaver)
 [SlackTextViewController](https://github.com/slackhq/SlackTextViewController)| A drop-in UIViewController subclass with a growing text input view and other useful messaging features.
 [REVERT](https://github.com/revealapp/Revert/)|Reveal出品，一个项目教会你Swift的基本UI开发。配合reveal更加直观。
@@ -115,6 +118,7 @@
 
 标题  | 内容简介
 ---- | -----
+[Swift Weak References](https://www.mikeash.com/pyblog/friday-qa-2015-12-11-swift-weak-references.html)| Swift 下若引用原理解析。推荐阅读
 [Open-source Swift: Booleans](http://swiftunboxed.com/open-source/Bool/)| Booleans -- Swift源码阅读
 [NSCache](https://github.com/nixzhu/dev-blog/blob/master/2015-12-09-nscache.md)| NSCache -- Swift源码阅读
 [iOS同步对象性能对比](http://ksnowlv.github.io/blog/2014/09/07/ios-tong-bu-suo-xing-neng-dui-bi/) | iOS同步对象性能对比
@@ -207,6 +211,8 @@
 
 工具/插件  |  简介
 ---- | ----
+[Nomad](http://nomad-cli.com/)|World-Class Command Line Utilities For iOS Development. Mattt大神作品
+[fastlane](https://fastlane.tools)|fastlane lets you define and run your deployment pipelines for different environments. It helps you unify your app’s release process and automate the whole process. fastlane connects all fastlane tools and third party tools, like CocoaPods and Gradle.
 [Quiver](http://happenapps.com/#quiver)| 记事本工具软件，记录代码可以有各种语言语法高亮，支持markdown， LaTeX；支持同步备份等功能。
 [How to update an Xcode plug-in for the latest version of Xcode](http://www.mokacoding.com/blog/xcode-plugins-update/)| 解决更新Xcode后，插件无法使用的方法。注：示例上用的是XVim，把插件换成对应名称即可。
 [Alcatraz](http://alcatraz.io) | Xcode插件管理工具 |
