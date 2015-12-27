@@ -82,6 +82,7 @@
 ## 开源代码
 名称 | 推荐理由
 ------- | -------
+[Rainbow](https://github.com/onevcat/Rainbow)| Rainbow adds text color, background color and style for console and command line output in Swift. It is born for cross platform software logging in terminals, working in both Apple's platforms and Linux. Meanwhile, it is also compatible with XcodeColors, which lets you colorize the Xcode debugger output as well when developing an app.
 [Moya](https://github.com/Moya/Moya)| Network abstraction layer written in Swift.
 [Swiftbeaver](https://github.com/skreutzberger/SwiftyBeaver)| Swift 记log工具 和一篇介绍 [文章](https://littlebitesofcocoa.com/142-colorful-logging-with-swiftybeaver)
 [SlackTextViewController](https://github.com/slackhq/SlackTextViewController)| A drop-in UIViewController subclass with a growing text input view and other useful messaging features.
@@ -118,6 +119,11 @@
 
 标题  | 内容简介
 ---- | -----
+[iOS开源库介绍-FCModel](http://www.jianshu.com/p/a56d00e38dea)|iOS开源库介绍-FCModel
+[Delivering high scroll performance](https://code.facebook.com/posts/456535491190613/delivering-high-scroll-performance/)| Delivering high scroll performance
+[Bitcode 解密](http://lowlevelbits.org/bitcode-demystified/)|文章主要介绍了什么是bitcode，以及使用bitcode带来的好处与坏处。
+[Using multiple UIWindows in iOS applications](http://shaune.com.au/using-multiple-uiwindows-in-ios-applications/)|Using multiple UIWindows in iOS applications
+[UIWindow in iOS](http://jkyin.me/uiwindow/)|UIWindow in iOS
 [Swift Weak References](https://www.mikeash.com/pyblog/friday-qa-2015-12-11-swift-weak-references.html)| Swift 下若引用原理解析。推荐阅读
 [Open-source Swift: Booleans](http://swiftunboxed.com/open-source/Bool/)| Booleans -- Swift源码阅读
 [NSCache](https://github.com/nixzhu/dev-blog/blob/master/2015-12-09-nscache.md)| NSCache -- Swift源码阅读
@@ -211,6 +217,7 @@
 
 工具/插件  |  简介
 ---- | ----
+[如何用Github去管理你的Idea](http://zhuanlan.zhihu.com/phodal/20442311)|如何用Github去管理你的Idea
 [Nomad](http://nomad-cli.com/)|World-Class Command Line Utilities For iOS Development. Mattt大神作品
 [fastlane](https://fastlane.tools)|fastlane lets you define and run your deployment pipelines for different environments. It helps you unify your app’s release process and automate the whole process. fastlane connects all fastlane tools and third party tools, like CocoaPods and Gradle.
 [Quiver](http://happenapps.com/#quiver)| 记事本工具软件，记录代码可以有各种语言语法高亮，支持markdown， LaTeX；支持同步备份等功能。
@@ -227,6 +234,7 @@
 
 文章  |  简介
 ---- | ----
+[为什么你应该先成为全栈工程师](https://www.phodal.com/blog/become-full-stack-first/)|为什么你应该先成为全栈工程师
 [作为一个程序员，进步完全取决于自己](http://mp.weixin.qq.com/s?__biz=MjM5NzMyMjAwMA==&mid=401268306&idx=1&sn=3eb48ec9f939478f5955a55872145aae)| 文章中说道，作为一个程序员要不断尝试学习新的知识，充实自己。不要在乎学的东西现在有没有用处，要让自己的大脑不断接触新的东西。
 [技术高手如何炼成](http://zhuanlan.zhihu.com/zhengyun/20270317)|技术高手如何炼成
 [teach yourself programming in ten years](http://norvig.com/21-days.html)|Peter Norvig一篇如何学习编程。
