@@ -82,6 +82,7 @@
 ## 开源代码
 名称 | 推荐理由
 ------- | -------
+[PMKVObserver](https://github.com/postmates/PMKVObserver)|A type-safe Swift/ObjC KVO wrapper.
 [Rainbow](https://github.com/onevcat/Rainbow)| Rainbow adds text color, background color and style for console and command line output in Swift. It is born for cross platform software logging in terminals, working in both Apple's platforms and Linux. Meanwhile, it is also compatible with XcodeColors, which lets you colorize the Xcode debugger output as well when developing an app.
 [Moya](https://github.com/Moya/Moya)| Network abstraction layer written in Swift.
 [Swiftbeaver](https://github.com/skreutzberger/SwiftyBeaver)| Swift 记log工具 和一篇介绍 [文章](https://littlebitesofcocoa.com/142-colorful-logging-with-swiftybeaver)
@@ -119,6 +120,11 @@
 
 标题  | 内容简介
 ---- | -----
+[iOS 开发之照片框架详解](http://kayosite.com/ios-development-and-detail-of-photo-framework.html)| 包括AssetsLibrary及新库photoKit([官方demo](https://developer.apple.com/library/ios/samplecode/UsingPhotosFramework/Introduction/Intro.html#//apple_ref/doc/uid/TP40014575))
+[NSFormatter](http://nshipster.com/nsformatter/)| 各种听过没听过，用过没用过的formatter
+[Swift target acton](https://www.mikeash.com/pyblog/friday-qa-2015-12-25-swifty-targetaction.html)| Cocoa's target/action system for responding to controls is a great system for Objective-C, but is a bit unnatural to use in Swift. Today, I'm going to explore building a wrapper that allows using a Swift function as the action.
+[objc.io: Compiler](https://www.objc.io/issues/6-build-tools/compiler/)| In this article we’ll have a look at what a compiler does, and how we can use that to our advantage.
+[objc.io: mach-o excutables](https://www.objc.io/issues/6-build-tools/mach-o-executables/)| When we build an application in Xcode, part of what happens is that the sources files (.m and .h) get turned into an executable. This executable contains the byte code than will run on the CPU, the ARM processor on the iOS device, or the Intel processor on your Mac. We’ll walk through some of what the compiler does and what’s inside such an executable. There’s more to it than first meets the eye.
 [iOS开源库介绍-FCModel](http://www.jianshu.com/p/a56d00e38dea)|iOS开源库介绍-FCModel
 [Delivering high scroll performance](https://code.facebook.com/posts/456535491190613/delivering-high-scroll-performance/)| Delivering high scroll performance
 [Bitcode 解密](http://lowlevelbits.org/bitcode-demystified/)|文章主要介绍了什么是bitcode，以及使用bitcode带来的好处与坏处。
@@ -217,6 +223,7 @@
 
 工具/插件  |  简介
 ---- | ----
+[CleanMyMac 3](http://macpaw.com/zh/store/cleanmymac)| 智能清理Mac磁盘空间。
 [如何用Github去管理你的Idea](http://zhuanlan.zhihu.com/phodal/20442311)|如何用Github去管理你的Idea
 [Nomad](http://nomad-cli.com/)|World-Class Command Line Utilities For iOS Development. Mattt大神作品
 [fastlane](https://fastlane.tools)|fastlane lets you define and run your deployment pipelines for different environments. It helps you unify your app’s release process and automate the whole process. fastlane connects all fastlane tools and third party tools, like CocoaPods and Gradle.
@@ -234,6 +241,7 @@
 
 文章  |  简介
 ---- | ----
+[编程的智慧](http://www.yinwang.org/blog-cn/2015/11/21/programming-philosophy/)| 编程是一种创造性的工作，是一门艺术。精通任何一门艺术，都需要很多的练习和领悟，所以这里提出的“智慧”，并不是号称一天瘦十斤的减肥药，它并不能代替你自己的勤奋。然而由于软件行业喜欢标新立异，喜欢把简单的事情搞复杂，我希望这些文字能给迷惑中的人们指出一些正确的方向，让他们少走一些弯路，基本做到一分耕耘一分收获。
 [为什么你应该先成为全栈工程师](https://www.phodal.com/blog/become-full-stack-first/)|为什么你应该先成为全栈工程师
 [作为一个程序员，进步完全取决于自己](http://mp.weixin.qq.com/s?__biz=MjM5NzMyMjAwMA==&mid=401268306&idx=1&sn=3eb48ec9f939478f5955a55872145aae)| 文章中说道，作为一个程序员要不断尝试学习新的知识，充实自己。不要在乎学的东西现在有没有用处，要让自己的大脑不断接触新的东西。
 [技术高手如何炼成](http://zhuanlan.zhihu.com/zhengyun/20270317)|技术高手如何炼成
