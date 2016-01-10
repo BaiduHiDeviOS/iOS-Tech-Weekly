@@ -82,6 +82,7 @@
 ## 开源代码
 名称 | 推荐理由
 ------- | -------
+[RACollectionViewReorderableTripletLayout](https://github.com/ra1028/RACollectionViewReorderableTripletLayout)|UICollectionView 排序
 [PMKVObserver](https://github.com/postmates/PMKVObserver)|A type-safe Swift/ObjC KVO wrapper.
 [Rainbow](https://github.com/onevcat/Rainbow)| Rainbow adds text color, background color and style for console and command line output in Swift. It is born for cross platform software logging in terminals, working in both Apple's platforms and Linux. Meanwhile, it is also compatible with XcodeColors, which lets you colorize the Xcode debugger output as well when developing an app.
 [Moya](https://github.com/Moya/Moya)| Network abstraction layer written in Swift.
@@ -120,6 +121,9 @@
 
 标题  | 内容简介
 ---- | -----
+[React-Inspired Views](https://www.objc.io/issues/22-scale/facebook/)| User interfaces can be hard to get right in any application. Combining display and interaction in a little rectangle on the user’s screen seems simple, but even for small applications, it’s easy to end up with a tangled mess of view code. In complex products with many contributing engineers, like Facebook’s News Feed, these views can be especially hard to develop and maintain over time. Facebook News Feed视图策略
+[防止点击 Cell 时 ViewController 被重复 Push](https://github.com/nixzhu/dev-blog/blob/master/2016-01-04-duplicate-push.md)| 寻找疑难问题的解决办法，再做合理分析以便确定可使用
+[Building a Core Foundation](http://robnapier.net/assets/Building-a-Core-Foundation.pdf)|Building a Core Foundation
 [iOS 开发之照片框架详解](http://kayosite.com/ios-development-and-detail-of-photo-framework.html)| 包括AssetsLibrary及新库photoKit([官方demo](https://developer.apple.com/library/ios/samplecode/UsingPhotosFramework/Introduction/Intro.html#//apple_ref/doc/uid/TP40014575))
 [NSFormatter](http://nshipster.com/nsformatter/)| 各种听过没听过，用过没用过的formatter
 [Swift target acton](https://www.mikeash.com/pyblog/friday-qa-2015-12-25-swifty-targetaction.html)| Cocoa's target/action system for responding to controls is a great system for Objective-C, but is a bit unnatural to use in Swift. Today, I'm going to explore building a wrapper that allows using a Swift function as the action.
@@ -200,6 +204,7 @@
 [iOS App Performance: Graphics and Animations](https://developer.apple.com/videos/play/wwdc2012-238/)|iOS App Performance: Graphics and Animations
 [iOS App Performance: Memory](https://developer.apple.com/videos/play/wwdc2012-242/)|iOS App Performance: Memory
 [iOS App Performance: Responsiveness](https://developer.apple.com/videos/play/wwdc2012-235/)|iOS App Performance: Responsiveness
+[Building Concurrent User Interfaces on iOS](https://developer.apple.com/videos/play/wwdc2012-211/)| For a great user experience, it's essential to keep your application responsive while it renders complex UI elements and processes data. Learn how to use concurrency at the UIKit layer to perform drawing and other common operations without blocking user interaction.
 
 ##Debug
 标题  | 内容简介
@@ -223,6 +228,7 @@
 
 工具/插件  |  简介
 ---- | ----
+[Xcode 插件介绍](http://nshipster.com/xcode-plugins/)|文章推荐的几款插件都有助于提升Xcode开发效率，推荐尝试。
 [CleanMyMac 3](http://macpaw.com/zh/store/cleanmymac)| 智能清理Mac磁盘空间。
 [如何用Github去管理你的Idea](http://zhuanlan.zhihu.com/phodal/20442311)|如何用Github去管理你的Idea
 [Nomad](http://nomad-cli.com/)|World-Class Command Line Utilities For iOS Development. Mattt大神作品
