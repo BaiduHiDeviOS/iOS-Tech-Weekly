@@ -82,6 +82,7 @@
 ## 开源代码
 名称 | 推荐理由
 ------- | -------
+[IBAnimatable](https://github.com/JakeLin/IBAnimatable)| Design and prototype UI, interaction, navigation, transition and animation for App Store ready Apps in Interface Builder with IBAnimatable.
 [RACollectionViewReorderableTripletLayout](https://github.com/ra1028/RACollectionViewReorderableTripletLayout)|UICollectionView 排序
 [PMKVObserver](https://github.com/postmates/PMKVObserver)|A type-safe Swift/ObjC KVO wrapper.
 [Rainbow](https://github.com/onevcat/Rainbow)| Rainbow adds text color, background color and style for console and command line output in Swift. It is born for cross platform software logging in terminals, working in both Apple's platforms and Linux. Meanwhile, it is also compatible with XcodeColors, which lets you colorize the Xcode debugger output as well when developing an app.
@@ -121,6 +122,15 @@
 
 标题  | 内容简介
 ---- | -----
+[How to C in 2016](https://matt.sh/howto-c)|How to C in 2016
+[不再安全的 OSSpinLock](http://blog.ibireme.com/2016/01/16/spinlock_is_unsafe_in_ios/)|OSSPinLock作为锁已经不再安全了，文章还对比了各种锁的性能对比。
+[Swift's mysterious Builtin module](http://ankit.im/swift/2016/01/12/swift-mysterious-builtin-module/)|揭秘Swift内置模块
+[Creating your first iOS Framework](https://robots.thoughtbot.com/creating-your-first-ios-framework)| 手把手教你创建自己的framework
+[charles中如何对https抓包](http://www.15yan.com/story/8PFT2WXTOiv/)| 使用Charles抓https请求数据包
+[concurrency apis and pitfalls](https://www.objc.io/issues/2-concurrency/concurrency-apis-and-pitfalls/)|concurrency apis and pitfalls
+[Common background practices](https://www.objc.io/issues/2-concurrency/common-background-practices/)|Common background practices
+[Low level concurrency apis](https://www.objc.io/issues/2-concurrency/low-level-concurrency-apis/)|Low level concurrency apis
+[Thread safe class design](https://www.objc.io/issues/2-concurrency/thread-safe-class-design/)|Thread safe class design
 [React-Inspired Views](https://www.objc.io/issues/22-scale/facebook/)| User interfaces can be hard to get right in any application. Combining display and interaction in a little rectangle on the user’s screen seems simple, but even for small applications, it’s easy to end up with a tangled mess of view code. In complex products with many contributing engineers, like Facebook’s News Feed, these views can be especially hard to develop and maintain over time. Facebook News Feed视图策略
 [防止点击 Cell 时 ViewController 被重复 Push](https://github.com/nixzhu/dev-blog/blob/master/2016-01-04-duplicate-push.md)| 寻找疑难问题的解决办法，再做合理分析以便确定可使用
 [Building a Core Foundation](http://robnapier.net/assets/Building-a-Core-Foundation.pdf)|Building a Core Foundation
@@ -205,6 +215,15 @@
 [iOS App Performance: Memory](https://developer.apple.com/videos/play/wwdc2012-242/)|iOS App Performance: Memory
 [iOS App Performance: Responsiveness](https://developer.apple.com/videos/play/wwdc2012-235/)|iOS App Performance: Responsiveness
 [Building Concurrent User Interfaces on iOS](https://developer.apple.com/videos/play/wwdc2012-211/)| For a great user experience, it's essential to keep your application responsive while it renders complex UI elements and processes data. Learn how to use concurrency at the UIKit layer to perform drawing and other common operations without blocking user interaction.
+
+##视频资源
+标题  | 内容简介
+---- | -----
+[Sharing Swift between iOS and OS X](https://www.skilled.io/wilshipley/sharing-swift-between-ios-and-os-x)|iOS 和 OS X之间共享代码， 演讲人 [@wilshipley](https://twitter.com/wilshipley) founder of Omni Group
+[Fun with Swift](https://www.youtube.com/watch?v=KNJ_UPebGOQ)|Chris Eidhof(objc.io创始人)
+[pomo.tv](http://www.pomo.tv/)| A collection of videos about Mac, iOS and Swift. Chris Eidhof 创办
+
+
 
 ##Debug
 标题  | 内容简介
