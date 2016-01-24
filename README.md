@@ -8,6 +8,7 @@
 
 名称  |  简介
 ---- | ----
+[swift internals](http://apple.github.io/swift-internals/)| This site hosts internal documentation for the Swift compiler and standard library, as well as the development version of the Swift API Guidelines.
 [纯Swift2.0工程CocoaChina+从0到1遇到的坑和解决方案](http://zixun.github.io/blog/2015/10/25/chun-swift2-dot-0gong-cheng-cocoachina-plus-cong-0dao-1yu-dao-de-keng-he-jie-jue-fang-an/)|纯Swift2.0工程CocoaChina+从0到1遇到的坑和解决方案
 [Advanced & Practical Enum usage in Swift](http://appventure.me/2015/10/17/advanced-practical-enum-examples/)|Swift中Enum的使用实践
 [What's New in Swift 2.0](https://developer.apple.com/videos/wwdc/2015/?id=106) | WWDC 2015 关于Swift 2.0 新特性的介绍Session, 可以通过此视频快速了解Swift 2.0的主要变化。
@@ -82,6 +83,7 @@
 ## 开源代码
 名称 | 推荐理由
 ------- | -------
+[Every.swift](https://github.com/samhann/Every.swift)| A swift wrapper for NSTimer
 [IBAnimatable](https://github.com/JakeLin/IBAnimatable)| Design and prototype UI, interaction, navigation, transition and animation for App Store ready Apps in Interface Builder with IBAnimatable.
 [RACollectionViewReorderableTripletLayout](https://github.com/ra1028/RACollectionViewReorderableTripletLayout)|UICollectionView 排序
 [PMKVObserver](https://github.com/postmates/PMKVObserver)|A type-safe Swift/ObjC KVO wrapper.
@@ -122,6 +124,9 @@
 
 标题  | 内容简介
 ---- | -----
+[27 iOS open source libraries to skyrocket your development.](https://medium.com/app-coder-io/27-ios-open-source-libraries-to-skyrocket-your-development-301b67d3124c#.yp7qkmmxs) | 27个常用的iOS开源库。
+[高效开发iOS系列 -- 那些不为人知的KVC](http://www.jianshu.com/p/a6a0abac1c4a)|文章主要讲解了KVC中容易被开发者忽视却很有用的用法。
+[iOS开发之深入理解GCD](http://www.finalshares.com/read-6509?fr=gn&n=23)|  本文为raywenderlich 深入理解GCD的一篇译文，详细讲解了GCD相关的知识。
 [How to C in 2016](https://matt.sh/howto-c)|How to C in 2016
 [不再安全的 OSSpinLock](http://blog.ibireme.com/2016/01/16/spinlock_is_unsafe_in_ios/)|OSSPinLock作为锁已经不再安全了，文章还对比了各种锁的性能对比。
 [Swift's mysterious Builtin module](http://ankit.im/swift/2016/01/12/swift-mysterious-builtin-module/)|揭秘Swift内置模块
@@ -222,7 +227,7 @@
 [Sharing Swift between iOS and OS X](https://www.skilled.io/wilshipley/sharing-swift-between-ios-and-os-x)|iOS 和 OS X之间共享代码， 演讲人 [@wilshipley](https://twitter.com/wilshipley) founder of Omni Group
 [Fun with Swift](https://www.youtube.com/watch?v=KNJ_UPebGOQ)|Chris Eidhof(objc.io创始人)
 [pomo.tv](http://www.pomo.tv/)| A collection of videos about Mac, iOS and Swift. Chris Eidhof 创办
-
+[The evolution of an iOS programmer](https://www.youtube.com/watch?v=yXFflqGTZ3Q)|Chris Eidhof本人讲述自己在iOS开发过程中的成长与收获。其中还是有很多点比较具有通用性，比如，写代码的时候时刻想着是为以后接收你代码人而写等等。
 
 
 ##Debug
