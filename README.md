@@ -8,6 +8,8 @@
 
 名称  |  简介
 ---- | ----
+[swift api transformation](https://swift.org/blog/swift-api-transformation/)| Swift去掉API中的NS等一些更swift的变化。
+[使用UIKit进行面向协议的编程](http://gold.xitu.io/entry/56a98bab1532bc005303c40c)|揭开『面向协议编程』真正的面纱。尤其是针对日常 UI 的开发，大部分实例代码并没有切合实际的使用场景，也没有利用任何框架。
 [swift internals](http://apple.github.io/swift-internals/)| This site hosts internal documentation for the Swift compiler and standard library, as well as the development version of the Swift API Guidelines.
 [纯Swift2.0工程CocoaChina+从0到1遇到的坑和解决方案](http://zixun.github.io/blog/2015/10/25/chun-swift2-dot-0gong-cheng-cocoachina-plus-cong-0dao-1yu-dao-de-keng-he-jie-jue-fang-an/)|纯Swift2.0工程CocoaChina+从0到1遇到的坑和解决方案
 [Advanced & Practical Enum usage in Swift](http://appventure.me/2015/10/17/advanced-practical-enum-examples/)|Swift中Enum的使用实践
@@ -43,6 +45,9 @@
 
 文章名称  |  简介
 ---- | ----
+[Square对iOS App架构的新尝试---Ziggurat](http://www.cocoachina.com/ios/20160126/15107.html)|Square对iOS App架构的新尝试---Ziggurat
+[UITableView性能优化](https://medium.com/ios-os-x-development/perfect-smooth-scrolling-in-uitableviews-fd609d5275a5#.6m2va3j6a)|UITableView性能优化
+[Parse的底层多线程处理思路：GCD高级用法](https://github.com/ChenYilong/ParseSourceCodeStudy/blob/master/01_Parse%E7%9A%84%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%A4%84%E7%90%86%E6%80%9D%E8%B7%AF/Parse%E7%9A%84%E5%BA%95%E5%B1%82%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%A4%84%E7%90%86%E6%80%9D%E8%B7%AF.md)|Parse的底层多线程处理思路：GCD高级用法
 [利用贝塞尔曲线实现Q弹的下拉刷新](http://pandara.xyz/2015/10/29/jelly_refresh/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)|利用贝塞尔曲线实现Q弹的下拉刷新
 [看，这白白的液体滴了一地](http://pandara.xyz/2015/11/24/ios_water_drop/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)| 液态效果动画
 [What the 55 Swift Standard Library Protocols Taught Me](https://www.youtube.com/watch?v=_kpYI6GjCuw)|作者为raywenderlich长期教程作者，主要介绍了其从Swift标准库提供的protocol学到了哪些，推荐观看，需翻墙。
@@ -83,6 +88,9 @@
 ## 开源代码
 名称 | 推荐理由
 ------- | -------
+[Localize-Swift](https://github.com/marmelroy/Localize-Swift)| 一款开发者不可或缺的国际化及本地化字符串框架支持类库。同样地，使用简单、直观又方便。毫无疑问，这款非常值得收录。
+[furni-ios](https://github.com/twitterdev/furni-ios)| furni-ios 是由 Twitter 开发团队出品的一款用 Swift 写的 iOS 家居商城应用, 其主要目的在于让开发者从这款 Demo 应用中看出 Fabric 的强大。
+[2015开源iOS App总结 ](http://www.finalshares.com/read-6503#read_2144?jike-571)| 十几款开源的app
 [Every.swift](https://github.com/samhann/Every.swift)| A swift wrapper for NSTimer
 [IBAnimatable](https://github.com/JakeLin/IBAnimatable)| Design and prototype UI, interaction, navigation, transition and animation for App Store ready Apps in Interface Builder with IBAnimatable.
 [RACollectionViewReorderableTripletLayout](https://github.com/ra1028/RACollectionViewReorderableTripletLayout)|UICollectionView 排序
@@ -271,6 +279,7 @@
 
 文章  |  简介
 ---- | ----
+[MARGARET HAMILTON](http://www.wired.com/2015/10/margaret-hamilton-nasa-apollo)|MARGARET HAMILTON，一个女程序员，她的代码把人送上了月球。有兴趣的朋友可以前往一读
 [编程的智慧](http://www.yinwang.org/blog-cn/2015/11/21/programming-philosophy/)| 编程是一种创造性的工作，是一门艺术。精通任何一门艺术，都需要很多的练习和领悟，所以这里提出的“智慧”，并不是号称一天瘦十斤的减肥药，它并不能代替你自己的勤奋。然而由于软件行业喜欢标新立异，喜欢把简单的事情搞复杂，我希望这些文字能给迷惑中的人们指出一些正确的方向，让他们少走一些弯路，基本做到一分耕耘一分收获。
 [为什么你应该先成为全栈工程师](https://www.phodal.com/blog/become-full-stack-first/)|为什么你应该先成为全栈工程师
 [作为一个程序员，进步完全取决于自己](http://mp.weixin.qq.com/s?__biz=MjM5NzMyMjAwMA==&mid=401268306&idx=1&sn=3eb48ec9f939478f5955a55872145aae)| 文章中说道，作为一个程序员要不断尝试学习新的知识，充实自己。不要在乎学的东西现在有没有用处，要让自己的大脑不断接触新的东西。
