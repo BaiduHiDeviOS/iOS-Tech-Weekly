@@ -8,6 +8,7 @@
 
 名称  |  简介
 ---- | ----
+[Chris Lattner谈Swift 3和Cocoa“重命名”](http://www.infoq.com/cn/news/2016/02/lattner-swift3-renamification)|近日，在“swift-evolution”邮件列表中，Swift创建者Chris Lattner在一篇博文中概述了Swift 3定义的一些指导原则，并明确表示该版本会带来破坏性修改。
 [swift api transformation](https://swift.org/blog/swift-api-transformation/)| Swift去掉API中的NS等一些更swift的变化。
 [使用UIKit进行面向协议的编程](http://gold.xitu.io/entry/56a98bab1532bc005303c40c)|揭开『面向协议编程』真正的面纱。尤其是针对日常 UI 的开发，大部分实例代码并没有切合实际的使用场景，也没有利用任何框架。
 [swift internals](http://apple.github.io/swift-internals/)| This site hosts internal documentation for the Swift compiler and standard library, as well as the development version of the Swift API Guidelines.
@@ -75,6 +76,7 @@
 ##应用架构相关
 文章名称  |  简介
 ---- | ----
+[猿题库iOS客户端架构设计](http://gracelancy.com/blog/2016/01/06/ape-ios-arch-design/)|这篇文章将阐明我们在猿题库 iOS 客户端的架构设计。
 [跳出面向对象思想(一) 继承](http://casatwy.com/tiao-chu-mian-xiang-dui-xiang-si-xiang-yi-ji-cheng.html)| 跳出面向对象思想(一) 继承
 [跳出面向对象思想(二) 多态](http://casatwy.com/tiao-chu-mian-xiang-dui-xiang-si-xiang-er-duo-tai.html)| 跳出面向对象思想(二) 多态
 [跳出面向对象思想(三) 封装](http://casatwy.com/tiao-chu-mian-xiang-dui-xiang-si-xiang-san-feng-zhuang.html)| 跳出面向对象思想(三) 封装
@@ -88,6 +90,10 @@
 ## 开源代码
 名称 | 推荐理由
 ------- | -------
+[awesome swift](https://github.com/matteocrippa/awesome-swift)| awesome swift 系列，汇聚各种好的swift资源，不收藏等啥呢！
+[Swift高仿“简书”](https://github.com/Wl201314/MJianshu)|Swift高仿“简书”
+[Yep](https://github.com/CatchChat/Yep)| 整套纯Swift开发应用
+[Awesome Swift Playgrounds](https://github.com/uraimo/Awesome-Swift-Playgrounds)|各种供你娱乐的playground
 [Localize-Swift](https://github.com/marmelroy/Localize-Swift)| 一款开发者不可或缺的国际化及本地化字符串框架支持类库。同样地，使用简单、直观又方便。毫无疑问，这款非常值得收录。
 [furni-ios](https://github.com/twitterdev/furni-ios)| furni-ios 是由 Twitter 开发团队出品的一款用 Swift 写的 iOS 家居商城应用, 其主要目的在于让开发者从这款 Demo 应用中看出 Fabric 的强大。
 [2015开源iOS App总结 ](http://www.finalshares.com/read-6503#read_2144?jike-571)| 十几款开源的app
@@ -132,6 +138,7 @@
 
 标题  | 内容简介
 ---- | -----
+[Reader Submissions -- NSHipster](http://nshipster.com/new-years-2016/)|  由NSHipster读者提供的一些小技巧。
 [27 iOS open source libraries to skyrocket your development.](https://medium.com/app-coder-io/27-ios-open-source-libraries-to-skyrocket-your-development-301b67d3124c#.yp7qkmmxs) | 27个常用的iOS开源库。
 [高效开发iOS系列 -- 那些不为人知的KVC](http://www.jianshu.com/p/a6a0abac1c4a)|文章主要讲解了KVC中容易被开发者忽视却很有用的用法。
 [iOS开发之深入理解GCD](http://www.finalshares.com/read-6509?fr=gn&n=23)|  本文为raywenderlich 深入理解GCD的一篇译文，详细讲解了GCD相关的知识。
@@ -211,6 +218,7 @@
 [Integrating JavaScript into Native Apps](https://developer.apple.com/videos/play/wwdc2013-615/) | WWDC: Introducing a new Objective-C API to JavaScriptCore. iOS developers can now integrate scripting into their apps without having to bundle custom language interpreters. This API builds on top of the existing C API to JavaScriptCore available on Mac, and makes programming with JavaScript much easier and less error-prone.
 [Web Inspector and Modern JavaScript](https://developer.apple.com/videos/play/wwdc2014-512/) | WWDC: Web Inspector, the powerful debugging tool in WebKit, is now available to JavaScriptCore-based apps. Find out how to leverage Web Inspector in your WebKit- and JavaScriptCore-based apps on iOS and OS X. Gain an overview of what's new in the JavaScript language and how to use modern JavaScript in your apps.|
 [Objective-C Runtime Guide](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ObjCRuntimeGuide/ObjCRuntimeGuide.pdf)| OC runtime相关知识， 对了解JSPatch有一定帮助。
+[iOS热修复(动态Framework) ](http://www.finalshares.com/read-6951)|介绍动态framework修复app
 
 ##AsyncDisplayKit
 标题  | 内容简介
@@ -254,6 +262,7 @@
 [iOS9适配系列教程](https://github.com/ChenYilong/iOS9AdaptationTips) | iOS9适配系列教程
 [iOS 9 开发高级技巧 - 通过 12 个团队所提供的技巧来快速适配 iOS 9](https://realm.io/cn/news/tips-for-ios-9-development/) | iOS 9 开发高级技巧 - 通过 12 个团队所提供的技巧来快速适配 iOS 9 |
 [iOS 7 - 9新特性总结](http://anyuan.me/ios-7-9-xin-te-xing-zong-jie/) | 总结iOS7-9开发者应该关注的变化。
+[Live Photo API on iOS](http://writings/live-photo-ios-api-overview/)| What are Live Photos? From a marketing perspective, Live Photos record the moments just before and after you take a photo. Under the hood, a Live Photo is just a JPEG image together with a QuickTime file contaning an H.264 track.
 
 
 ## 工具/插件
