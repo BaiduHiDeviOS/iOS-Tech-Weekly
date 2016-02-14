@@ -46,6 +46,7 @@
 
 文章名称  |  简介
 ---- | ----
+[如何防止客户端被破解](http://tanqisen.github.io/blog/2014/06/06/how-to-prevent-app-crack/)|很多应用都需要用户登录或者签名认证，这可能需要在客户端保存登录信息、签名密钥、加密算法等。如何保证这些重要信息不被窃取，算法不被破解，这些成为应用开发中很重要的内容，同样也是最容易忽视的地方。一个小小的细节可能就成为整个系统的突破口，这里从实际工程角度总结了一些容易忽视的细节和常用的方法。
 [Square对iOS App架构的新尝试---Ziggurat](http://www.cocoachina.com/ios/20160126/15107.html)|Square对iOS App架构的新尝试---Ziggurat
 [UITableView性能优化](https://medium.com/ios-os-x-development/perfect-smooth-scrolling-in-uitableviews-fd609d5275a5#.6m2va3j6a)|UITableView性能优化
 [Parse的底层多线程处理思路：GCD高级用法](https://github.com/ChenYilong/ParseSourceCodeStudy/blob/master/01_Parse%E7%9A%84%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%A4%84%E7%90%86%E6%80%9D%E8%B7%AF/Parse%E7%9A%84%E5%BA%95%E5%B1%82%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%A4%84%E7%90%86%E6%80%9D%E8%B7%AF.md)|Parse的底层多线程处理思路：GCD高级用法
@@ -90,6 +91,7 @@
 ## 开源代码
 名称 | 推荐理由
 ------- | -------
+[SwiftString](https://github.com/amayne/SwiftString)| A comprehensive, lightweight string extension for Swift
 [awesome swift](https://github.com/matteocrippa/awesome-swift)| awesome swift 系列，汇聚各种好的swift资源，不收藏等啥呢！
 [Swift高仿“简书”](https://github.com/Wl201314/MJianshu)|Swift高仿“简书”
 [Yep](https://github.com/CatchChat/Yep)| 整套纯Swift开发应用
@@ -138,6 +140,8 @@
 
 标题  | 内容简介
 ---- | -----
+[iOS自定义转场动画实战讲解](http://www.jianshu.com/p/ea0132738057)|iOS自定义转场动画实战讲解
+[iOS内存管理和malloc源码解读](https://yq.aliyun.com/articles/3065)|iOS内存管理和malloc源码解读
 [Reader Submissions -- NSHipster](http://nshipster.com/new-years-2016/)|  由NSHipster读者提供的一些小技巧。
 [27 iOS open source libraries to skyrocket your development.](https://medium.com/app-coder-io/27-ios-open-source-libraries-to-skyrocket-your-development-301b67d3124c#.yp7qkmmxs) | 27个常用的iOS开源库。
 [高效开发iOS系列 -- 那些不为人知的KVC](http://www.jianshu.com/p/a6a0abac1c4a)|文章主要讲解了KVC中容易被开发者忽视却很有用的用法。
@@ -288,6 +292,7 @@
 
 文章  |  简介
 ---- | ----
+[程序员到底是一个什么职业？](http://weibo.com/ttarticle/p/show?id=2309403939907201539934)|程序员到底是一个什么职业？
 [MARGARET HAMILTON](http://www.wired.com/2015/10/margaret-hamilton-nasa-apollo)|MARGARET HAMILTON，一个女程序员，她的代码把人送上了月球。有兴趣的朋友可以前往一读
 [编程的智慧](http://www.yinwang.org/blog-cn/2015/11/21/programming-philosophy/)| 编程是一种创造性的工作，是一门艺术。精通任何一门艺术，都需要很多的练习和领悟，所以这里提出的“智慧”，并不是号称一天瘦十斤的减肥药，它并不能代替你自己的勤奋。然而由于软件行业喜欢标新立异，喜欢把简单的事情搞复杂，我希望这些文字能给迷惑中的人们指出一些正确的方向，让他们少走一些弯路，基本做到一分耕耘一分收获。
 [为什么你应该先成为全栈工程师](https://www.phodal.com/blog/become-full-stack-first/)|为什么你应该先成为全栈工程师
