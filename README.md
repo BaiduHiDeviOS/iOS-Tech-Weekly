@@ -8,6 +8,11 @@
 
 名称  |  简介
 ---- | ----
+[swift函数柯里化介绍及使用场景](http://www.jianshu.com/p/5b27fec8c616)| 函数柯里化是函数式编程里的一个重要概念。swift中的柯里化可能很多人都没有了解过，今天给大家介绍一下柯里化的概念和一些使用场景。
+[如何处理 Swift 中的异步错误](http://swift.gg/2016/02/16/async-errors/)|如何处理 Swift 中的异步错误
+[Protocol-Oriented Programming in Swift](https://medium.com/@andrea.prearo/protocol-oriented-programming-in-swift-daba92bc9c98#.gt766gejh)|Protocol-Oriented Programming in Swift
+[Swift 2.0: Understanding flatMap](https://www.natashatherobot.com/swift-2-flatmap/)|Swift 2.0: Understanding flatMap
+[静态类型的 NSUserDefaults](http://swift.gg/2016/02/17/nsuserdefaults-static/)|静态类型的 NSUserDefaults
 [Chris Lattner谈Swift 3和Cocoa“重命名”](http://www.infoq.com/cn/news/2016/02/lattner-swift3-renamification)|近日，在“swift-evolution”邮件列表中，Swift创建者Chris Lattner在一篇博文中概述了Swift 3定义的一些指导原则，并明确表示该版本会带来破坏性修改。
 [swift api transformation](https://swift.org/blog/swift-api-transformation/)| Swift去掉API中的NS等一些更swift的变化。
 [使用UIKit进行面向协议的编程](http://gold.xitu.io/entry/56a98bab1532bc005303c40c)|揭开『面向协议编程』真正的面纱。尤其是针对日常 UI 的开发，大部分实例代码并没有切合实际的使用场景，也没有利用任何框架。
@@ -46,6 +51,7 @@
 
 文章名称  |  简介
 ---- | ----
+读 Threading Programming Guide 笔记 |[一](http://www.devtalking.com/articles/read-threading-programming-guide-1/) [二](http://www.devtalking.com/articles/read-threading-programming-guide-2/)
 [如何防止客户端被破解](http://tanqisen.github.io/blog/2014/06/06/how-to-prevent-app-crack/)|很多应用都需要用户登录或者签名认证，这可能需要在客户端保存登录信息、签名密钥、加密算法等。如何保证这些重要信息不被窃取，算法不被破解，这些成为应用开发中很重要的内容，同样也是最容易忽视的地方。一个小小的细节可能就成为整个系统的突破口，这里从实际工程角度总结了一些容易忽视的细节和常用的方法。
 [Square对iOS App架构的新尝试---Ziggurat](http://www.cocoachina.com/ios/20160126/15107.html)|Square对iOS App架构的新尝试---Ziggurat
 [UITableView性能优化](https://medium.com/ios-os-x-development/perfect-smooth-scrolling-in-uitableviews-fd609d5275a5#.6m2va3j6a)|UITableView性能优化
@@ -91,6 +97,8 @@
 ## 开源代码
 名称 | 推荐理由
 ------- | -------
+[30 days of Swift](https://github.com/allenwong/30DaysofSwift)| A self taught project to learn swift.
+[LazyTableImages: Populating UITableView content asynchronously](https://developer.apple.com/library/ios/samplecode/LazyTableImages/Introduction/Intro.html)|苹果官方出了个demo，LazyTableImages，对列表里图片很多的情况有很好的优化作用。我看了一下，挺实用的。
 [SwiftString](https://github.com/amayne/SwiftString)| A comprehensive, lightweight string extension for Swift
 [awesome swift](https://github.com/matteocrippa/awesome-swift)| awesome swift 系列，汇聚各种好的swift资源，不收藏等啥呢！
 [Swift高仿“简书”](https://github.com/Wl201314/MJianshu)|Swift高仿“简书”
