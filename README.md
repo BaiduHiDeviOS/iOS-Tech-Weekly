@@ -8,6 +8,9 @@
 
 名称  |  简介
 ---- | ----
+[Swift 烧脑体操（一） - Optional 的嵌套](http://www.infoq.com/cn/articles/swift-brain-gym-optional)|Swift 烧脑体操（一） - Optional 的嵌套
+[Swift 烧脑体操（二） - 函数的参数](http://blog.devtang.com/2016/02/27/swift-gym-2-function-argument/)|Swift 烧脑体操（二） - 函数的参数
+[Swift 烧脑体操（三） - 高阶函数](http://blog.devtang.com/2016/02/27/swift-gym-3-higher-order-function/)|Swift 烧脑体操（三） - 高阶函数
 [swift函数柯里化介绍及使用场景](http://www.jianshu.com/p/5b27fec8c616)| 函数柯里化是函数式编程里的一个重要概念。swift中的柯里化可能很多人都没有了解过，今天给大家介绍一下柯里化的概念和一些使用场景。
 [如何处理 Swift 中的异步错误](http://swift.gg/2016/02/16/async-errors/)|如何处理 Swift 中的异步错误
 [Protocol-Oriented Programming in Swift](https://medium.com/@andrea.prearo/protocol-oriented-programming-in-swift-daba92bc9c98#.gt766gejh)|Protocol-Oriented Programming in Swift
@@ -97,6 +100,7 @@
 ## 开源代码
 名称 | 推荐理由
 ------- | -------
+[FLAnimatedImage](https://github.com/Flipboard/FLAnimatedImage)| FLAnimatedImage is a performant animated GIF engine for iOS
 [30 days of Swift](https://github.com/allenwong/30DaysofSwift)| A self taught project to learn swift.
 [LazyTableImages: Populating UITableView content asynchronously](https://developer.apple.com/library/ios/samplecode/LazyTableImages/Introduction/Intro.html)|苹果官方出了个demo，LazyTableImages，对列表里图片很多的情况有很好的优化作用。我看了一下，挺实用的。
 [SwiftString](https://github.com/amayne/SwiftString)| A comprehensive, lightweight string extension for Swift
@@ -148,6 +152,7 @@
 
 标题  | 内容简介
 ---- | -----
+[深入浅出－iOS函数式编程的实现 && 响应式编程概念](http://www.jianshu.com/p/7017a220f34c) |本篇主要回顾一下－－iOS函数式编程 && 响应式编程概念 ,如何一步步实现函数式编程的过程，对阅读Masonry  &&  SnapKit源码有一定的帮助
 [iOS自定义转场动画实战讲解](http://www.jianshu.com/p/ea0132738057)|iOS自定义转场动画实战讲解
 [iOS内存管理和malloc源码解读](https://yq.aliyun.com/articles/3065)|iOS内存管理和malloc源码解读
 [Reader Submissions -- NSHipster](http://nshipster.com/new-years-2016/)|  由NSHipster读者提供的一些小技巧。
@@ -201,6 +206,9 @@
 ##Reactive Cocoa & Functional Programming
 标题  | 内容简介
 ---- | -----
+[What the heck is a monad](http://khanlou.com/2015/09/what-the-heck-is-a-monad/)|What the heck is a monad
+[flatmap](http://robnapier.net/flatmap)|介绍flatMap
+[map](http://robnapier.net/maps)|介绍map函数
 [细说ReactiveCocoa的冷信号与热信号（一）](http://tech.meituan.com/talk-about-reactivecocoas-cold-signal-and-hot-signal-part-1.html) | 细说ReactiveCocoa的冷信号与热信号（一）
 [细说ReactiveCocoa的冷信号与热信号（二）：为什么要区分冷热信号](http://tech.meituan.com/talk-about-reactivecocoas-cold-signal-and-hot-signal-part-2.html)| 细说ReactiveCocoa的冷信号与热信号（二）
 [细说ReactiveCocoa的冷信号与热信号（三）：怎么处理冷信号与热信号](http://tech.meituan.com/talk-about-reactivecocoas-cold-signal-and-hot-signal-part-3.html)| 细说ReactiveCocoa的冷信号与热信号（三）
@@ -269,6 +277,7 @@
 ##iOS 新特性
 标题  | 内容简介
 ---- | -----
+[Apple Pay 编程指南](http://wiki.jikexueyuan.com/project/apple-pay/) |Apple Pay介绍，配置和接入等
 [WWDC 2014 Session笔记 - iOS界面开发的大一统](http://onevcat.com/2014/07/ios-ui-unique/) |什么时候可以抛弃iOS 7了，好多UI实现都可以换了
 [初探 iOS8 中的 Size Class](http://blog.callmewhy.com/2014/09/12/learn-ios8-size-class/)|初探 iOS8 中的 Size Class
 [iOS9适配系列教程](https://github.com/ChenYilong/iOS9AdaptationTips) | iOS9适配系列教程
