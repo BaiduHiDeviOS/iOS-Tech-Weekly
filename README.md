@@ -100,6 +100,10 @@
 ## 开源代码
 名称 | 推荐理由
 ------- | -------
+[Advance](https://github.com/storehouse/Advance)| A powerful animation framework for iOS.
+[EarlGrey](https://github.com/google/EarlGrey)| EarlGrey is a native iOS UI automation test framework that enables you to write clear, concise tests. 一篇EarlGrey的介绍[文章](https://segmentfault.com/a/1190000004488898)
+[TSWeChat](https://github.com/hilen/TSWeChat)| A high copy WeChat, Written by Swift.
+[infer](https://github.com/facebook/infer)|A static analyzer for Java, C and Objective-C http://fbinfer.com/
 [FLAnimatedImage](https://github.com/Flipboard/FLAnimatedImage)| FLAnimatedImage is a performant animated GIF engine for iOS
 [30 days of Swift](https://github.com/allenwong/30DaysofSwift)| A self taught project to learn swift.
 [LazyTableImages: Populating UITableView content asynchronously](https://developer.apple.com/library/ios/samplecode/LazyTableImages/Introduction/Intro.html)|苹果官方出了个demo，LazyTableImages，对列表里图片很多的情况有很好的优化作用。我看了一下，挺实用的。
@@ -152,6 +156,9 @@
 
 标题  | 内容简介
 ---- | -----
+Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) [二](http://www.pluto-y.com/cocoapods-contribute-for-open-source/) [三](http://www.pluto-y.com/cocoapod-private-pods-and-module-manager/)从零开始到各种私有管理
+[Apple Memory Usage Performance Guidelines](https://developer.apple.com/library/mac/documentation/Performance/Conceptual/ManagingMemory/ManagingMemory.html)|是上面内存管理及优化视频中提到的苹果文档。
+[Swift GYB 简易教程](http://swift.gg/2016/03/04/a-short-swift-gyb-tutorial/)| Swift源码中很多GYB文件，本文简单介绍了如何使用GYB生成代码模板及如何使用GYB生成源码文件。我觉得对于查看Swift源码有帮助。
 [深入浅出－iOS函数式编程的实现 && 响应式编程概念](http://www.jianshu.com/p/7017a220f34c) |本篇主要回顾一下－－iOS函数式编程 && 响应式编程概念 ,如何一步步实现函数式编程的过程，对阅读Masonry  &&  SnapKit源码有一定的帮助
 [iOS自定义转场动画实战讲解](http://www.jianshu.com/p/ea0132738057)|iOS自定义转场动画实战讲解
 [iOS内存管理和malloc源码解读](https://yq.aliyun.com/articles/3065)|iOS内存管理和malloc源码解读
@@ -260,6 +267,7 @@
 ##视频资源
 标题  | 内容简介
 ---- | -----
+iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://www.imooc.com/video/11076)
 [Sharing Swift between iOS and OS X](https://www.skilled.io/wilshipley/sharing-swift-between-ios-and-os-x)|iOS 和 OS X之间共享代码， 演讲人 [@wilshipley](https://twitter.com/wilshipley) founder of Omni Group
 [Fun with Swift](https://www.youtube.com/watch?v=KNJ_UPebGOQ)|Chris Eidhof(objc.io创始人)
 [pomo.tv](http://www.pomo.tv/)| A collection of videos about Mac, iOS and Swift. Chris Eidhof 创办
@@ -290,6 +298,7 @@
 
 工具/插件  |  简介
 ---- | ----
+[facebook xcbuild](https://github.com/facebook/xcbuild)| xcbuild is an Xcode-compatible build tool with the goal of providing faster builds, better documentation of the build process and running on multiple platforms (in particular OS X and Linux)
 [Xcode 插件介绍](http://nshipster.com/xcode-plugins/)|文章推荐的几款插件都有助于提升Xcode开发效率，推荐尝试。
 [CleanMyMac 3](http://macpaw.com/zh/store/cleanmymac)| 智能清理Mac磁盘空间。
 [如何用Github去管理你的Idea](http://zhuanlan.zhihu.com/phodal/20442311)|如何用Github去管理你的Idea
