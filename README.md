@@ -11,6 +11,8 @@
 [Swift 烧脑体操（一） - Optional 的嵌套](http://www.infoq.com/cn/articles/swift-brain-gym-optional)|Swift 烧脑体操（一） - Optional 的嵌套
 [Swift 烧脑体操（二） - 函数的参数](http://blog.devtang.com/2016/02/27/swift-gym-2-function-argument/)|Swift 烧脑体操（二） - 函数的参数
 [Swift 烧脑体操（三） - 高阶函数](http://blog.devtang.com/2016/02/27/swift-gym-3-higher-order-function/)|Swift 烧脑体操（三） - 高阶函数
+[Swift 烧脑体操（四） - map 和 flatMap](http://blog.devtang.com/2016/03/05/swift-gym-4-map-and-flatmap/)| Swift 烧脑体操（四） - map 和 flatMap
+[the power of map and flatmap](http://blog.xebia.com/the-power-of-map-and-flatmap-of-swift-optionals/)| map和flatMap的实际使用场景。
 [swift函数柯里化介绍及使用场景](http://www.jianshu.com/p/5b27fec8c616)| 函数柯里化是函数式编程里的一个重要概念。swift中的柯里化可能很多人都没有了解过，今天给大家介绍一下柯里化的概念和一些使用场景。
 [如何处理 Swift 中的异步错误](http://swift.gg/2016/02/16/async-errors/)|如何处理 Swift 中的异步错误
 [Protocol-Oriented Programming in Swift](https://medium.com/@andrea.prearo/protocol-oriented-programming-in-swift-daba92bc9c98#.gt766gejh)|Protocol-Oriented Programming in Swift
@@ -54,7 +56,7 @@
 
 文章名称  |  简介
 ---- | ----
-读 Threading Programming Guide 笔记 |[一](http://www.devtalking.com/articles/read-threading-programming-guide-1/) [二](http://www.devtalking.com/articles/read-threading-programming-guide-2/)
+读 Threading Programming Guide 笔记 |[一](http://www.devtalking.com/articles/read-threading-programming-guide-1/) [二](http://www.devtalking.com/articles/read-threading-programming-guide-2/) [三](http://www.devtalking.com/articles/read-threading-programming-guide-3/) [四](http://www.devtalking.com/articles/read-threading-programming-guide-4/)
 [如何防止客户端被破解](http://tanqisen.github.io/blog/2014/06/06/how-to-prevent-app-crack/)|很多应用都需要用户登录或者签名认证，这可能需要在客户端保存登录信息、签名密钥、加密算法等。如何保证这些重要信息不被窃取，算法不被破解，这些成为应用开发中很重要的内容，同样也是最容易忽视的地方。一个小小的细节可能就成为整个系统的突破口，这里从实际工程角度总结了一些容易忽视的细节和常用的方法。
 [Square对iOS App架构的新尝试---Ziggurat](http://www.cocoachina.com/ios/20160126/15107.html)|Square对iOS App架构的新尝试---Ziggurat
 [UITableView性能优化](https://medium.com/ios-os-x-development/perfect-smooth-scrolling-in-uitableviews-fd609d5275a5#.6m2va3j6a)|UITableView性能优化
@@ -100,6 +102,7 @@
 ## 开源代码
 名称 | 推荐理由
 ------- | -------
+[Swift 开源项目精选](http://dev.swiftguide.cn/archive/featured-open-source-projects-in-swift_v1.0.html) | 涵盖存储、网络、图片、框架、界面等开源代码
 [Advance](https://github.com/storehouse/Advance)| A powerful animation framework for iOS.
 [EarlGrey](https://github.com/google/EarlGrey)| EarlGrey is a native iOS UI automation test framework that enables you to write clear, concise tests. 一篇EarlGrey的介绍[文章](https://segmentfault.com/a/1190000004488898)
 [TSWeChat](https://github.com/hilen/TSWeChat)| A high copy WeChat, Written by Swift.
@@ -267,6 +270,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ##视频资源
 标题  | 内容简介
 ---- | -----
+[Brian Partridge - Result Driven Development](https://www.youtube.com/watch?v=aCm68xAWrno)| 录音不是特别清楚，但是内容很好。需要翻墙
 iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://www.imooc.com/video/11076)
 [Sharing Swift between iOS and OS X](https://www.skilled.io/wilshipley/sharing-swift-between-ios-and-os-x)|iOS 和 OS X之间共享代码， 演讲人 [@wilshipley](https://twitter.com/wilshipley) founder of Omni Group
 [Fun with Swift](https://www.youtube.com/watch?v=KNJ_UPebGOQ)|Chris Eidhof(objc.io创始人)
