@@ -12,6 +12,7 @@
 [Swift 烧脑体操（二） - 函数的参数](http://blog.devtang.com/2016/02/27/swift-gym-2-function-argument/)|Swift 烧脑体操（二） - 函数的参数
 [Swift 烧脑体操（三） - 高阶函数](http://blog.devtang.com/2016/02/27/swift-gym-3-higher-order-function/)|Swift 烧脑体操（三） - 高阶函数
 [Swift 烧脑体操（四） - map 和 flatMap](http://blog.devtang.com/2016/03/05/swift-gym-4-map-and-flatmap/)| Swift 烧脑体操（四） - map 和 flatMap
+[Swift烧脑体操五 - Monad](http://www.infoq.com/cn/articles/swift-brain-gym-monad)| Swift烧脑体操五 - Monad
 [the power of map and flatmap](http://blog.xebia.com/the-power-of-map-and-flatmap-of-swift-optionals/)| map和flatMap的实际使用场景。
 [swift函数柯里化介绍及使用场景](http://www.jianshu.com/p/5b27fec8c616)| 函数柯里化是函数式编程里的一个重要概念。swift中的柯里化可能很多人都没有了解过，今天给大家介绍一下柯里化的概念和一些使用场景。
 [如何处理 Swift 中的异步错误](http://swift.gg/2016/02/16/async-errors/)|如何处理 Swift 中的异步错误
@@ -56,6 +57,7 @@
 
 文章名称  |  简介
 ---- | ----
+[Injection for Xcode：成吨的提高开发效率](http://www.jianshu.com/p/27be46d5e5d4)| Injection for Xcode：成吨的提高开发效率
 读 Threading Programming Guide 笔记 |[一](http://www.devtalking.com/articles/read-threading-programming-guide-1/) [二](http://www.devtalking.com/articles/read-threading-programming-guide-2/) [三](http://www.devtalking.com/articles/read-threading-programming-guide-3/) [四](http://www.devtalking.com/articles/read-threading-programming-guide-4/)
 [如何防止客户端被破解](http://tanqisen.github.io/blog/2014/06/06/how-to-prevent-app-crack/)|很多应用都需要用户登录或者签名认证，这可能需要在客户端保存登录信息、签名密钥、加密算法等。如何保证这些重要信息不被窃取，算法不被破解，这些成为应用开发中很重要的内容，同样也是最容易忽视的地方。一个小小的细节可能就成为整个系统的突破口，这里从实际工程角度总结了一些容易忽视的细节和常用的方法。
 [Square对iOS App架构的新尝试---Ziggurat](http://www.cocoachina.com/ios/20160126/15107.html)|Square对iOS App架构的新尝试---Ziggurat
@@ -88,6 +90,7 @@
 ##应用架构相关
 文章名称  |  简介
 ---- | ----
+[iOS组件化方案探索](http://blog.cnbang.net/tech/3080/)| JSPatch作者关于组件化方案探索的文章。
 [猿题库iOS客户端架构设计](http://gracelancy.com/blog/2016/01/06/ape-ios-arch-design/)|这篇文章将阐明我们在猿题库 iOS 客户端的架构设计。
 [跳出面向对象思想(一) 继承](http://casatwy.com/tiao-chu-mian-xiang-dui-xiang-si-xiang-yi-ji-cheng.html)| 跳出面向对象思想(一) 继承
 [跳出面向对象思想(二) 多态](http://casatwy.com/tiao-chu-mian-xiang-dui-xiang-si-xiang-er-duo-tai.html)| 跳出面向对象思想(二) 多态
@@ -159,6 +162,7 @@
 
 标题  | 内容简介
 ---- | -----
+[iOS 视图控制器转场详解](https://github.com/seedante/iOS-Note/wiki/ViewController-Transition)| 非常详尽讲解转场。
 Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) [二](http://www.pluto-y.com/cocoapods-contribute-for-open-source/) [三](http://www.pluto-y.com/cocoapod-private-pods-and-module-manager/)从零开始到各种私有管理
 [Apple Memory Usage Performance Guidelines](https://developer.apple.com/library/mac/documentation/Performance/Conceptual/ManagingMemory/ManagingMemory.html)|是上面内存管理及优化视频中提到的苹果文档。
 [Swift GYB 简易教程](http://swift.gg/2016/03/04/a-short-swift-gyb-tutorial/)| Swift源码中很多GYB文件，本文简单介绍了如何使用GYB生成代码模板及如何使用GYB生成源码文件。我觉得对于查看Swift源码有帮助。
@@ -270,6 +274,8 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ##视频资源
 标题  | 内容简介
 ---- | -----
+[Introduction to Protocol-Oriented MVVM](https://realm.io/news/doios-natasha-murashev-protocol-oriented-mvvm/) | 介绍Protocol Oriented 结合MVVM的一个活生生的🌰。
+[Using Injection for Xcode - Runtime Code Injection](https://www.youtube.com/watch?v=uftvtmyZ8TM&feature=youtu.be)| Using Injection for Xcode - Runtime Code Injection
 [Brian Partridge - Result Driven Development](https://www.youtube.com/watch?v=aCm68xAWrno)| 录音不是特别清楚，但是内容很好。需要翻墙
 iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://www.imooc.com/video/11076)
 [Sharing Swift between iOS and OS X](https://www.skilled.io/wilshipley/sharing-swift-between-ios-and-os-x)|iOS 和 OS X之间共享代码， 演讲人 [@wilshipley](https://twitter.com/wilshipley) founder of Omni Group
@@ -302,6 +308,7 @@ iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://w
 
 工具/插件  |  简介
 ---- | ----
+[injection for xcode](https://github.com/johnno1962/injectionforxcode)| Runtime Code Injection for Objective-C & Swift
 [facebook xcbuild](https://github.com/facebook/xcbuild)| xcbuild is an Xcode-compatible build tool with the goal of providing faster builds, better documentation of the build process and running on multiple platforms (in particular OS X and Linux)
 [Xcode 插件介绍](http://nshipster.com/xcode-plugins/)|文章推荐的几款插件都有助于提升Xcode开发效率，推荐尝试。
 [CleanMyMac 3](http://macpaw.com/zh/store/cleanmymac)| 智能清理Mac磁盘空间。
