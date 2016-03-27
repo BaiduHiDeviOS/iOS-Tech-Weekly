@@ -8,6 +8,9 @@
 
 名称  |  简介
 ---- | ----
+[What's new in Swift 2.2](https://www.hackingwithswift.com/swift2-2)|What's new in Swift 2.2
+[mvvm in swift](http://artsy.github.io/blog/2015/09/24/mvvm-in-swift/)|mvvm in swift
+[Being lazy](http://alisoftware.github.io/swift/2016/02/28/being-lazy/)|文章讲解了如何在Swift使用惰性初始化一个实例变量，数组的LazySequence。以及一种思考习惯，能否某些耗时初始化或者计算在用到的时候再去初始化或者计算。
 [Swift 烧脑体操（一） - Optional 的嵌套](http://www.infoq.com/cn/articles/swift-brain-gym-optional)|Swift 烧脑体操（一） - Optional 的嵌套
 [Swift 烧脑体操（二） - 函数的参数](http://blog.devtang.com/2016/02/27/swift-gym-2-function-argument/)|Swift 烧脑体操（二） - 函数的参数
 [Swift 烧脑体操（三） - 高阶函数](http://blog.devtang.com/2016/02/27/swift-gym-3-higher-order-function/)|Swift 烧脑体操（三） - 高阶函数
@@ -105,6 +108,7 @@
 ## 开源代码
 名称 | 推荐理由
 ------- | -------
+[SubtleVolume](https://github.com/andreamazz/SubtleVolume)| Replace the system volume popup with a more subtle indicator.
 [Swift 开源项目精选](http://dev.swiftguide.cn/archive/featured-open-source-projects-in-swift_v1.0.html) | 涵盖存储、网络、图片、框架、界面等开源代码
 [Advance](https://github.com/storehouse/Advance)| A powerful animation framework for iOS.
 [EarlGrey](https://github.com/google/EarlGrey)| EarlGrey is a native iOS UI automation test framework that enables you to write clear, concise tests. 一篇EarlGrey的介绍[文章](https://segmentfault.com/a/1190000004488898)
