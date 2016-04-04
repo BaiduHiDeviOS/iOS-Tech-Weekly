@@ -8,6 +8,10 @@
 
 名称  |  简介
 ---- | ----
+[Swift 性能探索和优化分析](https://onevcat.com/2016/02/swift-performance/)|Swift 性能探索和优化分析
+[Swift 2 throws 全解析 - 从原理到实践](https://onevcat.com/2016/03/swift-throws/)|Swift 2 throws 全解析 - 从原理到实践
+[Pattern matching part 1: switch, enums & where clauses](http://alisoftware.github.io/swift/2016/03/27/pattern-matching-1/)|Pattern matching part 1: switch, enums & where clauses
+[Pattern Matching, Part 2: tuples, ranges & types](http://alisoftware.github.io/swift/2016/03/30/pattern-matching-2/)|Pattern Matching, Part 2: tuples, ranges & types
 [What's new in Swift 2.2](https://www.hackingwithswift.com/swift2-2)|What's new in Swift 2.2
 [mvvm in swift](http://artsy.github.io/blog/2015/09/24/mvvm-in-swift/)|mvvm in swift
 [Being lazy](http://alisoftware.github.io/swift/2016/02/28/being-lazy/)|文章讲解了如何在Swift使用惰性初始化一个实例变量，数组的LazySequence。以及一种思考习惯，能否某些耗时初始化或者计算在用到的时候再去初始化或者计算。
@@ -93,6 +97,7 @@
 ##应用架构相关
 文章名称  |  简介
 ---- | ----
+[iOS 架构模式 - 简述 MVC, MVP, MVVM 和 VIPER (译)](https://blog.coding.net/blog/ios-architecture-patterns)|iOS 架构模式 - 简述 MVC, MVP, MVVM 和 VIPER (译)
 [iOS组件化方案探索](http://blog.cnbang.net/tech/3080/)| JSPatch作者关于组件化方案探索的文章。
 [猿题库iOS客户端架构设计](http://gracelancy.com/blog/2016/01/06/ape-ios-arch-design/)|这篇文章将阐明我们在猿题库 iOS 客户端的架构设计。
 [跳出面向对象思想(一) 继承](http://casatwy.com/tiao-chu-mian-xiang-dui-xiang-si-xiang-yi-ji-cheng.html)| 跳出面向对象思想(一) 继承
@@ -344,6 +349,7 @@ iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://w
 [Test-Driven Development is Stupid](http://geometrian.com/programming/tutorials/testing/test-first.php)|关于TDD的一篇文章，可以看看，以及Hacker News上的[讨论](https://news.ycombinator.com/item?id=10620275)|
 [ABC: Always be coding](https://medium.com/@davidbyttow/abc-always-be-coding-d5f8051afce2#.ci0q5suo8)| 如何提（准）升（备）自（面）己（试）。
 [Leveling Up](https://www.bignerdranch.com/blog/leveling-up/)|个人觉得是一篇很好的iOS进阶提升的一个好文章，推荐给有一定iOS开发经验并想继续提升自己的同学。
+[软件专利的荒谬性 Patent_Absurdity](http://www.tudou.com/programs/view/RIqCrm7sn-8/)|推荐一部纪录片《软件专利的荒谬性》
 
 ## 博客
 
