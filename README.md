@@ -113,6 +113,7 @@
 ## 开源代码
 名称 | 推荐理由
 ------- | -------
+[Xtrace](https://github.com/johnno1962/Xtrace)|Trace Objective-C method calls by class or instance
 [SubtleVolume](https://github.com/andreamazz/SubtleVolume)| Replace the system volume popup with a more subtle indicator.
 [Swift 开源项目精选](http://dev.swiftguide.cn/archive/featured-open-source-projects-in-swift_v1.0.html) | 涵盖存储、网络、图片、框架、界面等开源代码
 [Advance](https://github.com/storehouse/Advance)| A powerful animation framework for iOS.
@@ -252,6 +253,8 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ##iOS HotFix相关
 标题  | 内容简介
 ---- | -----
+[JSPatch 近期新特性解析](http://blog.cnbang.net/tech/3038/)|JSPatch 近期新特性解析
+[JSPatch更新：完善开发功能模块的能力](http://blog.cnbang.net/tech/3123/)|JSPatch更新：完善开发功能模块的能力
 [alibaba/wax](https://github.com/alibaba/wax)|Wax is a framework that lets you write native iPhone apps in Lua.
 [JSPatch实现原理详解](https://github.com/bang590/JSPatch/wiki/JSPatch-%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86%E8%AF%A6%E8%A7%A3) | JSPatch作者对JSPatch实现原理的详解。
 [JSPatch 部署安全策略](http://blog.cnbang.net/tech/2879/) | JSPatch 部署安全策略
@@ -355,6 +358,7 @@ iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://w
 
 博客地址 | 博主信息
 ------- | -------
+[小土刀](http://wdxtub.com/about/)| 各种CMU课程的笔记等技术文章。
 [Garan no Dou](http://blog.ibireme.com/) | @ibireme 文章深入， 开源代码质量高，值得关注
 [OneV's Den](http://onevcat.com/#blog) | 王巍(喵神), 现居日本, 就职于 LINE, 知名 iOS 开发者, 写的文章大多深入浅出, 内容广泛, 目前在维护的 [Swifter](http://swifter.tips) 也值得收藏
 [唐巧的技术博客](http://blog.devtang.com) | 唐巧, 国内知名 iOS 开发者, 现就职于猿题库, 博客推出的 iOS 移动开发周报很受欢迎, 更新频繁
