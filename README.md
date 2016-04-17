@@ -64,6 +64,8 @@
 
 文章名称  |  简介
 ---- | ----
+[教你使用Xtrace读懂Mantle源码](http://ios.jobbole.com/84471/)|上周周报刚刚整理了Xtrace这个开源库，这篇文章是结合该开源库去阅读源码。
+[微信文件微起底](http://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&mid=2653576807&idx=2&sn=0db15d1545379da06818b1b5d33112c1&scene=1&srcid=0414LDe5v52rgToo7oQ82mEy&from=singlemessage&isappinstalled=0#wechat_redirect)|微信文件微起底
 [Injection for Xcode：成吨的提高开发效率](http://www.jianshu.com/p/27be46d5e5d4)| Injection for Xcode：成吨的提高开发效率
 读 Threading Programming Guide 笔记 |[一](http://www.devtalking.com/articles/read-threading-programming-guide-1/) [二](http://www.devtalking.com/articles/read-threading-programming-guide-2/) [三](http://www.devtalking.com/articles/read-threading-programming-guide-3/) [四](http://www.devtalking.com/articles/read-threading-programming-guide-4/)
 [如何防止客户端被破解](http://tanqisen.github.io/blog/2014/06/06/how-to-prevent-app-crack/)|很多应用都需要用户登录或者签名认证，这可能需要在客户端保存登录信息、签名密钥、加密算法等。如何保证这些重要信息不被窃取，算法不被破解，这些成为应用开发中很重要的内容，同样也是最容易忽视的地方。一个小小的细节可能就成为整个系统的突破口，这里从实际工程角度总结了一些容易忽视的细节和常用的方法。
@@ -113,6 +115,10 @@
 ## 开源代码
 名称 | 推荐理由
 ------- | -------
+[GPUImage2](https://github.com/BradLarson/GPUImage2)| GPUImage 2 is a BSD-licensed Swift framework for GPU-accelerated video and image processing. Redesigned in swift.
+[FBRetainCycleDetector](https://github.com/facebook/FBRetainCycleDetector)|iOS library to help detecting retain cycles in runtime.
+[FBAllocationTracker](https://github.com/facebook/FBAllocationTracker)| iOS library that helps tracking all allocated Objective-C objects.
+[FBMemoryProfiler](https://github.com/facebook/FBMemoryProfiler)|iOS tool that helps with profiling iOS Memory usage.
 [Xtrace](https://github.com/johnno1962/Xtrace)|Trace Objective-C method calls by class or instance
 [SubtleVolume](https://github.com/andreamazz/SubtleVolume)| Replace the system volume popup with a more subtle indicator.
 [Swift 开源项目精选](http://dev.swiftguide.cn/archive/featured-open-source-projects-in-swift_v1.0.html) | 涵盖存储、网络、图片、框架、界面等开源代码
@@ -227,6 +233,11 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 [10 Things You Need to Know About Cocoa Auto Layout](http://oleb.net/blog/2013/03/things-you-need-to-know-about-cocoa-autolayout/) | 10 Things You Need to Know About Cocoa Auto Layout
 [iOS Auto Layout: Fun Facts and Tips](https://www.bignerdranch.com/blog/ios-autolayout-fun-facts-and-tips/) | iOS Auto Layout: Fun Facts and Tips
 
+## React Native
+标题  | 内容简介
+---- | -----
+[Facebook f8 app open source](https://github.com/fbsamples/f8app)|React Native 最佳学习项目来了，Facebook 开源了 F8 App 全套代码，包括 Android，iOS 和 Server 端，其中涉及 React Native, Redux, Relay, GraphQL 等技术，更感人的是配套了教程讲解整个 APP（包括前后端） 是怎么做出来。[教程](http://makeitopen.com/)
+
 ##Reactive Cocoa & Functional Programming
 标题  | 内容简介
 ---- | -----
@@ -286,6 +297,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ##视频资源
 标题  | 内容简介
 ---- | -----
+[Facebook F8 2016](https://www.youtube.com/watch?v=dyvvWE87a-k)|Youtube上的5个小时的《Facebook F8 Developer Conference 2016》可以学到很多东西，推荐。
 [Introduction to Protocol-Oriented MVVM](https://realm.io/news/doios-natasha-murashev-protocol-oriented-mvvm/) | 介绍Protocol Oriented 结合MVVM的一个活生生的🌰。
 [Using Injection for Xcode - Runtime Code Injection](https://www.youtube.com/watch?v=uftvtmyZ8TM&feature=youtu.be)| Using Injection for Xcode - Runtime Code Injection
 [Brian Partridge - Result Driven Development](https://www.youtube.com/watch?v=aCm68xAWrno)| 录音不是特别清楚，但是内容很好。需要翻墙
@@ -341,6 +353,8 @@ iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://w
 
 文章  |  简介
 ---- | ----
+[成为谷歌程序员，你需要准备什么？](http://blog.jobbole.com/79736/)|成为谷歌程序员，你需要准备什么？
+[TED 采访linus](https://www.ted.com/talks/linus_torvalds_the_mind_behind_linux)| [中文字幕版](http://codetimecn.com/2016/04/14/linus_ted/)
 [程序员到底是一个什么职业？](http://weibo.com/ttarticle/p/show?id=2309403939907201539934)|程序员到底是一个什么职业？
 [MARGARET HAMILTON](http://www.wired.com/2015/10/margaret-hamilton-nasa-apollo)|MARGARET HAMILTON，一个女程序员，她的代码把人送上了月球。有兴趣的朋友可以前往一读
 [编程的智慧](http://www.yinwang.org/blog-cn/2015/11/21/programming-philosophy/)| 编程是一种创造性的工作，是一门艺术。精通任何一门艺术，都需要很多的练习和领悟，所以这里提出的“智慧”，并不是号称一天瘦十斤的减肥药，它并不能代替你自己的勤奋。然而由于软件行业喜欢标新立异，喜欢把简单的事情搞复杂，我希望这些文字能给迷惑中的人们指出一些正确的方向，让他们少走一些弯路，基本做到一分耕耘一分收获。
