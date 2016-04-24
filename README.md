@@ -8,6 +8,8 @@
 
 名称  |  简介
 ---- | ----
+[Design Patterns implemented in Swift](https://github.com/ochococo/Design-Patterns-In-Swift)| 各种常用设计模式在Swift 2的实现。
+[Swift Name Mangling](https://mikeash.com/pyblog/friday-qa-2014-08-15-swift-name-mangling.html)| swift中 __TFCCC4test1a1b1c1dfS2_FTS0_1xS1_1vFT1xSi_Si_OVS_1e1f这是什么，看不懂啊？ 读读这篇文章...
 [Swift 性能探索和优化分析](https://onevcat.com/2016/02/swift-performance/)|Swift 性能探索和优化分析
 [Swift 2 throws 全解析 - 从原理到实践](https://onevcat.com/2016/03/swift-throws/)|Swift 2 throws 全解析 - 从原理到实践
 [Pattern matching part 1: switch, enums & where clauses](http://alisoftware.github.io/swift/2016/03/27/pattern-matching-1/)|Pattern matching part 1: switch, enums & where clauses
@@ -64,6 +66,9 @@
 
 文章名称  |  简介
 ---- | ----
+[How to write a unit test which passes if a function throws?](https://forums.developer.apple.com/thread/5824)| 目前Xcode Unit Test没有对抛出异常的函数进行处理的XCT方法，文中添加了第三方的写法。
+[iOS瘦身之删除无用的mach-O文件](http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&mid=2651112096&idx=1&sn=ce8fccce7d5f70e30c078e63e8ea0d15&scene=0#wechat_redirect)|iOS瘦身之删除无用的mach-O文件
+[Building and managing iOS model objects with Remodel](https://code.facebook.com/posts/1154141864616569/building-and-managing-ios-model-objects-with-remodel/)|Building and managing iOS model objects with Remodel
 [教你使用Xtrace读懂Mantle源码](http://ios.jobbole.com/84471/)|上周周报刚刚整理了Xtrace这个开源库，这篇文章是结合该开源库去阅读源码。
 [微信文件微起底](http://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&mid=2653576807&idx=2&sn=0db15d1545379da06818b1b5d33112c1&scene=1&srcid=0414LDe5v52rgToo7oQ82mEy&from=singlemessage&isappinstalled=0#wechat_redirect)|微信文件微起底
 [Injection for Xcode：成吨的提高开发效率](http://www.jianshu.com/p/27be46d5e5d4)| Injection for Xcode：成吨的提高开发效率
@@ -99,6 +104,7 @@
 ##应用架构相关
 文章名称  |  简介
 ---- | ----
+[Advanced iOS Application Architecture and Patterns](https://developer.apple.com/videos/play/wwdc2014/229/)| Explore a selection of high-level software engineering techniques presented in the context of Cocoa Touch. Learn how to manage complexity in large codebases by clearly defining where truth resides, by controlling state with Swift's powerful value types and immutability, and by thinking in terms of composition.
 [iOS 架构模式 - 简述 MVC, MVP, MVVM 和 VIPER (译)](https://blog.coding.net/blog/ios-architecture-patterns)|iOS 架构模式 - 简述 MVC, MVP, MVVM 和 VIPER (译)
 [iOS组件化方案探索](http://blog.cnbang.net/tech/3080/)| JSPatch作者关于组件化方案探索的文章。
 [猿题库iOS客户端架构设计](http://gracelancy.com/blog/2016/01/06/ape-ios-arch-design/)|这篇文章将阐明我们在猿题库 iOS 客户端的架构设计。
@@ -115,10 +121,12 @@
 ## 开源代码
 名称 | 推荐理由
 ------- | -------
+[TextAttributes](https://github.com/delba/TextAttributes)| TextAttributes makes it easy to compose attributed strings.
+[FBNotifications](https://github.com/facebook/FBNotifications)| Facebook Analytics In-App Notifications Framework
 [GPUImage2](https://github.com/BradLarson/GPUImage2)| GPUImage 2 is a BSD-licensed Swift framework for GPU-accelerated video and image processing. Redesigned in swift.
 [FBRetainCycleDetector](https://github.com/facebook/FBRetainCycleDetector)|iOS library to help detecting retain cycles in runtime.
 [FBAllocationTracker](https://github.com/facebook/FBAllocationTracker)| iOS library that helps tracking all allocated Objective-C objects.
-[FBMemoryProfiler](https://github.com/facebook/FBMemoryProfiler)|iOS tool that helps with profiling iOS Memory usage.
+[FBMemoryProfiler](https://github.com/facebook/FBMemoryProfiler)|iOS tool that helps with profiling iOS Memory usage.[原理介绍](https://code.facebook.com/posts/583946315094347/automatic-memory-leak-detection-on-ios/)
 [Xtrace](https://github.com/johnno1962/Xtrace)|Trace Objective-C method calls by class or instance
 [SubtleVolume](https://github.com/andreamazz/SubtleVolume)| Replace the system volume popup with a more subtle indicator.
 [Swift 开源项目精选](http://dev.swiftguide.cn/archive/featured-open-source-projects-in-swift_v1.0.html) | 涵盖存储、网络、图片、框架、界面等开源代码
@@ -297,6 +305,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ##视频资源
 标题  | 内容简介
 ---- | -----
+[Developing iOS 9 Apps with Swift](https://itunes.apple.com/us/course/developing-ios-9-apps-swift/id1104579961)| 斯坦福的iOS开发课程，还是老头讲。
 [Facebook F8 2016](https://www.youtube.com/watch?v=dyvvWE87a-k)|Youtube上的5个小时的《Facebook F8 Developer Conference 2016》可以学到很多东西，推荐。
 [Introduction to Protocol-Oriented MVVM](https://realm.io/news/doios-natasha-murashev-protocol-oriented-mvvm/) | 介绍Protocol Oriented 结合MVVM的一个活生生的🌰。
 [Using Injection for Xcode - Runtime Code Injection](https://www.youtube.com/watch?v=uftvtmyZ8TM&feature=youtu.be)| Using Injection for Xcode - Runtime Code Injection
@@ -332,6 +341,8 @@ iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://w
 
 工具/插件  |  简介
 ---- | ----
+[Build Me Up](https://github.com/edwardaux/BuildMeUp)|An Xcode plugin that keeps track of how long Xcode takes to build your project(s). It accumulates the total time and displays in the Activity View in the Xcode toolbar.
+[JSPatchX](https://github.com/bang590/JSPatchX)|A XCode plugin that provides autocompletion for JSPatch
 [injection for xcode](https://github.com/johnno1962/injectionforxcode)| Runtime Code Injection for Objective-C & Swift
 [facebook xcbuild](https://github.com/facebook/xcbuild)| xcbuild is an Xcode-compatible build tool with the goal of providing faster builds, better documentation of the build process and running on multiple platforms (in particular OS X and Linux)
 [Xcode 插件介绍](http://nshipster.com/xcode-plugins/)|文章推荐的几款插件都有助于提升Xcode开发效率，推荐尝试。
@@ -372,6 +383,8 @@ iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://w
 
 博客地址 | 博主信息
 ------- | -------
+[Clean Swift](http://clean-swift.com/clean-swift-ios-architecture/)| Clean Architecture + TDD. Code less. Test more.
+[swift modules](https://swiftmodules.com/)| Swift Modules is an open and searchable index of Swift Package Manager modules. Swift version 3, currently in beta, introduced the Swift Package Manager. It makes packaging and including Swift libraries incredibly easy, but discovering these modules is still somewhat problematic. Swift Modules aims to solve that problem by providing tools to help you find and integrate packages!
 [小土刀](http://wdxtub.com/about/)| 各种CMU课程的笔记等技术文章。
 [Garan no Dou](http://blog.ibireme.com/) | @ibireme 文章深入， 开源代码质量高，值得关注
 [OneV's Den](http://onevcat.com/#blog) | 王巍(喵神), 现居日本, 就职于 LINE, 知名 iOS 开发者, 写的文章大多深入浅出, 内容广泛, 目前在维护的 [Swifter](http://swifter.tips) 也值得收藏
