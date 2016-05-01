@@ -8,6 +8,9 @@
 
 名称  |  简介
 ---- | ----
+[exploring swift array implementation](http://ankit.im/swift/2016/01/08/exploring-swift-array-implementation/)| swift Array源码解析，建议配合源码一起看一遍。
+[swift mutability for foundation](https://github.com/apple/swift-evolution/blob/master/proposals/0069-swift-mutability-for-foundation.md)| swift 未来可能替换NSFoundation中的class为value type.
+[protocol oriented problems and immutable self error](https://www.bignerdranch.com/blog/protocol-oriented-problems-and-the-immutable-self-error/)|protocol oriented problems and immutable self error
 [Design Patterns implemented in Swift](https://github.com/ochococo/Design-Patterns-In-Swift)| 各种常用设计模式在Swift 2的实现。
 [Swift Name Mangling](https://mikeash.com/pyblog/friday-qa-2014-08-15-swift-name-mangling.html)| swift中 __TFCCC4test1a1b1c1dfS2_FTS0_1xS1_1vFT1xSi_Si_OVS_1e1f这是什么，看不懂啊？ 读读这篇文章...
 [Swift 性能探索和优化分析](https://onevcat.com/2016/02/swift-performance/)|Swift 性能探索和优化分析
@@ -121,6 +124,9 @@
 ## 开源代码
 名称 | 推荐理由
 ------- | -------
+[awesome iOS](https://github.com/vsouza/awesome-ios)| A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects
+[iOS Source Code Analyze](https://github.com/Draveness/iOS-Source-Code-Analyze)|一些开源代码的解析文章集合。
+[JASON](https://github.com/delba/JASON)| Fast JSON parsing for Swift
 [TextAttributes](https://github.com/delba/TextAttributes)| TextAttributes makes it easy to compose attributed strings.
 [FBNotifications](https://github.com/facebook/FBNotifications)| Facebook Analytics In-App Notifications Framework
 [GPUImage2](https://github.com/BradLarson/GPUImage2)| GPUImage 2 is a BSD-licensed Swift framework for GPU-accelerated video and image processing. Redesigned in swift.
@@ -246,9 +252,10 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ---- | -----
 [Facebook f8 app open source](https://github.com/fbsamples/f8app)|React Native 最佳学习项目来了，Facebook 开源了 F8 App 全套代码，包括 Android，iOS 和 Server 端，其中涉及 React Native, Redux, Relay, GraphQL 等技术，更感人的是配套了教程讲解整个 APP（包括前后端） 是怎么做出来。[教程](http://makeitopen.com/)
 
-##Reactive Cocoa & Functional Programming
+##Reactive Cocoa & RxSwift & Functional Programming
 标题  | 内容简介
 ---- | -----
+[reactive cocoa vs rxswift](https://www.raywenderlich.com/126522/reactivecocoa-vs-rxswift)| 两者对比
 [What the heck is a monad](http://khanlou.com/2015/09/what-the-heck-is-a-monad/)|What the heck is a monad
 [flatmap](http://robnapier.net/flatmap)|介绍flatMap
 [map](http://robnapier.net/maps)|介绍map函数
@@ -272,6 +279,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ##iOS HotFix相关
 标题  | 内容简介
 ---- | -----
+[Xcode 代码补全插件 – JSPatchX 原理解析](http://blog.cnbang.net/tech/3164/)|Xcode 代码补全插件 – JSPatchX 原理解析
 [JSPatch 近期新特性解析](http://blog.cnbang.net/tech/3038/)|JSPatch 近期新特性解析
 [JSPatch更新：完善开发功能模块的能力](http://blog.cnbang.net/tech/3123/)|JSPatch更新：完善开发功能模块的能力
 [alibaba/wax](https://github.com/alibaba/wax)|Wax is a framework that lets you write native iPhone apps in Lua.
@@ -341,6 +349,8 @@ iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://w
 
 工具/插件  |  简介
 ---- | ----
+[xi editor](https://github.com/google/xi-editor)| A modern editor with a backend written in Rust. from Google
+[Xcode Search](http://holko.pl/2016/04/26/xcode-search/)| Xcode search也许你还不知道的用法。
 [Build Me Up](https://github.com/edwardaux/BuildMeUp)|An Xcode plugin that keeps track of how long Xcode takes to build your project(s). It accumulates the total time and displays in the Activity View in the Xcode toolbar.
 [JSPatchX](https://github.com/bang590/JSPatchX)|A XCode plugin that provides autocompletion for JSPatch
 [injection for xcode](https://github.com/johnno1962/injectionforxcode)| Runtime Code Injection for Objective-C & Swift
@@ -364,6 +374,7 @@ iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://w
 
 文章  |  简介
 ---- | ----
+[Rob Pike - 'Concurrency Is Not Parallelism'](https://www.youtube.com/watch?v=cN_DpYBzKso)|Rob Pike讲解Concurrency 和 Parallelism的区别.
 [成为谷歌程序员，你需要准备什么？](http://blog.jobbole.com/79736/)|成为谷歌程序员，你需要准备什么？
 [TED 采访linus](https://www.ted.com/talks/linus_torvalds_the_mind_behind_linux)| [中文字幕版](http://codetimecn.com/2016/04/14/linus_ted/)
 [程序员到底是一个什么职业？](http://weibo.com/ttarticle/p/show?id=2309403939907201539934)|程序员到底是一个什么职业？
