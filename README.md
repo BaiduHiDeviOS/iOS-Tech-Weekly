@@ -8,6 +8,9 @@
 
 名称  |  简介
 ---- | ----
+[raywenderlich swift style guide](https://github.com/raywenderlich/swift-style-guide)| raywenderlich的swift编码规范，及swift2.2[更新说明](https://www.raywenderlich.com/133102/swift-style-guide-april-2016-update)
+[quiz about properties in swift](http://allblue.me/swift/2016/01/08/quiz-about-properties-in-swift/)|关于swift 属性相关的小测验
+[Protocol-Oriented Logging, or: Default Arguments in Swift Protocols](http://oleb.net/blog/2016/05/default-arguments-in-protocols/)|POP一个使用例子
 [exploring swift array implementation](http://ankit.im/swift/2016/01/08/exploring-swift-array-implementation/)| swift Array源码解析，建议配合源码一起看一遍。
 [swift mutability for foundation](https://github.com/apple/swift-evolution/blob/master/proposals/0069-swift-mutability-for-foundation.md)| swift 未来可能替换NSFoundation中的class为value type.
 [protocol oriented problems and immutable self error](https://www.bignerdranch.com/blog/protocol-oriented-problems-and-the-immutable-self-error/)|protocol oriented problems and immutable self error
@@ -69,6 +72,7 @@
 
 文章名称  |  简介
 ---- | ----
+[iOS 开发——你真的会用 SDWebImage？](http://gold.xitu.io/entry/57285c5e2e958a0068db2f9e)| SDWebImage源码解析
 [How to write a unit test which passes if a function throws?](https://forums.developer.apple.com/thread/5824)| 目前Xcode Unit Test没有对抛出异常的函数进行处理的XCT方法，文中添加了第三方的写法。
 [iOS瘦身之删除无用的mach-O文件](http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&mid=2651112096&idx=1&sn=ce8fccce7d5f70e30c078e63e8ea0d15&scene=0#wechat_redirect)|iOS瘦身之删除无用的mach-O文件
 [Building and managing iOS model objects with Remodel](https://code.facebook.com/posts/1154141864616569/building-and-managing-ios-model-objects-with-remodel/)|Building and managing iOS model objects with Remodel
@@ -374,6 +378,7 @@ iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://w
 
 文章  |  简介
 ---- | ----
+[How does a relational database work](http://coding-geek.com/how-databases-work/)| 关系数据库原理，文章很长，适合慢慢看。。。
 [Rob Pike - 'Concurrency Is Not Parallelism'](https://www.youtube.com/watch?v=cN_DpYBzKso)|Rob Pike讲解Concurrency 和 Parallelism的区别.
 [成为谷歌程序员，你需要准备什么？](http://blog.jobbole.com/79736/)|成为谷歌程序员，你需要准备什么？
 [TED 采访linus](https://www.ted.com/talks/linus_torvalds_the_mind_behind_linux)| [中文字幕版](http://codetimecn.com/2016/04/14/linus_ted/)
