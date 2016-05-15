@@ -72,6 +72,9 @@
 
 文章名称  |  简介
 ---- | ----
+[secrets of mobile network performance](http://aosabook.org/en/posa/secrets-of-mobile-network-performance.html)|secrets of mobile network performance
+[基于TLS1.3的微信安全通信协议mmtls介绍](http://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ==&mid=2649286266&idx=1&sn=f5d049033e251cccc22e163532355ddf&scene=0#wechat_redirect)|基于TLS1.3的微信安全通信协议mmtls介绍
+[iOS中使用blend改变图片颜色](https://onevcat.com/2013/04/using-blending-in-ios/)|iOS中使用blend改变图片颜色
 [iOS 开发——你真的会用 SDWebImage？](http://gold.xitu.io/entry/57285c5e2e958a0068db2f9e)| SDWebImage源码解析
 [How to write a unit test which passes if a function throws?](https://forums.developer.apple.com/thread/5824)| 目前Xcode Unit Test没有对抛出异常的函数进行处理的XCT方法，文中添加了第三方的写法。
 [iOS瘦身之删除无用的mach-O文件](http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&mid=2651112096&idx=1&sn=ce8fccce7d5f70e30c078e63e8ea0d15&scene=0#wechat_redirect)|iOS瘦身之删除无用的mach-O文件
@@ -128,6 +131,14 @@
 ## 开源代码
 名称 | 推荐理由
 ------- | -------
+[JLRoutes](https://github.com/joeldev/JLRoutes)| URL routing library for iOS with a simple block-based API.
+[routable-ios](https://github.com/clayallsopp/routable-ios)| Routable, an in-app native URL router, for iOS
+[HHRouter](https://github.com/Huohua/HHRouter)| Yet another URL Router for iOS.
+[MGJRouter](https://github.com/mogujie/MGJRouter)| 一个高效/灵活的 iOS URL Router
+[BeautifyFaceDemo](https://github.com/Guikunzhi/BeautifyFaceDemo)|It's a simple demo of realtime face beautification based on GPUImage
+[15DaysofAnimationsinSwift](https://github.com/larrynatalicio/15DaysofAnimationsinSwift)| 动画相关，不是15天从入门到放弃。
+[iOS cookies](http://www.ioscookies.com/)| 按类别整理的开源代码合集。
+[SwiftNotificationCenter](https://github.com/100mango/SwiftNotificationCenter)| A Protocol-Oriented NotificationCenter which is type safe, thread safe and with memory safety
 [awesome iOS](https://github.com/vsouza/awesome-ios)| A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects
 [iOS Source Code Analyze](https://github.com/Draveness/iOS-Source-Code-Analyze)|一些开源代码的解析文章集合。
 [JASON](https://github.com/delba/JASON)| Fast JSON parsing for Swift
@@ -317,6 +328,8 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ##视频资源
 标题  | 内容简介
 ---- | -----
+[Building Fabric.app in Swift](https://realm.io/news/slug-javi-soto-building-fabric-in-swift/)| When the Fabric team at Twitter wrote their new iOS app, they turned to Swift. Why? Javi Soto walks through their decision, and tells why they picked a language that emphasizes stability and maintainability & supports dependency injection, code generation, MVVM, and error reporting.
+[Artsy 的测试之旅](https://realm.io/cn/news/tryswift-ash-furrow-artsy-testing-tour/)| Artsy 拥有 4 个 iOS 应用，它们都已经全部开源，并且都采用了不同的方法来进行了测试。为什么这样做呢？因为不同的测试技术在各种的情况下的优劣各有不同。在 try! Swift 的本次演讲中，Ash Furrow 讨论了 Artsy iOS 团队做出这种决策背后的动机，谈论了他们所遇见到的问题，以及他们是如何克服这些困难的，以便能够帮助您更好的理解：为什么对于构建精美应用来说，进行测试以及何时进行测试是非常重要的。
 [Developing iOS 9 Apps with Swift](https://itunes.apple.com/us/course/developing-ios-9-apps-swift/id1104579961)| 斯坦福的iOS开发课程，还是老头讲。
 [Facebook F8 2016](https://www.youtube.com/watch?v=dyvvWE87a-k)|Youtube上的5个小时的《Facebook F8 Developer Conference 2016》可以学到很多东西，推荐。
 [Introduction to Protocol-Oriented MVVM](https://realm.io/news/doios-natasha-murashev-protocol-oriented-mvvm/) | 介绍Protocol Oriented 结合MVVM的一个活生生的🌰。
@@ -353,6 +366,7 @@ iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://w
 
 工具/插件  |  简介
 ---- | ----
+[search code](https://searchcode.com/)|Search over projects from Github, Bitbucket, Google Code, Codeplex, Sourceforge, Fedora Project, GitLab and more.
 [xi editor](https://github.com/google/xi-editor)| A modern editor with a backend written in Rust. from Google
 [Xcode Search](http://holko.pl/2016/04/26/xcode-search/)| Xcode search也许你还不知道的用法。
 [Build Me Up](https://github.com/edwardaux/BuildMeUp)|An Xcode plugin that keeps track of how long Xcode takes to build your project(s). It accumulates the total time and displays in the Activity View in the Xcode toolbar.
