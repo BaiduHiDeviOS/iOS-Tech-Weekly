@@ -28,6 +28,7 @@
 [Swift 烧脑体操（三） - 高阶函数](http://blog.devtang.com/2016/02/27/swift-gym-3-higher-order-function/)|Swift 烧脑体操（三） - 高阶函数
 [Swift 烧脑体操（四） - map 和 flatMap](http://blog.devtang.com/2016/03/05/swift-gym-4-map-and-flatmap/)| Swift 烧脑体操（四） - map 和 flatMap
 [Swift烧脑体操五 - Monad](http://www.infoq.com/cn/articles/swift-brain-gym-monad)| Swift烧脑体操五 - Monad
+[Swift 烧脑体操（六）- 类型推断](http://blog.devtang.com/2016/05/22/swift-gym-6-type-infer/)|Swift 烧脑体操（六）- 类型推断
 [the power of map and flatmap](http://blog.xebia.com/the-power-of-map-and-flatmap-of-swift-optionals/)| map和flatMap的实际使用场景。
 [swift函数柯里化介绍及使用场景](http://www.jianshu.com/p/5b27fec8c616)| 函数柯里化是函数式编程里的一个重要概念。swift中的柯里化可能很多人都没有了解过，今天给大家介绍一下柯里化的概念和一些使用场景。
 [如何处理 Swift 中的异步错误](http://swift.gg/2016/02/16/async-errors/)|如何处理 Swift 中的异步错误
@@ -72,6 +73,9 @@
 
 文章名称  |  简介
 ---- | ----
+[Clang Attributes 黑魔法小记](http://blog.sunnyxx.com/2016/05/14/clang-attributes/)|Clang Attributes 黑魔法小记
+[Quartz2D 编程指南](http://xuyafei.cn/post/cocoatouch/quartz2d-bian-cheng-zhi-nan-gai-lan-tu-xing-shang-xia-wen-lu-jing-yan-se-yu-yan-se-kong-jian)|Quartz2D 编程指南
+[iOS开发--应用设置及用户默认设置](http://www.cnblogs.com/azuo/p/5090718.html?utm_source=tuicool&utm_medium=referral)|iOS开发--应用设置及用户默认设置
 [secrets of mobile network performance](http://aosabook.org/en/posa/secrets-of-mobile-network-performance.html)|secrets of mobile network performance
 [基于TLS1.3的微信安全通信协议mmtls介绍](http://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ==&mid=2649286266&idx=1&sn=f5d049033e251cccc22e163532355ddf&scene=0#wechat_redirect)|基于TLS1.3的微信安全通信协议mmtls介绍
 [iOS中使用blend改变图片颜色](https://onevcat.com/2013/04/using-blending-in-ios/)|iOS中使用blend改变图片颜色
@@ -113,7 +117,8 @@
 
 ##应用架构相关
 文章名称  |  简介
----- | ----
+---- | ---
+[新浪微博iOS客户端架构与优化之路](http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&mid=2651112273&idx=1&sn=893a66a04e541a99b7bc4d7cf227e2f7#rd)|新浪微博iOS客户端架构与优化之路
 [Advanced iOS Application Architecture and Patterns](https://developer.apple.com/videos/play/wwdc2014/229/)| Explore a selection of high-level software engineering techniques presented in the context of Cocoa Touch. Learn how to manage complexity in large codebases by clearly defining where truth resides, by controlling state with Swift's powerful value types and immutability, and by thinking in terms of composition.
 [iOS 架构模式 - 简述 MVC, MVP, MVVM 和 VIPER (译)](https://blog.coding.net/blog/ios-architecture-patterns)|iOS 架构模式 - 简述 MVC, MVP, MVVM 和 VIPER (译)
 [iOS组件化方案探索](http://blog.cnbang.net/tech/3080/)| JSPatch作者关于组件化方案探索的文章。
@@ -131,6 +136,9 @@
 ## 开源代码
 名称 | 推荐理由
 ------- | -------
+[Cache](https://github.com/soffes/Cache)| A generic caching library for Swift. Cache depends on Foundation.
+[Render](https://github.com/alexdrone/Render)|React-inspired Swift library for writing UIKit UIs.
+[PMAlertController](https://github.com/Codeido/PMAlertController)|PMAlertController is a great and customizable substitute to UIAlertController
 [JLRoutes](https://github.com/joeldev/JLRoutes)| URL routing library for iOS with a simple block-based API.
 [routable-ios](https://github.com/clayallsopp/routable-ios)| Routable, an in-app native URL router, for iOS
 [HHRouter](https://github.com/Huohua/HHRouter)| Yet another URL Router for iOS.
@@ -270,6 +278,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ##Reactive Cocoa & RxSwift & Functional Programming
 标题  | 内容简介
 ---- | -----
+用 ReactiveCocoa 事半功倍的写代码|[一](http://fengjian0106.github.io/2016/04/17/The-Power-Of-Composition-In-FRP-Part-1/) [二](http://fengjian0106.github.io/2016/04/26/The-Power-Of-Composition-In-FRP-Part-2/) [三](http://fengjian0106.github.io/2016/04/28/The-Power-Of-Composition-In-FRP-Part-3/) [四](http://fengjian0106.github.io/2016/05/03/The-Power-Of-Composition-In-FRP-Part-4/)
 [reactive cocoa vs rxswift](https://www.raywenderlich.com/126522/reactivecocoa-vs-rxswift)| 两者对比
 [What the heck is a monad](http://khanlou.com/2015/09/what-the-heck-is-a-monad/)|What the heck is a monad
 [flatmap](http://robnapier.net/flatmap)|介绍flatMap
@@ -294,6 +303,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ##iOS HotFix相关
 标题  | 内容简介
 ---- | -----
+[JSPatch Playground](https://github.com/bang590/JSPatch/tree/master/Demo/iOSPlayground)| JSPatch Playground is an interactive JSPatch coding environment, the iOS simulator will refresh and displays results instantly as js files save.
 [Xcode 代码补全插件 – JSPatchX 原理解析](http://blog.cnbang.net/tech/3164/)|Xcode 代码补全插件 – JSPatchX 原理解析
 [JSPatch 近期新特性解析](http://blog.cnbang.net/tech/3038/)|JSPatch 近期新特性解析
 [JSPatch更新：完善开发功能模块的能力](http://blog.cnbang.net/tech/3123/)|JSPatch更新：完善开发功能模块的能力
@@ -353,6 +363,7 @@ iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://w
 ##iOS 新特性
 标题  | 内容简介
 ---- | -----
+[Supporting IPv6 DNS64/NAT64 Networks](https://developer.apple.com/library/mac/documentation/NetworkingInternetWeb/Conceptual/NetworkingOverview/UnderstandingandPreparingfortheIPv6Transition/UnderstandingandPreparingfortheIPv6Transition.html#//apple_ref/doc/uid/TP40010220-CH213-SW1)|苹果有关适配IPV6的文档
 [Apple Pay 编程指南](http://wiki.jikexueyuan.com/project/apple-pay/) |Apple Pay介绍，配置和接入等
 [WWDC 2014 Session笔记 - iOS界面开发的大一统](http://onevcat.com/2014/07/ios-ui-unique/) |什么时候可以抛弃iOS 7了，好多UI实现都可以换了
 [初探 iOS8 中的 Size Class](http://blog.callmewhy.com/2014/09/12/learn-ios8-size-class/)|初探 iOS8 中的 Size Class
@@ -366,6 +377,9 @@ iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://w
 
 工具/插件  |  简介
 ---- | ----
+[octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc/related?utm_source=chrome-ntp-icon)| 推荐了一款chrome上显示github代码树的插件，octotree 
+[nsdateformatter.com](http://nsdateformatter.com/)| Easy Skeezy Date Formatting for Swift and Objective-C
+[swift watch](http://swiftwatch.net/)| SwiftWatch is a place to share links to interesting Swift resources like tutorials, blog posts, GitHub projects or more.
 [search code](https://searchcode.com/)|Search over projects from Github, Bitbucket, Google Code, Codeplex, Sourceforge, Fedora Project, GitLab and more.
 [xi editor](https://github.com/google/xi-editor)| A modern editor with a backend written in Rust. from Google
 [Xcode Search](http://holko.pl/2016/04/26/xcode-search/)| Xcode search也许你还不知道的用法。
