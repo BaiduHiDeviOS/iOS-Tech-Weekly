@@ -73,6 +73,11 @@
 
 文章名称  |  简介
 ---- | ----
+[IPv6 socket编程](https://github.com/WeMobileDev/article/blob/master/IPv6%20socket%E7%BC%96%E7%A8%8B.md)|IPv6 socket编程
+[iOS应用支持IPV6，就那点事儿](http://www.jianshu.com/p/a6bab07c4062)|iOS应用支持IPV6，就那点事儿
+[iOS 二维码扫描（你想要的都在这里了）](http://www.jianshu.com/p/1919b240387b)|iOS 二维码扫描（你想要的都在这里了）
+[Building a Simple Barcode Reader App in Swift](http://www.appcoda.com/simple-barcode-reader-app-swift/)|Building a Simple Barcode Reader App in Swift
+[swift markdown](http://www.appcoda.com/swift-markdown/)| 用markdown写Xcode文档
 [Clang Attributes 黑魔法小记](http://blog.sunnyxx.com/2016/05/14/clang-attributes/)|Clang Attributes 黑魔法小记
 [Quartz2D 编程指南](http://xuyafei.cn/post/cocoatouch/quartz2d-bian-cheng-zhi-nan-gai-lan-tu-xing-shang-xia-wen-lu-jing-yan-se-yu-yan-se-kong-jian)|Quartz2D 编程指南
 [iOS开发--应用设置及用户默认设置](http://www.cnblogs.com/azuo/p/5090718.html?utm_source=tuicool&utm_medium=referral)|iOS开发--应用设置及用户默认设置
@@ -338,6 +343,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ##视频资源
 标题  | 内容简介
 ---- | -----
+[Facebook 2016 f8视频](https://developers.facebook.com/videos)|Facebook 2016 f8视频
 [Building Fabric.app in Swift](https://realm.io/news/slug-javi-soto-building-fabric-in-swift/)| When the Fabric team at Twitter wrote their new iOS app, they turned to Swift. Why? Javi Soto walks through their decision, and tells why they picked a language that emphasizes stability and maintainability & supports dependency injection, code generation, MVVM, and error reporting.
 [Artsy 的测试之旅](https://realm.io/cn/news/tryswift-ash-furrow-artsy-testing-tour/)| Artsy 拥有 4 个 iOS 应用，它们都已经全部开源，并且都采用了不同的方法来进行了测试。为什么这样做呢？因为不同的测试技术在各种的情况下的优劣各有不同。在 try! Swift 的本次演讲中，Ash Furrow 讨论了 Artsy iOS 团队做出这种决策背后的动机，谈论了他们所遇见到的问题，以及他们是如何克服这些困难的，以便能够帮助您更好的理解：为什么对于构建精美应用来说，进行测试以及何时进行测试是非常重要的。
 [Developing iOS 9 Apps with Swift](https://itunes.apple.com/us/course/developing-ios-9-apps-swift/id1104579961)| 斯坦福的iOS开发课程，还是老头讲。
@@ -427,6 +433,9 @@ iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://w
 
 博客地址 | 博主信息
 ------- | -------
+[微信阅读团队技术博客](http://wereadteam.github.io/)|微信阅读团队技术博客
+[移动开发前线](http://mobilefrontier.github.io/)|移动开发前线
+[twitter技术团队博客](https://blog.twitter.com/engineering)|twitter技术团队博客
 [Clean Swift](http://clean-swift.com/clean-swift-ios-architecture/)| Clean Architecture + TDD. Code less. Test more.
 [swift modules](https://swiftmodules.com/)| Swift Modules is an open and searchable index of Swift Package Manager modules. Swift version 3, currently in beta, introduced the Swift Package Manager. It makes packaging and including Swift libraries incredibly easy, but discovering these modules is still somewhat problematic. Swift Modules aims to solve that problem by providing tools to help you find and integrate packages!
 [小土刀](http://wdxtub.com/about/)| 各种CMU课程的笔记等技术文章。
