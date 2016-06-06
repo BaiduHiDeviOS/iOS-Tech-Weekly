@@ -8,6 +8,7 @@
 
 名称  |  简介
 ---- | ----
+[Swift: Selector syntax sugar](https://medium.com/swift-programming/swift-selector-syntax-sugar-81c8a8b10df3#.hmwllnbqs)| 《Swift：Selector 语法糖》,今天要发的这篇来头很大，Chris Lattner 亲自转发过，就冲这个也必须读一读了。
 [raywenderlich swift style guide](https://github.com/raywenderlich/swift-style-guide)| raywenderlich的swift编码规范，及swift2.2[更新说明](https://www.raywenderlich.com/133102/swift-style-guide-april-2016-update)
 [quiz about properties in swift](http://allblue.me/swift/2016/01/08/quiz-about-properties-in-swift/)|关于swift 属性相关的小测验
 [Protocol-Oriented Logging, or: Default Arguments in Swift Protocols](http://oleb.net/blog/2016/05/default-arguments-in-protocols/)|POP一个使用例子
@@ -58,10 +59,18 @@
 | [Advanced NSOperations](https://developer.apple.com/videos/play/wwdc2015-226/) | 对于使用NSOperation提供了一个新颖的使用方案，比较开拓思路，此seesion有[sample code](https://developer.apple.com/sample-code/wwdc/2015/downloads/Advanced-NSOperations.zip)结合观看效果更加
 | [Inside Swift](http://www.eswick.com/2014/06/inside-swift/) | Swift的内部机制
 
+## Protocol Oriented Programming in Swift
+名称  |  简介
+---- | ----
+[用 Swift 编写面向协议的网络请求](http://swift.gg/2016/06/03/protocol-oriented-networking-in-swift/)|用 Swift 编写面向协议的网络请求
+[用 Swift 编写面向协议的视图](http://swift.gg/2016/06/01/protocol-oriented-views-in-swift/)|用 Swift 编写面向协议的视图
+[Dim the lights on those view controllers with protocol extensions](http://www.totem.training/swift-ios-tips-tricks-tutorials-blog/ux-chops-dim-the-lights)|Dim the lights on those view controllers with protocol extensions
+
 ## Objective-C
 
 名称  |  简介
 ---- | ----
+[CATEGORIES CONSIDERED HARMFUL](http://www.catehuston.com/blog/2016/02/04/categories-considered-harmful/)| 关于我们该如何正确使用OC中的Category。
 [深入理解Objective-C：Category](http://tech.meituan.com/DiveIntoCategory.html) | 来自美团技术团队的优质技术文章，深入讲解了Category
 [深入理解Objective-C：方法缓存](http://tech.meituan.com/DiveIntoMethodCache.html) | 来自美团技术团队的优质技术文章， 深入讲解了OC中方法调用缓存的相关知识。
 [Objective-C 的现代语法和新特性](http://www.cocoachina.com/cms/wap.php?action=article&id=13924)| Objective-C 的现代语法和新特性
@@ -73,6 +82,9 @@
 
 文章名称  |  简介
 ---- | ----
+[微信读书 iOS 性能优化总结](http://wereadteam.github.io/2016/05/03/WeRead-Performance/)|微信读书 iOS 性能优化总结
+[简单监测iOS卡顿的demo](http://www.jianshu.com/p/71cfbcb15842)|简单监测iOS卡顿的demo
+[常见操作性能对比](http://swift.gg/2016/05/25/friday-qa-2016-04-15-performance-comparisons-of-common-operations-2016-edition/)|常见操作性能对比
 [IPv6 socket编程](https://github.com/WeMobileDev/article/blob/master/IPv6%20socket%E7%BC%96%E7%A8%8B.md)|IPv6 socket编程
 [iOS应用支持IPV6，就那点事儿](http://www.jianshu.com/p/a6bab07c4062)|iOS应用支持IPV6，就那点事儿
 [iOS 二维码扫描（你想要的都在这里了）](http://www.jianshu.com/p/1919b240387b)|iOS 二维码扫描（你想要的都在这里了）
@@ -141,6 +153,8 @@
 ## 开源代码
 名称 | 推荐理由
 ------- | -------
+[Scrollable-GraphView](https://github.com/philackm/Scrollable-GraphView)| An adaptive scrollable graph view for iOS to visualise simple discrete datasets. Written in Swift.
+[SwiftyOAuth](https://github.com/delba/SwiftyOAuth)| A simple OAuth library for iOS with a built-in set of providers
 [Cache](https://github.com/soffes/Cache)| A generic caching library for Swift. Cache depends on Foundation.
 [Render](https://github.com/alexdrone/Render)|React-inspired Swift library for writing UIKit UIs.
 [PMAlertController](https://github.com/Codeido/PMAlertController)|PMAlertController is a great and customizable substitute to UIAlertController
@@ -283,6 +297,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ##Reactive Cocoa & RxSwift & Functional Programming
 标题  | 内容简介
 ---- | -----
+[Brian Beckman: Don't fear the Monad](https://www.youtube.com/watch?v=ZhuHCtR3xq8)|Brian Beckman: Don't fear the Monad
 用 ReactiveCocoa 事半功倍的写代码|[一](http://fengjian0106.github.io/2016/04/17/The-Power-Of-Composition-In-FRP-Part-1/) [二](http://fengjian0106.github.io/2016/04/26/The-Power-Of-Composition-In-FRP-Part-2/) [三](http://fengjian0106.github.io/2016/04/28/The-Power-Of-Composition-In-FRP-Part-3/) [四](http://fengjian0106.github.io/2016/05/03/The-Power-Of-Composition-In-FRP-Part-4/)
 [reactive cocoa vs rxswift](https://www.raywenderlich.com/126522/reactivecocoa-vs-rxswift)| 两者对比
 [What the heck is a monad](http://khanlou.com/2015/09/what-the-heck-is-a-monad/)|What the heck is a monad
@@ -433,6 +448,8 @@ iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://w
 
 博客地址 | 博主信息
 ------- | -------
+[Rollout](https://rollout.io/)| Deploy code-level changes to native iOS apps,without waiting on the App Store.
+[美团技术团队博客](http://tech.meituan.com/)|美团技术团队博客
 [微信阅读团队技术博客](http://wereadteam.github.io/)|微信阅读团队技术博客
 [移动开发前线](http://mobilefrontier.github.io/)|移动开发前线
 [twitter技术团队博客](https://blog.twitter.com/engineering)|twitter技术团队博客
