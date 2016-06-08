@@ -76,7 +76,7 @@
 [Objective-C 的现代语法和新特性](http://www.cocoachina.com/cms/wap.php?action=article&id=13924)| Objective-C 的现代语法和新特性
 [Adopting Nullability Annotations](http://www.miqu.me/blog/2015/04/17/adopting-nullability-annotations/) | OC新特性，标记对象是否可以为空，为了更好的适配Swift。
 [Adopting Objective-C Generics](http://www.miqu.me/blog/2015/06/09/adopting-objectivec-generics/) | OC新特性，标记集合对象（NSArray, NSDictionary, NSSet）中保存对象类型，为了更好的适配Swift。
-| [Objective-C vs Swift messages dispatch](http://blog.untitledkingdom.co.uk/obj-c-vs-swift/) | Objective-C和Swift的消息派发机制
+| [Objective-C vs Swift messages dispatch](https://untitledkingdom.co/blog/obj-c-vs-swift/) | Objective-C和Swift的消息派发机制
 
 ## 技术实践
 
@@ -199,7 +199,7 @@
 [PMKVObserver](https://github.com/postmates/PMKVObserver)|A type-safe Swift/ObjC KVO wrapper.
 [Rainbow](https://github.com/onevcat/Rainbow)| Rainbow adds text color, background color and style for console and command line output in Swift. It is born for cross platform software logging in terminals, working in both Apple's platforms and Linux. Meanwhile, it is also compatible with XcodeColors, which lets you colorize the Xcode debugger output as well when developing an app.
 [Moya](https://github.com/Moya/Moya)| Network abstraction layer written in Swift.
-[Swiftbeaver](https://github.com/skreutzberger/SwiftyBeaver)| Swift 记log工具 和一篇介绍 [文章](https://littlebitesofcocoa.com/142-colorful-logging-with-swiftybeaver)
+[Swiftbeaver](https://github.com/SwiftyBeaver/SwiftyBeaver)| Swift 记log工具 和一篇介绍 [文章](https://littlebitesofcocoa.com/142-colorful-logging-with-swiftybeaver)
 [SlackTextViewController](https://github.com/slackhq/SlackTextViewController)| A drop-in UIViewController subclass with a growing text input view and other useful messaging features.
 [REVERT](https://github.com/revealapp/Revert/)|Reveal出品，一个项目教会你Swift的基本UI开发。配合reveal更加直观。
 [YYKit](https://github.com/ibireme/YYKit) | YYKit 是一组庞大、功能丰富的 iOS 组件。
@@ -266,9 +266,9 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 [Delivering high scroll performance](https://code.facebook.com/posts/456535491190613/delivering-high-scroll-performance/)| Delivering high scroll performance
 [Bitcode 解密](http://lowlevelbits.org/bitcode-demystified/)|文章主要介绍了什么是bitcode，以及使用bitcode带来的好处与坏处。
 [Using multiple UIWindows in iOS applications](http://shaune.com.au/using-multiple-uiwindows-in-ios-applications/)|Using multiple UIWindows in iOS applications
-[UIWindow in iOS](http://jkyin.me/uiwindow/)|UIWindow in iOS
+[UIWindow in iOS](https://jkyin.me/uiwindow/)|UIWindow in iOS
 [Swift Weak References](https://www.mikeash.com/pyblog/friday-qa-2015-12-11-swift-weak-references.html)| Swift 下若引用原理解析。推荐阅读
-[Open-source Swift: Booleans](http://swiftunboxed.com/open-source/Bool/)| Booleans -- Swift源码阅读
+[Open-source Swift: Booleans](https://swiftunboxed.com/open-source/Bool/)| Booleans -- Swift源码阅读
 [NSCache](https://github.com/nixzhu/dev-blog/blob/master/2015-12-09-nscache.md)| NSCache -- Swift源码阅读
 [iOS同步对象性能对比](http://ksnowlv.github.io/blog/2014/09/07/ios-tong-bu-suo-xing-neng-dui-bi/) | iOS同步对象性能对比
 [深入理解Kingfisher（上）](http://www.jianshu.com/p/326527a4d4f9)|深入理解Kingfisher（上）
@@ -308,11 +308,11 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 [细说ReactiveCocoa的冷信号与热信号（三）：怎么处理冷信号与热信号](http://tech.meituan.com/talk-about-reactivecocoas-cold-signal-and-hot-signal-part-3.html)| 细说ReactiveCocoa的冷信号与热信号（三）
 [RACSignal的Subscription深入分析](http://tech.meituan.com/RACSignalSubscription.html)| RACSignal的Subscription深入分析
 [写给程序猿的范畴论 · 序](https://segmentfault.com/a/1190000003882331)|写给程序猿的范畴论 · 序
-[范畴：复合的本质](http://segmentfault.com/a/1190000003883257)|范畴：复合的本质
+[范畴：复合的本质](https://segmentfault.com/a/1190000003883257)|范畴：复合的本质
 [类型与函数](https://segmentfault.com/a/1190000003888544)|类型与函数
-[范畴，可大可小](http://segmentfault.com/a/1190000003894116)|范畴，可大可小
-[Kleisli 范畴](http://segmentfault.com/a/1190000003898795)|Kleisli 范畴
-[积与余积](http://segmentfault.com/a/1190000003913079)|积与余积
+[范畴，可大可小](https://segmentfault.com/a/1190000003894116)|范畴，可大可小
+[Kleisli 范畴](https://segmentfault.com/a/1190000003898795)|Kleisli 范畴
+[积与余积](https://segmentfault.com/a/1190000003913079)|积与余积
 [对单子的求索](http://garfileo.is-programmer.com/2012/8/22/monads-for-the-curious-programmer-zh_cn.35206.html)|对单子的求索
 [Swift 2.0: 深入浅出 Map 和 FlatMap 概念](http://gold.xitu.io/entry/5627bfa200b0ee7f823b2fec) | 又来一篇Swift和Functional
 [Enemy of the State](https://github.com/jspahrsummers/enemy-of-the-state) | 主要是讲程序设计中`state`的坏处，以及用`stateless`编程的好处。这也是近些年来`Functional Programming`重新流行起来的很重要的原因之一。BTW，推荐这个Slides也是为了安利`ReactiveCocoa`：），可以大幅度的减少iOS开发中的`state`。
@@ -410,7 +410,7 @@ iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://w
 [facebook xcbuild](https://github.com/facebook/xcbuild)| xcbuild is an Xcode-compatible build tool with the goal of providing faster builds, better documentation of the build process and running on multiple platforms (in particular OS X and Linux)
 [Xcode 插件介绍](http://nshipster.com/xcode-plugins/)|文章推荐的几款插件都有助于提升Xcode开发效率，推荐尝试。
 [CleanMyMac 3](http://macpaw.com/zh/store/cleanmymac)| 智能清理Mac磁盘空间。
-[如何用Github去管理你的Idea](http://zhuanlan.zhihu.com/phodal/20442311)|如何用Github去管理你的Idea
+[如何用Github去管理你的Idea](https://zhuanlan.zhihu.com/phodal/20442311)|如何用Github去管理你的Idea
 [Nomad](http://nomad-cli.com/)|World-Class Command Line Utilities For iOS Development. Mattt大神作品
 [fastlane](https://fastlane.tools)|fastlane lets you define and run your deployment pipelines for different environments. It helps you unify your app’s release process and automate the whole process. fastlane connects all fastlane tools and third party tools, like CocoaPods and Gradle.
 [Quiver](http://happenapps.com/#quiver)| 记事本工具软件，记录代码可以有各种语言语法高亮，支持markdown， LaTeX；支持同步备份等功能。
@@ -436,7 +436,7 @@ iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://w
 [编程的智慧](http://www.yinwang.org/blog-cn/2015/11/21/programming-philosophy/)| 编程是一种创造性的工作，是一门艺术。精通任何一门艺术，都需要很多的练习和领悟，所以这里提出的“智慧”，并不是号称一天瘦十斤的减肥药，它并不能代替你自己的勤奋。然而由于软件行业喜欢标新立异，喜欢把简单的事情搞复杂，我希望这些文字能给迷惑中的人们指出一些正确的方向，让他们少走一些弯路，基本做到一分耕耘一分收获。
 [为什么你应该先成为全栈工程师](https://www.phodal.com/blog/become-full-stack-first/)|为什么你应该先成为全栈工程师
 [作为一个程序员，进步完全取决于自己](http://mp.weixin.qq.com/s?__biz=MjM5NzMyMjAwMA==&mid=401268306&idx=1&sn=3eb48ec9f939478f5955a55872145aae)| 文章中说道，作为一个程序员要不断尝试学习新的知识，充实自己。不要在乎学的东西现在有没有用处，要让自己的大脑不断接触新的东西。
-[技术高手如何炼成](http://zhuanlan.zhihu.com/zhengyun/20270317)|技术高手如何炼成
+[技术高手如何炼成](https://zhuanlan.zhihu.com/zhengyun/20270317)|技术高手如何炼成
 [teach yourself programming in ten years](http://norvig.com/21-days.html)|Peter Norvig一篇如何学习编程。
 [how to be a hacker](http://www.catb.org/esr/faqs/hacker-howto.html)|how to be a hacker
 [Test-Driven Development is Stupid](http://geometrian.com/programming/tutorials/testing/test-first.php)|关于TDD的一篇文章，可以看看，以及Hacker News上的[讨论](https://news.ycombinator.com/item?id=10620275)|
@@ -467,6 +467,6 @@ iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://w
 [iWangKe.me](http://www.iwangke.me) | 王轲, IndieBros Studio 创始人, 优秀的 iOS 开发工程师, 写的文章深入浅出, 很多问题分析透彻, 非常有条理性
 [叶孤城](http://www.jianshu.com/p/99e8b3f6f377) | 叶孤城, 优秀 iOS 开发工程师, 发表的文章都有很多干货, 对源码解析类文章写得浅显易懂, 并时常总结一些 iOS 开发技巧, 值得一读
 [Kevin Blog](http://zhowkev.in) | 周楷雯, 秒视创始人, 知名 iOS 工程师, 做出了 [PNChart](https://github.com/kevinzhow/PNChart) 和 [Waver](https://github.com/kevinzhow/Waver) 这样的好项目, 在博客中也有谈到具体的实现过程
-[IMTX](http://imtx.me) | 图拉鼎, 知名 Apple 平台开发者, 曾经的 Ubuntu 平台开发者, 文章有不少干货, 大多讲解技术实现和学习经验
+[IMTX](https://imtx.me/) | 图拉鼎, 知名 Apple 平台开发者, 曾经的 Ubuntu 平台开发者, 文章有不少干货, 大多讲解技术实现和学习经验
 [Facebook iOS技术博客](https://code.facebook.com/ios/) | Facebook 在iOS上的一些优秀实践，很多值得我们学习，希望大家也多多关注。
 [SwiftGG](http://swift.gg/) | 翻译的Swift国外优秀技术博客
