@@ -8,6 +8,9 @@
 
 名称  |  简介
 ---- | ----
+[OOD Principles In Swift](https://github.com/ochococo/OOD-Principles-In-Swift)|OOD Principles In Swift
+[A Different Take on MVVM with Swift](http://rasic.info/a-different-take-on-mvvm-with-swift/)|A Different Take on MVVM with Swift
+[Avoiding the overuse of @objc in Swift](http://www.jessesquires.com/avoiding-objc-in-swift/)|Avoiding the overuse of @objc in Swift
 [Swift: Selector syntax sugar](https://medium.com/swift-programming/swift-selector-syntax-sugar-81c8a8b10df3#.hmwllnbqs)| 《Swift：Selector 语法糖》,今天要发的这篇来头很大，Chris Lattner 亲自转发过，就冲这个也必须读一读了。
 [raywenderlich swift style guide](https://github.com/raywenderlich/swift-style-guide)| raywenderlich的swift编码规范，及swift2.2[更新说明](https://www.raywenderlich.com/133102/swift-style-guide-april-2016-update)
 [quiz about properties in swift](http://allblue.me/swift/2016/01/08/quiz-about-properties-in-swift/)|关于swift 属性相关的小测验
@@ -82,6 +85,8 @@
 
 文章名称  |  简介
 ---- | ----
+[\[译\]字体渲染背后不得不说的故事](http://www.jianshu.com/p/8414b96549e3)|\[译\]字体渲染背后不得不说的故事
+[UITableView Tips](https://github.com/vedon/iOS-tech/blob/master/UITableViewOpt/UITableView_Opt.md)|UITableView Tips
 [微信读书 iOS 性能优化总结](http://wereadteam.github.io/2016/05/03/WeRead-Performance/)|微信读书 iOS 性能优化总结
 [简单监测iOS卡顿的demo](http://www.jianshu.com/p/71cfbcb15842)|简单监测iOS卡顿的demo
 [常见操作性能对比](http://swift.gg/2016/05/25/friday-qa-2016-04-15-performance-comparisons-of-common-operations-2016-edition/)|常见操作性能对比
@@ -153,6 +158,7 @@
 ## 开源代码
 名称 | 推荐理由
 ------- | -------
+[swift algorithm club](https://github.com/raywenderlich/swift-algorithm-club)| Algorithms and data structures in Swift, with explanations!
 [Scrollable-GraphView](https://github.com/philackm/Scrollable-GraphView)| An adaptive scrollable graph view for iOS to visualise simple discrete datasets. Written in Swift.
 [SwiftyOAuth](https://github.com/delba/SwiftyOAuth)| A simple OAuth library for iOS with a built-in set of providers
 [Cache](https://github.com/soffes/Cache)| A generic caching library for Swift. Cache depends on Foundation.
@@ -323,6 +329,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ##iOS HotFix相关
 标题  | 内容简介
 ---- | -----
+[JSPatch C 函数调用](https://github.com/bang590/JSPatch/wiki/C-%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8)|JSPatch C 函数调用
 [JSPatch Playground](https://github.com/bang590/JSPatch/tree/master/Demo/iOSPlayground)| JSPatch Playground is an interactive JSPatch coding environment, the iOS simulator will refresh and displays results instantly as js files save.
 [Xcode 代码补全插件 – JSPatchX 原理解析](http://blog.cnbang.net/tech/3164/)|Xcode 代码补全插件 – JSPatchX 原理解析
 [JSPatch 近期新特性解析](http://blog.cnbang.net/tech/3038/)|JSPatch 近期新特性解析
@@ -398,6 +405,7 @@ iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://w
 
 工具/插件  |  简介
 ---- | ----
+[WWDC app for OS X](https://github.com/insidegui/WWDC)|WWDC app for OS X
 [octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc/related?utm_source=chrome-ntp-icon)| 推荐了一款chrome上显示github代码树的插件，octotree 
 [nsdateformatter.com](http://nsdateformatter.com/)| Easy Skeezy Date Formatting for Swift and Objective-C
 [swift watch](http://swiftwatch.net/)| SwiftWatch is a place to share links to interesting Swift resources like tutorials, blog posts, GitHub projects or more.
