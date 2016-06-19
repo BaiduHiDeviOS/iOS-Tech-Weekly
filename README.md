@@ -8,6 +8,9 @@
 
 名称  |  简介
 ---- | ----
+[Swift API Design Guidelines](https://swift.org/documentation/api-design-guidelines/)|Swift API Design Guidelines
+[Rejected Swift Proposals](http://chris.eidhof.nl/post/rejected-swift-proposals/)| What we can learn from the rejections
+[swift talk](https://talk.objc.io/)| We show our solutions to problems we find while building Swift projects. Enjoy a new episode of Swift Talk every week, packed with live-coding and discussions about the pros and cons of our decisions.
 [OOD Principles In Swift](https://github.com/ochococo/OOD-Principles-In-Swift)|OOD Principles In Swift
 [A Different Take on MVVM with Swift](http://rasic.info/a-different-take-on-mvvm-with-swift/)|A Different Take on MVVM with Swift
 [Avoiding the overuse of @objc in Swift](http://www.jessesquires.com/avoiding-objc-in-swift/)|Avoiding the overuse of @objc in Swift
@@ -73,6 +76,7 @@
 
 名称  |  简介
 ---- | ----
+[Objective-C 消息发送与转发机制原理](http://yulingtianxia.com/blog/2016/06/15/Objective-C-Message-Sending-and-Forwarding/)|Objective-C 消息发送与转发机制原理
 [CATEGORIES CONSIDERED HARMFUL](http://www.catehuston.com/blog/2016/02/04/categories-considered-harmful/)| 关于我们该如何正确使用OC中的Category。
 [深入理解Objective-C：Category](http://tech.meituan.com/DiveIntoCategory.html) | 来自美团技术团队的优质技术文章，深入讲解了Category
 [深入理解Objective-C：方法缓存](http://tech.meituan.com/DiveIntoMethodCache.html) | 来自美团技术团队的优质技术文章， 深入讲解了OC中方法调用缓存的相关知识。
@@ -85,6 +89,7 @@
 
 文章名称  |  简介
 ---- | ----
+[MVVMFramework-Swift](https://github.com/lovemo/MVVMFramework-Swift)|(Swift版)总结整理下一个快速开发框架，以更优雅的方式写代码，做一个代码艺术家。分离控制器中的代码，已加入cell自适应高度，自动缓存网络请求代码，降低代码耦合，提高开发效率。其中还有很多相关资源的链接。
 [\[译\]字体渲染背后不得不说的故事](http://www.jianshu.com/p/8414b96549e3)|\[译\]字体渲染背后不得不说的故事
 [UITableView Tips](https://github.com/vedon/iOS-tech/blob/master/UITableViewOpt/UITableView_Opt.md)|UITableView Tips
 [微信读书 iOS 性能优化总结](http://wereadteam.github.io/2016/05/03/WeRead-Performance/)|微信读书 iOS 性能优化总结
@@ -158,6 +163,9 @@
 ## 开源代码
 名称 | 推荐理由
 ------- | -------
+[AppDevKit](https://github.com/yahoo/AppDevKit)| AppDevKit is an iOS development library that provides foundational and developer everyday required features for their iOS app development. [https://yahoo.github.io/AppDevKit](https://yahoo.github.io/AppDevKit)
+[JPFPSStatus](https://github.com/joggerplus/JPFPSStatus)| Show FPS Status on StatusBar
+[fantastic-ios-animation](https://github.com/onmyway133/fantastic-ios-animation)| A collection of iOS animation repos
 [swift algorithm club](https://github.com/raywenderlich/swift-algorithm-club)| Algorithms and data structures in Swift, with explanations!
 [Scrollable-GraphView](https://github.com/philackm/Scrollable-GraphView)| An adaptive scrollable graph view for iOS to visualise simple discrete datasets. Written in Swift.
 [SwiftyOAuth](https://github.com/delba/SwiftyOAuth)| A simple OAuth library for iOS with a built-in set of providers
@@ -240,6 +248,7 @@
 
 标题  | 内容简介
 ---- | -----
+[DNS 原理入门](http://www.ruanyifeng.com/blog/2016/06/dns.html)|DNS 原理入门
 [iOS 视图控制器转场详解](https://github.com/seedante/iOS-Note/wiki/ViewController-Transition)| 非常详尽讲解转场。
 Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) [二](http://www.pluto-y.com/cocoapods-contribute-for-open-source/) [三](http://www.pluto-y.com/cocoapod-private-pods-and-module-manager/)从零开始到各种私有管理
 [Apple Memory Usage Performance Guidelines](https://developer.apple.com/library/mac/documentation/Performance/Conceptual/ManagingMemory/ManagingMemory.html)|是上面内存管理及优化视频中提到的苹果文档。
@@ -391,6 +400,7 @@ iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://w
 ##iOS 新特性
 标题  | 内容简介
 ---- | -----
+[开发者所需要知道的 iOS 10 SDK 新特性](https://onevcat.com/2016/06/ios-10-sdk/) | 开发者所需要知道的 iOS 10 SDK 新特性
 [Supporting IPv6 DNS64/NAT64 Networks](https://developer.apple.com/library/mac/documentation/NetworkingInternetWeb/Conceptual/NetworkingOverview/UnderstandingandPreparingfortheIPv6Transition/UnderstandingandPreparingfortheIPv6Transition.html#//apple_ref/doc/uid/TP40010220-CH213-SW1)|苹果有关适配IPV6的文档
 [Apple Pay 编程指南](http://wiki.jikexueyuan.com/project/apple-pay/) |Apple Pay介绍，配置和接入等
 [WWDC 2014 Session笔记 - iOS界面开发的大一统](http://onevcat.com/2014/07/ios-ui-unique/) |什么时候可以抛弃iOS 7了，好多UI实现都可以换了
