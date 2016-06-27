@@ -8,6 +8,7 @@
 
 名称  |  简介
 ---- | ----
+[Migrating to Swift 2.3 or Swift 3 from Swift 2.2](https://swift.org/migration-guide/)| swift官方迁移指南
 [Swift API Design Guidelines](https://swift.org/documentation/api-design-guidelines/)|Swift API Design Guidelines
 [Rejected Swift Proposals](http://chris.eidhof.nl/post/rejected-swift-proposals/)| What we can learn from the rejections
 [swift talk](https://talk.objc.io/)| We show our solutions to problems we find while building Swift projects. Enjoy a new episode of Swift Talk every week, packed with live-coding and discussions about the pros and cons of our decisions.
@@ -89,6 +90,8 @@
 
 文章名称  |  简介
 ---- | ----
+[iOS程序main函数之前发生了什么](http://blog.sunnyxx.com/2014/08/30/objc-pre-main/)|iOS程序main函数之前发生了什么
+[Friday Q&A 2012-11-09: dyld: Dynamic Linking On OS X](https://www.mikeash.com/pyblog/friday-qa-2012-11-09-dyld-dynamic-linking-on-os-x.html)|Friday Q&A 2012-11-09: dyld: Dynamic Linking On OS X
 [MVVMFramework-Swift](https://github.com/lovemo/MVVMFramework-Swift)|(Swift版)总结整理下一个快速开发框架，以更优雅的方式写代码，做一个代码艺术家。分离控制器中的代码，已加入cell自适应高度，自动缓存网络请求代码，降低代码耦合，提高开发效率。其中还有很多相关资源的链接。
 [\[译\]字体渲染背后不得不说的故事](http://www.jianshu.com/p/8414b96549e3)|\[译\]字体渲染背后不得不说的故事
 [UITableView Tips](https://github.com/vedon/iOS-tech/blob/master/UITableViewOpt/UITableView_Opt.md)|UITableView Tips
@@ -163,6 +166,7 @@
 ## 开源代码
 名称 | 推荐理由
 ------- | -------
+[iOS App Hook](https://github.com/Urinx/iOSAppHook)|专注于非越狱环境下iOS应用逆向研究，从dylib注入，应用重签名到App Hook.
 [AppDevKit](https://github.com/yahoo/AppDevKit)| AppDevKit is an iOS development library that provides foundational and developer everyday required features for their iOS app development. [https://yahoo.github.io/AppDevKit](https://yahoo.github.io/AppDevKit)
 [JPFPSStatus](https://github.com/joggerplus/JPFPSStatus)| Show FPS Status on StatusBar
 [fantastic-ios-animation](https://github.com/onmyway133/fantastic-ios-animation)| A collection of iOS animation repos
@@ -415,6 +419,7 @@ iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://w
 
 工具/插件  |  简介
 ---- | ----
+[wwdc downloader](https://github.com/ohoachuck/wwdc-downloader)|WWDC 2016 video downloader script written in Swift - no external dependency.
 [WWDC app for OS X](https://github.com/insidegui/WWDC)|WWDC app for OS X
 [octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc/related?utm_source=chrome-ntp-icon)| 推荐了一款chrome上显示github代码树的插件，octotree 
 [nsdateformatter.com](http://nsdateformatter.com/)| Easy Skeezy Date Formatting for Swift and Objective-C
@@ -466,6 +471,7 @@ iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://w
 
 博客地址 | 博主信息
 ------- | -------
+[一个iOS菜菜的白话文记录](http://xiongzenghuidegithub.github.io/)| 一个高产的博主
 [Rollout](https://rollout.io/)| Deploy code-level changes to native iOS apps,without waiting on the App Store.
 [美团技术团队博客](http://tech.meituan.com/)|美团技术团队博客
 [微信阅读团队技术博客](http://wereadteam.github.io/)|微信阅读团队技术博客
