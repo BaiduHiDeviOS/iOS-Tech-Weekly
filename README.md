@@ -274,7 +274,7 @@
 ### 完整工程
 名称 | 推荐理由
 ------- | -------
-[BeautifyFaceDemo](https://github.com/Guikunzhi/BeautifyFaceDemo)|It's a simple demo of realtime face beautification based on GPUImage
+[BeautifyFaceDemo](https://github.com/Guikunzhi/BeautifyFaceDemo)| It's a simple demo of realtime face beautification based on GPUImage
 [TSWeChat](https://github.com/hilen/TSWeChat)| A high copy WeChat, Written by Swift.
 [Swift高仿“简书”](https://github.com/Wl201314/MJianshu)|Swift高仿“简书”
 [Yep](https://github.com/CatchChat/Yep)| 整套纯Swift开发应用
