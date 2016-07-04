@@ -9,20 +9,14 @@
 
 名称  |  简介
 ---- | ----
-[Migrating to Swift 2.3 or Swift 3 from Swift 2.2](https://swift.org/migration-guide/)| swift官方迁移指南
-[Swift API Design Guidelines](https://swift.org/documentation/api-design-guidelines/)|Swift API Design Guidelines
 [Rejected Swift Proposals](http://chris.eidhof.nl/post/rejected-swift-proposals/)| What we can learn from the rejections
-[swift talk](https://talk.objc.io/)| We show our solutions to problems we find while building Swift projects. Enjoy a new episode of Swift Talk every week, packed with live-coding and discussions about the pros and cons of our decisions.
 [OOD Principles In Swift](https://github.com/ochococo/OOD-Principles-In-Swift)|OOD Principles In Swift
 [A Different Take on MVVM with Swift](http://rasic.info/a-different-take-on-mvvm-with-swift/)|A Different Take on MVVM with Swift
 [Avoiding the overuse of @objc in Swift](http://www.jessesquires.com/avoiding-objc-in-swift/)|Avoiding the overuse of @objc in Swift
 [Swift: Selector syntax sugar](https://medium.com/swift-programming/swift-selector-syntax-sugar-81c8a8b10df3#.hmwllnbqs)| 《Swift：Selector 语法糖》,今天要发的这篇来头很大，Chris Lattner 亲自转发过，就冲这个也必须读一读了。
-[raywenderlich swift style guide](https://github.com/raywenderlich/swift-style-guide)| raywenderlich的swift编码规范，及swift2.2[更新说明](https://www.raywenderlich.com/133102/swift-style-guide-april-2016-update)
 [quiz about properties in swift](http://allblue.me/swift/2016/01/08/quiz-about-properties-in-swift/)|关于swift 属性相关的小测验
-[Protocol-Oriented Logging, or: Default Arguments in Swift Protocols](http://oleb.net/blog/2016/05/default-arguments-in-protocols/)|POP一个使用例子
 [exploring swift array implementation](http://ankit.im/swift/2016/01/08/exploring-swift-array-implementation/)| swift Array源码解析，建议配合源码一起看一遍。
 [swift mutability for foundation](https://github.com/apple/swift-evolution/blob/master/proposals/0069-swift-mutability-for-foundation.md)| swift 未来可能替换NSFoundation中的class为value type.
-[protocol oriented problems and immutable self error](https://www.bignerdranch.com/blog/protocol-oriented-problems-and-the-immutable-self-error/)|protocol oriented problems and immutable self error
 [Design Patterns implemented in Swift](https://github.com/ochococo/Design-Patterns-In-Swift)| 各种常用设计模式在Swift 2的实现。
 [Swift Name Mangling](https://mikeash.com/pyblog/friday-qa-2014-08-15-swift-name-mangling.html)| swift中 __TFCCC4test1a1b1c1dfS2_FTS0_1xS1_1vFT1xSi_Si_OVS_1e1f这是什么，看不懂啊？ 读读这篇文章...
 [Swift 性能探索和优化分析](https://onevcat.com/2016/02/swift-performance/)|Swift 性能探索和优化分析
@@ -41,12 +35,9 @@
 [the power of map and flatmap](http://blog.xebia.com/the-power-of-map-and-flatmap-of-swift-optionals/)| map和flatMap的实际使用场景。
 [swift函数柯里化介绍及使用场景](http://www.jianshu.com/p/5b27fec8c616)| 函数柯里化是函数式编程里的一个重要概念。swift中的柯里化可能很多人都没有了解过，今天给大家介绍一下柯里化的概念和一些使用场景。
 [如何处理 Swift 中的异步错误](http://swift.gg/2016/02/16/async-errors/)|如何处理 Swift 中的异步错误
-[Protocol-Oriented Programming in Swift](https://medium.com/@andrea.prearo/protocol-oriented-programming-in-swift-daba92bc9c98#.gt766gejh)|Protocol-Oriented Programming in Swift
 [Swift 2.0: Understanding flatMap](https://www.natashatherobot.com/swift-2-flatmap/)|Swift 2.0: Understanding flatMap
 [静态类型的 NSUserDefaults](http://swift.gg/2016/02/17/nsuserdefaults-static/)|静态类型的 NSUserDefaults
-[Chris Lattner谈Swift 3和Cocoa“重命名”](http://www.infoq.com/cn/news/2016/02/lattner-swift3-renamification)|近日，在“swift-evolution”邮件列表中，Swift创建者Chris Lattner在一篇博文中概述了Swift 3定义的一些指导原则，并明确表示该版本会带来破坏性修改。
 [swift api transformation](https://swift.org/blog/swift-api-transformation/)| Swift去掉API中的NS等一些更swift的变化。
-[使用UIKit进行面向协议的编程](http://gold.xitu.io/entry/56a98bab1532bc005303c40c)|揭开『面向协议编程』真正的面纱。尤其是针对日常 UI 的开发，大部分实例代码并没有切合实际的使用场景，也没有利用任何框架。
 [swift internals](http://apple.github.io/swift-internals/)| This site hosts internal documentation for the Swift compiler and standard library, as well as the development version of the Swift API Guidelines.
 [纯Swift2.0工程CocoaChina+从0到1遇到的坑和解决方案](http://zixun.github.io/blog/2015/10/25/chun-swift2-dot-0gong-cheng-cocoachina-plus-cong-0dao-1yu-dao-de-keng-he-jie-jue-fang-an/)|纯Swift2.0工程CocoaChina+从0到1遇到的坑和解决方案
 [Advanced & Practical Enum usage in Swift](http://appventure.me/2015/10/17/advanced-practical-enum-examples/)|Swift中Enum的使用实践
@@ -67,17 +58,44 @@
 | [Advanced NSOperations](https://developer.apple.com/videos/play/wwdc2015-226/) | 对于使用NSOperation提供了一个新颖的使用方案，比较开拓思路，此seesion有[sample code](https://developer.apple.com/sample-code/wwdc/2015/downloads/Advanced-NSOperations.zip)结合观看效果更加
 | [Inside Swift](http://www.eswick.com/2014/06/inside-swift/) | Swift的内部机制
 
+## Swift 3
+名称  |  简介
+---- | ----
+[Raywenderlich what's new swift 3](https://www.raywenderlich.com/135655/whats-new-swift-3)|Raywenderlich what's new swift 3
+[Increased Safety in Swift 3.0](https://www.bignerdranch.com/blog/wwdc-2016-increased-safety-in-swift-3)|Increased Safety in Swift 3.0
+[Migrating to Swift 2.3 or Swift 3 from Swift 2.2](https://swift.org/migration-guide/)| swift官方迁移指南
+[Chris Lattner谈Swift 3和Cocoa“重命名”](http://www.infoq.com/cn/news/2016/02/lattner-swift3-renamification)|近日，在“swift-evolution”邮件列表中，Swift创建者Chris Lattner在一篇博文中概述了Swift 3定义的一些指导原则，并明确表示该版本会带来破坏性修改。
+
+## Swift Style Guide
+名称  |  简介
+---- | ----
+[Swift API Design Guidelines](https://swift.org/documentation/api-design-guidelines/)|Swift API Design Guidelines
+[raywenderlich swift style guide](https://github.com/raywenderlich/swift-style-guide)| raywenderlich的swift编码规范，及swift2.2[更新说明](https://www.raywenderlich.com/133102/swift-style-guide-april-2016-update)
+[linkedin swift style guide](https://github.com/linkedin/swift-style-guide)| LinkedIn's Official Swift Style Guide
+
 ## Protocol Oriented Programming in Swift
 名称  |  简介
 ---- | ----
+[Protocol-Oriented Programming in Swift](https://medium.com/@andrea.prearo/protocol-oriented-programming-in-swift-daba92bc9c98#.gt766gejh)|Protocol-Oriented Programming in Swift
+[Protocol-Oriented Logging, or: Default Arguments in Swift Protocols](http://oleb.net/blog/2016/05/default-arguments-in-protocols/)|POP一个使用例子
+[iOS Cell Registration & Reusing with Swift Protocol Extensions and Generics](https://medium.com/@gonzalezreal/ios-cell-registration-reusing-with-swift-protocol-extensions-and-generics-c5ac4fb5b75e#.khllyilga)| POP 在cell中的应用。
+[Practical Protocol-Oriented-Programming](https://realm.io/news/appbuilders-natasha-muraschev-practical-protocol-oriented-programming/)| POP的几个应用实例。
+[Protocols with Associated Types](https://www.youtube.com/watch?v=XWoNjiSPqI8)|Protocols with Associated Types
+[Beyond Crusty: Real-World Protocols](http://www.thedotpost.com/2016/01/rob-napier-beyond-crusty-real-world-protocols)|Beyond Crusty: Real-World Protocols
+[Blending Cultures: The Best of Functional, Protocol-Oriented, and Object-Oriented Programming](https://realm.io/news/tryswift-daniel-steinberg-blending-cultures/)|Blending Cultures: The Best of Functional, Protocol-Oriented, and Object-Oriented Programming
 [用 Swift 编写面向协议的网络请求](http://swift.gg/2016/06/03/protocol-oriented-networking-in-swift/)|用 Swift 编写面向协议的网络请求
 [用 Swift 编写面向协议的视图](http://swift.gg/2016/06/01/protocol-oriented-views-in-swift/)|用 Swift 编写面向协议的视图
 [Dim the lights on those view controllers with protocol extensions](http://www.totem.training/swift-ios-tips-tricks-tutorials-blog/ux-chops-dim-the-lights)|Dim the lights on those view controllers with protocol extensions
+[protocol oriented problems and immutable self error](https://www.bignerdranch.com/blog/protocol-oriented-problems-and-the-immutable-self-error/)|protocol oriented problems and immutable self error
+[使用UIKit进行面向协议的编程](http://gold.xitu.io/entry/56a98bab1532bc005303c40c)|揭开『面向协议编程』真正的面纱。尤其是针对日常 UI 的开发，大部分实例代码并没有切合实际的使用场景，也没有利用任何框架。
+[Introduction to Protocol-Oriented MVVM](https://realm.io/news/doios-natasha-murashev-protocol-oriented-mvvm/) | 介绍Protocol Oriented 结合MVVM的一个活生生的🌰。
+[Blurable](https://github.com/FlexMonkey/Blurable) | Apply a Gaussian Blur to any UIView with Swift Protocol Extensions
 
 ## Objective-C
 
 名称  |  简介
 ---- | ----
+[Why objc_msgSend Must be Written in Assembly](http://arigrant.com/blog/2014/2/12/why-objcmsgsend-must-be-written-in-assembly)|Why objc_msgSend Must be Written in Assembly
 [Objective-C 消息发送与转发机制原理](http://yulingtianxia.com/blog/2016/06/15/Objective-C-Message-Sending-and-Forwarding/)|Objective-C 消息发送与转发机制原理
 [CATEGORIES CONSIDERED HARMFUL](http://www.catehuston.com/blog/2016/02/04/categories-considered-harmful/)| 关于我们该如何正确使用OC中的Category。
 [深入理解Objective-C：Category](http://tech.meituan.com/DiveIntoCategory.html) | 来自美团技术团队的优质技术文章，深入讲解了Category
@@ -91,6 +109,9 @@
 
 文章名称  |  简介
 ---- | ----
+[制作一个苦力](https://github.com/nixzhu/dev-blog/blob/master/2016-06-29-coolie.md)| 由JSON文件生成对应的数据Model对象struct, class.
+[『零行代码』解决键盘遮挡问题（iOS）](http://www.cocoachina.com/ios/20160630/16891.html)|『零行代码』解决键盘遮挡问题（iOS）
+[几句代码快速集成自定义转场效果+ 全手势驱动](http://www.jianshu.com/p/e498b956491c)|几句代码快速集成自定义转场效果+ 全手势驱动
 [iOS程序main函数之前发生了什么](http://blog.sunnyxx.com/2014/08/30/objc-pre-main/)|iOS程序main函数之前发生了什么
 [Friday Q&A 2012-11-09: dyld: Dynamic Linking On OS X](https://www.mikeash.com/pyblog/friday-qa-2012-11-09-dyld-dynamic-linking-on-os-x.html)|Friday Q&A 2012-11-09: dyld: Dynamic Linking On OS X
 [MVVMFramework-Swift](https://github.com/lovemo/MVVMFramework-Swift)|(Swift版)总结整理下一个快速开发框架，以更优雅的方式写代码，做一个代码艺术家。分离控制器中的代码，已加入cell自适应高度，自动缓存网络请求代码，降低代码耦合，提高开发效率。其中还有很多相关资源的链接。
@@ -165,88 +186,119 @@
 [构建iOS稳定应用架构时方案选择的思考](http://www.starming.com/index.php?v=index&view=83)| 构建iOS稳定应用架构时方案选择的思考
 
 ## 开源代码
+
+
+
+### UI
+名称 | 推荐理由
+------- | -------
+[LayoutKit](https://github.com/linkedin/LayoutKit)| LayoutKit is a fast view layout library for iOS. http://layoutkit.org
+[fantastic-ios-animation](https://github.com/onmyway133/fantastic-ios-animation)| A collection of iOS animation repos
+[Scrollable-GraphView](https://github.com/philackm/Scrollable-GraphView)| An adaptive scrollable graph view for iOS to visualise simple discrete datasets. Written in Swift.
+[Render](https://github.com/alexdrone/Render)|React-inspired Swift library for writing UIKit UIs.
+[PMAlertController](https://github.com/Codeido/PMAlertController)|PMAlertController is a great and customizable substitute to UIAlertController
+[JPFPSStatus](https://github.com/joggerplus/JPFPSStatus)| Show FPS Status on StatusBar
+[15DaysofAnimationsinSwift](https://github.com/larrynatalicio/15DaysofAnimationsinSwift)| 动画相关，不是15天从入门到放弃。
+[TextAttributes](https://github.com/delba/TextAttributes)| TextAttributes makes it easy to compose attributed strings.
+[SubtleVolume](https://github.com/andreamazz/SubtleVolume)| Replace the system volume popup with a more subtle indicator.
+[Advance](https://github.com/storehouse/Advance)| A powerful animation framework for iOS.
+[FLAnimatedImage](https://github.com/Flipboard/FLAnimatedImage)| FLAnimatedImage is a performant animated GIF engine for iOS
+[LazyTableImages: Populating UITableView content asynchronously](https://developer.apple.com/library/ios/samplecode/LazyTableImages/Introduction/Intro.html)|苹果官方出了个demo，LazyTableImages，对列表里图片很多的情况有很好的优化作用。我看了一下，挺实用的。
+[IBAnimatable](https://github.com/JakeLin/IBAnimatable)| Design and prototype UI, interaction, navigation, transition and animation for App Store ready Apps in Interface Builder with IBAnimatable.
+[RACollectionViewReorderableTripletLayout](https://github.com/ra1028/RACollectionViewReorderableTripletLayout)|UICollectionView 排序
+[Rainbow](https://github.com/onevcat/Rainbow)| Rainbow adds text color, background color and style for console and command line output in Swift. It is born for cross platform software logging in terminals, working in both Apple's platforms and Linux. Meanwhile, it is also compatible with XcodeColors, which lets you colorize the Xcode debugger output as well when developing an app.
+[SlackTextViewController](https://github.com/slackhq/SlackTextViewController)| A drop-in UIViewController subclass with a growing text input view and other useful messaging features.
+[REVERT](https://github.com/revealapp/Revert/)|Reveal出品，一个项目教会你Swift的基本UI开发。配合reveal更加直观。
+[SwiftGen](https://github.com/AliSoftware/SwiftGen)| This is a suite of tools written in Swift 2 to auto-generate Swift 2 code for various assets of your project: 1.enums for your Assets Catalogs 2.enums for your Localizable.strings strings.3.enums for your UIStoryboard and their Scenes. 4.enums for your UIColors.
+[Instructions](https://github.com/ephread/Instructions)|新手引导
+[FDStackView](https://github.com/forkingdog/FDStackView) | Use UIStackView directly in iOS6+ ,百度知道团队开源代码
+[Concorde](https://github.com/contentful-labs/Concorde) | Progressive JPEG 图片加载的三方库。
+[MessageDisplayKit](https://github.com/xhzengAIB/MessageDisplayKit) | MessageDisplayKit 模仿微信样式的开源IM
+[JSQMessagesViewController](https://github.com/jessesquires/JSQMessagesViewController) | 开源聊天界面组件
+[ClassyLiveLayout](https://github.com/olegam/ClassyLiveLayout) | Use Classy stylesheets together with Masonry to tweak AutoLayout constants live when debugging in the simulator.
+[SnapKit](https://github.com/SnapKit/SnapKit) | SnapKit is a DSL to make Auto Layout easy on both iOS and OS X.
+[Neon](https://github.com/mamaral/Neon) | A powerful Swift programmatic UI layout framework.Build dynamic and beautiful user interfaces like a boss, with Swift.|
+
+### 网络
+名称 | 推荐理由
+------- | -------
+[SwiftyOAuth](https://github.com/delba/SwiftyOAuth)| A simple OAuth library for iOS with a built-in set of providers
+[Moya](https://github.com/Moya/Moya)| Network abstraction layer written in Swift.
+[Reachability.swift](https://github.com/ashleymills/Reachability.swift) | Replacement for Apple's Reachability re-written in Swift with closures.
+
+
+### Model
+名称 | 推荐理由
+------- | -------
+[Alamofire Object Mapper](https://github.com/tristanhimmelman/AlamofireObjectMapper)| An Alamofire extension which converts JSON response data into swift objects using ObjectMapper
+[Coolie](https://github.com/nixzhu/Coolie)| Coolie parse a JSON file to generate models (& their constructors).
+[Cache](https://github.com/soffes/Cache)| A generic caching library for Swift. Cache depends on Foundation.
+[JASON](https://github.com/delba/JASON)| Fast JSON parsing for Swift
+[FCModel](https://github.com/marcoarment/FCModel) |依据[On Using SQLite and FMDB Instead of Core Data](https://www.objc.io/issues/4-core-data/SQLite-instead-of-core-data/)做了实现。
+[Decodable](https://github.com/Anviking/Decodable) | Swift 解析JSON, Chris Lattner(LLVM 作者) 推荐
+
+### 语法糖
+名称 | 推荐理由
+------- | -------
+[Then](https://github.com/devxoul/Then)| ✨ Super sweet syntactic sugar for Swift initializers.
+[SwiftString](https://github.com/amayne/SwiftString)| A comprehensive, lightweight string extension for Swift
+[Every.swift](https://github.com/samhann/Every.swift)| A swift wrapper for NSTimer
+[PMKVObserver](https://github.com/postmates/PMKVObserver)|A type-safe Swift/ObjC KVO wrapper.
+[Aspects](https://github.com/steipete/Aspects)|再也不用自己写丑陋的`method swizzling`代码了。
+[PromiseKit](https://github.com/mxcl/PromiseKit) | Modern development is highly asynchronous: isn’t it about time we had tools that made programming asynchronously powerful, easy and delightful?
+[Async](https://github.com/duemunk/Async) | Syntactic sugar in Swift for asynchronous dispatches in Grand Central Dispatch
+
+
+### 工具库
 名称 | 推荐理由
 ------- | -------
 [iOS App Hook](https://github.com/Urinx/iOSAppHook)|专注于非越狱环境下iOS应用逆向研究，从dylib注入，应用重签名到App Hook.
 [AppDevKit](https://github.com/yahoo/AppDevKit)| AppDevKit is an iOS development library that provides foundational and developer everyday required features for their iOS app development. [https://yahoo.github.io/AppDevKit](https://yahoo.github.io/AppDevKit)
-[JPFPSStatus](https://github.com/joggerplus/JPFPSStatus)| Show FPS Status on StatusBar
-[fantastic-ios-animation](https://github.com/onmyway133/fantastic-ios-animation)| A collection of iOS animation repos
-[swift algorithm club](https://github.com/raywenderlich/swift-algorithm-club)| Algorithms and data structures in Swift, with explanations!
-[Scrollable-GraphView](https://github.com/philackm/Scrollable-GraphView)| An adaptive scrollable graph view for iOS to visualise simple discrete datasets. Written in Swift.
-[SwiftyOAuth](https://github.com/delba/SwiftyOAuth)| A simple OAuth library for iOS with a built-in set of providers
-[Cache](https://github.com/soffes/Cache)| A generic caching library for Swift. Cache depends on Foundation.
-[Render](https://github.com/alexdrone/Render)|React-inspired Swift library for writing UIKit UIs.
-[PMAlertController](https://github.com/Codeido/PMAlertController)|PMAlertController is a great and customizable substitute to UIAlertController
-[JLRoutes](https://github.com/joeldev/JLRoutes)| URL routing library for iOS with a simple block-based API.
 [routable-ios](https://github.com/clayallsopp/routable-ios)| Routable, an in-app native URL router, for iOS
+[JLRoutes](https://github.com/joeldev/JLRoutes)| URL routing library for iOS with a simple block-based API.
 [HHRouter](https://github.com/Huohua/HHRouter)| Yet another URL Router for iOS.
 [MGJRouter](https://github.com/mogujie/MGJRouter)| 一个高效/灵活的 iOS URL Router
-[BeautifyFaceDemo](https://github.com/Guikunzhi/BeautifyFaceDemo)|It's a simple demo of realtime face beautification based on GPUImage
-[15DaysofAnimationsinSwift](https://github.com/larrynatalicio/15DaysofAnimationsinSwift)| 动画相关，不是15天从入门到放弃。
-[iOS cookies](http://www.ioscookies.com/)| 按类别整理的开源代码合集。
 [SwiftNotificationCenter](https://github.com/100mango/SwiftNotificationCenter)| A Protocol-Oriented NotificationCenter which is type safe, thread safe and with memory safety
-[awesome iOS](https://github.com/vsouza/awesome-ios)| A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects
-[iOS Source Code Analyze](https://github.com/Draveness/iOS-Source-Code-Analyze)|一些开源代码的解析文章集合。
-[JASON](https://github.com/delba/JASON)| Fast JSON parsing for Swift
-[TextAttributes](https://github.com/delba/TextAttributes)| TextAttributes makes it easy to compose attributed strings.
+[Xtrace](https://github.com/johnno1962/Xtrace)|Trace Objective-C method calls by class or instance
 [FBNotifications](https://github.com/facebook/FBNotifications)| Facebook Analytics In-App Notifications Framework
 [GPUImage2](https://github.com/BradLarson/GPUImage2)| GPUImage 2 is a BSD-licensed Swift framework for GPU-accelerated video and image processing. Redesigned in swift.
 [FBRetainCycleDetector](https://github.com/facebook/FBRetainCycleDetector)|iOS library to help detecting retain cycles in runtime.
 [FBAllocationTracker](https://github.com/facebook/FBAllocationTracker)| iOS library that helps tracking all allocated Objective-C objects.
 [FBMemoryProfiler](https://github.com/facebook/FBMemoryProfiler)|iOS tool that helps with profiling iOS Memory usage.[原理介绍](https://code.facebook.com/posts/583946315094347/automatic-memory-leak-detection-on-ios/)
-[Xtrace](https://github.com/johnno1962/Xtrace)|Trace Objective-C method calls by class or instance
-[SubtleVolume](https://github.com/andreamazz/SubtleVolume)| Replace the system volume popup with a more subtle indicator.
-[Swift 开源项目精选](http://dev.swiftguide.cn/archive/featured-open-source-projects-in-swift_v1.0.html) | 涵盖存储、网络、图片、框架、界面等开源代码
-[Advance](https://github.com/storehouse/Advance)| A powerful animation framework for iOS.
 [EarlGrey](https://github.com/google/EarlGrey)| EarlGrey is a native iOS UI automation test framework that enables you to write clear, concise tests. 一篇EarlGrey的介绍[文章](https://segmentfault.com/a/1190000004488898)
-[TSWeChat](https://github.com/hilen/TSWeChat)| A high copy WeChat, Written by Swift.
 [infer](https://github.com/facebook/infer)|A static analyzer for Java, C and Objective-C http://fbinfer.com/
-[FLAnimatedImage](https://github.com/Flipboard/FLAnimatedImage)| FLAnimatedImage is a performant animated GIF engine for iOS
-[30 days of Swift](https://github.com/allenwong/30DaysofSwift)| A self taught project to learn swift.
-[LazyTableImages: Populating UITableView content asynchronously](https://developer.apple.com/library/ios/samplecode/LazyTableImages/Introduction/Intro.html)|苹果官方出了个demo，LazyTableImages，对列表里图片很多的情况有很好的优化作用。我看了一下，挺实用的。
-[SwiftString](https://github.com/amayne/SwiftString)| A comprehensive, lightweight string extension for Swift
-[awesome swift](https://github.com/matteocrippa/awesome-swift)| awesome swift 系列，汇聚各种好的swift资源，不收藏等啥呢！
+[Localize-Swift](https://github.com/marmelroy/Localize-Swift)| 一款开发者不可或缺的国际化及本地化字符串框架支持类库。同样地，使用简单、直观又方便。毫无疑问，这款非常值得收录。
+[Swiftbeaver](https://github.com/SwiftyBeaver/SwiftyBeaver)| Swift 记log工具 和一篇介绍 [文章](https://littlebitesofcocoa.com/142-colorful-logging-with-swiftybeaver)
+[PhoneNumberKit](https://github.com/marmelroy/PhoneNumberKit)|Swift framework for parsing, formatting and validating international phone numbers. Inspired by Google's libphonenumber.
+
+### 完整工程
+名称 | 推荐理由
+------- | -------
+[BeautifyFaceDemo](https://github.com/Guikunzhi/BeautifyFaceDemo)|It's a simple demo of realtime face beautification based on GPUImage
+[TSWeChat](https://github.com/hilen/TSWeChat)| A high copy WeChat, Written by Swift.
 [Swift高仿“简书”](https://github.com/Wl201314/MJianshu)|Swift高仿“简书”
 [Yep](https://github.com/CatchChat/Yep)| 整套纯Swift开发应用
 [Awesome Swift Playgrounds](https://github.com/uraimo/Awesome-Swift-Playgrounds)|各种供你娱乐的playground
-[Localize-Swift](https://github.com/marmelroy/Localize-Swift)| 一款开发者不可或缺的国际化及本地化字符串框架支持类库。同样地，使用简单、直观又方便。毫无疑问，这款非常值得收录。
 [furni-ios](https://github.com/twitterdev/furni-ios)| furni-ios 是由 Twitter 开发团队出品的一款用 Swift 写的 iOS 家居商城应用, 其主要目的在于让开发者从这款 Demo 应用中看出 Fabric 的强大。
 [2015开源iOS App总结 ](http://www.finalshares.com/read-6503#read_2144?jike-571)| 十几款开源的app
-[Every.swift](https://github.com/samhann/Every.swift)| A swift wrapper for NSTimer
-[IBAnimatable](https://github.com/JakeLin/IBAnimatable)| Design and prototype UI, interaction, navigation, transition and animation for App Store ready Apps in Interface Builder with IBAnimatable.
-[RACollectionViewReorderableTripletLayout](https://github.com/ra1028/RACollectionViewReorderableTripletLayout)|UICollectionView 排序
-[PMKVObserver](https://github.com/postmates/PMKVObserver)|A type-safe Swift/ObjC KVO wrapper.
-[Rainbow](https://github.com/onevcat/Rainbow)| Rainbow adds text color, background color and style for console and command line output in Swift. It is born for cross platform software logging in terminals, working in both Apple's platforms and Linux. Meanwhile, it is also compatible with XcodeColors, which lets you colorize the Xcode debugger output as well when developing an app.
-[Moya](https://github.com/Moya/Moya)| Network abstraction layer written in Swift.
-[Swiftbeaver](https://github.com/SwiftyBeaver/SwiftyBeaver)| Swift 记log工具 和一篇介绍 [文章](https://littlebitesofcocoa.com/142-colorful-logging-with-swiftybeaver)
-[SlackTextViewController](https://github.com/slackhq/SlackTextViewController)| A drop-in UIViewController subclass with a growing text input view and other useful messaging features.
-[REVERT](https://github.com/revealapp/Revert/)|Reveal出品，一个项目教会你Swift的基本UI开发。配合reveal更加直观。
 [YYKit](https://github.com/ibireme/YYKit) | YYKit 是一组庞大、功能丰富的 iOS 组件。
-[SwiftGen](https://github.com/AliSoftware/SwiftGen)| This is a suite of tools written in Swift 2 to auto-generate Swift 2 code for various assets of your project: 1.enums for your Assets Catalogs 2.enums for your Localizable.strings strings.3.enums for your UIStoryboard and their Scenes. 4.enums for your UIColors.
-[Instructions](https://github.com/ephread/Instructions)|新手引导
-[PhoneNumberKit](https://github.com/marmelroy/PhoneNumberKit)|Swift framework for parsing, formatting and validating international phone numbers. Inspired by Google's libphonenumber.
-[Aspects](https://github.com/steipete/Aspects)|再也不用自己写丑陋的`method swizzling`代码了。
-[FDStackView](https://github.com/forkingdog/FDStackView) | Use UIStackView directly in iOS6+ ,百度知道团队开源代码
-| [Reachability.swift](https://github.com/ashleymills/Reachability.swift) | Replacement for Apple's Reachability re-written in Swift with closures.
-| [Swift Radio Pro](https://github.com/swiftcodex/Swift-Radio-Pro) | 完整的Swift 2.0的App 开源应用。
-| [Advanced NSOperations sampel code](https://developer.apple.com/sample-code/wwdc/2015/downloads/Advanced-NSOperations.zip) | WWDC 2015 [Advanced NSOperations](https://developer.apple.com/videos/play/wwdc2015-226/) 的sample code
-[PromiseKit](https://github.com/mxcl/PromiseKit) | Modern development is highly asynchronous: isn’t it about time we had tools that made programming asynchronously powerful, easy and delightful?
-[Concorde](https://github.com/contentful-labs/Concorde) | Progressive JPEG 图片加载的三方库。
-[ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) | ReactiveCocoa
-[Apple 3D Touch Demo](https://developer.apple.com/ios/3d-touch/) | Apple 3D Touch Demo
-[MessageDisplayKit](https://github.com/xhzengAIB/MessageDisplayKit) | MessageDisplayKit 模仿微信样式的开源IM
+[Swift Radio Pro](https://github.com/swiftcodex/Swift-Radio-Pro) | 完整的Swift 2.0的App 开源应用。
 [TeamTalk](https://github.com/mogujie/TeamTalk) | 蘑菇街开源IM
-[JSQMessagesViewController](https://github.com/jessesquires/JSQMessagesViewController) | 开源聊天界面组件
 [iOS-9-Sampler](https://github.com/shu223/iOS-9-Sampler) | Code examples for the new features of iOS 9.
-[React Native](http://facebook.github.io/react-native/) |Facebook的开源库，使用 React.js 开发原生应用。
-[FCModel](https://github.com/marcoarment/FCModel) |依据[On Using SQLite and FMDB Instead of Core Data](https://www.objc.io/issues/4-core-data/SQLite-instead-of-core-data/)做了实现。
-[ClassyLiveLayout](https://github.com/olegam/ClassyLiveLayout) | Use Classy stylesheets together with Masonry to tweak AutoLayout constants live when debugging in the simulator.
-[SnapKit](https://github.com/SnapKit/SnapKit) | SnapKit is a DSL to make Auto Layout easy on both iOS and OS X.
+
+### 开源库合集
+名称 | 推荐理由
+------- | -------
+[iOS cookies](http://www.ioscookies.com/)| 按类别整理的开源代码合集。
+[awesome iOS](https://github.com/vsouza/awesome-ios)| A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects
+[iOS Source Code Analyze](https://github.com/Draveness/iOS-Source-Code-Analyze)|一些开源代码的解析文章集合。
+[Swift 开源项目精选](http://dev.swiftguide.cn/archive/featured-open-source-projects-in-swift_v1.0.html) | 涵盖存储、网络、图片、框架、界面等开源代码
+[30 days of Swift](https://github.com/allenwong/30DaysofSwift)| A self taught project to learn swift.
+[awesome swift](https://github.com/matteocrippa/awesome-swift)| awesome swift 系列，汇聚各种好的swift资源，不收藏等啥呢！
 [Hacking With Swift](https://github.com/twostraws/HackingWithSwift) | Swift 教程，以做小项目学习Swift
-[Decodable](https://github.com/Anviking/Decodable) | Swift 解析JSON, Chris Lattner(LLVM 作者) 推荐
-[Blurable](https://github.com/FlexMonkey/Blurable) | Apply a Gaussian Blur to any UIView with Swift Protocol Extensions
-[Neon](https://github.com/mamaral/Neon) | A powerful Swift programmatic UI layout framework.Build dynamic and beautiful user interfaces like a boss, with Swift.|
-[Async](https://github.com/duemunk/Async) | Syntactic sugar in Swift for asynchronous dispatches in Grand Central Dispatch
+[swift algorithm club](https://github.com/raywenderlich/swift-algorithm-club)| Algorithms and data structures in Swift, with explanations!
+
+
 
 
 ## 文章
@@ -312,11 +364,13 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ## React Native
 标题  | 内容简介
 ---- | -----
+[React Native](http://facebook.github.io/react-native/) |Facebook的开源库，使用 React.js 开发原生应用。
 [Facebook f8 app open source](https://github.com/fbsamples/f8app)|React Native 最佳学习项目来了，Facebook 开源了 F8 App 全套代码，包括 Android，iOS 和 Server 端，其中涉及 React Native, Redux, Relay, GraphQL 等技术，更感人的是配套了教程讲解整个 APP（包括前后端） 是怎么做出来。[教程](http://makeitopen.com/)
 
 ##Reactive Cocoa & RxSwift & Functional Programming
 标题  | 内容简介
 ---- | -----
+[ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) | ReactiveCocoa
 [Brian Beckman: Don't fear the Monad](https://www.youtube.com/watch?v=ZhuHCtR3xq8)|Brian Beckman: Don't fear the Monad
 用 ReactiveCocoa 事半功倍的写代码|[一](http://fengjian0106.github.io/2016/04/17/The-Power-Of-Composition-In-FRP-Part-1/) [二](http://fengjian0106.github.io/2016/04/26/The-Power-Of-Composition-In-FRP-Part-2/) [三](http://fengjian0106.github.io/2016/04/28/The-Power-Of-Composition-In-FRP-Part-3/) [四](http://fengjian0106.github.io/2016/05/03/The-Power-Of-Composition-In-FRP-Part-4/)
 [reactive cocoa vs rxswift](https://www.raywenderlich.com/126522/reactivecocoa-vs-rxswift)| 两者对比
@@ -379,12 +433,12 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ##视频资源
 标题  | 内容简介
 ---- | -----
+[swift talk](https://talk.objc.io/)| We show our solutions to problems we find while building Swift projects. Enjoy a new episode of Swift Talk every week, packed with live-coding and discussions about the pros and cons of our decisions.
 [Facebook 2016 f8视频](https://developers.facebook.com/videos)|Facebook 2016 f8视频
 [Building Fabric.app in Swift](https://realm.io/news/slug-javi-soto-building-fabric-in-swift/)| When the Fabric team at Twitter wrote their new iOS app, they turned to Swift. Why? Javi Soto walks through their decision, and tells why they picked a language that emphasizes stability and maintainability & supports dependency injection, code generation, MVVM, and error reporting.
 [Artsy 的测试之旅](https://realm.io/cn/news/tryswift-ash-furrow-artsy-testing-tour/)| Artsy 拥有 4 个 iOS 应用，它们都已经全部开源，并且都采用了不同的方法来进行了测试。为什么这样做呢？因为不同的测试技术在各种的情况下的优劣各有不同。在 try! Swift 的本次演讲中，Ash Furrow 讨论了 Artsy iOS 团队做出这种决策背后的动机，谈论了他们所遇见到的问题，以及他们是如何克服这些困难的，以便能够帮助您更好的理解：为什么对于构建精美应用来说，进行测试以及何时进行测试是非常重要的。
 [Developing iOS 9 Apps with Swift](https://itunes.apple.com/us/course/developing-ios-9-apps-swift/id1104579961)| 斯坦福的iOS开发课程，还是老头讲。
 [Facebook F8 2016](https://www.youtube.com/watch?v=dyvvWE87a-k)|Youtube上的5个小时的《Facebook F8 Developer Conference 2016》可以学到很多东西，推荐。
-[Introduction to Protocol-Oriented MVVM](https://realm.io/news/doios-natasha-murashev-protocol-oriented-mvvm/) | 介绍Protocol Oriented 结合MVVM的一个活生生的🌰。
 [Using Injection for Xcode - Runtime Code Injection](https://www.youtube.com/watch?v=uftvtmyZ8TM&feature=youtu.be)| Using Injection for Xcode - Runtime Code Injection
 [Brian Partridge - Result Driven Development](https://www.youtube.com/watch?v=aCm68xAWrno)| 录音不是特别清楚，但是内容很好。需要翻墙
 iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://www.imooc.com/video/11076)
@@ -420,6 +474,8 @@ iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://w
 
 工具/插件  |  简介
 ---- | ----
+[Potatso](https://github.com/shadowsocks/Potatso-iOS)| Potatso is an iOS client that implements Shadowsocks proxy with the leverage of NetworkExtension framework in iOS 9.
+[BuildTimeAnalyzer for Xcode](https://github.com/RobertGummesson/BuildTimeAnalyzer-for-Xcode)| Build Time Analyzer for Swift
 [wwdc downloader](https://github.com/ohoachuck/wwdc-downloader)|WWDC 2016 video downloader script written in Swift - no external dependency.
 [WWDC app for OS X](https://github.com/insidegui/WWDC)|WWDC app for OS X
 [octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc/related?utm_source=chrome-ntp-icon)| 推荐了一款chrome上显示github代码树的插件，octotree 
