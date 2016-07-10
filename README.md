@@ -72,6 +72,7 @@
 [Swift API Design Guidelines](https://swift.org/documentation/api-design-guidelines/)|Swift API Design Guidelines
 [raywenderlich swift style guide](https://github.com/raywenderlich/swift-style-guide)| raywenderlich的swift编码规范，及swift2.2[更新说明](https://www.raywenderlich.com/133102/swift-style-guide-april-2016-update)
 [linkedin swift style guide](https://github.com/linkedin/swift-style-guide)| LinkedIn's Official Swift Style Guide
+[Github Swift style guide](https://github.com/github/swift-style-guide)| Github Swift style guide
 
 ## Protocol Oriented Programming in Swift
 名称  |  简介
@@ -95,6 +96,7 @@
 
 名称  |  简介
 ---- | ----
+[Objective-C Fast Enumeration 的实现原理](http://blog.leichunfeng.com/blog/2016/06/20/objective-c-fast-enumeration-implementation-principle/#jtss-tsina)|Objective-C Fast Enumeration 的实现原理
 [Why objc_msgSend Must be Written in Assembly](http://arigrant.com/blog/2014/2/12/why-objcmsgsend-must-be-written-in-assembly)|Why objc_msgSend Must be Written in Assembly
 [Objective-C 消息发送与转发机制原理](http://yulingtianxia.com/blog/2016/06/15/Objective-C-Message-Sending-and-Forwarding/)|Objective-C 消息发送与转发机制原理
 [CATEGORIES CONSIDERED HARMFUL](http://www.catehuston.com/blog/2016/02/04/categories-considered-harmful/)| 关于我们该如何正确使用OC中的Category。
@@ -252,6 +254,9 @@
 ### 工具库
 名称 | 推荐理由
 ------- | -------
+[GYDataCenter：高性能数据库框架](http://wereadteam.github.io/2016/07/06/GYDataCenter/)| 微信阅读团队开源了一直在团队内使用的数据库框架。
+[RKNotificationHub](https://github.com/cwRichardKim/RKNotificationHub)| Make any UIView a full fledged notification center
+[Barcode Scanner](https://github.com/hyperoslo/BarcodeScanner)| 扫码工具
 [iOS App Hook](https://github.com/Urinx/iOSAppHook)|专注于非越狱环境下iOS应用逆向研究，从dylib注入，应用重签名到App Hook.
 [AppDevKit](https://github.com/yahoo/AppDevKit)| AppDevKit is an iOS development library that provides foundational and developer everyday required features for their iOS app development. [https://yahoo.github.io/AppDevKit](https://yahoo.github.io/AppDevKit)
 [routable-ios](https://github.com/clayallsopp/routable-ios)| Routable, an in-app native URL router, for iOS
@@ -416,6 +421,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ##AsyncDisplayKit
 标题  | 内容简介
 ---- | -----
+[AsyncDisplayKit State of the Code (WWDC 2016)](https://www.youtube.com/watch?v=8ngXakpE2x8)| AsyncDisplayKit最新变化
 [AsyncDisplayKit源码](https://github.com/facebook/AsyncDisplayKit)|AsyncDisplayKit源码
 [AsyncDisplayKit 文档](http://asyncdisplaykit.org/guide/) | AsyncDisplayKit 文档
 [Introducing AsyncDisplayKit: For smooth and responsive apps on iOS](https://code.facebook.com/posts/721586784561674/introducing-asyncdisplaykit-for-smooth-and-responsive-apps-on-ios/)|Introducing AsyncDisplayKit: For smooth and responsive apps on iOS
@@ -528,6 +534,7 @@ iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://w
 
 博客地址 | 博主信息
 ------- | -------
+[artsy engineering team](http://artsy.github.io/)|artsy engineering team
 [一个iOS菜菜的白话文记录](http://xiongzenghuidegithub.github.io/)| 一个高产的博主
 [Rollout](https://rollout.io/)| Deploy code-level changes to native iOS apps,without waiting on the App Store.
 [美团技术团队博客](http://tech.meituan.com/)|美团技术团队博客
