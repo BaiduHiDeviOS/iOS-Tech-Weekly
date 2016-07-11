@@ -72,6 +72,7 @@
 [Swift API Design Guidelines](https://swift.org/documentation/api-design-guidelines/)|Swift API Design Guidelines
 [raywenderlich swift style guide](https://github.com/raywenderlich/swift-style-guide)| raywenderlich的swift编码规范，及swift2.2[更新说明](https://www.raywenderlich.com/133102/swift-style-guide-april-2016-update)
 [linkedin swift style guide](https://github.com/linkedin/swift-style-guide)| LinkedIn's Official Swift Style Guide
+[Github Swift style guide](https://github.com/github/swift-style-guide)| Github Swift style guide
 
 ## Protocol Oriented Programming in Swift
 名称  |  简介
@@ -90,11 +91,13 @@
 [使用UIKit进行面向协议的编程](http://gold.xitu.io/entry/56a98bab1532bc005303c40c)|揭开『面向协议编程』真正的面纱。尤其是针对日常 UI 的开发，大部分实例代码并没有切合实际的使用场景，也没有利用任何框架。
 [Introduction to Protocol-Oriented MVVM](https://realm.io/news/doios-natasha-murashev-protocol-oriented-mvvm/) | 介绍Protocol Oriented 结合MVVM的一个活生生的🌰。
 [Blurable](https://github.com/FlexMonkey/Blurable) | Apply a Gaussian Blur to any UIView with Swift Protocol Extensions
+[What the 55 Swift Standard Library Protocols Taught Me](https://www.youtube.com/watch?v=_kpYI6GjCuw)|作者为raywenderlich长期教程作者，主要介绍了其从Swift标准库提供的protocol学到了哪些，推荐观看，需翻墙。
 
 ## Objective-C
 
 名称  |  简介
 ---- | ----
+[Objective-C Fast Enumeration 的实现原理](http://blog.leichunfeng.com/blog/2016/06/20/objective-c-fast-enumeration-implementation-principle/#jtss-tsina)|Objective-C Fast Enumeration 的实现原理
 [Why objc_msgSend Must be Written in Assembly](http://arigrant.com/blog/2014/2/12/why-objcmsgsend-must-be-written-in-assembly)|Why objc_msgSend Must be Written in Assembly
 [Objective-C 消息发送与转发机制原理](http://yulingtianxia.com/blog/2016/06/15/Objective-C-Message-Sending-and-Forwarding/)|Objective-C 消息发送与转发机制原理
 [CATEGORIES CONSIDERED HARMFUL](http://www.catehuston.com/blog/2016/02/04/categories-considered-harmful/)| 关于我们该如何正确使用OC中的Category。
@@ -107,69 +110,92 @@
 
 ## 技术实践
 
+
+
+### UI
+文章名称  |  简介
+---- | ----
+[『零行代码』解决键盘遮挡问题（iOS）](http://www.cocoachina.com/ios/20160630/16891.html)|『零行代码』解决键盘遮挡问题（iOS）
+[几句代码快速集成自定义转场效果+ 全手势驱动](http://www.jianshu.com/p/e498b956491c)|几句代码快速集成自定义转场效果+ 全手势驱动
+[\[译\]字体渲染背后不得不说的故事](http://www.jianshu.com/p/8414b96549e3)|\[译\]字体渲染背后不得不说的故事
+[iOS 二维码扫描（你想要的都在这里了）](http://www.jianshu.com/p/1919b240387b)|iOS 二维码扫描（你想要的都在这里了）
+[Building a Simple Barcode Reader App in Swift](http://www.appcoda.com/simple-barcode-reader-app-swift/)|Building a Simple Barcode Reader App in Swift
+[Quartz2D 编程指南](http://xuyafei.cn/post/cocoatouch/quartz2d-bian-cheng-zhi-nan-gai-lan-tu-xing-shang-xia-wen-lu-jing-yan-se-yu-yan-se-kong-jian)|Quartz2D 编程指南
+[iOS中使用blend改变图片颜色](https://onevcat.com/2013/04/using-blending-in-ios/)|iOS中使用blend改变图片颜色
+[iOS 处理图片的一些小 Tip](http://blog.ibireme.com/2015/11/02/ios_image_tips/) | iOS 处理图片的一些小 Tip
+[移动端图片格式调研](http://blog.ibireme.com/2015/11/02/mobile_image_benchmark/)| 移动端图片格式调研
+[利用贝塞尔曲线实现Q弹的下拉刷新](http://pandara.xyz/2015/10/29/jelly_refresh/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)|利用贝塞尔曲线实现Q弹的下拉刷新
+[看，这白白的液体滴了一地](http://pandara.xyz/2015/11/24/ios_water_drop/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)| 液态效果动画
+[iOS开发之如何跳到系统设置里的各种设置界面](http://mp.weixin.qq.com/s?__biz=MjM5OTM0MzIwMQ==&mid=401517056&idx=5&sn=ad89f960098b485035006eef656efe16&scene=0#wechat_redirect)|iOS开发之如何跳到系统设置里的各种设置界面
+[iOS开发系列--让你的应用“动”起来](http://www.cnblogs.com/kenshincui/p/3972100.html) | 讲解IOS 动画相关~博主的文笔和排版灰常赞~其系列博文值得一读
+
+### 源码解析
 文章名称  |  简介
 ---- | ----
 [制作一个苦力](https://github.com/nixzhu/dev-blog/blob/master/2016-06-29-coolie.md)| 由JSON文件生成对应的数据Model对象struct, class.
-[『零行代码』解决键盘遮挡问题（iOS）](http://www.cocoachina.com/ios/20160630/16891.html)|『零行代码』解决键盘遮挡问题（iOS）
-[几句代码快速集成自定义转场效果+ 全手势驱动](http://www.jianshu.com/p/e498b956491c)|几句代码快速集成自定义转场效果+ 全手势驱动
 [iOS程序main函数之前发生了什么](http://blog.sunnyxx.com/2014/08/30/objc-pre-main/)|iOS程序main函数之前发生了什么
-[Friday Q&A 2012-11-09: dyld: Dynamic Linking On OS X](https://www.mikeash.com/pyblog/friday-qa-2012-11-09-dyld-dynamic-linking-on-os-x.html)|Friday Q&A 2012-11-09: dyld: Dynamic Linking On OS X
 [MVVMFramework-Swift](https://github.com/lovemo/MVVMFramework-Swift)|(Swift版)总结整理下一个快速开发框架，以更优雅的方式写代码，做一个代码艺术家。分离控制器中的代码，已加入cell自适应高度，自动缓存网络请求代码，降低代码耦合，提高开发效率。其中还有很多相关资源的链接。
-[\[译\]字体渲染背后不得不说的故事](http://www.jianshu.com/p/8414b96549e3)|\[译\]字体渲染背后不得不说的故事
+[AFNetworking2.0源码解析<一>](http://blog.cnbang.net/tech/2320/) | AFNetworking2.0源码解析<一>
+[AFNetworking2.0源码解析<二>](http://blog.cnbang.net/tech/2371/) | AFNetworking2.0源码解析<二>
+[AFNetworking2.0源码解析<三>](http://blog.cnbang.net/tech/2416/) | AFNetworking2.0源码解析<三>
+[iOS 开发——你真的会用 SDWebImage？](http://gold.xitu.io/entry/57285c5e2e958a0068db2f9e)| SDWebImage源码解析
+[教你使用Xtrace读懂Mantle源码](http://ios.jobbole.com/84471/)|上周周报刚刚整理了Xtrace这个开源库，这篇文章是结合该开源库去阅读源码。
+[深入理解Kingfisher（上）](http://www.jianshu.com/p/326527a4d4f9)|深入理解Kingfisher（上）
+[深入理解Kingfisher（下）](http://www.jianshu.com/p/0a5cdf3f7e9c)|深入理解Kingfisher（下)
+[Facebook开源的Parse源码分析](https://github.com/ChenYilong/ParseSourceCodeStudy)|Facebook开源的Parse源码分析
+
+### 多线程
+文章名称  |  简介
+---- | ----
+[Friday Q&A 2012-11-09: dyld: Dynamic Linking On OS X](https://www.mikeash.com/pyblog/friday-qa-2012-11-09-dyld-dynamic-linking-on-os-x.html)|Friday Q&A 2012-11-09: dyld: Dynamic Linking On OS X
+[Parse的底层多线程处理思路：GCD高级用法](https://github.com/ChenYilong/ParseSourceCodeStudy/blob/master/01_Parse%E7%9A%84%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%A4%84%E7%90%86%E6%80%9D%E8%B7%AF/Parse%E7%9A%84%E5%BA%95%E5%B1%82%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%A4%84%E7%90%86%E6%80%9D%E8%B7%AF.md)|Parse的底层多线程处理思路：GCD高级用法
+读 Threading Programming Guide 笔记 |[一](http://www.devtalking.com/articles/read-threading-programming-guide-1/) [二](http://www.devtalking.com/articles/read-threading-programming-guide-2/) [三](http://www.devtalking.com/articles/read-threading-programming-guide-3/) [四](http://www.devtalking.com/articles/read-threading-programming-guide-4/)
+[iOS开发之深入理解GCD](http://www.finalshares.com/read-6509?fr=gn&n=23)|  本文为raywenderlich 深入理解GCD的一篇译文，详细讲解了GCD相关的知识。
+
+### 性能优化
+文章名称  |  简介
+---- | ----
 [UITableView Tips](https://github.com/vedon/iOS-tech/blob/master/UITableViewOpt/UITableView_Opt.md)|UITableView Tips
 [微信读书 iOS 性能优化总结](http://wereadteam.github.io/2016/05/03/WeRead-Performance/)|微信读书 iOS 性能优化总结
 [简单监测iOS卡顿的demo](http://www.jianshu.com/p/71cfbcb15842)|简单监测iOS卡顿的demo
 [常见操作性能对比](http://swift.gg/2016/05/25/friday-qa-2016-04-15-performance-comparisons-of-common-operations-2016-edition/)|常见操作性能对比
-[IPv6 socket编程](https://github.com/WeMobileDev/article/blob/master/IPv6%20socket%E7%BC%96%E7%A8%8B.md)|IPv6 socket编程
-[iOS应用支持IPV6，就那点事儿](http://www.jianshu.com/p/a6bab07c4062)|iOS应用支持IPV6，就那点事儿
-[iOS 二维码扫描（你想要的都在这里了）](http://www.jianshu.com/p/1919b240387b)|iOS 二维码扫描（你想要的都在这里了）
-[Building a Simple Barcode Reader App in Swift](http://www.appcoda.com/simple-barcode-reader-app-swift/)|Building a Simple Barcode Reader App in Swift
+[secrets of mobile network performance](http://aosabook.org/en/posa/secrets-of-mobile-network-performance.html)|secrets of mobile network performance
+[UITableView性能优化](https://medium.com/ios-os-x-development/perfect-smooth-scrolling-in-uitableviews-fd609d5275a5#.6m2va3j6a)|UITableView性能优化
+[iOS 保持界面流畅的技巧](http://blog.ibireme.com/2015/11/12/smooth_user_interfaces_for_ios/) | iOS 保持界面流畅的技巧
+[Faster Photos in Facebook for iOS](https://code.facebook.com/posts/857662304298232/faster-photos-in-facebook-for-ios/) | 这篇文章介绍了Facebook使用Progressive JPEG加快图片加载的优缺点对比。附上一个Progressive image的[开源库](https://github.com/contentful-labs/Concorde)
+[Reducing FOOMs in the Facebook iOS app](https://code.facebook.com/posts/1146930688654547/reducing-fooms-in-the-facebook-ios-app/?utm_campaign=iOS%2BDev%2BWeekly&utm_medium=email&utm_source=iOS_Dev_Weekly_Issue_213) | 这篇文章介绍了Facebook如何减少由于系统内存压力导致的应用Crash。为追踪非应用本身Bug 造成的crash提供了一个思路。
+
+### 工具使用
+文章名称  |  简介
+---- | ----
 [swift markdown](http://www.appcoda.com/swift-markdown/)| 用markdown写Xcode文档
 [Clang Attributes 黑魔法小记](http://blog.sunnyxx.com/2016/05/14/clang-attributes/)|Clang Attributes 黑魔法小记
-[Quartz2D 编程指南](http://xuyafei.cn/post/cocoatouch/quartz2d-bian-cheng-zhi-nan-gai-lan-tu-xing-shang-xia-wen-lu-jing-yan-se-yu-yan-se-kong-jian)|Quartz2D 编程指南
 [iOS开发--应用设置及用户默认设置](http://www.cnblogs.com/azuo/p/5090718.html?utm_source=tuicool&utm_medium=referral)|iOS开发--应用设置及用户默认设置
-[secrets of mobile network performance](http://aosabook.org/en/posa/secrets-of-mobile-network-performance.html)|secrets of mobile network performance
+[Building and managing iOS model objects with Remodel](https://code.facebook.com/posts/1154141864616569/building-and-managing-ios-model-objects-with-remodel/)|Building and managing iOS model objects with Remodel
+[Injection for Xcode：成吨的提高开发效率](http://www.jianshu.com/p/27be46d5e5d4)| Injection for Xcode：成吨的提高开发效率
+
+
+### 实践经验
+文章名称  |  简介
+---- | ----
 [基于TLS1.3的微信安全通信协议mmtls介绍](http://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ==&mid=2649286266&idx=1&sn=f5d049033e251cccc22e163532355ddf&scene=0#wechat_redirect)|基于TLS1.3的微信安全通信协议mmtls介绍
-[iOS中使用blend改变图片颜色](https://onevcat.com/2013/04/using-blending-in-ios/)|iOS中使用blend改变图片颜色
-[iOS 开发——你真的会用 SDWebImage？](http://gold.xitu.io/entry/57285c5e2e958a0068db2f9e)| SDWebImage源码解析
 [How to write a unit test which passes if a function throws?](https://forums.developer.apple.com/thread/5824)| 目前Xcode Unit Test没有对抛出异常的函数进行处理的XCT方法，文中添加了第三方的写法。
 [iOS瘦身之删除无用的mach-O文件](http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&mid=2651112096&idx=1&sn=ce8fccce7d5f70e30c078e63e8ea0d15&scene=0#wechat_redirect)|iOS瘦身之删除无用的mach-O文件
-[Building and managing iOS model objects with Remodel](https://code.facebook.com/posts/1154141864616569/building-and-managing-ios-model-objects-with-remodel/)|Building and managing iOS model objects with Remodel
-[教你使用Xtrace读懂Mantle源码](http://ios.jobbole.com/84471/)|上周周报刚刚整理了Xtrace这个开源库，这篇文章是结合该开源库去阅读源码。
 [微信文件微起底](http://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&mid=2653576807&idx=2&sn=0db15d1545379da06818b1b5d33112c1&scene=1&srcid=0414LDe5v52rgToo7oQ82mEy&from=singlemessage&isappinstalled=0#wechat_redirect)|微信文件微起底
-[Injection for Xcode：成吨的提高开发效率](http://www.jianshu.com/p/27be46d5e5d4)| Injection for Xcode：成吨的提高开发效率
-读 Threading Programming Guide 笔记 |[一](http://www.devtalking.com/articles/read-threading-programming-guide-1/) [二](http://www.devtalking.com/articles/read-threading-programming-guide-2/) [三](http://www.devtalking.com/articles/read-threading-programming-guide-3/) [四](http://www.devtalking.com/articles/read-threading-programming-guide-4/)
 [如何防止客户端被破解](http://tanqisen.github.io/blog/2014/06/06/how-to-prevent-app-crack/)|很多应用都需要用户登录或者签名认证，这可能需要在客户端保存登录信息、签名密钥、加密算法等。如何保证这些重要信息不被窃取，算法不被破解，这些成为应用开发中很重要的内容，同样也是最容易忽视的地方。一个小小的细节可能就成为整个系统的突破口，这里从实际工程角度总结了一些容易忽视的细节和常用的方法。
-[Square对iOS App架构的新尝试---Ziggurat](http://www.cocoachina.com/ios/20160126/15107.html)|Square对iOS App架构的新尝试---Ziggurat
-[UITableView性能优化](https://medium.com/ios-os-x-development/perfect-smooth-scrolling-in-uitableviews-fd609d5275a5#.6m2va3j6a)|UITableView性能优化
-[Parse的底层多线程处理思路：GCD高级用法](https://github.com/ChenYilong/ParseSourceCodeStudy/blob/master/01_Parse%E7%9A%84%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%A4%84%E7%90%86%E6%80%9D%E8%B7%AF/Parse%E7%9A%84%E5%BA%95%E5%B1%82%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%A4%84%E7%90%86%E6%80%9D%E8%B7%AF.md)|Parse的底层多线程处理思路：GCD高级用法
-[利用贝塞尔曲线实现Q弹的下拉刷新](http://pandara.xyz/2015/10/29/jelly_refresh/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)|利用贝塞尔曲线实现Q弹的下拉刷新
-[看，这白白的液体滴了一地](http://pandara.xyz/2015/11/24/ios_water_drop/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)| 液态效果动画
-[What the 55 Swift Standard Library Protocols Taught Me](https://www.youtube.com/watch?v=_kpYI6GjCuw)|作者为raywenderlich长期教程作者，主要介绍了其从Swift标准库提供的protocol学到了哪些，推荐观看，需翻墙。
-[iOS开发之如何跳到系统设置里的各种设置界面](http://mp.weixin.qq.com/s?__biz=MjM5OTM0MzIwMQ==&mid=401517056&idx=5&sn=ad89f960098b485035006eef656efe16&scene=0#wechat_redirect)|iOS开发之如何跳到系统设置里的各种设置界面
-[AFNetworking 3.0迁移指南](http://www.cocoachina.com/ios/20151022/13831.html)|为了迎合iOS新版本的升级，AFNetworking在3.0版本中删除了基于 NSURLConnection API的所有支持。如果你的项目以前使用过这些API，建议您立即升级到基于NSURLSession的API的AFNetworking的版本。
-[iOS开发系列--让你的应用“动”起来](http://www.cnblogs.com/kenshincui/p/3972100.html) | 讲解IOS 动画相关~博主的文笔和排版灰常赞~其系列博文值得一读
 [优化Facebook iOS app启动时间](https://code.facebook.com/posts/1675399786008080/optimizing-facebook-for-ios-start-time/)|优化Facebook iOS app启动时间
-[Lessons learned with 3D Touch](http://engineering.instagram.com/posts/465414923641286/lessons-learned-with-3D-touch) | 详细介绍了3D touch 在instagram app中的应用。
-[iOS 保持界面流畅的技巧](http://blog.ibireme.com/2015/11/12/smooth_user_interfaces_for_ios/) | iOS 保持界面流畅的技巧
-[AFNetworking2.0源码解析<一>](http://blog.cnbang.net/tech/2320/) | AFNetworking2.0源码解析<一>
-[AFNetworking2.0源码解析<二>](http://blog.cnbang.net/tech/2371/) | AFNetworking2.0源码解析<二>
-[AFNetworking2.0源码解析<三>](http://blog.cnbang.net/tech/2416/) | AFNetworking2.0源码解析<三>
-[iOS 处理图片的一些小 Tip](http://blog.ibireme.com/2015/11/02/ios_image_tips/) | iOS 处理图片的一些小 Tip
-[移动端图片格式调研](http://blog.ibireme.com/2015/11/02/mobile_image_benchmark/)| 移动端图片格式调研
 [iOS APP安全杂谈之三](http://drops.wooyun.org/papers/9598) | iOS APP安全杂谈之三
-[iOS高性能图片架构与设计](http://mp.weixin.qq.com/s?__biz=MzI1MTA1MzM2Nw==&mid=207840007&idx=1&sn=ce09553e5774f5581c696b5e28f0c7e8#rd)| iOS高性能图片架构与设计
 [单元测试框架选型](http://zixun.github.io/blog/2015/04/11/iosdan-yuan-ce-shi-xi-lie-dan-yuan-ce-shi-kuang-jia-xuan-xing/) | 介绍单元测试框架选型，对比几个知名测试框架
 [OCMock常见使用方式](http://zixun.github.io/blog/2015/04/16/iosdan-yuan-ce-shi-xi-lie-yi-ocmockchang-jian-shi-yong-fang-shi/) | 介绍CMock常见使用方式
 [Singleton如何测试](http://zixun.github.io/blog/2015/04/16/iosdan-yuan-ce-shi-xi-lie-singletonru-he-ce-shi/) | 介绍Singleton如何测试
 [单元测试编码规范](http://zixun.github.io/blog/2015/04/16/iosdan-yuan-ce-shi-xi-lie-dan-yuan-ce-shi-bian-ma-gui-fan/) | 介绍单元测试编码规范
-[Reducing FOOMs in the Facebook iOS app](https://code.facebook.com/posts/1146930688654547/reducing-fooms-in-the-facebook-ios-app/?utm_campaign=iOS%2BDev%2BWeekly&utm_medium=email&utm_source=iOS_Dev_Weekly_Issue_213) | 这篇文章介绍了Facebook如何减少由于系统内存压力导致的应用Crash。为追踪非应用本身Bug 造成的crash提供了一个思路。
-[Faster Photos in Facebook for iOS](https://code.facebook.com/posts/857662304298232/faster-photos-in-facebook-for-ios/) | 这篇文章介绍了Facebook使用Progressive JPEG加快图片加载的优缺点对比。附上一个Progressive image的[开源库](https://github.com/contentful-labs/Concorde)
 [On Using SQLite and FMDB Instead of Core Data](https://www.objc.io/issues/4-core-data/SQLite-instead-of-core-data/) | 关于使用Sqlite的一些实践，对我们项目里Sqlite的使用有很多可以借鉴的东西。
 
 ##应用架构相关
 文章名称  |  简介
 ---- | ---
+[iOS高性能图片架构与设计](http://mp.weixin.qq.com/s?__biz=MzI1MTA1MzM2Nw==&mid=207840007&idx=1&sn=ce09553e5774f5581c696b5e28f0c7e8#rd)| iOS高性能图片架构与设计
+[Square对iOS App架构的新尝试---Ziggurat](http://www.cocoachina.com/ios/20160126/15107.html)|Square对iOS App架构的新尝试---Ziggurat
 [新浪微博iOS客户端架构与优化之路](http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&mid=2651112273&idx=1&sn=893a66a04e541a99b7bc4d7cf227e2f7#rd)|新浪微博iOS客户端架构与优化之路
 [Advanced iOS Application Architecture and Patterns](https://developer.apple.com/videos/play/wwdc2014/229/)| Explore a selection of high-level software engineering techniques presented in the context of Cocoa Touch. Learn how to manage complexity in large codebases by clearly defining where truth resides, by controlling state with Swift's powerful value types and immutability, and by thinking in terms of composition.
 [iOS 架构模式 - 简述 MVC, MVP, MVVM 和 VIPER (译)](https://blog.coding.net/blog/ios-architecture-patterns)|iOS 架构模式 - 简述 MVC, MVP, MVVM 和 VIPER (译)
@@ -186,8 +212,6 @@
 [构建iOS稳定应用架构时方案选择的思考](http://www.starming.com/index.php?v=index&view=83)| 构建iOS稳定应用架构时方案选择的思考
 
 ## 开源代码
-
-
 
 ### UI
 名称 | 推荐理由
@@ -252,6 +276,9 @@
 ### 工具库
 名称 | 推荐理由
 ------- | -------
+[GYDataCenter：高性能数据库框架](http://wereadteam.github.io/2016/07/06/GYDataCenter/)| 微信阅读团队开源了一直在团队内使用的数据库框架。
+[RKNotificationHub](https://github.com/cwRichardKim/RKNotificationHub)| Make any UIView a full fledged notification center
+[Barcode Scanner](https://github.com/hyperoslo/BarcodeScanner)| 扫码工具
 [iOS App Hook](https://github.com/Urinx/iOSAppHook)|专注于非越狱环境下iOS应用逆向研究，从dylib注入，应用重签名到App Hook.
 [AppDevKit](https://github.com/yahoo/AppDevKit)| AppDevKit is an iOS development library that provides foundational and developer everyday required features for their iOS app development. [https://yahoo.github.io/AppDevKit](https://yahoo.github.io/AppDevKit)
 [routable-ios](https://github.com/clayallsopp/routable-ios)| Routable, an in-app native URL router, for iOS
@@ -316,7 +343,6 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 [Reader Submissions -- NSHipster](http://nshipster.com/new-years-2016/)|  由NSHipster读者提供的一些小技巧。
 [27 iOS open source libraries to skyrocket your development.](https://medium.com/app-coder-io/27-ios-open-source-libraries-to-skyrocket-your-development-301b67d3124c#.yp7qkmmxs) | 27个常用的iOS开源库。
 [高效开发iOS系列 -- 那些不为人知的KVC](http://www.jianshu.com/p/a6a0abac1c4a)|文章主要讲解了KVC中容易被开发者忽视却很有用的用法。
-[iOS开发之深入理解GCD](http://www.finalshares.com/read-6509?fr=gn&n=23)|  本文为raywenderlich 深入理解GCD的一篇译文，详细讲解了GCD相关的知识。
 [How to C in 2016](https://matt.sh/howto-c)|How to C in 2016
 [不再安全的 OSSpinLock](http://blog.ibireme.com/2016/01/16/spinlock_is_unsafe_in_ios/)|OSSPinLock作为锁已经不再安全了，文章还对比了各种锁的性能对比。
 [Swift's mysterious Builtin module](http://ankit.im/swift/2016/01/12/swift-mysterious-builtin-module/)|揭秘Swift内置模块
@@ -343,12 +369,9 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 [Open-source Swift: Booleans](https://swiftunboxed.com/open-source/Bool/)| Booleans -- Swift源码阅读
 [NSCache](https://github.com/nixzhu/dev-blog/blob/master/2015-12-09-nscache.md)| NSCache -- Swift源码阅读
 [iOS同步对象性能对比](http://ksnowlv.github.io/blog/2014/09/07/ios-tong-bu-suo-xing-neng-dui-bi/) | iOS同步对象性能对比
-[深入理解Kingfisher（上）](http://www.jianshu.com/p/326527a4d4f9)|深入理解Kingfisher（上）
-[深入理解Kingfisher（下）](http://www.jianshu.com/p/0a5cdf3f7e9c)|深入理解Kingfisher（下)
 [详说CMDeviceMotion](http://www.cocoachina.com/ios/20141103/10111.html)| 来自NSHipster 的翻译文章，获取陀螺仪、加速器和磁力仪(罗盘)等传感器数据，get交互灵感
 [Spelunkhead](https://www.bignerdranch.com/blog/spelunkhead/)|跟着博文作者一起探索iOS系统framework。
 [moby.sh](https://gist.github.com/tvon/5224569)|下载所有framework head文件，并放入一个输出文件夹中，方便搜索查看API接口，新API等。
-[Facebook开源的Parse源码分析](https://github.com/ChenYilong/ParseSourceCodeStudy)|Facebook开源的Parse源码分析
 [利用UIWebView打造一个炫酷的视频背景视图（OC & Swift）](http://www.cocoachina.com/ios/20151023/13860.html)| 视频背景View， 适合做Hi 5.0的登录窗口。
 [Elastic view animation using UIBezierPath](http://iostuts.io/2015/10/17/elastic-bounce-using-uibezierpath-and-pan-gesture/) | Elastic view animation using UIBezierPath
 [Automatically Formatting Your Objective-C](http://tonyarnold.com/2014/05/31/autoformatting-your-code.html) | 自动格式化代码工具[ClangFormat-Xcode](https://github.com/travisjeffery/ClangFormat-Xcode/)使用。
@@ -416,6 +439,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ##AsyncDisplayKit
 标题  | 内容简介
 ---- | -----
+[AsyncDisplayKit State of the Code (WWDC 2016)](https://www.youtube.com/watch?v=8ngXakpE2x8)| AsyncDisplayKit最新变化
 [AsyncDisplayKit源码](https://github.com/facebook/AsyncDisplayKit)|AsyncDisplayKit源码
 [AsyncDisplayKit 文档](http://asyncdisplaykit.org/guide/) | AsyncDisplayKit 文档
 [Introducing AsyncDisplayKit: For smooth and responsive apps on iOS](https://code.facebook.com/posts/721586784561674/introducing-asyncdisplaykit-for-smooth-and-responsive-apps-on-ios/)|Introducing AsyncDisplayKit: For smooth and responsive apps on iOS
@@ -459,7 +483,10 @@ iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://w
 ##iOS 新特性
 标题  | 内容简介
 ---- | -----
+[Lessons learned with 3D Touch](http://engineering.instagram.com/posts/465414923641286/lessons-learned-with-3D-touch) | 详细介绍了3D touch 在instagram app中的应用。
 [开发者所需要知道的 iOS 10 SDK 新特性](https://onevcat.com/2016/06/ios-10-sdk/) | 开发者所需要知道的 iOS 10 SDK 新特性
+[IPv6 socket编程](https://github.com/WeMobileDev/article/blob/master/IPv6%20socket%E7%BC%96%E7%A8%8B.md)|IPv6 socket编程
+[iOS应用支持IPV6，就那点事儿](http://www.jianshu.com/p/a6bab07c4062)|iOS应用支持IPV6，就那点事儿
 [Supporting IPv6 DNS64/NAT64 Networks](https://developer.apple.com/library/mac/documentation/NetworkingInternetWeb/Conceptual/NetworkingOverview/UnderstandingandPreparingfortheIPv6Transition/UnderstandingandPreparingfortheIPv6Transition.html#//apple_ref/doc/uid/TP40010220-CH213-SW1)|苹果有关适配IPV6的文档
 [Apple Pay 编程指南](http://wiki.jikexueyuan.com/project/apple-pay/) |Apple Pay介绍，配置和接入等
 [WWDC 2014 Session笔记 - iOS界面开发的大一统](http://onevcat.com/2014/07/ios-ui-unique/) |什么时候可以抛弃iOS 7了，好多UI实现都可以换了
@@ -528,6 +555,7 @@ iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://w
 
 博客地址 | 博主信息
 ------- | -------
+[artsy engineering team](http://artsy.github.io/)|artsy engineering team
 [一个iOS菜菜的白话文记录](http://xiongzenghuidegithub.github.io/)| 一个高产的博主
 [Rollout](https://rollout.io/)| Deploy code-level changes to native iOS apps,without waiting on the App Store.
 [美团技术团队博客](http://tech.meituan.com/)|美团技术团队博客
