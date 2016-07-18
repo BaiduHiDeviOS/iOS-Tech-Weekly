@@ -9,6 +9,7 @@
 
 名称  |  简介
 ---- | ----
+[swift proposals 0086 drop foundation NS](https://github.com/apple/swift-evolution/blob/master/proposals/0086-drop-foundation-ns.md)| swift proposals 0086 drop foundation NS
 [Rejected Swift Proposals](http://chris.eidhof.nl/post/rejected-swift-proposals/)| What we can learn from the rejections
 [OOD Principles In Swift](https://github.com/ochococo/OOD-Principles-In-Swift)|OOD Principles In Swift
 [A Different Take on MVVM with Swift](http://rasic.info/a-different-take-on-mvvm-with-swift/)|A Different Take on MVVM with Swift
@@ -132,6 +133,7 @@
 ### 源码解析
 文章名称  |  简介
 ---- | ----
+[MotionKit — The Missing iOS CoreMotion Wrapper written in Swift](https://medium.com/ios-os-x-development/motionkit-the-missing-ios-coremotion-wrapper-written-in-swift-99fcb83355d0#.i1cn1p9r1)|MotionKit — The Missing iOS CoreMotion Wrapper written in Swift
 [制作一个苦力](https://github.com/nixzhu/dev-blog/blob/master/2016-06-29-coolie.md)| 由JSON文件生成对应的数据Model对象struct, class.
 [iOS程序main函数之前发生了什么](http://blog.sunnyxx.com/2014/08/30/objc-pre-main/)|iOS程序main函数之前发生了什么
 [MVVMFramework-Swift](https://github.com/lovemo/MVVMFramework-Swift)|(Swift版)总结整理下一个快速开发框架，以更优雅的方式写代码，做一个代码艺术家。分离控制器中的代码，已加入cell自适应高度，自动缓存网络请求代码，降低代码耦合，提高开发效率。其中还有很多相关资源的链接。
@@ -178,6 +180,8 @@
 ### 实践经验
 文章名称  |  简介
 ---- | ----
+[Distribute your Swift code using CocoaPods](https://medium.com/@PyBaig/distribute-your-swift-code-libraries-and-frameworks-using-cocoapods-b41c62cd7c94#.z941fsoej)|Distribute your Swift code using CocoaPods
+[Build your own Cocoa Touch Frameworks, in pure Swift](https://medium.com/@PyBaig/build-your-own-cocoa-touch-frameworks-in-swift-d4ea3d1f9ca3#.6a4f1p89b)|Build your own Cocoa Touch Frameworks, in pure Swift
 [基于TLS1.3的微信安全通信协议mmtls介绍](http://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ==&mid=2649286266&idx=1&sn=f5d049033e251cccc22e163532355ddf&scene=0#wechat_redirect)|基于TLS1.3的微信安全通信协议mmtls介绍
 [How to write a unit test which passes if a function throws?](https://forums.developer.apple.com/thread/5824)| 目前Xcode Unit Test没有对抛出异常的函数进行处理的XCT方法，文中添加了第三方的写法。
 [iOS瘦身之删除无用的mach-O文件](http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&mid=2651112096&idx=1&sn=ce8fccce7d5f70e30c078e63e8ea0d15&scene=0#wechat_redirect)|iOS瘦身之删除无用的mach-O文件
@@ -254,6 +258,7 @@
 ### Model
 名称 | 推荐理由
 ------- | -------
+[SQLite.swift](https://github.com/stephencelis/SQLite.swift)| A type-safe, Swift-language layer over SQLite3.
 [Alamofire Object Mapper](https://github.com/tristanhimmelman/AlamofireObjectMapper)| An Alamofire extension which converts JSON response data into swift objects using ObjectMapper
 [Coolie](https://github.com/nixzhu/Coolie)| Coolie parse a JSON file to generate models (& their constructors).
 [Cache](https://github.com/soffes/Cache)| A generic caching library for Swift. Cache depends on Foundation.
@@ -276,6 +281,8 @@
 ### 工具库
 名称 | 推荐理由
 ------- | -------
+[lzfse](https://github.com/lzfse/lzfse)| This is a reference C implementation of the LZFSE compressor introduced in the Compression library with OS X 10.11 and iOS 9
+[MotionKit](https://github.com/MHaroonBaig/MotionKit)|Get the data from Accelerometer, Gyroscope and Magnetometer in only Two or a few lines of code. CoreMotion now made insanely simple.
 [GYDataCenter：高性能数据库框架](http://wereadteam.github.io/2016/07/06/GYDataCenter/)| 微信阅读团队开源了一直在团队内使用的数据库框架。
 [RKNotificationHub](https://github.com/cwRichardKim/RKNotificationHub)| Make any UIView a full fledged notification center
 [Barcode Scanner](https://github.com/hyperoslo/BarcodeScanner)| 扫码工具
@@ -301,6 +308,7 @@
 ### 完整工程
 名称 | 推荐理由
 ------- | -------
+[Celluloid](https://github.com/100mango/Celluloid)| The Best Photo Extension APP on iOS
 [BeautifyFaceDemo](https://github.com/Guikunzhi/BeautifyFaceDemo)| It's a simple demo of realtime face beautification based on GPUImage
 [TSWeChat](https://github.com/hilen/TSWeChat)| A high copy WeChat, Written by Swift.
 [Swift高仿“简书”](https://github.com/Wl201314/MJianshu)|Swift高仿“简书”
@@ -501,6 +509,9 @@ iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://w
 
 工具/插件  |  简介
 ---- | ----
+[Mac CLI](https://github.com/guarinogabriel/Mac-CLI)|  OS X command line tools for developers – The ultimate tool to manage your Mac. It provides a huge set of command line commands that automatize the usage of your OS X system.
+[httpbin](https://github.com/Runscope/httpbin)| HTTP Request & Response Service, written in Python + Flask.http://httpbin.org
+[Paw](https://luckymarmot.com/zh-hans/paw)|Paw 是一款功能全面且设计美观的，用来与 REST 服务轻松交互的 Mac 应用。 无论您是 API 构建者或是消费者，Paw 都能够帮助您构建 HTTP 请求，检查来自服务器的响应，甚至可生成客户端代码。[Networking with Paw](http://artsy.github.io/blog/2016/04/14/net-working-with-paw/)
 [Potatso](https://github.com/shadowsocks/Potatso-iOS)| Potatso is an iOS client that implements Shadowsocks proxy with the leverage of NetworkExtension framework in iOS 9.
 [BuildTimeAnalyzer for Xcode](https://github.com/RobertGummesson/BuildTimeAnalyzer-for-Xcode)| Build Time Analyzer for Swift
 [wwdc downloader](https://github.com/ohoachuck/wwdc-downloader)|WWDC 2016 video downloader script written in Swift - no external dependency.
