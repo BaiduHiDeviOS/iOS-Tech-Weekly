@@ -78,6 +78,7 @@
 ## Protocol Oriented Programming in Swift
 名称  |  简介
 ---- | ----
+[Protocol Extensions: A History by Matthew Gillingham](https://realm.io/news/tryswift-matthew-gillingham-protocol-extensions-history/)|Protocol Extensions: A History by Matthew Gillingham
 [Protocol-Oriented Programming in Swift](https://medium.com/@andrea.prearo/protocol-oriented-programming-in-swift-daba92bc9c98#.gt766gejh)|Protocol-Oriented Programming in Swift
 [Protocol-Oriented Logging, or: Default Arguments in Swift Protocols](http://oleb.net/blog/2016/05/default-arguments-in-protocols/)|POP一个使用例子
 [iOS Cell Registration & Reusing with Swift Protocol Extensions and Generics](https://medium.com/@gonzalezreal/ios-cell-registration-reusing-with-swift-protocol-extensions-and-generics-c5ac4fb5b75e#.khllyilga)| POP 在cell中的应用。
@@ -308,6 +309,7 @@
 ### 完整工程
 名称 | 推荐理由
 ------- | -------
+[高仿映客直播App](https://github.com/GrayJIAXU/520Linkee)| 高仿映客直播App
 [Celluloid](https://github.com/100mango/Celluloid)| The Best Photo Extension APP on iOS
 [BeautifyFaceDemo](https://github.com/Guikunzhi/BeautifyFaceDemo)| It's a simple demo of realtime face beautification based on GPUImage
 [TSWeChat](https://github.com/hilen/TSWeChat)| A high copy WeChat, Written by Swift.
@@ -491,6 +493,7 @@ iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://w
 ##iOS 新特性
 标题  | 内容简介
 ---- | -----
+Siri Integration in iOS 10 with Swift – SiriKit Tutorial |[Part 1](http://jamesonquave.com/blog/adding-siri-to-ios-10-apps-in-swift-tutorial/) [Part 2](http://jamesonquave.com/blog/sirikit-swift-3-resolutions-sirikit-tutorial-part-2/)|
 [Lessons learned with 3D Touch](http://engineering.instagram.com/posts/465414923641286/lessons-learned-with-3D-touch) | 详细介绍了3D touch 在instagram app中的应用。
 [开发者所需要知道的 iOS 10 SDK 新特性](https://onevcat.com/2016/06/ios-10-sdk/) | 开发者所需要知道的 iOS 10 SDK 新特性
 [IPv6 socket编程](https://github.com/WeMobileDev/article/blob/master/IPv6%20socket%E7%BC%96%E7%A8%8B.md)|IPv6 socket编程
@@ -509,6 +512,7 @@ iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://w
 
 工具/插件  |  简介
 ---- | ----
+[graph style of the swift standard library](https://gist.githubusercontent.com/natecook1000/5542f4e8e3706111837859c4e1cab16b/raw/dac5be7df5f88397ec6d7eed9d484f182db2fc74/Swift-3.0-Hierarchy.png)|graph style of the swift standard library
 [Mac CLI](https://github.com/guarinogabriel/Mac-CLI)|  OS X command line tools for developers – The ultimate tool to manage your Mac. It provides a huge set of command line commands that automatize the usage of your OS X system.
 [httpbin](https://github.com/Runscope/httpbin)| HTTP Request & Response Service, written in Python + Flask.http://httpbin.org
 [Paw](https://luckymarmot.com/zh-hans/paw)|Paw 是一款功能全面且设计美观的，用来与 REST 服务轻松交互的 Mac 应用。 无论您是 API 构建者或是消费者，Paw 都能够帮助您构建 HTTP 请求，检查来自服务器的响应，甚至可生成客户端代码。[Networking with Paw](http://artsy.github.io/blog/2016/04/14/net-working-with-paw/)
