@@ -54,10 +54,12 @@
 [An Observable Pattern Implementation in Swift](http://colindrake.me/2015/10/01/an-observable-pattern-implementation-in-swift/) | Swift的观察者模式实现
 [When to Use Swift Structs and Classes](https://www.mikeash.com/pyblog/friday-qa-2015-07-17-when-to-use-swift-structs-and-classes.html) | Swift中何时使用Structs和Classes
 [Optional Computed Properties in Swift Protocols](http://matthewpalmer.net/blog/2015/08/29/optional-computed-property-swift-protocol-non-objc/) | 声明Optional Computed properties
-[Protocol Oriented Programming in the Real World](http://matthewpalmer.net/blog/2015/08/30/protocol-oriented-programming-in-the-real-world/) | Swift Protocol Oriented Programming的使用例子。
 [Swift Functors, Applicatives, and Monads in Pictures](http://www.mokacoding.com/blog/functor-applicative-monads-in-pictures/) | 学了点`haskell`，在`swift`中新加的很多语言特性都是从`haskell`那里“抄”来的，比如强大的枚举、`switch`等等。`functor`、`applicative`和`monads`历来是`haskell`学习中相对比较难理解的概念，这篇文章用`swift`简明易懂的做了解释。
 | [Advanced NSOperations](https://developer.apple.com/videos/play/wwdc2015-226/) | 对于使用NSOperation提供了一个新颖的使用方案，比较开拓思路，此seesion有[sample code](https://developer.apple.com/sample-code/wwdc/2015/downloads/Advanced-NSOperations.zip)结合观看效果更加
 | [Inside Swift](http://www.eswick.com/2014/06/inside-swift/) | Swift的内部机制
+[Swift's mysterious Builtin module](http://ankit.im/swift/2016/01/12/swift-mysterious-builtin-module/)|揭秘Swift内置模块
+[Swift target acton](https://www.mikeash.com/pyblog/friday-qa-2015-12-25-swifty-targetaction.html)| Cocoa's target/action system for responding to controls is a great system for Objective-C, but is a bit unnatural to use in Swift. Today, I'm going to explore building a wrapper that allows using a Swift function as the action.
+
 
 ## Swift 3
 名称  |  简介
@@ -94,6 +96,7 @@
 [Introduction to Protocol-Oriented MVVM](https://realm.io/news/doios-natasha-murashev-protocol-oriented-mvvm/) | 介绍Protocol Oriented 结合MVVM的一个活生生的🌰。
 [Blurable](https://github.com/FlexMonkey/Blurable) | Apply a Gaussian Blur to any UIView with Swift Protocol Extensions
 [What the 55 Swift Standard Library Protocols Taught Me](https://www.youtube.com/watch?v=_kpYI6GjCuw)|作者为raywenderlich长期教程作者，主要介绍了其从Swift标准库提供的protocol学到了哪些，推荐观看，需翻墙。
+[Protocol Oriented Programming in the Real World](http://matthewpalmer.net/blog/2015/08/30/protocol-oriented-programming-in-the-real-world/) | Swift Protocol Oriented Programming的使用例子。
 
 ## Objective-C
 
@@ -109,6 +112,11 @@
 [Adopting Nullability Annotations](http://www.miqu.me/blog/2015/04/17/adopting-nullability-annotations/) | OC新特性，标记对象是否可以为空，为了更好的适配Swift。
 [Adopting Objective-C Generics](http://www.miqu.me/blog/2015/06/09/adopting-objectivec-generics/) | OC新特性，标记集合对象（NSArray, NSDictionary, NSSet）中保存对象类型，为了更好的适配Swift。
 | [Objective-C vs Swift messages dispatch](https://untitledkingdom.co/blog/obj-c-vs-swift/) | Objective-C和Swift的消息派发机制
+[高效开发iOS系列 -- 那些不为人知的KVC](http://www.jianshu.com/p/a6a0abac1c4a)|文章主要讲解了KVC中容易被开发者忽视却很有用的用法。
+[Apple Memory Usage Performance Guidelines](https://developer.apple.com/library/mac/documentation/Performance/Conceptual/ManagingMemory/ManagingMemory.html)|是上面内存管理及优化视频中提到的苹果文档。
+[iOS内存管理和malloc源码解读](https://yq.aliyun.com/articles/3065)|iOS内存管理和malloc源码解读
+[Automatically Formatting Your Objective-C](http://tonyarnold.com/2014/05/31/autoformatting-your-code.html) | 自动格式化代码工具[ClangFormat-Xcode](https://github.com/travisjeffery/ClangFormat-Xcode/)使用。
+[How to C in 2016](https://matt.sh/howto-c)|How to C in 2016
 
 ## 技术实践
 
@@ -126,9 +134,17 @@
 [iOS中使用blend改变图片颜色](https://onevcat.com/2013/04/using-blending-in-ios/)|iOS中使用blend改变图片颜色
 [iOS 处理图片的一些小 Tip](http://blog.ibireme.com/2015/11/02/ios_image_tips/) | iOS 处理图片的一些小 Tip
 [移动端图片格式调研](http://blog.ibireme.com/2015/11/02/mobile_image_benchmark/)| 移动端图片格式调研
-[利用贝塞尔曲线实现Q弹的下拉刷新](http://pandara.xyz/2015/10/29/jelly_refresh/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)|利用贝塞尔曲线实现Q弹的下拉刷新
 [iOS开发之如何跳到系统设置里的各种设置界面](http://mp.weixin.qq.com/s?__biz=MjM5OTM0MzIwMQ==&mid=401517056&idx=5&sn=ad89f960098b485035006eef656efe16&scene=0#wechat_redirect)|iOS开发之如何跳到系统设置里的各种设置界面
-[iOS开发系列--让你的应用“动”起来](http://www.cnblogs.com/kenshincui/p/3972100.html) | 讲解IOS 动画相关~博主的文笔和排版灰常赞~其系列博文值得一读
+[防止点击 Cell 时 ViewController 被重复 Push](https://github.com/nixzhu/dev-blog/blob/master/2016-01-04-duplicate-push.md)| 寻找疑难问题的解决办法，再做合理分析以便确定可使用
+[iOS 开发之照片框架详解](http://kayosite.com/ios-development-and-detail-of-photo-framework.html)| 包括AssetsLibrary及新库photoKit([官方demo](https://developer.apple.com/library/ios/samplecode/UsingPhotosFramework/Introduction/Intro.html#//apple_ref/doc/uid/TP40014575))
+[利用UIWebView打造一个炫酷的视频背景视图（OC & Swift）](http://www.cocoachina.com/ios/20151023/13860.html)| 视频背景View， 适合做Hi 5.0的登录窗口。
+[Elastic view animation using UIBezierPath](http://iostuts.io/2015/10/17/elastic-bounce-using-uibezierpath-and-pan-gesture/) | Elastic view animation using UIBezierPath
+[Using multiple UIWindows in iOS applications](http://shaune.com.au/using-multiple-uiwindows-in-ios-applications/)|Using multiple UIWindows in iOS applications
+[UIWindow in iOS](https://jkyin.me/uiwindow/)|UIWindow in iOS
+[React-Inspired Views](https://www.objc.io/issues/22-scale/facebook/)| User interfaces can be hard to get right in any application. Combining display and interaction in a little rectangle on the user’s screen seems simple, but even for small applications, it’s easy to end up with a tangled mess of view code. In complex products with many contributing engineers, like Facebook’s News Feed, these views can be especially hard to develop and maintain over time. Facebook News Feed视图策略
+
+
+
 
 ### 动画
 文章名称  |  简介
@@ -136,8 +152,12 @@
 [Controlling Animation Timing](http://ronnqvi.st/controlling-animation-timing/)|Controlling Animation Timing
 [QQ中未读气泡拖拽消失的实现分析](http://kittenyang.com/drawablebubble/)| 这位博主的其他文章也非常赞~
 [看，这白白的液体滴了一地](http://pandara.xyz/2015/11/24/ios_water_drop/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)| 液态效果动画
-
-
+[利用贝塞尔曲线实现Q弹的下拉刷新](http://pandara.xyz/2015/10/29/jelly_refresh/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)|利用贝塞尔曲线实现Q弹的下拉刷新
+[iOS开发系列--让你的应用“动”起来](http://www.cnblogs.com/kenshincui/p/3972100.html) | 讲解IOS 动画相关~博主的文笔和排版灰常赞~其系列博文值得一读
+[iOS自定义转场动画实战讲解](http://www.jianshu.com/p/ea0132738057)|iOS自定义转场动画实战讲解
+[CALayer Animation实践（一）：让应用灵动起来！](http://www.csdn.net/article/2015-09-07/2825633/1) | CALayer 动画实践（一）
+[CALayer动画实践（二）：CAReplicatorLayer的用法](http://www.csdn.net/article/2015-09-09/2825659/2) | CALayer 动画实践（二）
+[iOS 视图控制器转场详解](https://github.com/seedante/iOS-Note/wiki/ViewController-Transition)| 非常详尽讲解转场。
 
 
 ### 文字排版
@@ -145,7 +165,11 @@
 ---- | ----
 [介绍text kit很棒的一篇文章](https://www.raywenderlich.com/50151/text-kit-tutorial)| 介绍text kit很棒的一篇文章
 
-
+### 布局
+文章名称  |  简介
+---- | ----
+[10 Things You Need to Know About Cocoa Auto Layout](http://oleb.net/blog/2013/03/things-you-need-to-know-about-cocoa-autolayout/) | 10 Things You Need to Know About Cocoa Auto Layout
+[iOS Auto Layout: Fun Facts and Tips](https://www.bignerdranch.com/blog/ios-autolayout-fun-facts-and-tips/) | iOS Auto Layout: Fun Facts and Tips
 
 
 
@@ -164,6 +188,9 @@
 [深入理解Kingfisher（上）](http://www.jianshu.com/p/326527a4d4f9)|深入理解Kingfisher（上）
 [深入理解Kingfisher（下）](http://www.jianshu.com/p/0a5cdf3f7e9c)|深入理解Kingfisher（下)
 [Facebook开源的Parse源码分析](https://github.com/ChenYilong/ParseSourceCodeStudy)|Facebook开源的Parse源码分析
+[Open-source Swift: Booleans](https://swiftunboxed.com/open-source/Bool/)| Booleans -- Swift源码阅读
+[Swift Weak References](https://www.mikeash.com/pyblog/friday-qa-2015-12-11-swift-weak-references.html)| Swift 下若引用原理解析。推荐阅读
+[NSCache](https://github.com/nixzhu/dev-blog/blob/master/2015-12-09-nscache.md)| NSCache -- Swift源码阅读
 
 ### 多线程
 文章名称  |  简介
@@ -172,6 +199,12 @@
 [Parse的底层多线程处理思路：GCD高级用法](https://github.com/ChenYilong/ParseSourceCodeStudy/blob/master/01_Parse%E7%9A%84%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%A4%84%E7%90%86%E6%80%9D%E8%B7%AF/Parse%E7%9A%84%E5%BA%95%E5%B1%82%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%A4%84%E7%90%86%E6%80%9D%E8%B7%AF.md)|Parse的底层多线程处理思路：GCD高级用法
 读 Threading Programming Guide 笔记 |[一](http://www.devtalking.com/articles/read-threading-programming-guide-1/) [二](http://www.devtalking.com/articles/read-threading-programming-guide-2/) [三](http://www.devtalking.com/articles/read-threading-programming-guide-3/) [四](http://www.devtalking.com/articles/read-threading-programming-guide-4/)
 [iOS开发之深入理解GCD](http://www.finalshares.com/read-6509?fr=gn&n=23)|  本文为raywenderlich 深入理解GCD的一篇译文，详细讲解了GCD相关的知识。
+[不再安全的 OSSpinLock](http://blog.ibireme.com/2016/01/16/spinlock_is_unsafe_in_ios/)|OSSPinLock作为锁已经不再安全了，文章还对比了各种锁的性能对比。
+[Thread safe class design](https://www.objc.io/issues/2-concurrency/thread-safe-class-design/)|Thread safe class design
+[concurrency apis and pitfalls](https://www.objc.io/issues/2-concurrency/concurrency-apis-and-pitfalls/)|concurrency apis and pitfalls
+[Low level concurrency apis](https://www.objc.io/issues/2-concurrency/low-level-concurrency-apis/)|Low level concurrency apis
+[Common background practices](https://www.objc.io/issues/2-concurrency/common-background-practices/)|Common background practices
+
 
 ### 性能优化
 文章名称  |  简介
@@ -185,6 +218,8 @@
 [iOS 保持界面流畅的技巧](http://blog.ibireme.com/2015/11/12/smooth_user_interfaces_for_ios/) | iOS 保持界面流畅的技巧
 [Faster Photos in Facebook for iOS](https://code.facebook.com/posts/857662304298232/faster-photos-in-facebook-for-ios/) | 这篇文章介绍了Facebook使用Progressive JPEG加快图片加载的优缺点对比。附上一个Progressive image的[开源库](https://github.com/contentful-labs/Concorde)
 [Reducing FOOMs in the Facebook iOS app](https://code.facebook.com/posts/1146930688654547/reducing-fooms-in-the-facebook-ios-app/?utm_campaign=iOS%2BDev%2BWeekly&utm_medium=email&utm_source=iOS_Dev_Weekly_Issue_213) | 这篇文章介绍了Facebook如何减少由于系统内存压力导致的应用Crash。为追踪非应用本身Bug 造成的crash提供了一个思路。
+[iOS同步对象性能对比](http://ksnowlv.github.io/blog/2014/09/07/ios-tong-bu-suo-xing-neng-dui-bi/) | iOS同步对象性能对比
+[Delivering high scroll performance](https://code.facebook.com/posts/456535491190613/delivering-high-scroll-performance/)| Delivering high scroll performance
 
 ### 工具使用
 文章名称  |  简介
@@ -194,7 +229,9 @@
 [iOS开发--应用设置及用户默认设置](http://www.cnblogs.com/azuo/p/5090718.html?utm_source=tuicool&utm_medium=referral)|iOS开发--应用设置及用户默认设置
 [Building and managing iOS model objects with Remodel](https://code.facebook.com/posts/1154141864616569/building-and-managing-ios-model-objects-with-remodel/)|Building and managing iOS model objects with Remodel
 [Injection for Xcode：成吨的提高开发效率](http://www.jianshu.com/p/27be46d5e5d4)| Injection for Xcode：成吨的提高开发效率
-
+[charles中如何对https抓包](http://www.15yan.com/story/8PFT2WXTOiv/)| 使用Charles抓https请求数据包
+[Spelunkhead](https://www.bignerdranch.com/blog/spelunkhead/)|跟着博文作者一起探索iOS系统framework。
+[moby.sh](https://gist.github.com/tvon/5224569)|下载所有framework head文件，并放入一个输出文件夹中，方便搜索查看API接口，新API等。
 
 ### 实践经验
 文章名称  |  简介
@@ -213,6 +250,18 @@
 [Singleton如何测试](http://zixun.github.io/blog/2015/04/16/iosdan-yuan-ce-shi-xi-lie-singletonru-he-ce-shi/) | 介绍Singleton如何测试
 [单元测试编码规范](http://zixun.github.io/blog/2015/04/16/iosdan-yuan-ce-shi-xi-lie-dan-yuan-ce-shi-bian-ma-gui-fan/) | 介绍单元测试编码规范
 [On Using SQLite and FMDB Instead of Core Data](https://www.objc.io/issues/4-core-data/SQLite-instead-of-core-data/) | 关于使用Sqlite的一些实践，对我们项目里Sqlite的使用有很多可以借鉴的东西。
+[NSFormatter](http://nshipster.com/nsformatter/)| 各种听过没听过，用过没用过的formatter
+[objc.io: Compiler](https://www.objc.io/issues/6-build-tools/compiler/)| In this article we’ll have a look at what a compiler does, and how we can use that to our advantage.
+[objc.io: mach-o excutables](https://www.objc.io/issues/6-build-tools/mach-o-executables/)| When we build an application in Xcode, part of what happens is that the sources files (.m and .h) get turned into an executable. This executable contains the byte code than will run on the CPU, the ARM processor on the iOS device, or the Intel processor on your Mac. We’ll walk through some of what the compiler does and what’s inside such an executable. There’s more to it than first meets the eye.
+Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) [二](http://www.pluto-y.com/cocoapods-contribute-for-open-source/) [三](http://www.pluto-y.com/cocoapod-private-pods-and-module-manager/)从零开始到各种私有管理
+[CocoaPods的一些略为高级一丁点的使用](http://supermao.cn/cocoapodsde-xie-lue-wei-gao-ji-ding-dian-de-shi-yong/) | CocoaPods的一些略为高级一丁点的使用
+[详说CMDeviceMotion](http://www.cocoachina.com/ios/20141103/10111.html)| 来自NSHipster 的翻译文章，获取陀螺仪、加速器和磁力仪(罗盘)等传感器数据，get交互灵感
+[Building a Core Foundation](http://robnapier.net/assets/Building-a-Core-Foundation.pdf)|Building a Core Foundation
+[Creating your first iOS Framework](https://robots.thoughtbot.com/creating-your-first-ios-framework)| 手把手教你创建自己的framework
+[DNS 原理入门](http://www.ruanyifeng.com/blog/2016/06/dns.html)|DNS 原理入门
+
+
+
 
 ##应用架构相关
 文章名称  |  简介
@@ -240,32 +289,52 @@
 名称 | 推荐理由
 ------- | -------
 [CharacterText](https://github.com/android1989/CharacterText)| UILabel subclass to perform text effects. 各种炫酷的文字浮现效果。
-[LayoutKit](https://github.com/linkedin/LayoutKit)| LayoutKit is a fast view layout library for iOS. http://layoutkit.org
-[fantastic-ios-animation](https://github.com/onmyway133/fantastic-ios-animation)| A collection of iOS animation repos
-[Scrollable-GraphView](https://github.com/philackm/Scrollable-GraphView)| An adaptive scrollable graph view for iOS to visualise simple discrete datasets. Written in Swift.
-[Render](https://github.com/alexdrone/Render)|React-inspired Swift library for writing UIKit UIs.
-[PMAlertController](https://github.com/Codeido/PMAlertController)|PMAlertController is a great and customizable substitute to UIAlertController
-[JPFPSStatus](https://github.com/joggerplus/JPFPSStatus)| Show FPS Status on StatusBar
-[15DaysofAnimationsinSwift](https://github.com/larrynatalicio/15DaysofAnimationsinSwift)| 动画相关，不是15天从入门到放弃。
 [TextAttributes](https://github.com/delba/TextAttributes)| TextAttributes makes it easy to compose attributed strings.
-[SubtleVolume](https://github.com/andreamazz/SubtleVolume)| Replace the system volume popup with a more subtle indicator.
-[Advance](https://github.com/storehouse/Advance)| A powerful animation framework for iOS.
-[FLAnimatedImage](https://github.com/Flipboard/FLAnimatedImage)| FLAnimatedImage is a performant animated GIF engine for iOS
 [LazyTableImages: Populating UITableView content asynchronously](https://developer.apple.com/library/ios/samplecode/LazyTableImages/Introduction/Intro.html)|苹果官方出了个demo，LazyTableImages，对列表里图片很多的情况有很好的优化作用。我看了一下，挺实用的。
-[IBAnimatable](https://github.com/JakeLin/IBAnimatable)| Design and prototype UI, interaction, navigation, transition and animation for App Store ready Apps in Interface Builder with IBAnimatable.
-[RACollectionViewReorderableTripletLayout](https://github.com/ra1028/RACollectionViewReorderableTripletLayout)|UICollectionView 排序
 [Rainbow](https://github.com/onevcat/Rainbow)| Rainbow adds text color, background color and style for console and command line output in Swift. It is born for cross platform software logging in terminals, working in both Apple's platforms and Linux. Meanwhile, it is also compatible with XcodeColors, which lets you colorize the Xcode debugger output as well when developing an app.
-[SlackTextViewController](https://github.com/slackhq/SlackTextViewController)| A drop-in UIViewController subclass with a growing text input view and other useful messaging features.
 [REVERT](https://github.com/revealapp/Revert/)|Reveal出品，一个项目教会你Swift的基本UI开发。配合reveal更加直观。
 [SwiftGen](https://github.com/AliSoftware/SwiftGen)| This is a suite of tools written in Swift 2 to auto-generate Swift 2 code for various assets of your project: 1.enums for your Assets Catalogs 2.enums for your Localizable.strings strings.3.enums for your UIStoryboard and their Scenes. 4.enums for your UIColors.
+
+
+### UI组件
+名称 | 推荐理由
+------- | -------
+[Render](https://github.com/alexdrone/Render)|React-inspired Swift library for writing UIKit UIs.
+[Scrollable-GraphView](https://github.com/philackm/Scrollable-GraphView)| An adaptive scrollable graph view for iOS to visualise simple discrete datasets. Written in Swift.
+[PMAlertController](https://github.com/Codeido/PMAlertController)|PMAlertController is a great and customizable substitute to UIAlertController
+[SubtleVolume](https://github.com/andreamazz/SubtleVolume)| Replace the system volume popup with a more subtle indicator.
+[FLAnimatedImage](https://github.com/Flipboard/FLAnimatedImage)| FLAnimatedImage is a performant animated GIF engine for iOS
+[RACollectionViewReorderableTripletLayout](https://github.com/ra1028/RACollectionViewReorderableTripletLayout)|UICollectionView 排序
+[SlackTextViewController](https://github.com/slackhq/SlackTextViewController)| A drop-in UIViewController subclass with a growing text input view and other useful messaging features.
 [Instructions](https://github.com/ephread/Instructions)|新手引导
 [FDStackView](https://github.com/forkingdog/FDStackView) | Use UIStackView directly in iOS6+ ,百度知道团队开源代码
 [Concorde](https://github.com/contentful-labs/Concorde) | Progressive JPEG 图片加载的三方库。
 [MessageDisplayKit](https://github.com/xhzengAIB/MessageDisplayKit) | MessageDisplayKit 模仿微信样式的开源IM
 [JSQMessagesViewController](https://github.com/jessesquires/JSQMessagesViewController) | 开源聊天界面组件
+[JPFPSStatus](https://github.com/joggerplus/JPFPSStatus)| Show FPS Status on StatusBar
+
+
+### 布局
+名称 | 推荐理由
+------- | -------
+[LayoutKit](https://github.com/linkedin/LayoutKit)| LayoutKit is a fast view layout library for iOS. http://layoutkit.org
 [ClassyLiveLayout](https://github.com/olegam/ClassyLiveLayout) | Use Classy stylesheets together with Masonry to tweak AutoLayout constants live when debugging in the simulator.
 [SnapKit](https://github.com/SnapKit/SnapKit) | SnapKit is a DSL to make Auto Layout easy on both iOS and OS X.
 [Neon](https://github.com/mamaral/Neon) | A powerful Swift programmatic UI layout framework.Build dynamic and beautiful user interfaces like a boss, with Swift.|
+
+
+### 动画
+名称 | 推荐理由
+------- | -------
+[fantastic-ios-animation](https://github.com/onmyway133/fantastic-ios-animation)| A collection of iOS animation repos
+[15DaysofAnimationsinSwift](https://github.com/larrynatalicio/15DaysofAnimationsinSwift)| 动画相关，不是15天从入门到放弃。
+[IBAnimatable](https://github.com/JakeLin/IBAnimatable)| Design and prototype UI, interaction, navigation, transition and animation for App Store ready Apps in Interface Builder with IBAnimatable.
+[Advance](https://github.com/storehouse/Advance)| A powerful animation framework for iOS.
+
+
+
+
+
 
 ### 网络
 名称 | 推荐理由
@@ -354,65 +423,8 @@
 [awesome swift](https://github.com/matteocrippa/awesome-swift)| awesome swift 系列，汇聚各种好的swift资源，不收藏等啥呢！
 [Hacking With Swift](https://github.com/twostraws/HackingWithSwift) | Swift 教程，以做小项目学习Swift
 [swift algorithm club](https://github.com/raywenderlich/swift-algorithm-club)| Algorithms and data structures in Swift, with explanations!
-
-
-
-
-## 文章
-
-标题  | 内容简介
----- | -----
-[DNS 原理入门](http://www.ruanyifeng.com/blog/2016/06/dns.html)|DNS 原理入门
-[iOS 视图控制器转场详解](https://github.com/seedante/iOS-Note/wiki/ViewController-Transition)| 非常详尽讲解转场。
-Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) [二](http://www.pluto-y.com/cocoapods-contribute-for-open-source/) [三](http://www.pluto-y.com/cocoapod-private-pods-and-module-manager/)从零开始到各种私有管理
-[Apple Memory Usage Performance Guidelines](https://developer.apple.com/library/mac/documentation/Performance/Conceptual/ManagingMemory/ManagingMemory.html)|是上面内存管理及优化视频中提到的苹果文档。
-[Swift GYB 简易教程](http://swift.gg/2016/03/04/a-short-swift-gyb-tutorial/)| Swift源码中很多GYB文件，本文简单介绍了如何使用GYB生成代码模板及如何使用GYB生成源码文件。我觉得对于查看Swift源码有帮助。
-[深入浅出－iOS函数式编程的实现 && 响应式编程概念](http://www.jianshu.com/p/7017a220f34c) |本篇主要回顾一下－－iOS函数式编程 && 响应式编程概念 ,如何一步步实现函数式编程的过程，对阅读Masonry  &&  SnapKit源码有一定的帮助
-[iOS自定义转场动画实战讲解](http://www.jianshu.com/p/ea0132738057)|iOS自定义转场动画实战讲解
-[iOS内存管理和malloc源码解读](https://yq.aliyun.com/articles/3065)|iOS内存管理和malloc源码解读
-[Reader Submissions -- NSHipster](http://nshipster.com/new-years-2016/)|  由NSHipster读者提供的一些小技巧。
 [27 iOS open source libraries to skyrocket your development.](https://medium.com/app-coder-io/27-ios-open-source-libraries-to-skyrocket-your-development-301b67d3124c#.yp7qkmmxs) | 27个常用的iOS开源库。
-[高效开发iOS系列 -- 那些不为人知的KVC](http://www.jianshu.com/p/a6a0abac1c4a)|文章主要讲解了KVC中容易被开发者忽视却很有用的用法。
-[How to C in 2016](https://matt.sh/howto-c)|How to C in 2016
-[不再安全的 OSSpinLock](http://blog.ibireme.com/2016/01/16/spinlock_is_unsafe_in_ios/)|OSSPinLock作为锁已经不再安全了，文章还对比了各种锁的性能对比。
-[Swift's mysterious Builtin module](http://ankit.im/swift/2016/01/12/swift-mysterious-builtin-module/)|揭秘Swift内置模块
-[Creating your first iOS Framework](https://robots.thoughtbot.com/creating-your-first-ios-framework)| 手把手教你创建自己的framework
-[charles中如何对https抓包](http://www.15yan.com/story/8PFT2WXTOiv/)| 使用Charles抓https请求数据包
-[concurrency apis and pitfalls](https://www.objc.io/issues/2-concurrency/concurrency-apis-and-pitfalls/)|concurrency apis and pitfalls
-[Common background practices](https://www.objc.io/issues/2-concurrency/common-background-practices/)|Common background practices
-[Low level concurrency apis](https://www.objc.io/issues/2-concurrency/low-level-concurrency-apis/)|Low level concurrency apis
-[Thread safe class design](https://www.objc.io/issues/2-concurrency/thread-safe-class-design/)|Thread safe class design
-[React-Inspired Views](https://www.objc.io/issues/22-scale/facebook/)| User interfaces can be hard to get right in any application. Combining display and interaction in a little rectangle on the user’s screen seems simple, but even for small applications, it’s easy to end up with a tangled mess of view code. In complex products with many contributing engineers, like Facebook’s News Feed, these views can be especially hard to develop and maintain over time. Facebook News Feed视图策略
-[防止点击 Cell 时 ViewController 被重复 Push](https://github.com/nixzhu/dev-blog/blob/master/2016-01-04-duplicate-push.md)| 寻找疑难问题的解决办法，再做合理分析以便确定可使用
-[Building a Core Foundation](http://robnapier.net/assets/Building-a-Core-Foundation.pdf)|Building a Core Foundation
-[iOS 开发之照片框架详解](http://kayosite.com/ios-development-and-detail-of-photo-framework.html)| 包括AssetsLibrary及新库photoKit([官方demo](https://developer.apple.com/library/ios/samplecode/UsingPhotosFramework/Introduction/Intro.html#//apple_ref/doc/uid/TP40014575))
-[NSFormatter](http://nshipster.com/nsformatter/)| 各种听过没听过，用过没用过的formatter
-[Swift target acton](https://www.mikeash.com/pyblog/friday-qa-2015-12-25-swifty-targetaction.html)| Cocoa's target/action system for responding to controls is a great system for Objective-C, but is a bit unnatural to use in Swift. Today, I'm going to explore building a wrapper that allows using a Swift function as the action.
-[objc.io: Compiler](https://www.objc.io/issues/6-build-tools/compiler/)| In this article we’ll have a look at what a compiler does, and how we can use that to our advantage.
-[objc.io: mach-o excutables](https://www.objc.io/issues/6-build-tools/mach-o-executables/)| When we build an application in Xcode, part of what happens is that the sources files (.m and .h) get turned into an executable. This executable contains the byte code than will run on the CPU, the ARM processor on the iOS device, or the Intel processor on your Mac. We’ll walk through some of what the compiler does and what’s inside such an executable. There’s more to it than first meets the eye.
-[iOS开源库介绍-FCModel](http://www.jianshu.com/p/a56d00e38dea)|iOS开源库介绍-FCModel
-[Delivering high scroll performance](https://code.facebook.com/posts/456535491190613/delivering-high-scroll-performance/)| Delivering high scroll performance
-[Bitcode 解密](http://lowlevelbits.org/bitcode-demystified/)|文章主要介绍了什么是bitcode，以及使用bitcode带来的好处与坏处。
-[Using multiple UIWindows in iOS applications](http://shaune.com.au/using-multiple-uiwindows-in-ios-applications/)|Using multiple UIWindows in iOS applications
-[UIWindow in iOS](https://jkyin.me/uiwindow/)|UIWindow in iOS
-[Swift Weak References](https://www.mikeash.com/pyblog/friday-qa-2015-12-11-swift-weak-references.html)| Swift 下若引用原理解析。推荐阅读
-[Open-source Swift: Booleans](https://swiftunboxed.com/open-source/Bool/)| Booleans -- Swift源码阅读
-[NSCache](https://github.com/nixzhu/dev-blog/blob/master/2015-12-09-nscache.md)| NSCache -- Swift源码阅读
-[iOS同步对象性能对比](http://ksnowlv.github.io/blog/2014/09/07/ios-tong-bu-suo-xing-neng-dui-bi/) | iOS同步对象性能对比
-[详说CMDeviceMotion](http://www.cocoachina.com/ios/20141103/10111.html)| 来自NSHipster 的翻译文章，获取陀螺仪、加速器和磁力仪(罗盘)等传感器数据，get交互灵感
-[Spelunkhead](https://www.bignerdranch.com/blog/spelunkhead/)|跟着博文作者一起探索iOS系统framework。
-[moby.sh](https://gist.github.com/tvon/5224569)|下载所有framework head文件，并放入一个输出文件夹中，方便搜索查看API接口，新API等。
-[利用UIWebView打造一个炫酷的视频背景视图（OC & Swift）](http://www.cocoachina.com/ios/20151023/13860.html)| 视频背景View， 适合做Hi 5.0的登录窗口。
-[Elastic view animation using UIBezierPath](http://iostuts.io/2015/10/17/elastic-bounce-using-uibezierpath-and-pan-gesture/) | Elastic view animation using UIBezierPath
-[Automatically Formatting Your Objective-C](http://tonyarnold.com/2014/05/31/autoformatting-your-code.html) | 自动格式化代码工具[ClangFormat-Xcode](https://github.com/travisjeffery/ClangFormat-Xcode/)使用。
-[CALayer Animation实践（一）：让应用灵动起来！](http://www.csdn.net/article/2015-09-07/2825633/1) | CALayer 动画实践（一）
-[CALayer动画实践（二）：CAReplicatorLayer的用法](http://www.csdn.net/article/2015-09-09/2825659/2) | CALayer 动画实践（二）
-[代码整洁之所以重要的七个理由](http://blog.jobbole.com/61312/) | 为什么代码整洁是如此重要
-[技术债务：究竟让你付出了多大代价？](http://blog.jobbole.com/25137/) | 技术债务：究竟让你付出了多大代价？
-[如何配置一个高效的 Mac 工作环境](http://blog.jobbole.com/63130/)| 如何配置一个高效的 Mac 工作环境
-[CocoaPods的一些略为高级一丁点的使用](http://supermao.cn/cocoapodsde-xie-lue-wei-gao-ji-ding-dian-de-shi-yong/) | CocoaPods的一些略为高级一丁点的使用
-[10 Things You Need to Know About Cocoa Auto Layout](http://oleb.net/blog/2013/03/things-you-need-to-know-about-cocoa-autolayout/) | 10 Things You Need to Know About Cocoa Auto Layout
-[iOS Auto Layout: Fun Facts and Tips](https://www.bignerdranch.com/blog/ios-autolayout-fun-facts-and-tips/) | iOS Auto Layout: Fun Facts and Tips
+
 
 ## React Native
 标题  | 内容简介
@@ -446,6 +458,8 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754) | 虽然是针对`JavaScript`的`Rx`库的，但是对`Reactive Programming`思想描述的非常清晰明了。
 [A FIRST LOOK AT REACTIVECOCOA 3.0](http://blog.scottlogic.com/2015/04/24/first-look-reactive-cocoa-3.html) | `ReactiveCocoa` 3.0的API入门文章
 [REACTIVECOCOA 3.0 - SIGNAL PRODUCERS AND API CLARITY](http://blog.scottlogic.com/2015/04/28/reactive-cocoa-3-continued.html) | `ReactiveCocoa` 3.0的API入门文章
+[深入浅出－iOS函数式编程的实现 && 响应式编程概念](http://www.jianshu.com/p/7017a220f34c) |本篇主要回顾一下－－iOS函数式编程 && 响应式编程概念 ,如何一步步实现函数式编程的过程，对阅读Masonry  &&  SnapKit源码有一定的帮助
+
 
 ##iOS HotFix相关
 标题  | 内容简介
@@ -526,6 +540,7 @@ Siri Integration in iOS 10 with Swift – SiriKit Tutorial |[Part 1](http://jame
 [iOS 9 开发高级技巧 - 通过 12 个团队所提供的技巧来快速适配 iOS 9](https://realm.io/cn/news/tips-for-ios-9-development/) | iOS 9 开发高级技巧 - 通过 12 个团队所提供的技巧来快速适配 iOS 9 |
 [iOS 7 - 9新特性总结](http://anyuan.me/ios-7-9-xin-te-xing-zong-jie/) | 总结iOS7-9开发者应该关注的变化。
 [Live Photo API on iOS](http://writings/live-photo-ios-api-overview/)| What are Live Photos? From a marketing perspective, Live Photos record the moments just before and after you take a photo. Under the hood, a Live Photo is just a JPEG image together with a QuickTime file contaning an H.264 track.
+[Bitcode 解密](http://lowlevelbits.org/bitcode-demystified/)|文章主要介绍了什么是bitcode，以及使用bitcode带来的好处与坏处。
 
 
 ## 工具/插件
@@ -585,7 +600,9 @@ Siri Integration in iOS 10 with Swift – SiriKit Tutorial |[Part 1](http://jame
 [ABC: Always be coding](https://medium.com/@davidbyttow/abc-always-be-coding-d5f8051afce2#.ci0q5suo8)| 如何提（准）升（备）自（面）己（试）。
 [Leveling Up](https://www.bignerdranch.com/blog/leveling-up/)|个人觉得是一篇很好的iOS进阶提升的一个好文章，推荐给有一定iOS开发经验并想继续提升自己的同学。
 [软件专利的荒谬性 Patent_Absurdity](http://www.tudou.com/programs/view/RIqCrm7sn-8/)|推荐一部纪录片《软件专利的荒谬性》
-
+[代码整洁之所以重要的七个理由](http://blog.jobbole.com/61312/) | 为什么代码整洁是如此重要
+[技术债务：究竟让你付出了多大代价？](http://blog.jobbole.com/25137/) | 技术债务：究竟让你付出了多大代价？
+[如何配置一个高效的 Mac 工作环境](http://blog.jobbole.com/63130/)| 如何配置一个高效的 Mac 工作环境
 ## 博客
 
 博客地址 | 博主信息
