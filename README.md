@@ -127,9 +127,27 @@
 [iOS 处理图片的一些小 Tip](http://blog.ibireme.com/2015/11/02/ios_image_tips/) | iOS 处理图片的一些小 Tip
 [移动端图片格式调研](http://blog.ibireme.com/2015/11/02/mobile_image_benchmark/)| 移动端图片格式调研
 [利用贝塞尔曲线实现Q弹的下拉刷新](http://pandara.xyz/2015/10/29/jelly_refresh/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)|利用贝塞尔曲线实现Q弹的下拉刷新
-[看，这白白的液体滴了一地](http://pandara.xyz/2015/11/24/ios_water_drop/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)| 液态效果动画
 [iOS开发之如何跳到系统设置里的各种设置界面](http://mp.weixin.qq.com/s?__biz=MjM5OTM0MzIwMQ==&mid=401517056&idx=5&sn=ad89f960098b485035006eef656efe16&scene=0#wechat_redirect)|iOS开发之如何跳到系统设置里的各种设置界面
 [iOS开发系列--让你的应用“动”起来](http://www.cnblogs.com/kenshincui/p/3972100.html) | 讲解IOS 动画相关~博主的文笔和排版灰常赞~其系列博文值得一读
+
+### 动画
+文章名称  |  简介
+---- | ----
+[Controlling Animation Timing](http://ronnqvi.st/controlling-animation-timing/)|Controlling Animation Timing
+[QQ中未读气泡拖拽消失的实现分析](http://kittenyang.com/drawablebubble/)| 这位博主的其他文章也非常赞~
+[看，这白白的液体滴了一地](http://pandara.xyz/2015/11/24/ios_water_drop/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)| 液态效果动画
+
+
+
+
+### 文字排版
+文章名称  |  简介
+---- | ----
+[介绍text kit很棒的一篇文章](https://www.raywenderlich.com/50151/text-kit-tutorial)| 介绍text kit很棒的一篇文章
+
+
+
+
 
 ### 源码解析
 文章名称  |  简介
@@ -221,6 +239,7 @@
 ### UI
 名称 | 推荐理由
 ------- | -------
+[CharacterText](https://github.com/android1989/CharacterText)| UILabel subclass to perform text effects. 各种炫酷的文字浮现效果。
 [LayoutKit](https://github.com/linkedin/LayoutKit)| LayoutKit is a fast view layout library for iOS. http://layoutkit.org
 [fantastic-ios-animation](https://github.com/onmyway133/fantastic-ios-animation)| A collection of iOS animation repos
 [Scrollable-GraphView](https://github.com/philackm/Scrollable-GraphView)| An adaptive scrollable graph view for iOS to visualise simple discrete datasets. Written in Swift.
@@ -259,6 +278,7 @@
 ### Model
 名称 | 推荐理由
 ------- | -------
+[GRDB.swift](https://github.com/groue/GRDB.swift)| A versatile SQLite toolkit for Swift, with WAL mode support https://www.sqlite.org
 [SQLite.swift](https://github.com/stephencelis/SQLite.swift)| A type-safe, Swift-language layer over SQLite3.
 [Alamofire Object Mapper](https://github.com/tristanhimmelman/AlamofireObjectMapper)| An Alamofire extension which converts JSON response data into swift objects using ObjectMapper
 [Coolie](https://github.com/nixzhu/Coolie)| Coolie parse a JSON file to generate models (& their constructors).
