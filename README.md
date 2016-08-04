@@ -620,15 +620,8 @@ Siri Integration in iOS 10 with Swift – SiriKit Tutorial |[Part 1](http://jame
 [小土刀](http://wdxtub.com/about/)| 各种CMU课程的笔记等技术文章。
 [Garan no Dou](http://blog.ibireme.com/) | @ibireme 文章深入， 开源代码质量高，值得关注
 [OneV's Den](http://onevcat.com/#blog) | 王巍(喵神), 现居日本, 就职于 LINE, 知名 iOS 开发者, 写的文章大多深入浅出, 内容广泛, 目前在维护的 [Swifter](http://swifter.tips) 也值得收藏
-[唐巧的技术博客](http://blog.devtang.com) | 唐巧, 国内知名 iOS 开发者, 现就职于猿题库, 博客推出的 iOS 移动开发周报很受欢迎, 更新频繁
-[txx's blog](http://blog.txx.im) | 90 后 iOS 开发者, 人称虾神, 文章内容讲解大多浅白易懂, 很值得看
-[破船之家](http://beyondvincent.com) | 博主也是 iOS 大神一个, 经常更新一些 iOS 教程, 文章的质量都很高, 非常值得看
 [NSHipster](http://nshipster.cn) | NSHipster 的中文网站, 主要对 NSHipster 的英文网站进行翻译, 博文出自 Mattt 大神之手, 文章大都写得很深入, 详细, 每周一更
 [Limboy 无网不剩](http://blog.leezhong.com) | 李忠, 知乎前员工, 目前在负责花瓣 iOS 开发, 不少文章里面有介绍博主个人的学习方法, 让读者在学到技术的同时也掌握学习的技巧
-[iOS技术周报](http://weekly.ios-wiki.com/history) | 吴发伟, 天猫资深软件开发工程师, iOS 技术周报每周一更, 推送一些 iOS 技巧, 代码库, 设计等资讯.
-[iWangKe.me](http://www.iwangke.me) | 王轲, IndieBros Studio 创始人, 优秀的 iOS 开发工程师, 写的文章深入浅出, 很多问题分析透彻, 非常有条理性
-[叶孤城](http://www.jianshu.com/p/99e8b3f6f377) | 叶孤城, 优秀 iOS 开发工程师, 发表的文章都有很多干货, 对源码解析类文章写得浅显易懂, 并时常总结一些 iOS 开发技巧, 值得一读
-[Kevin Blog](http://zhowkev.in) | 周楷雯, 秒视创始人, 知名 iOS 工程师, 做出了 [PNChart](https://github.com/kevinzhow/PNChart) 和 [Waver](https://github.com/kevinzhow/Waver) 这样的好项目, 在博客中也有谈到具体的实现过程
 [IMTX](https://imtx.me/) | 图拉鼎, 知名 Apple 平台开发者, 曾经的 Ubuntu 平台开发者, 文章有不少干货, 大多讲解技术实现和学习经验
 [Facebook iOS技术博客](https://code.facebook.com/ios/) | Facebook 在iOS上的一些优秀实践，很多值得我们学习，希望大家也多多关注。
 [SwiftGG](http://swift.gg/) | 翻译的Swift国外优秀技术博客
