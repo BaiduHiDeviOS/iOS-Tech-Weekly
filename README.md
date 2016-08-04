@@ -607,7 +607,7 @@ Siri Integration in iOS 10 with Swift – SiriKit Tutorial |[Part 1](http://jame
 
 博客地址 | 博主信息
 ------- | -------
-[Google Research Blog](https://research.googleblog.com/): The latest news from Research at Google
+[Google Research Blog](https://research.googleblog.com/)| The latest news from Research at Google
 [artsy engineering team](http://artsy.github.io/)|artsy engineering team
 [一个iOS菜菜的白话文记录](http://xiongzenghuidegithub.github.io/)| 一个高产的博主
 [Rollout](https://rollout.io/)| Deploy code-level changes to native iOS apps,without waiting on the App Store.
