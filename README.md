@@ -9,7 +9,6 @@
 
 名称  |  简介
 ---- | ----
-[swift proposals 0086 drop foundation NS](https://github.com/apple/swift-evolution/blob/master/proposals/0086-drop-foundation-ns.md)| swift proposals 0086 drop foundation NS
 [Rejected Swift Proposals](http://chris.eidhof.nl/post/rejected-swift-proposals/)| What we can learn from the rejections
 [OOD Principles In Swift](https://github.com/ochococo/OOD-Principles-In-Swift)|OOD Principles In Swift
 [A Different Take on MVVM with Swift](http://rasic.info/a-different-take-on-mvvm-with-swift/)|A Different Take on MVVM with Swift
@@ -64,6 +63,11 @@
 ## Swift 3
 名称  |  简介
 ---- | ----
+[Swift Programming Language Evolution: Proposal Status](http://apple.github.io/swift-evolution/)| 查看proposals的状态
+[Writing High-Performance Swift Code](https://github.com/apple/swift/blob/master/docs/OptimizationTips.rst)|Writing High-Performance Swift Code
+[Migrating to swift 3](http://www.jessesquires.com/migrating-to-swift-3/)|Migrating to swift 3
+[swift proposals 0086 drop foundation NS](https://github.com/apple/swift-evolution/blob/master/proposals/0086-drop-foundation-ns.md)| swift proposals 0086 drop foundation NS
+[Swift 3 Grand Central Dispatch](https://medium.com/swift-and-ios-writing/a-quick-look-at-gcd-and-swift-3-732bef6e1838#.bhqrecmpq)| Swift 3中GCD的变化
 [Raywenderlich what's new swift 3](https://www.raywenderlich.com/135655/whats-new-swift-3)|Raywenderlich what's new swift 3
 [Increased Safety in Swift 3.0](https://www.bignerdranch.com/blog/wwdc-2016-increased-safety-in-swift-3)|Increased Safety in Swift 3.0
 [Migrating to Swift 2.3 or Swift 3 from Swift 2.2](https://swift.org/migration-guide/)| swift官方迁移指南
@@ -220,6 +224,7 @@
 [Reducing FOOMs in the Facebook iOS app](https://code.facebook.com/posts/1146930688654547/reducing-fooms-in-the-facebook-ios-app/?utm_campaign=iOS%2BDev%2BWeekly&utm_medium=email&utm_source=iOS_Dev_Weekly_Issue_213) | 这篇文章介绍了Facebook如何减少由于系统内存压力导致的应用Crash。为追踪非应用本身Bug 造成的crash提供了一个思路。
 [iOS同步对象性能对比](http://ksnowlv.github.io/blog/2014/09/07/ios-tong-bu-suo-xing-neng-dui-bi/) | iOS同步对象性能对比
 [Delivering high scroll performance](https://code.facebook.com/posts/456535491190613/delivering-high-scroll-performance/)| Delivering high scroll performance
+[优化Facebook iOS app启动时间](https://code.facebook.com/posts/1675399786008080/optimizing-facebook-for-ios-start-time/)|优化Facebook iOS app启动时间
 
 ### 工具使用
 文章名称  |  简介
@@ -236,19 +241,14 @@
 ### 实践经验
 文章名称  |  简介
 ---- | ----
+[理解iOS的内存管理](http://blog.devtang.com/2016/07/30/ios-memory-management/)|理解iOS的内存管理
 [Distribute your Swift code using CocoaPods](https://medium.com/@PyBaig/distribute-your-swift-code-libraries-and-frameworks-using-cocoapods-b41c62cd7c94#.z941fsoej)|Distribute your Swift code using CocoaPods
 [Build your own Cocoa Touch Frameworks, in pure Swift](https://medium.com/@PyBaig/build-your-own-cocoa-touch-frameworks-in-swift-d4ea3d1f9ca3#.6a4f1p89b)|Build your own Cocoa Touch Frameworks, in pure Swift
 [基于TLS1.3的微信安全通信协议mmtls介绍](http://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ==&mid=2649286266&idx=1&sn=f5d049033e251cccc22e163532355ddf&scene=0#wechat_redirect)|基于TLS1.3的微信安全通信协议mmtls介绍
-[How to write a unit test which passes if a function throws?](https://forums.developer.apple.com/thread/5824)| 目前Xcode Unit Test没有对抛出异常的函数进行处理的XCT方法，文中添加了第三方的写法。
 [iOS瘦身之删除无用的mach-O文件](http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&mid=2651112096&idx=1&sn=ce8fccce7d5f70e30c078e63e8ea0d15&scene=0#wechat_redirect)|iOS瘦身之删除无用的mach-O文件
 [微信文件微起底](http://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&mid=2653576807&idx=2&sn=0db15d1545379da06818b1b5d33112c1&scene=1&srcid=0414LDe5v52rgToo7oQ82mEy&from=singlemessage&isappinstalled=0#wechat_redirect)|微信文件微起底
 [如何防止客户端被破解](http://tanqisen.github.io/blog/2014/06/06/how-to-prevent-app-crack/)|很多应用都需要用户登录或者签名认证，这可能需要在客户端保存登录信息、签名密钥、加密算法等。如何保证这些重要信息不被窃取，算法不被破解，这些成为应用开发中很重要的内容，同样也是最容易忽视的地方。一个小小的细节可能就成为整个系统的突破口，这里从实际工程角度总结了一些容易忽视的细节和常用的方法。
-[优化Facebook iOS app启动时间](https://code.facebook.com/posts/1675399786008080/optimizing-facebook-for-ios-start-time/)|优化Facebook iOS app启动时间
 [iOS APP安全杂谈之三](http://drops.wooyun.org/papers/9598) | iOS APP安全杂谈之三
-[单元测试框架选型](http://zixun.github.io/blog/2015/04/11/iosdan-yuan-ce-shi-xi-lie-dan-yuan-ce-shi-kuang-jia-xuan-xing/) | 介绍单元测试框架选型，对比几个知名测试框架
-[OCMock常见使用方式](http://zixun.github.io/blog/2015/04/16/iosdan-yuan-ce-shi-xi-lie-yi-ocmockchang-jian-shi-yong-fang-shi/) | 介绍CMock常见使用方式
-[Singleton如何测试](http://zixun.github.io/blog/2015/04/16/iosdan-yuan-ce-shi-xi-lie-singletonru-he-ce-shi/) | 介绍Singleton如何测试
-[单元测试编码规范](http://zixun.github.io/blog/2015/04/16/iosdan-yuan-ce-shi-xi-lie-dan-yuan-ce-shi-bian-ma-gui-fan/) | 介绍单元测试编码规范
 [On Using SQLite and FMDB Instead of Core Data](https://www.objc.io/issues/4-core-data/SQLite-instead-of-core-data/) | 关于使用Sqlite的一些实践，对我们项目里Sqlite的使用有很多可以借鉴的东西。
 [NSFormatter](http://nshipster.com/nsformatter/)| 各种听过没听过，用过没用过的formatter
 [objc.io: Compiler](https://www.objc.io/issues/6-build-tools/compiler/)| In this article we’ll have a look at what a compiler does, and how we can use that to our advantage.
@@ -299,6 +299,9 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ### UI组件
 名称 | 推荐理由
 ------- | -------
+[LTMorphingLabel](https://github.com/lexrus/LTMorphingLabel)| Graceful morphing effects for UILabel written in Swift.
+[AspectFillFaceAware](https://github.com/BeauNouvelle/AspectFillFaceAware)| An extension that gives UIImageView the ability to focus on faces within an image when using AspectFill.
+[Translucid](https://github.com/Ekhoo/Translucid)| Lightweight library to set an Image as text background. Written in swift.
 [Render](https://github.com/alexdrone/Render)|React-inspired Swift library for writing UIKit UIs.
 [Scrollable-GraphView](https://github.com/philackm/Scrollable-GraphView)| An adaptive scrollable graph view for iOS to visualise simple discrete datasets. Written in Swift.
 [PMAlertController](https://github.com/Codeido/PMAlertController)|PMAlertController is a great and customizable substitute to UIAlertController
@@ -326,6 +329,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ### 动画
 名称 | 推荐理由
 ------- | -------
+[RMPZoomTransitionAnimator](https://github.com/recruit-mp/RMPZoomTransitionAnimator)| A custom zooming transition animation for UIViewController
 [fantastic-ios-animation](https://github.com/onmyway133/fantastic-ios-animation)| A collection of iOS animation repos
 [15DaysofAnimationsinSwift](https://github.com/larrynatalicio/15DaysofAnimationsinSwift)| 动画相关，不是15天从入门到放弃。
 [IBAnimatable](https://github.com/JakeLin/IBAnimatable)| Design and prototype UI, interaction, navigation, transition and animation for App Store ready Apps in Interface Builder with IBAnimatable.
@@ -347,6 +351,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ### Model
 名称 | 推荐理由
 ------- | -------
+[Zip](https://github.com/marmelroy/Zip)| Swift framework for zipping and unzipping files.
 [GRDB.swift](https://github.com/groue/GRDB.swift)| A versatile SQLite toolkit for Swift, with WAL mode support https://www.sqlite.org
 [SQLite.swift](https://github.com/stephencelis/SQLite.swift)| A type-safe, Swift-language layer over SQLite3.
 [Alamofire Object Mapper](https://github.com/tristanhimmelman/AlamofireObjectMapper)| An Alamofire extension which converts JSON response data into swift objects using ObjectMapper
@@ -371,6 +376,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ### 工具库
 名称 | 推荐理由
 ------- | -------
+[objc2swift](https://github.com/yahoojapan/objc2swift)| Open Source Obj-C to Swift Converter. http://objc2swift.yahoo-labs.jp
 [lzfse](https://github.com/lzfse/lzfse)| This is a reference C implementation of the LZFSE compressor introduced in the Compression library with OS X 10.11 and iOS 9
 [MotionKit](https://github.com/MHaroonBaig/MotionKit)|Get the data from Accelerometer, Gyroscope and Magnetometer in only Two or a few lines of code. CoreMotion now made insanely simple.
 [GYDataCenter：高性能数据库框架](http://wereadteam.github.io/2016/07/06/GYDataCenter/)| 微信阅读团队开源了一直在团队内使用的数据库框架。
@@ -527,6 +533,7 @@ iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://w
 ##iOS 新特性
 标题  | 内容简介
 ---- | -----
+[iOS 10 适配](https://github.com/ChenYilong/iOS10AdaptationTips)|iOS 10 适配
 Siri Integration in iOS 10 with Swift – SiriKit Tutorial |[Part 1](http://jamesonquave.com/blog/adding-siri-to-ios-10-apps-in-swift-tutorial/) [Part 2](http://jamesonquave.com/blog/sirikit-swift-3-resolutions-sirikit-tutorial-part-2/)|
 [Lessons learned with 3D Touch](http://engineering.instagram.com/posts/465414923641286/lessons-learned-with-3D-touch) | 详细介绍了3D touch 在instagram app中的应用。
 [开发者所需要知道的 iOS 10 SDK 新特性](https://onevcat.com/2016/06/ios-10-sdk/) | 开发者所需要知道的 iOS 10 SDK 新特性
@@ -547,6 +554,8 @@ Siri Integration in iOS 10 with Swift – SiriKit Tutorial |[Part 1](http://jame
 
 工具/插件  |  简介
 ---- | ----
+[dSYMTools](https://github.com/answer-huang/dSYMTools)| 开源的 dSYM 文件分析工具，可帮助开发者快速定位报错函数
+[hirundo](https://stylemac.com/hirundo/)| Hirundo (Latin for 'Swift') is a convenient way to browse and follow the discussions in the Swift mailing lists like Swift-Evolution or Swift-Dev. You can even bookmark messages of threads because they contain important information
 [graph style of the swift standard library](https://gist.githubusercontent.com/natecook1000/5542f4e8e3706111837859c4e1cab16b/raw/dac5be7df5f88397ec6d7eed9d484f182db2fc74/Swift-3.0-Hierarchy.png)|graph style of the swift standard library
 [Mac CLI](https://github.com/guarinogabriel/Mac-CLI)|  OS X command line tools for developers – The ultimate tool to manage your Mac. It provides a huge set of command line commands that automatize the usage of your OS X system.
 [httpbin](https://github.com/Runscope/httpbin)| HTTP Request & Response Service, written in Python + Flask.http://httpbin.org
@@ -584,6 +593,8 @@ Siri Integration in iOS 10 with Swift – SiriKit Tutorial |[Part 1](http://jame
 
 文章  |  简介
 ---- | ----
+[A DIY COMPUTER SCIENCE EDUCATION](http://bradfieldcs.com/diy/)| 应当如何自学计算机科学（CS），本文基于众多专业工程师自学的教育经验给出了一个简短的指南。
+[How to be a programmer](https://github.com/braydie/HowToBeAProgrammer)| A guide on how to be a Programmer - originally published by Robert L Read https://braydie.gitbooks.io/how-to-be-a-programmer/content/
 [How does a relational database work](http://coding-geek.com/how-databases-work/)| 关系数据库原理，文章很长，适合慢慢看。。。
 [Rob Pike - 'Concurrency Is Not Parallelism'](https://www.youtube.com/watch?v=cN_DpYBzKso)|Rob Pike讲解Concurrency 和 Parallelism的区别.
 [成为谷歌程序员，你需要准备什么？](http://blog.jobbole.com/79736/)|成为谷歌程序员，你需要准备什么？
@@ -607,6 +618,7 @@ Siri Integration in iOS 10 with Swift – SiriKit Tutorial |[Part 1](http://jame
 
 博客地址 | 博主信息
 ------- | -------
+[iOS insight](http://www.iosinsight.com/)|iOS insight
 [Google Research Blog](https://research.googleblog.com/)| The latest news from Research at Google
 [artsy engineering team](http://artsy.github.io/)|artsy engineering team
 [一个iOS菜菜的白话文记录](http://xiongzenghuidegithub.github.io/)| 一个高产的博主
