@@ -9,6 +9,8 @@
 
 名称  |  简介
 ---- | ----
+[The secret life of types in Swift](https://medium.com/@slavapestov/the-secret-life-of-types-in-swift-ff83c3c000a5#.yq90g5bq9)| swift team 员工写的关于swift 类型的讲解文章。
+[enums as configs](http://www.jessesquires.com/enums-as-configs/)|enums as configs
 [Rejected Swift Proposals](http://chris.eidhof.nl/post/rejected-swift-proposals/)| What we can learn from the rejections
 [OOD Principles In Swift](https://github.com/ochococo/OOD-Principles-In-Swift)|OOD Principles In Swift
 [A Different Take on MVVM with Swift](http://rasic.info/a-different-take-on-mvvm-with-swift/)|A Different Take on MVVM with Swift
@@ -412,6 +414,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ### 完整工程
 名称 | 推荐理由
 ------- | -------
+[仿youtube iOS客户端](https://github.com/aslanyanhaik/youtube-iOS)| swift3 完整工程
 [高仿映客直播App](https://github.com/GrayJIAXU/520Linkee)| 高仿映客直播App
 [Celluloid](https://github.com/100mango/Celluloid)| The Best Photo Extension APP on iOS
 [BeautifyFaceDemo](https://github.com/Guikunzhi/BeautifyFaceDemo)| It's a simple demo of realtime face beautification based on GPUImage
@@ -478,6 +481,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ##iOS HotFix相关
 标题  | 内容简介
 ---- | -----
+[JSPatch 平台新特性：实时监控](http://jspatch.com/Docs/monitor?sukey=3997c0719f151520ab00603b2cde8a85e49ef9df3e5939d88d3508acfaf2ccf7b853de9807f35857be4a86e5f7fa8161)|JSPatch 平台新特性：实时监控
 [JSPatch C 函数调用](https://github.com/bang590/JSPatch/wiki/C-%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8)|JSPatch C 函数调用
 [JSPatch Playground](https://github.com/bang590/JSPatch/tree/master/Demo/iOSPlayground)| JSPatch Playground is an interactive JSPatch coding environment, the iOS simulator will refresh and displays results instantly as js files save.
 [Xcode 代码补全插件 – JSPatchX 原理解析](http://blog.cnbang.net/tech/3164/)|Xcode 代码补全插件 – JSPatchX 原理解析
@@ -562,6 +566,7 @@ Siri Integration in iOS 10 with Swift – SiriKit Tutorial |[Part 1](http://jame
 
 工具/插件  |  简介
 ---- | ----
+[Git 资源汇总](https://github.com/BaiduHiDeviOS/Git)|Git 资源汇总
 [dSYMTools](https://github.com/answer-huang/dSYMTools)| 开源的 dSYM 文件分析工具，可帮助开发者快速定位报错函数
 [hirundo](https://stylemac.com/hirundo/)| Hirundo (Latin for 'Swift') is a convenient way to browse and follow the discussions in the Swift mailing lists like Swift-Evolution or Swift-Dev. You can even bookmark messages of threads because they contain important information
 [graph style of the swift standard library](https://gist.githubusercontent.com/natecook1000/5542f4e8e3706111837859c4e1cab16b/raw/dac5be7df5f88397ec6d7eed9d484f182db2fc74/Swift-3.0-Hierarchy.png)|graph style of the swift standard library
@@ -626,6 +631,7 @@ Siri Integration in iOS 10 with Swift – SiriKit Tutorial |[Part 1](http://jame
 
 博客地址 | 博主信息
 ------- | -------
+[Top 100 Best Blogs for iOS Developers](http://www.softwarehow.com/best-blogs-for-ios-developers/)|Top 100 Best Blogs for iOS Developers
 [iOS insight](http://www.iosinsight.com/)|iOS insight
 [Google Research Blog](https://research.googleblog.com/)| The latest news from Research at Google
 [artsy engineering team](http://artsy.github.io/)|artsy engineering team
