@@ -9,6 +9,8 @@
 
 名称  |  简介
 ---- | ----
+[Package.swift - Manual](http://blog.krzyzanowskim.com/2016/08/09/package-swift-manual/)| Here is documentation for SPM manifest file Package.swift. I couldn't find a list of possible configuration values for Package.swift, so I created one, for future reference. I put here all available settings, with examples of use.
+[structs and mutation in swift](http://chris.eidhof.nl/post/structs-and-mutation-in-swift/)|structs and mutation in swift
 [The secret life of types in Swift](https://medium.com/@slavapestov/the-secret-life-of-types-in-swift-ff83c3c000a5#.yq90g5bq9)| swift team 员工写的关于swift 类型的讲解文章。
 [enums as configs](http://www.jessesquires.com/enums-as-configs/)|enums as configs
 [Rejected Swift Proposals](http://chris.eidhof.nl/post/rejected-swift-proposals/)| What we can learn from the rejections
@@ -155,6 +157,7 @@
 ### 动画
 文章名称  |  简介
 ---- | ----
+[How To Create an Uber Splash Screen](https://www.raywenderlich.com/133224/how-to-create-an-uber-splash-screen)|How To Create an Uber Splash Screen
 [Controlling Animation Timing](http://ronnqvi.st/controlling-animation-timing/)|Controlling Animation Timing
 [QQ中未读气泡拖拽消失的实现分析](http://kittenyang.com/drawablebubble/)| 这位博主的其他文章也非常赞~
 [看，这白白的液体滴了一地](http://pandara.xyz/2015/11/24/ios_water_drop/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)| 液态效果动画
@@ -251,6 +254,11 @@
 ### 实践经验
 文章名称  |  简介
 ---- | ----
+[Concurrent Programming: APIs and Challenges](https://www.objc.io/issues/2-concurrency/concurrency-apis-and-pitfalls/)|Concurrent Programming: APIs and Challenges
+[Hypertext Transfer Protocol Version 2 (HTTP/2)](https://http2.github.io/http2-spec/)| This specification describes an optimized expression of the semantics of the Hypertext Transfer Protocol (HTTP), referred to as HTTP version 2 (HTTP/2). HTTP/2 enables a more efficient use of network resources and a reduced perception of latency by introducing header field compression and allowing multiple concurrent exchanges on the same connection. It also introduces unsolicited push of representations from servers to clients.
+[Journey to HTTP/2](http://kamranahmed.info/blog/2016/08/13/http-in-depth/)|Journey to HTTP/2
+[微信iOS SQLite源码优化实践](https://github.com/WeMobileDev/article/blob/master/%E5%BE%AE%E4%BF%A1iOS%20SQLite%E6%BA%90%E7%A0%81%E4%BC%98%E5%8C%96%E5%AE%9E%E8%B7%B5.md)|微信iOS SQLite源码优化实践
+[How do I build a Network Layer](http://szulctomasz.com/how-do-I-build-a-network-layer)|How do I build a Network Layer
 [理解iOS的内存管理](http://blog.devtang.com/2016/07/30/ios-memory-management/)|理解iOS的内存管理
 [Distribute your Swift code using CocoaPods](https://medium.com/@PyBaig/distribute-your-swift-code-libraries-and-frameworks-using-cocoapods-b41c62cd7c94#.z941fsoej)|Distribute your Swift code using CocoaPods
 [Build your own Cocoa Touch Frameworks, in pure Swift](https://medium.com/@PyBaig/build-your-own-cocoa-touch-frameworks-in-swift-d4ea3d1f9ca3#.6a4f1p89b)|Build your own Cocoa Touch Frameworks, in pure Swift
@@ -309,6 +317,8 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ### UI组件
 名称 | 推荐理由
 ------- | -------
+[DisplaySwitcher](https://github.com/Yalantis/DisplaySwitcher)| Custom transition between two collection view layouts https://yalantis.com
+[NMessager](https://github.com/eBay/NMessenger)| A fast, lightweight messenger component built on AsyncDisplaykit and written in Swift
 [LTMorphingLabel](https://github.com/lexrus/LTMorphingLabel)| Graceful morphing effects for UILabel written in Swift.
 [AspectFillFaceAware](https://github.com/BeauNouvelle/AspectFillFaceAware)| An extension that gives UIImageView the ability to focus on faces within an image when using AspectFill.
 [Translucid](https://github.com/Ekhoo/Translucid)| Lightweight library to set an Image as text background. Written in swift.
@@ -353,6 +363,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ### 网络
 名称 | 推荐理由
 ------- | -------
+[PMHTTP](https://github.com/postmates/PMHTTP)| Swift/Obj-C HTTP framework with a focus on REST and JSON
 [SwiftyOAuth](https://github.com/delba/SwiftyOAuth)| A simple OAuth library for iOS with a built-in set of providers
 [Moya](https://github.com/Moya/Moya)| Network abstraction layer written in Swift.
 [Reachability.swift](https://github.com/ashleymills/Reachability.swift) | Replacement for Apple's Reachability re-written in Swift with closures.
@@ -386,6 +397,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ### 工具库
 名称 | 推荐理由
 ------- | -------
+[diff so fancy](https://github.com/so-fancy/diff-so-fancy)| Good-lookin' diffs. Actually… nah… The best-lookin' diffs. 🎉
 [objc2swift](https://github.com/yahoojapan/objc2swift)| Open Source Obj-C to Swift Converter. http://objc2swift.yahoo-labs.jp
 [lzfse](https://github.com/lzfse/lzfse)| This is a reference C implementation of the LZFSE compressor introduced in the Compression library with OS X 10.11 and iOS 9
 [MotionKit](https://github.com/MHaroonBaig/MotionKit)|Get the data from Accelerometer, Gyroscope and Magnetometer in only Two or a few lines of code. CoreMotion now made insanely simple.
