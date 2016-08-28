@@ -9,6 +9,7 @@
 
 名称  |  简介
 ---- | ----
+[Values and errors, part1: 'Result' in Swift](http://www.cocoawithlove.com/blog/2016/08/21/result-types-part-one.html)|Values and errors, part1: 'Result' in Swift
 [Package.swift - Manual](http://blog.krzyzanowskim.com/2016/08/09/package-swift-manual/)| Here is documentation for SPM manifest file Package.swift. I couldn't find a list of possible configuration values for Package.swift, so I created one, for future reference. I put here all available settings, with examples of use.
 [structs and mutation in swift](http://chris.eidhof.nl/post/structs-and-mutation-in-swift/)|structs and mutation in swift
 [The secret life of types in Swift](https://medium.com/@slavapestov/the-secret-life-of-types-in-swift-ff83c3c000a5#.yq90g5bq9)| swift team 员工写的关于swift 类型的讲解文章。
@@ -110,6 +111,7 @@
 
 名称  |  简介
 ---- | ----
+[如何使用 Runtime 给现有的类添加 weak 属性](http://www.jianshu.com/p/ed65d71554d8)|如何使用 Runtime 给现有的类添加 weak 属性
 [Objective-C Fast Enumeration 的实现原理](http://blog.leichunfeng.com/blog/2016/06/20/objective-c-fast-enumeration-implementation-principle/#jtss-tsina)|Objective-C Fast Enumeration 的实现原理
 [Why objc_msgSend Must be Written in Assembly](http://arigrant.com/blog/2014/2/12/why-objcmsgsend-must-be-written-in-assembly)|Why objc_msgSend Must be Written in Assembly
 [Objective-C 消息发送与转发机制原理](http://yulingtianxia.com/blog/2016/06/15/Objective-C-Message-Sending-and-Forwarding/)|Objective-C 消息发送与转发机制原理
@@ -306,6 +308,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ### UI
 名称 | 推荐理由
 ------- | -------
+[ChatKit-OC](https://github.com/leancloud/ChatKit-OC)| An IM App UI Framework, support sending text, pictures, audio, video, location messaging, managing address book, more interesting features.
 [CharacterText](https://github.com/android1989/CharacterText)| UILabel subclass to perform text effects. 各种炫酷的文字浮现效果。
 [TextAttributes](https://github.com/delba/TextAttributes)| TextAttributes makes it easy to compose attributed strings.
 [LazyTableImages: Populating UITableView content asynchronously](https://developer.apple.com/library/ios/samplecode/LazyTableImages/Introduction/Intro.html)|苹果官方出了个demo，LazyTableImages，对列表里图片很多的情况有很好的优化作用。我看了一下，挺实用的。
@@ -317,6 +320,8 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ### UI组件
 名称 | 推荐理由
 ------- | -------
+[hamburger-button](https://github.com/robb/hamburger-button)| A hamburger button transition http://robb.is/working-on/a-hamburger-button-transition/
+[AImage](https://github.com/wangjwchn/AImage)| 通过UIImage异步预解压，大幅度降低主线程CPU利用率。A animated GIF&APNG engine for iOS in Swift. Optimized for Multi-Image case.
 [DisplaySwitcher](https://github.com/Yalantis/DisplaySwitcher)| Custom transition between two collection view layouts https://yalantis.com
 [NMessager](https://github.com/eBay/NMessenger)| A fast, lightweight messenger component built on AsyncDisplaykit and written in Swift
 [LTMorphingLabel](https://github.com/lexrus/LTMorphingLabel)| Graceful morphing effects for UILabel written in Swift.
@@ -397,6 +402,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ### 工具库
 名称 | 推荐理由
 ------- | -------
+[SwiftFormat](https://github.com/nicklockwood/SwiftFormat)| A command-line tool for formatting Swift code
 [diff so fancy](https://github.com/so-fancy/diff-so-fancy)| Good-lookin' diffs. Actually… nah… The best-lookin' diffs. 🎉
 [objc2swift](https://github.com/yahoojapan/objc2swift)| Open Source Obj-C to Swift Converter. http://objc2swift.yahoo-labs.jp
 [lzfse](https://github.com/lzfse/lzfse)| This is a reference C implementation of the LZFSE compressor introduced in the Compression library with OS X 10.11 and iOS 9
@@ -532,6 +538,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 标题  | 内容简介
 ---- | -----
 [swift talk](https://talk.objc.io/)| We show our solutions to problems we find while building Swift projects. Enjoy a new episode of Swift Talk every week, packed with live-coding and discussions about the pros and cons of our decisions.
+[Advanced ObjC <-> Swift Interoperability](https://realm.io/news/altconf-nikita-lutsenko-objc-swift-interoperability/)| This looks super painful to set up, but if you are stuck with Objective-C code, it's definitely worth it to take the time to go through and make it Swift-compatible.
 [Facebook 2016 f8视频](https://developers.facebook.com/videos)|Facebook 2016 f8视频
 [Building Fabric.app in Swift](https://realm.io/news/slug-javi-soto-building-fabric-in-swift/)| When the Fabric team at Twitter wrote their new iOS app, they turned to Swift. Why? Javi Soto walks through their decision, and tells why they picked a language that emphasizes stability and maintainability & supports dependency injection, code generation, MVVM, and error reporting.
 [Artsy 的测试之旅](https://realm.io/cn/news/tryswift-ash-furrow-artsy-testing-tour/)| Artsy 拥有 4 个 iOS 应用，它们都已经全部开源，并且都采用了不同的方法来进行了测试。为什么这样做呢？因为不同的测试技术在各种的情况下的优劣各有不同。在 try! Swift 的本次演讲中，Ash Furrow 讨论了 Artsy iOS 团队做出这种决策背后的动机，谈论了他们所遇见到的问题，以及他们是如何克服这些困难的，以便能够帮助您更好的理解：为什么对于构建精美应用来说，进行测试以及何时进行测试是非常重要的。
