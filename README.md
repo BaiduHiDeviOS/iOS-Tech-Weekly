@@ -300,7 +300,6 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 [iOS应用架构谈 网络层设计方案](http://casatwy.com/iosying-yong-jia-gou-tan-wang-luo-ceng-she-ji-fang-an.html)| iOS应用架构谈 网络层设计方案
 [iOS应用架构谈 本地持久化方案及动态部署](http://casatwy.com/iosying-yong-jia-gou-tan-ben-di-chi-jiu-hua-fang-an-ji-dong-tai-bu-shu.html)| iOS应用架构谈 本地持久化方案及动态部署
 [Software Architecture Patterns pdf](http://www.oreilly.com/programming/free/files/software-architecture-patterns.pdf)| Software Architecture Patterns |
-[构建iOS稳定应用架构时方案选择的思考](http://www.starming.com/index.php?v=index&view=83)| 构建iOS稳定应用架构时方案选择的思考
 
 ## 开源代码
 
