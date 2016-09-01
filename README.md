@@ -288,7 +288,6 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ---- | ---
 [iOS高性能图片架构与设计](http://mp.weixin.qq.com/s?__biz=MzI1MTA1MzM2Nw==&mid=207840007&idx=1&sn=ce09553e5774f5581c696b5e28f0c7e8#rd)| iOS高性能图片架构与设计
 [Square对iOS App架构的新尝试---Ziggurat](http://www.cocoachina.com/ios/20160126/15107.html)|Square对iOS App架构的新尝试---Ziggurat
-[新浪微博iOS客户端架构与优化之路](http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&mid=2651112273&idx=1&sn=893a66a04e541a99b7bc4d7cf227e2f7#rd)|新浪微博iOS客户端架构与优化之路
 [Advanced iOS Application Architecture and Patterns](https://developer.apple.com/videos/play/wwdc2014/229/)| Explore a selection of high-level software engineering techniques presented in the context of Cocoa Touch. Learn how to manage complexity in large codebases by clearly defining where truth resides, by controlling state with Swift's powerful value types and immutability, and by thinking in terms of composition.
 [iOS 架构模式 - 简述 MVC, MVP, MVVM 和 VIPER (译)](https://blog.coding.net/blog/ios-architecture-patterns)|iOS 架构模式 - 简述 MVC, MVP, MVVM 和 VIPER (译)
 [iOS组件化方案探索](http://blog.cnbang.net/tech/3080/)| JSPatch作者关于组件化方案探索的文章。
