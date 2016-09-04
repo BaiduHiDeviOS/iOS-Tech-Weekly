@@ -228,6 +228,7 @@
 ### 性能优化
 文章名称  |  简介
 ---- | ----
+[Perfect smooth scrolling in UITableViews](https://medium.com/ios-os-x-development/perfect-smooth-scrolling-in-uitableviews-fd609d5275a5#.bea54yg1r)|Perfect smooth scrolling in UITableViews
 [UITableView Tips](https://github.com/vedon/iOS-tech/blob/master/UITableViewOpt/UITableView_Opt.md)|UITableView Tips
 [微信读书 iOS 性能优化总结](http://wereadteam.github.io/2016/05/03/WeRead-Performance/)|微信读书 iOS 性能优化总结
 [简单监测iOS卡顿的demo](http://www.jianshu.com/p/71cfbcb15842)|简单监测iOS卡顿的demo
@@ -286,6 +287,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ##应用架构相关
 文章名称  |  简介
 ---- | ---
+[MVVM is lipstick on a pig](https://sharpfivesoftware.com/2016/07/20/mvvm-is-lipstick-on-a-pig/)| MVVM is not a step in the right direction. It’s an additional layer of confusion.
 [iOS高性能图片架构与设计](http://mp.weixin.qq.com/s?__biz=MzI1MTA1MzM2Nw==&mid=207840007&idx=1&sn=ce09553e5774f5581c696b5e28f0c7e8#rd)| iOS高性能图片架构与设计
 [Square对iOS App架构的新尝试---Ziggurat](http://www.cocoachina.com/ios/20160126/15107.html)|Square对iOS App架构的新尝试---Ziggurat
 [Advanced iOS Application Architecture and Patterns](https://developer.apple.com/videos/play/wwdc2014/229/)| Explore a selection of high-level software engineering techniques presented in the context of Cocoa Touch. Learn how to manage complexity in large codebases by clearly defining where truth resides, by controlling state with Swift's powerful value types and immutability, and by thinking in terms of composition.
@@ -318,6 +320,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ### UI组件
 名称 | 推荐理由
 ------- | -------
+[iOS Echarts](https://github.com/Pluto-Y/iOS-Echarts)| iOS图表
 [hamburger-button](https://github.com/robb/hamburger-button)| A hamburger button transition http://robb.is/working-on/a-hamburger-button-transition/
 [AImage](https://github.com/wangjwchn/AImage)| 通过UIImage异步预解压，大幅度降低主线程CPU利用率。A animated GIF&APNG engine for iOS in Swift. Optimized for Multi-Image case.
 [DisplaySwitcher](https://github.com/Yalantis/DisplaySwitcher)| Custom transition between two collection view layouts https://yalantis.com
@@ -375,6 +378,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ### Model
 名称 | 推荐理由
 ------- | -------
+[Willow](https://github.com/Nike-Inc/Willow)| Willow is a powerful, yet lightweight logging library written in Swift.
 [Zip](https://github.com/marmelroy/Zip)| Swift framework for zipping and unzipping files.
 [GRDB.swift](https://github.com/groue/GRDB.swift)| A versatile SQLite toolkit for Swift, with WAL mode support https://www.sqlite.org
 [SQLite.swift](https://github.com/stephencelis/SQLite.swift)| A type-safe, Swift-language layer over SQLite3.
@@ -388,6 +392,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ### 语法糖
 名称 | 推荐理由
 ------- | -------
+[FutureKit](https://github.com/FutureKit/FutureKit)| A Swift based Future/Promises Library for IOS and OS X.
 [Then](https://github.com/devxoul/Then)| ✨ Super sweet syntactic sugar for Swift initializers.
 [SwiftString](https://github.com/amayne/SwiftString)| A comprehensive, lightweight string extension for Swift
 [Every.swift](https://github.com/samhann/Every.swift)| A swift wrapper for NSTimer
@@ -535,6 +540,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ##视频资源
 标题  | 内容简介
 ---- | -----
+[Futures and Promises, or how I learned to stop worrying and love the GCD](https://realm.io/news/altconf-michael-gray-futures-promises-gcd/)|Futures and Promises, or how I learned to stop worrying and love the GCD
 [swift talk](https://talk.objc.io/)| We show our solutions to problems we find while building Swift projects. Enjoy a new episode of Swift Talk every week, packed with live-coding and discussions about the pros and cons of our decisions.
 [Advanced ObjC <-> Swift Interoperability](https://realm.io/news/altconf-nikita-lutsenko-objc-swift-interoperability/)| This looks super painful to set up, but if you are stuck with Objective-C code, it's definitely worth it to take the time to go through and make it Swift-compatible.
 [Facebook 2016 f8视频](https://developers.facebook.com/videos)|Facebook 2016 f8视频
@@ -648,6 +654,7 @@ Siri Integration in iOS 10 with Swift – SiriKit Tutorial |[Part 1](http://jame
 
 博客地址 | 博主信息
 ------- | -------
+[iPhoneDevWiki](http://iphonedevwiki.net/index.php/Main_Page)| Our goal is to share the sum of all human[1] knowledge about jailbroken iOS development. In other words, this is a collection of documentation written by developers to help each other write extensions (tweaks) for jailbroken iOS, and you're invited to learn from it and contribute to it too.
 [Top 100 Best Blogs for iOS Developers](http://www.softwarehow.com/best-blogs-for-ios-developers/)|Top 100 Best Blogs for iOS Developers
 [iOS insight](http://www.iosinsight.com/)|iOS insight
 [Google Research Blog](https://research.googleblog.com/)| The latest news from Research at Google
