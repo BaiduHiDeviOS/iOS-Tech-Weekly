@@ -21,6 +21,7 @@
 
 名称  |  简介
 ---- | ----
+[Swift: Custom Fonts. Slightly Less Awful.](https://medium.com/@cocotutch/swift-custom-fonts-slightly-less-awful-f235e20027f3#.ug9qnblxr)|Swift: Custom Fonts. Slightly Less Awful.
 [Values and errors, part1: 'Result' in Swift](http://www.cocoawithlove.com/blog/2016/08/21/result-types-part-one.html)|Values and errors, part1: 'Result' in Swift
 [Package.swift - Manual](http://blog.krzyzanowskim.com/2016/08/09/package-swift-manual/)| Here is documentation for SPM manifest file Package.swift. I couldn't find a list of possible configuration values for Package.swift, so I created one, for future reference. I put here all available settings, with examples of use.
 [structs and mutation in swift](http://chris.eidhof.nl/post/structs-and-mutation-in-swift/)|structs and mutation in swift
@@ -80,6 +81,7 @@
 ## Swift 3
 名称  |  简介
 ---- | ----
+[A (mostly) comprehensive list of Swift 3.0 and 2.3 changes](https://buildingvts.com/a-mostly-comprehensive-list-of-swift-3-0-and-2-3-changes-193b904bb5b1#.gewf1wa13)| A (mostly) comprehensive list of Swift 3.0 and 2.3 changes
 [Swift Programming Language Evolution: Proposal Status](http://apple.github.io/swift-evolution/)| 查看proposals的状态
 [Writing High-Performance Swift Code](https://github.com/apple/swift/blob/master/docs/OptimizationTips.rst)|Writing High-Performance Swift Code
 [Migrating to swift 3](http://www.jessesquires.com/migrating-to-swift-3/)|Migrating to swift 3
@@ -123,6 +125,7 @@
 
 名称  |  简介
 ---- | ----
+[深入理解GCD](https://bestswifter.com/deep-gcd/)|深入理解GCD
 [如何使用 Runtime 给现有的类添加 weak 属性](http://www.jianshu.com/p/ed65d71554d8)|如何使用 Runtime 给现有的类添加 weak 属性
 [Objective-C Fast Enumeration 的实现原理](http://blog.leichunfeng.com/blog/2016/06/20/objective-c-fast-enumeration-implementation-principle/#jtss-tsina)|Objective-C Fast Enumeration 的实现原理
 [Why objc_msgSend Must be Written in Assembly](http://arigrant.com/blog/2014/2/12/why-objcmsgsend-must-be-written-in-assembly)|Why objc_msgSend Must be Written in Assembly
@@ -269,6 +272,7 @@
 ### 实践经验
 文章名称  |  简介
 ---- | ----
+[Solve-App-Store-Review-Problem](https://github.com/wg689/Solve-App-Store-Review-Problem)| a collection to solve app store review problem (ipv6,ipv6被拒绝,后台定位等审核问题的终极解决方案汇总)
 [Concurrent Programming: APIs and Challenges](https://www.objc.io/issues/2-concurrency/concurrency-apis-and-pitfalls/)|Concurrent Programming: APIs and Challenges
 [Hypertext Transfer Protocol Version 2 (HTTP/2)](https://http2.github.io/http2-spec/)| This specification describes an optimized expression of the semantics of the Hypertext Transfer Protocol (HTTP), referred to as HTTP version 2 (HTTP/2). HTTP/2 enables a more efficient use of network resources and a reduced perception of latency by introducing header field compression and allowing multiple concurrent exchanges on the same connection. It also introduces unsolicited push of representations from servers to clients.
 [Journey to HTTP/2](http://kamranahmed.info/blog/2016/08/13/http-in-depth/)|Journey to HTTP/2
@@ -299,6 +303,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ##应用架构相关
 文章名称  |  简介
 ---- | ---
+[Immutable models and data consistency in our iOS App](https://engineering.pinterest.com/blog/immutable-models-and-data-consistency-our-ios-app)|Immutable models and data consistency in our iOS App
 [MVVM is lipstick on a pig](https://sharpfivesoftware.com/2016/07/20/mvvm-is-lipstick-on-a-pig/)| MVVM is not a step in the right direction. It’s an additional layer of confusion.
 [iOS高性能图片架构与设计](http://mp.weixin.qq.com/s?__biz=MzI1MTA1MzM2Nw==&mid=207840007&idx=1&sn=ce09553e5774f5581c696b5e28f0c7e8#rd)| iOS高性能图片架构与设计
 [Square对iOS App架构的新尝试---Ziggurat](http://www.cocoachina.com/ios/20160126/15107.html)|Square对iOS App架构的新尝试---Ziggurat
@@ -320,6 +325,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ### UI
 名称 | 推荐理由
 ------- | -------
+[IQKeyboardManager](https://github.com/hackiftekhar/IQKeyboardManager)| Codeless drop-in universal library allows to prevent issues of keyboard sliding up and cover UITextField/UITextView. Neither need to write any code nor any setup required and much more.
 [ChatKit-OC](https://github.com/leancloud/ChatKit-OC)| An IM App UI Framework, support sending text, pictures, audio, video, location messaging, managing address book, more interesting features.
 [CharacterText](https://github.com/android1989/CharacterText)| UILabel subclass to perform text effects. 各种炫酷的文字浮现效果。
 [TextAttributes](https://github.com/delba/TextAttributes)| TextAttributes makes it easy to compose attributed strings.
@@ -390,6 +396,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ### Model
 名称 | 推荐理由
 ------- | -------
+[SwiftTask](https://github.com/ReactKit/SwiftTask)| Promise + progress + pause + cancel + retry for Swift.
 [Willow](https://github.com/Nike-Inc/Willow)| Willow is a powerful, yet lightweight logging library written in Swift.
 [Zip](https://github.com/marmelroy/Zip)| Swift framework for zipping and unzipping files.
 [GRDB.swift](https://github.com/groue/GRDB.swift)| A versatile SQLite toolkit for Swift, with WAL mode support https://www.sqlite.org
@@ -404,6 +411,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ### 语法糖
 名称 | 推荐理由
 ------- | -------
+[SwiftTimer](https://github.com/100mango/SwiftTimer)| Simple and Elegant Timer
 [FutureKit](https://github.com/FutureKit/FutureKit)| A Swift based Future/Promises Library for IOS and OS X.
 [Then](https://github.com/devxoul/Then)| ✨ Super sweet syntactic sugar for Swift initializers.
 [SwiftString](https://github.com/amayne/SwiftString)| A comprehensive, lightweight string extension for Swift
@@ -580,6 +588,7 @@ iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://w
 ##iOS 新特性
 标题  | 内容简介
 ---- | -----
+[Getting Ready for ATS Enforcement in 2017](https://nabla-c0d3.github.io/blog/2016/08/14/ats-enforced-2017/)| Getting Ready for ATS Enforcement in 2017
 [iOS 10 适配](https://github.com/ChenYilong/iOS10AdaptationTips)|iOS 10 适配
 Siri Integration in iOS 10 with Swift – SiriKit Tutorial |[Part 1](http://jamesonquave.com/blog/adding-siri-to-ios-10-apps-in-swift-tutorial/) [Part 2](http://jamesonquave.com/blog/sirikit-swift-3-resolutions-sirikit-tutorial-part-2/)|
 [Lessons learned with 3D Touch](http://engineering.instagram.com/posts/465414923641286/lessons-learned-with-3D-touch) | 详细介绍了3D touch 在instagram app中的应用。
@@ -641,6 +650,7 @@ Siri Integration in iOS 10 with Swift – SiriKit Tutorial |[Part 1](http://jame
 
 文章  |  简介
 ---- | ----
+[Hacker rank](https://www.hackerrank.com/domains?h_r=logo)|Hacker rank
 [A DIY COMPUTER SCIENCE EDUCATION](http://bradfieldcs.com/diy/)| 应当如何自学计算机科学（CS），本文基于众多专业工程师自学的教育经验给出了一个简短的指南。
 [How to be a programmer](https://github.com/braydie/HowToBeAProgrammer)| A guide on how to be a Programmer - originally published by Robert L Read https://braydie.gitbooks.io/how-to-be-a-programmer/content/
 [How does a relational database work](http://coding-geek.com/how-databases-work/)| 关系数据库原理，文章很长，适合慢慢看。。。
@@ -666,6 +676,8 @@ Siri Integration in iOS 10 with Swift – SiriKit Tutorial |[Part 1](http://jame
 
 博客地址 | 博主信息
 ------- | -------
+[zen](https://github.com/100mango/zen)| iOS心得
+[Pinterest Engineering blog](https://engineering.pinterest.com/blog)|Pinterest Engineering blog
 [iPhoneDevWiki](http://iphonedevwiki.net/index.php/Main_Page)| Our goal is to share the sum of all human[1] knowledge about jailbroken iOS development. In other words, this is a collection of documentation written by developers to help each other write extensions (tweaks) for jailbroken iOS, and you're invited to learn from it and contribute to it too.
 [Top 100 Best Blogs for iOS Developers](http://www.softwarehow.com/best-blogs-for-ios-developers/)|Top 100 Best Blogs for iOS Developers
 [iOS insight](http://www.iosinsight.com/)|iOS insight
