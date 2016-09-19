@@ -81,6 +81,7 @@
 ## Swift 3
 名称  |  简介
 ---- | ----
+[Working with JSON in Swift](https://developer.apple.com/swift/blog/?id=37)|Working with JSON in Swift
 [A (mostly) comprehensive list of Swift 3.0 and 2.3 changes](https://buildingvts.com/a-mostly-comprehensive-list-of-swift-3-0-and-2-3-changes-193b904bb5b1#.gewf1wa13)| A (mostly) comprehensive list of Swift 3.0 and 2.3 changes
 [Swift Programming Language Evolution: Proposal Status](http://apple.github.io/swift-evolution/)| 查看proposals的状态
 [Writing High-Performance Swift Code](https://github.com/apple/swift/blob/master/docs/OptimizationTips.rst)|Writing High-Performance Swift Code
@@ -150,6 +151,8 @@
 ### UI
 文章名称  |  简介
 ---- | ----
+[AutoLayout--优化UITableViewCell高度计算的那些事](http://blog.sunnyxx.com/2015/05/17/cell-height-calculation/)|使用AutoLayout动态计算UITableViewCell高度
+[AutoLayout Tips](https://github.com/nixzhu/dev-blog/blob/master/autolayout-tips.md#tip-2 )| Tip1.两个不等宽的View，彼此相邻，并“共同”居中于 Superview   Tip2.让 AutoLayout 与 UIScrollView 合作无间
 [『零行代码』解决键盘遮挡问题（iOS）](http://www.cocoachina.com/ios/20160630/16891.html)|『零行代码』解决键盘遮挡问题（iOS）
 [几句代码快速集成自定义转场效果+ 全手势驱动](http://www.jianshu.com/p/e498b956491c)|几句代码快速集成自定义转场效果+ 全手势驱动
 [\[译\]字体渲染背后不得不说的故事](http://www.jianshu.com/p/8414b96549e3)|\[译\]字体渲染背后不得不说的故事
@@ -396,6 +399,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ### Model
 名称 | 推荐理由
 ------- | -------
+[JSONNeverDie](https://github.com/johnlui/JSONNeverDie)| Auto reflection tool from JSON to Model, user friendly JSON encoder / decoder, aims to never die
 [SwiftTask](https://github.com/ReactKit/SwiftTask)| Promise + progress + pause + cancel + retry for Swift.
 [Willow](https://github.com/Nike-Inc/Willow)| Willow is a powerful, yet lightweight logging library written in Swift.
 [Zip](https://github.com/marmelroy/Zip)| Swift framework for zipping and unzipping files.
@@ -560,6 +564,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ##视频资源
 标题  | 内容简介
 ---- | -----
+[What's new in swift 3 -- realm](https://realm.io/news/whats-new-in-swift-3-part-1/)|What's new in swift 3 -- realm
 [Futures and Promises, or how I learned to stop worrying and love the GCD](https://realm.io/news/altconf-michael-gray-futures-promises-gcd/)|Futures and Promises, or how I learned to stop worrying and love the GCD
 [swift talk](https://talk.objc.io/)| We show our solutions to problems we find while building Swift projects. Enjoy a new episode of Swift Talk every week, packed with live-coding and discussions about the pros and cons of our decisions.
 [Advanced ObjC <-> Swift Interoperability](https://realm.io/news/altconf-nikita-lutsenko-objc-swift-interoperability/)| This looks super painful to set up, but if you are stuck with Objective-C code, it's definitely worth it to take the time to go through and make it Swift-compatible.
@@ -588,6 +593,7 @@ iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://w
 ##iOS 新特性
 标题  | 内容简介
 ---- | -----
+[iOS 10 Runtime Headers](https://github.com/JaviSoto/iOS10-Runtime-Headers)|iOS 10 Runtime Headers
 [Getting Ready for ATS Enforcement in 2017](https://nabla-c0d3.github.io/blog/2016/08/14/ats-enforced-2017/)| Getting Ready for ATS Enforcement in 2017
 [iOS 10 适配](https://github.com/ChenYilong/iOS10AdaptationTips)|iOS 10 适配
 Siri Integration in iOS 10 with Swift – SiriKit Tutorial |[Part 1](http://jamesonquave.com/blog/adding-siri-to-ios-10-apps-in-swift-tutorial/) [Part 2](http://jamesonquave.com/blog/sirikit-swift-3-resolutions-sirikit-tutorial-part-2/)|
