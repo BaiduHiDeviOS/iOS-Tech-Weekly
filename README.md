@@ -3,7 +3,7 @@
 
 ----------------------------------------------
 
-####百度Hi iOS团队招聘啦： 
+####百度Hi iOS团队招聘啦：
 
 职位： 高级iOS研发工程师
 
@@ -21,6 +21,8 @@
 
 名称  |  简介
 ---- | ----
+[Swift generics](http://www.thomashanning.com/swift-generics/)|Swift generics
+[Instance Methods are Curried Functions in Swift](https://oleb.net/blog/2014/07/swift-instance-methods-curried-functions/)|Instance Methods are Curried Functions in Swift
 [Swift: Custom Fonts. Slightly Less Awful.](https://medium.com/@cocotutch/swift-custom-fonts-slightly-less-awful-f235e20027f3#.ug9qnblxr)|Swift: Custom Fonts. Slightly Less Awful.
 [Values and errors, part1: 'Result' in Swift](http://www.cocoawithlove.com/blog/2016/08/21/result-types-part-one.html)|Values and errors, part1: 'Result' in Swift
 [Package.swift - Manual](http://blog.krzyzanowskim.com/2016/08/09/package-swift-manual/)| Here is documentation for SPM manifest file Package.swift. I couldn't find a list of possible configuration values for Package.swift, so I created one, for future reference. I put here all available settings, with examples of use.
@@ -81,6 +83,7 @@
 ## Swift 3
 名称  |  简介
 ---- | ----
+[Swift 3.0 Refactoring Cues](https://www.natashatherobot.com/swift-3-0-refactoring-cues/)|Swift 3.0 Refactoring Cues
 [Working with JSON in Swift](https://developer.apple.com/swift/blog/?id=37)|Working with JSON in Swift
 [A (mostly) comprehensive list of Swift 3.0 and 2.3 changes](https://buildingvts.com/a-mostly-comprehensive-list-of-swift-3-0-and-2-3-changes-193b904bb5b1#.gewf1wa13)| A (mostly) comprehensive list of Swift 3.0 and 2.3 changes
 [Swift Programming Language Evolution: Proposal Status](http://apple.github.io/swift-evolution/)| 查看proposals的状态
@@ -104,6 +107,7 @@
 ## Protocol Oriented Programming in Swift
 名称  |  简介
 ---- | ----
+[ProtocolNetwork](https://github.com/MDCC2016/ProtocolNetwork)| Sample project to show how to use protocol/extension to build a network layer
 [Protocol Extensions: A History by Matthew Gillingham](https://realm.io/news/tryswift-matthew-gillingham-protocol-extensions-history/)|Protocol Extensions: A History by Matthew Gillingham
 [Protocol-Oriented Programming in Swift](https://medium.com/@andrea.prearo/protocol-oriented-programming-in-swift-daba92bc9c98#.gt766gejh)|Protocol-Oriented Programming in Swift
 [Protocol-Oriented Logging, or: Default Arguments in Swift Protocols](http://oleb.net/blog/2016/05/default-arguments-in-protocols/)|POP一个使用例子
@@ -151,6 +155,7 @@
 ### UI
 文章名称  |  简介
 ---- | ----
+[基于 UIWebView 的富文本编辑器实践](http://wereadteam.github.io/2016/09/21/RichEditor/)|基于 UIWebView 的富文本编辑器实践
 [AutoLayout--优化UITableViewCell高度计算的那些事](http://blog.sunnyxx.com/2015/05/17/cell-height-calculation/)|使用AutoLayout动态计算UITableViewCell高度
 [AutoLayout Tips](https://github.com/nixzhu/dev-blog/blob/master/autolayout-tips.md#tip-2 )| Tip1.两个不等宽的View，彼此相邻，并“共同”居中于 Superview   Tip2.让 AutoLayout 与 UIScrollView 合作无间
 [『零行代码』解决键盘遮挡问题（iOS）](http://www.cocoachina.com/ios/20160630/16891.html)|『零行代码』解决键盘遮挡问题（iOS）
@@ -341,6 +346,8 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ### UI组件
 名称 | 推荐理由
 ------- | -------
+[UICircularProgressRing](https://github.com/luispadron/UICircularProgressRing)| A circular progress bar for iOS written in Swift 3
+[Segmentio](https://github.com/Yalantis/Segmentio)| Animated top/bottom segmented control written in Swift. https://yalantis.com/
 [iOS Echarts](https://github.com/Pluto-Y/iOS-Echarts)| iOS图表
 [hamburger-button](https://github.com/robb/hamburger-button)| A hamburger button transition http://robb.is/working-on/a-hamburger-button-transition/
 [AImage](https://github.com/wangjwchn/AImage)| 通过UIImage异步预解压，大幅度降低主线程CPU利用率。A animated GIF&APNG engine for iOS in Swift. Optimized for Multi-Image case.
@@ -390,6 +397,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ### 网络
 名称 | 推荐理由
 ------- | -------
+[vapor](https://github.com/vapor/vapor)| A web framework and server for Swift that works on macOS and Ubuntu. http://vapor.codes
 [PMHTTP](https://github.com/postmates/PMHTTP)| Swift/Obj-C HTTP framework with a focus on REST and JSON
 [SwiftyOAuth](https://github.com/delba/SwiftyOAuth)| A simple OAuth library for iOS with a built-in set of providers
 [Moya](https://github.com/Moya/Moya)| Network abstraction layer written in Swift.
@@ -399,6 +407,8 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ### Model
 名称 | 推荐理由
 ------- | -------
+[Swift protobuf plugin](https://github.com/apple/swift-protobuf-plugin)| Generate Swift code with this protoc plugin
+[JSON](https://github.com/soffes/JSON)| Micro framework for easily parsing JSON in Swift 3 with rich error messages in less than 100 lines of code
 [JSONNeverDie](https://github.com/johnlui/JSONNeverDie)| Auto reflection tool from JSON to Model, user friendly JSON encoder / decoder, aims to never die
 [SwiftTask](https://github.com/ReactKit/SwiftTask)| Promise + progress + pause + cancel + retry for Swift.
 [Willow](https://github.com/Nike-Inc/Willow)| Willow is a powerful, yet lightweight logging library written in Swift.
@@ -415,6 +425,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ### 语法糖
 名称 | 推荐理由
 ------- | -------
+[Swift chaining demo](https://github.com/MDCC2016/SwiftChainingDemo)| Demo project to show how to program with chaining code using swift.
 [SwiftTimer](https://github.com/100mango/SwiftTimer)| Simple and Elegant Timer
 [FutureKit](https://github.com/FutureKit/FutureKit)| A Swift based Future/Promises Library for IOS and OS X.
 [Then](https://github.com/devxoul/Then)| ✨ Super sweet syntactic sugar for Swift initializers.
@@ -491,6 +502,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ## React Native
 标题  | 内容简介
 ---- | -----
+[React 技术栈系列教程](http://www.ruanyifeng.com/blog/2016/09/react-technology-stack.html)|React 技术栈系列教程
 [React Native](http://facebook.github.io/react-native/) |Facebook的开源库，使用 React.js 开发原生应用。
 [Facebook f8 app open source](https://github.com/fbsamples/f8app)|React Native 最佳学习项目来了，Facebook 开源了 F8 App 全套代码，包括 Android，iOS 和 Server 端，其中涉及 React Native, Redux, Relay, GraphQL 等技术，更感人的是配套了教程讲解整个 APP（包括前后端） 是怎么做出来。[教程](http://makeitopen.com/)
 
@@ -564,6 +576,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ##视频资源
 标题  | 内容简介
 ---- | -----
+[WWDC 2014: What's New in Table and Collection Views](https://developer.apple.com/videos/play/wwdc2014/226/)| 退了7以后 可以做的优化
 [What's new in swift 3 -- realm](https://realm.io/news/whats-new-in-swift-3-part-1/)|What's new in swift 3 -- realm
 [Futures and Promises, or how I learned to stop worrying and love the GCD](https://realm.io/news/altconf-michael-gray-futures-promises-gcd/)|Futures and Promises, or how I learned to stop worrying and love the GCD
 [swift talk](https://talk.objc.io/)| We show our solutions to problems we find while building Swift projects. Enjoy a new episode of Swift Talk every week, packed with live-coding and discussions about the pros and cons of our decisions.
@@ -616,6 +629,7 @@ Siri Integration in iOS 10 with Swift – SiriKit Tutorial |[Part 1](http://jame
 
 工具/插件  |  简介
 ---- | ----
+[swift proposal analyzer](https://github.com/jessesquires/swift-proposal-analyzer)| An analysis of Swift Evolution proposals https://speakerdeck.com/jessesquires/140-proposals-in-30-minutes
 [Git 资源汇总](https://github.com/BaiduHiDeviOS/Git)|Git 资源汇总
 [dSYMTools](https://github.com/answer-huang/dSYMTools)| 开源的 dSYM 文件分析工具，可帮助开发者快速定位报错函数
 [hirundo](https://stylemac.com/hirundo/)| Hirundo (Latin for 'Swift') is a convenient way to browse and follow the discussions in the Swift mailing lists like Swift-Evolution or Swift-Dev. You can even bookmark messages of threads because they contain important information
@@ -627,7 +641,7 @@ Siri Integration in iOS 10 with Swift – SiriKit Tutorial |[Part 1](http://jame
 [BuildTimeAnalyzer for Xcode](https://github.com/RobertGummesson/BuildTimeAnalyzer-for-Xcode)| Build Time Analyzer for Swift
 [wwdc downloader](https://github.com/ohoachuck/wwdc-downloader)|WWDC 2016 video downloader script written in Swift - no external dependency.
 [WWDC app for OS X](https://github.com/insidegui/WWDC)|WWDC app for OS X
-[octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc/related?utm_source=chrome-ntp-icon)| 推荐了一款chrome上显示github代码树的插件，octotree 
+[octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc/related?utm_source=chrome-ntp-icon)| 推荐了一款chrome上显示github代码树的插件，octotree
 [nsdateformatter.com](http://nsdateformatter.com/)| Easy Skeezy Date Formatting for Swift and Objective-C
 [swift watch](http://swiftwatch.net/)| SwiftWatch is a place to share links to interesting Swift resources like tutorials, blog posts, GitHub projects or more.
 [search code](https://searchcode.com/)|Search over projects from Github, Bitbucket, Google Code, Codeplex, Sourceforge, Fedora Project, GitLab and more.
