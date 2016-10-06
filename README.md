@@ -144,6 +144,7 @@
 ### UI
 文章名称  |  简介
 ---- | ----
+[清理ios项目不用的图片资源](http://www.jianshu.com/p/5cca9a76928f)|清理ios项目不用的图片资源
 [基于 UIWebView 的富文本编辑器实践](http://wereadteam.github.io/2016/09/21/RichEditor/)|基于 UIWebView 的富文本编辑器实践
 [AutoLayout--优化UITableViewCell高度计算的那些事](http://blog.sunnyxx.com/2015/05/17/cell-height-calculation/)|使用AutoLayout动态计算UITableViewCell高度
 [AutoLayout Tips](https://github.com/nixzhu/dev-blog/blob/master/autolayout-tips.md#tip-2 )| Tip1.两个不等宽的View，彼此相邻，并“共同”居中于 Superview   Tip2.让 AutoLayout 与 UIScrollView 合作无间
@@ -396,6 +397,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ### Model
 名称 | 推荐理由
 ------- | -------
+[BTree](https://github.com/lorentey/BTree)| Fast ordered collections for Swift using in-memory B-trees
 [Swift protobuf plugin](https://github.com/apple/swift-protobuf-plugin)| Generate Swift code with this protoc plugin
 [JSON](https://github.com/soffes/JSON)| Micro framework for easily parsing JSON in Swift 3 with rich error messages in less than 100 lines of code
 [JSONNeverDie](https://github.com/johnlui/JSONNeverDie)| Auto reflection tool from JSON to Model, user friendly JSON encoder / decoder, aims to never die
@@ -477,6 +479,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ### 开源库合集
 名称 | 推荐理由
 ------- | -------
+[MDCC 2016 相关资源](https://github.com/MDCC2016/iOS-Session-Slides)|MDCC 2016 相关资源
 [iOS cookies](http://www.ioscookies.com/)| 按类别整理的开源代码合集。
 [awesome iOS](https://github.com/vsouza/awesome-ios)| A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects
 [iOS Source Code Analyze](https://github.com/Draveness/iOS-Source-Code-Analyze)|一些开源代码的解析文章集合。
@@ -587,6 +590,7 @@ iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://w
 ##Debug
 标题  | 内容简介
 ---- | -----
+[iOS高效调试](http://www.jianshu.com/p/a4ae30a10fb8)|iOS高效调试
 [Using CocoaPods in Xcode Playgrounds 🍩🎪](https://littlebitesofcocoa.com/138-using-cocoapods-in-xcode-playgrounds)|在Playground中使用CocoaPods
 [手把手教你如何分析 iOS 系统栈 crash](http://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&mid=401345907&idx=2&sn=48a7eba21b218d8fec9dafb52b0b2b26&scene=0&key=ff7411024a07f3eb8bc0c14c5749836340744b2c4098567c144c87554887ba7c7107f1c64e7cd4261575168353bd8783)|手把手教你如何分析 iOS 系统栈 crash
 [与调试器共舞 - LLDB 的华尔兹](http://objccn.io/issue-19-2/)| Xcode LLDB 详解
@@ -618,6 +622,7 @@ Siri Integration in iOS 10 with Swift – SiriKit Tutorial |[Part 1](http://jame
 
 工具/插件  |  简介
 ---- | ----
+[mac dev setup](https://github.com/nicolashery/mac-dev-setup)| A beginner's guide to setting up a development environment on Mac OS X.
 [swift proposal analyzer](https://github.com/jessesquires/swift-proposal-analyzer)| An analysis of Swift Evolution proposals https://speakerdeck.com/jessesquires/140-proposals-in-30-minutes
 [Git 资源汇总](https://github.com/BaiduHiDeviOS/Git)|Git 资源汇总
 [dSYMTools](https://github.com/answer-huang/dSYMTools)| 开源的 dSYM 文件分析工具，可帮助开发者快速定位报错函数
@@ -685,6 +690,7 @@ Siri Integration in iOS 10 with Swift – SiriKit Tutorial |[Part 1](http://jame
 
 博客地址 | 博主信息
 ------- | -------
+[swifting](https://swifting.io/)| 高质量swift博客
 [zen](https://github.com/100mango/zen)| iOS心得
 [Pinterest Engineering blog](https://engineering.pinterest.com/blog)|Pinterest Engineering blog
 [iPhoneDevWiki](http://iphonedevwiki.net/index.php/Main_Page)| Our goal is to share the sum of all human[1] knowledge about jailbroken iOS development. In other words, this is a collection of documentation written by developers to help each other write extensions (tweaks) for jailbroken iOS, and you're invited to learn from it and contribute to it too.
