@@ -258,6 +258,7 @@
 ### 工具使用
 文章名称  |  简介
 ---- | ----
+[CocoaPods 都做了什么？](http://draveness.me/cocoapods/)|CocoaPods 都做了什么？
 [swift markdown](http://www.appcoda.com/swift-markdown/)| 用markdown写Xcode文档
 [Clang Attributes 黑魔法小记](http://blog.sunnyxx.com/2016/05/14/clang-attributes/)|Clang Attributes 黑魔法小记
 [iOS开发--应用设置及用户默认设置](http://www.cnblogs.com/azuo/p/5090718.html?utm_source=tuicool&utm_medium=referral)|iOS开发--应用设置及用户默认设置
@@ -270,6 +271,7 @@
 ### 实践经验
 文章名称  |  简介
 ---- | ----
+[黑科技：把第三方 iOS 应用转成动态库](http://mp.weixin.qq.com/s?__biz=MjM5NTIyNTUyMQ==&mid=2709545228&idx=1&sn=7a47a0de32e06f9c465319e8db8ca13f&chksm=828f0bd2b5f882c46416ab20cd9ea482b3c57b202d876b75d5625a1bb036d40fe01d31c2679a&scene=0#wechat_redirect)|黑科技：把第三方 iOS 应用转成动态库
 [Solve-App-Store-Review-Problem](https://github.com/wg689/Solve-App-Store-Review-Problem)| a collection to solve app store review problem (ipv6,ipv6被拒绝,后台定位等审核问题的终极解决方案汇总)
 [Concurrent Programming: APIs and Challenges](https://www.objc.io/issues/2-concurrency/concurrency-apis-and-pitfalls/)|Concurrent Programming: APIs and Challenges
 [Hypertext Transfer Protocol Version 2 (HTTP/2)](https://http2.github.io/http2-spec/)| This specification describes an optimized expression of the semantics of the Hypertext Transfer Protocol (HTTP), referred to as HTTP version 2 (HTTP/2). HTTP/2 enables a more efficient use of network resources and a reduced perception of latency by introducing header field compression and allowing multiple concurrent exchanges on the same connection. It also introduces unsolicited push of representations from servers to clients.
@@ -336,6 +338,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ### UI组件
 名称 | 推荐理由
 ------- | -------
+[REFrostedViewController](https://github.com/romaonthego/REFrostedViewController)| iOS 7/8 style blurred view controller that appears on top of your view controller.
 [UICircularProgressRing](https://github.com/luispadron/UICircularProgressRing)| A circular progress bar for iOS written in Swift 3
 [Segmentio](https://github.com/Yalantis/Segmentio)| Animated top/bottom segmented control written in Swift. https://yalantis.com/
 [iOS Echarts](https://github.com/Pluto-Y/iOS-Echarts)| iOS图表
@@ -431,6 +434,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ### 工具库
 名称 | 推荐理由
 ------- | -------
+[SwiftDate](https://github.com/malcommac/SwiftDate)| The best way to manage Dates and Timezones in Swift http://malcommac.github.io/SwiftDate
 [SwiftFormat](https://github.com/nicklockwood/SwiftFormat)| A command-line tool for formatting Swift code
 [diff so fancy](https://github.com/so-fancy/diff-so-fancy)| Good-lookin' diffs. Actually… nah… The best-lookin' diffs. 🎉
 [objc2swift](https://github.com/yahoojapan/objc2swift)| Open Source Obj-C to Swift Converter. http://objc2swift.yahoo-labs.jp
@@ -501,6 +505,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ##Reactive Cocoa & RxSwift & Functional Programming
 标题  | 内容简介
 ---- | -----
+[rx-sample-code](https://github.com/DianQK/rx-sample-code)| rxSwift Demo code.
 [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) | ReactiveCocoa
 [Brian Beckman: Don't fear the Monad](https://www.youtube.com/watch?v=ZhuHCtR3xq8)|Brian Beckman: Don't fear the Monad
 用 ReactiveCocoa 事半功倍的写代码|[一](http://fengjian0106.github.io/2016/04/17/The-Power-Of-Composition-In-FRP-Part-1/) [二](http://fengjian0106.github.io/2016/04/26/The-Power-Of-Composition-In-FRP-Part-2/) [三](http://fengjian0106.github.io/2016/04/28/The-Power-Of-Composition-In-FRP-Part-3/) [四](http://fengjian0106.github.io/2016/05/03/The-Power-Of-Composition-In-FRP-Part-4/)
@@ -622,6 +627,9 @@ Siri Integration in iOS 10 with Swift – SiriKit Tutorial |[Part 1](http://jame
 
 工具/插件  |  简介
 ---- | ----
+[SwiftInitializerGenerator](https://github.com/Bouke/SwiftInitializerGenerator)| Xcode 8 Source Code Extension to Generate Swift Initializers
+
+[Import](https://github.com/markohlebar/Import)| Xcode extension for adding imports from anywhere in the code ☝️
 [mac dev setup](https://github.com/nicolashery/mac-dev-setup)| A beginner's guide to setting up a development environment on Mac OS X.
 [swift proposal analyzer](https://github.com/jessesquires/swift-proposal-analyzer)| An analysis of Swift Evolution proposals https://speakerdeck.com/jessesquires/140-proposals-in-30-minutes
 [Git 资源汇总](https://github.com/BaiduHiDeviOS/Git)|Git 资源汇总
