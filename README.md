@@ -628,7 +628,6 @@ Siri Integration in iOS 10 with Swift – SiriKit Tutorial |[Part 1](http://jame
 工具/插件  |  简介
 ---- | ----
 [SwiftInitializerGenerator](https://github.com/Bouke/SwiftInitializerGenerator)| Xcode 8 Source Code Extension to Generate Swift Initializers
-
 [Import](https://github.com/markohlebar/Import)| Xcode extension for adding imports from anywhere in the code ☝️
 [mac dev setup](https://github.com/nicolashery/mac-dev-setup)| A beginner's guide to setting up a development environment on Mac OS X.
 [swift proposal analyzer](https://github.com/jessesquires/swift-proposal-analyzer)| An analysis of Swift Evolution proposals https://speakerdeck.com/jessesquires/140-proposals-in-30-minutes
