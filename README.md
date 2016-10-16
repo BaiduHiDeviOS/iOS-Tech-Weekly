@@ -72,6 +72,7 @@
 ## Swift 3
 名称  |  简介
 ---- | ----
+[Swift 3.0 Unsafe World](http://technology.meronapps.com/2016/09/27/swift-3-0-unsafe-world-2/)| 目前看过写的最好的关于讲如何用 Swift 3 来操作 C 指针的文章《Swift 3.0 Unsafe World》
 [Swift 3.0 Refactoring Cues](https://www.natashatherobot.com/swift-3-0-refactoring-cues/)|Swift 3.0 Refactoring Cues
 [Working with JSON in Swift](https://developer.apple.com/swift/blog/?id=37)|Working with JSON in Swift
 [A (mostly) comprehensive list of Swift 3.0 and 2.3 changes](https://buildingvts.com/a-mostly-comprehensive-list-of-swift-3-0-and-2-3-changes-193b904bb5b1#.gewf1wa13)| A (mostly) comprehensive list of Swift 3.0 and 2.3 changes
@@ -208,6 +209,7 @@
 ### 源码解析
 文章名称  |  简介
 ---- | ----
+[苹果示例源码阅读：Reachability](http://www.jianshu.com/p/fb3676a3d5f7)|苹果示例源码阅读：Reachability
 [MotionKit — The Missing iOS CoreMotion Wrapper written in Swift](https://medium.com/ios-os-x-development/motionkit-the-missing-ios-coremotion-wrapper-written-in-swift-99fcb83355d0#.i1cn1p9r1)|MotionKit — The Missing iOS CoreMotion Wrapper written in Swift
 [制作一个苦力](https://github.com/nixzhu/dev-blog/blob/master/2016-06-29-coolie.md)| 由JSON文件生成对应的数据Model对象struct, class.
 [iOS程序main函数之前发生了什么](http://blog.sunnyxx.com/2014/08/30/objc-pre-main/)|iOS程序main函数之前发生了什么
@@ -271,6 +273,10 @@
 ### 实践经验
 文章名称  |  简介
 ---- | ----
+[WebView与JS的几种交互](http://www.jianshu.com/p/0042d8eb67c0)|WebView与JS的几种交互
+[浅谈JavaScript Core](http://www.jianshu.com/p/932699e3450e)|浅谈JavaScript Core
+[iOS安装包瘦身指南](http://www.zoomfeng.com/blog/ipa-size-thin.html)|iOS安装包瘦身指南
+通过Xcodeproj深入探究Xcode工程文件|[一](http://www.tomorjm.com/2016/10/05/%E9%80%9A%E8%BF%87Xcodeproj%E6%B7%B1%E5%85%A5%E6%8E%A2%E7%A9%B6Xcode%E5%B7%A5%E7%A8%8B%E6%96%87%E4%BB%B6%20%E4%B8%80/) [二](http://www.tomorjm.com/2016/10/06/%E9%80%9A%E8%BF%87Xcodeproj%E6%B7%B1%E5%85%A5%E6%8E%A2%E7%A9%B6Xcode%E5%B7%A5%E7%A8%8B%E6%96%87%E4%BB%B6%20%E4%BA%8C/)
 [黑科技：把第三方 iOS 应用转成动态库](http://mp.weixin.qq.com/s?__biz=MjM5NTIyNTUyMQ==&mid=2709545228&idx=1&sn=7a47a0de32e06f9c465319e8db8ca13f&chksm=828f0bd2b5f882c46416ab20cd9ea482b3c57b202d876b75d5625a1bb036d40fe01d31c2679a&scene=0#wechat_redirect)|黑科技：把第三方 iOS 应用转成动态库
 [Solve-App-Store-Review-Problem](https://github.com/wg689/Solve-App-Store-Review-Problem)| a collection to solve app store review problem (ipv6,ipv6被拒绝,后台定位等审核问题的终极解决方案汇总)
 [Concurrent Programming: APIs and Challenges](https://www.objc.io/issues/2-concurrency/concurrency-apis-and-pitfalls/)|Concurrent Programming: APIs and Challenges
@@ -338,6 +344,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ### UI组件
 名称 | 推荐理由
 ------- | -------
+[IGListKit](https://github.com/Instagram/IGListKit)| A data-driven UICollectionView framework for building fast and flexible lists. https://instagram.github.io/IGListKit/, [blog](https://engineering.instagram.com/open-sourcing-iglistkit-3d66f1e4e9aa#.wz770vndk)
 [REFrostedViewController](https://github.com/romaonthego/REFrostedViewController)| iOS 7/8 style blurred view controller that appears on top of your view controller.
 [UICircularProgressRing](https://github.com/luispadron/UICircularProgressRing)| A circular progress bar for iOS written in Swift 3
 [Segmentio](https://github.com/Yalantis/Segmentio)| Animated top/bottom segmented control written in Swift. https://yalantis.com/
@@ -434,6 +441,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ### 工具库
 名称 | 推荐理由
 ------- | -------
+[PFWebViewController](https://github.com/PerfectFreeze/PFWebViewController)| A light-weight webview controller using WKWebView.
 [SwiftDate](https://github.com/malcommac/SwiftDate)| The best way to manage Dates and Timezones in Swift http://malcommac.github.io/SwiftDate
 [SwiftFormat](https://github.com/nicklockwood/SwiftFormat)| A command-line tool for formatting Swift code
 [diff so fancy](https://github.com/so-fancy/diff-so-fancy)| Good-lookin' diffs. Actually… nah… The best-lookin' diffs. 🎉
@@ -465,6 +473,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ### 完整工程
 名称 | 推荐理由
 ------- | -------
+[MVVM](https://github.com/shenAlexy/MVVM)| MVVM architecture of a practice, rewrite the iOS headlines for the client（MVVM架构的一次实践，重写iOS头条客户端）
 [仿youtube iOS客户端](https://github.com/aslanyanhaik/youtube-iOS)| swift3 完整工程
 [高仿映客直播App](https://github.com/GrayJIAXU/520Linkee)| 高仿映客直播App
 [Celluloid](https://github.com/100mango/Celluloid)| The Best Photo Extension APP on iOS
@@ -483,6 +492,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ### 开源库合集
 名称 | 推荐理由
 ------- | -------
+[27 iOS open source libraries to skyrocket your development.](https://medium.com/app-coder-io/27-ios-open-source-libraries-to-skyrocket-your-development-301b67d3124c#.3x91edx40)| You don’t want to miss them. Really.
 [MDCC 2016 相关资源](https://github.com/MDCC2016/iOS-Session-Slides)|MDCC 2016 相关资源
 [iOS cookies](http://www.ioscookies.com/)| 按类别整理的开源代码合集。
 [awesome iOS](https://github.com/vsouza/awesome-ios)| A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects
@@ -573,6 +583,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 ##视频资源
 标题  | 内容简介
 ---- | -----
+[Type Erasure Magic](https://realm.io/cn/news/altconf-hector-matos-type-erasure-magic/)|Type Erasure Magic
 [WWDC 2014: What's New in Table and Collection Views](https://developer.apple.com/videos/play/wwdc2014/226/)| 退了7以后 可以做的优化
 [What's new in swift 3 -- realm](https://realm.io/news/whats-new-in-swift-3-part-1/)|What's new in swift 3 -- realm
 [Futures and Promises, or how I learned to stop worrying and love the GCD](https://realm.io/news/altconf-michael-gray-futures-promises-gcd/)|Futures and Promises, or how I learned to stop worrying and love the GCD
