@@ -6,13 +6,13 @@
 title: 百度Hi iOS团队技术周报
 subtitle:
 description:
-author: John Doe
+author: BaiduHiDeviOS
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://baiduhidevios.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
