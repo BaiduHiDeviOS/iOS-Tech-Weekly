@@ -27,6 +27,12 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
