@@ -27,11 +27,13 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
+plugin:
+- hexo-generator-feed
+
 feed:
   type: atom
   path: atom.xml
   limit: 20
-  hub:
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -68,6 +70,7 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: http://hexo.io/plugins/
+plugins: hexo-generator-feed
 ## Themes: http://hexo.io/themes/
 theme: landscape
 
@@ -75,5 +78,5 @@ theme: landscape
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/BaiduHiDeviOS/BaiduHiDeviOS.github.io
+  repository: git@github.com:BaiduHiDeviOS/BaiduHiDeviOS.github.io.git
   branch: master
