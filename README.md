@@ -137,9 +137,21 @@
 [iOS内存管理和malloc源码解读](https://yq.aliyun.com/articles/3065)|iOS内存管理和malloc源码解读
 [Automatically Formatting Your Objective-C](http://tonyarnold.com/2014/05/31/autoformatting-your-code.html) | 自动格式化代码工具[ClangFormat-Xcode](https://github.com/travisjeffery/ClangFormat-Xcode/)使用。
 [How to C in 2016](https://matt.sh/howto-c)|How to C in 2016
+//TODO
+[Objective-C Runtime Note](http://justsee.iteye.com/blog/2163777)
+[position与anchorPoint](http://www.tuicool.com/articles/MvI7fu3)
 
 ## 技术实践
-
+文章名称  |  简介
+---- | ----
+[移动端图片格式调研](http://blog.ibireme.com/2015/11/02/mobile_image_benchmark/): [ibireme](https://github.com/ibireme) | 在做YYImage时的调研成果
+[iOS 处理图片的一些小 Tip](http://blog.ibireme.com/2015/11/02/ios_image_tips/): [ibireme](https://github.com/ibireme) | 在做YYImage时的调研成果
+[To speed up the XCode compile and link speed (200%+)](http://www.programering.com/a/MTN1ATNwATQ.html) | 如何加快XCode编译速度？
+//TODO
+[iOS 10 Link Preview API in WKWebView](https://webkit.org/blog/7016/ios-10-link-preview-api-in-wkwebview/)
+[iOS 10 UserNotifications 框架解析](https://onevcat.com/2016/08/notification/)
+[SQLite3性能深入分析](http://blog.xcodev.com/posts/sqlite3-performance-indeep/)
+[揭秘：微信是如何用libco支撑8亿用户的](http://dev.qq.com/topic/58203cfcd149ba305c5ccf85)
 
 
 ### UI
