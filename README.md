@@ -67,6 +67,8 @@
 | [Inside Swift](http://www.eswick.com/2014/06/inside-swift/) | Swift的内部机制
 [Swift's mysterious Builtin module](http://ankit.im/swift/2016/01/12/swift-mysterious-builtin-module/)|揭秘Swift内置模块
 [Swift target acton](https://www.mikeash.com/pyblog/friday-qa-2015-12-25-swifty-targetaction.html)| Cocoa's target/action system for responding to controls is a great system for Objective-C, but is a bit unnatural to use in Swift. Today, I'm going to explore building a wrapper that allows using a Swift function as the action.
+//TODO
+[Whole-Module Optimization in Swift 3](https://swift.org/blog/whole-module-optimizations/)
 
 
 ## Swift 3
@@ -217,6 +219,10 @@
 [Singleton如何测试](http://zixun.github.io/blog/2015/04/16/iosdan-yuan-ce-shi-xi-lie-singletonru-he-ce-shi/) | 介绍Singleton如何测试
 [单元测试编码规范](http://zixun.github.io/blog/2015/04/16/iosdan-yuan-ce-shi-xi-lie-dan-yuan-ce-shi-bian-ma-gui-fan/) | 介绍单元测试编码规范
 [How to write a unit test which passes if a function throws?](https://forums.developer.apple.com/thread/5824)| 目前Xcode Unit Test没有对抛出异常的函数进行处理的XCT方法，文中添加了第三方的写法。
+//TODO
+[Test Doubles: Mocks, Stubs, and More](https://www.objc.io/issues/15-testing/mocking-stubbing/)
+[Dependency Injection](https://www.objc.io/issues/15-testing/dependency-injection/)
+[Bad Testing Practices](https://www.objc.io/issues/15-testing/bad-testing-practices/)
 
 ### 源码解析
 文章名称  |  简介
@@ -281,6 +287,8 @@
 [charles中如何对https抓包](http://www.15yan.com/story/8PFT2WXTOiv/)| 使用Charles抓https请求数据包
 [Spelunkhead](https://www.bignerdranch.com/blog/spelunkhead/)|跟着博文作者一起探索iOS系统framework。
 [moby.sh](https://gist.github.com/tvon/5224569)|下载所有framework head文件，并放入一个输出文件夹中，方便搜索查看API接口，新API等。
+[FLEX](https://github.com/Flipboard/FLEX) | FLEX (Flipboard Explorer) is a set of in-app debugging and exploration tools for iOS development. When presented, FLEX shows a toolbar that lives in a window above your application. From this toolbar, you can view and modify nearly every piece of state in your running application.
+[静态分析工具大集合](http://www.freebuf.com/sectool/119680.html) | 静态程序分析（Static program analysis）是指在不运行计算机程序的条件下，进行程序分析的方法。有些程序分析需要在程序运行时才能进行，这种程序分析称为动态程序分析。大部分的静态程序分析的对象是针对特定版本的源代码，也有些静态程序分析的对象是目标代码。静态程序分析一词多半是指配合静态程序分析工具进行的分析，人工进行的分析一般称为程序理解或代码审查。
 
 ### 实践经验
 文章名称  |  简介
@@ -351,6 +359,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 [Rainbow](https://github.com/onevcat/Rainbow)| Rainbow adds text color, background color and style for console and command line output in Swift. It is born for cross platform software logging in terminals, working in both Apple's platforms and Linux. Meanwhile, it is also compatible with XcodeColors, which lets you colorize the Xcode debugger output as well when developing an app.
 [REVERT](https://github.com/revealapp/Revert/)|Reveal出品，一个项目教会你Swift的基本UI开发。配合reveal更加直观。
 [SwiftGen](https://github.com/AliSoftware/SwiftGen)| This is a suite of tools written in Swift 2 to auto-generate Swift 2 code for various assets of your project: 1.enums for your Assets Catalogs 2.enums for your Localizable.strings strings.3.enums for your UIStoryboard and their Scenes. 4.enums for your UIColors.
+[GitHub 上 iOS 开源库 Top 100](http://ios.jobbole.com/84388/) | 主要对当前 GitHub 排名前 100 的项目做一个简单的简介, 方便初学者快速了解到当前 Objective-C 在 GitHub 的情况.
 
 
 ### UI组件
@@ -515,6 +524,9 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 [Hacking With Swift](https://github.com/twostraws/HackingWithSwift) | Swift 教程，以做小项目学习Swift
 [swift algorithm club](https://github.com/raywenderlich/swift-algorithm-club)| Algorithms and data structures in Swift, with explanations!
 [27 iOS open source libraries to skyrocket your development.](https://medium.com/app-coder-io/27-ios-open-source-libraries-to-skyrocket-your-development-301b67d3124c#.yp7qkmmxs) | 27个常用的iOS开源库。
+//TODO
+[39个优秀的Swift UI开源库](http://www.cocoachina.com/ios/20161109/18007.html)
+[百里挑一：21个优质Swift开源App](http://www.cocoachina.com/ios/20161108/17998.html)
 
 
 ## React Native
@@ -623,6 +635,8 @@ iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://w
 [手把手教你如何分析 iOS 系统栈 crash](http://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&mid=401345907&idx=2&sn=48a7eba21b218d8fec9dafb52b0b2b26&scene=0&key=ff7411024a07f3eb8bc0c14c5749836340744b2c4098567c144c87554887ba7c7107f1c64e7cd4261575168353bd8783)|手把手教你如何分析 iOS 系统栈 crash
 [与调试器共舞 - LLDB 的华尔兹](http://objccn.io/issue-19-2/)| Xcode LLDB 详解
 [使用LLDB调试程序](http://casatwy.com/shi-yong-lldbdiao-shi-cheng-xu.html)|使用LLDB调试程序
+[Xcode8调试黑科技：Memory Graph实战解决闭包引用循环问题](http://www.jianshu.com/p/f792f9aa2e45) | 
+Memory Graph 实战演练
 
 ##iOS 新特性
 标题  | 内容简介
@@ -744,3 +758,4 @@ Siri Integration in iOS 10 with Swift – SiriKit Tutorial |[Part 1](http://jame
 [IMTX](https://imtx.me/) | 图拉鼎, 知名 Apple 平台开发者, 曾经的 Ubuntu 平台开发者, 文章有不少干货, 大多讲解技术实现和学习经验
 [Facebook iOS技术博客](https://code.facebook.com/ios/) | Facebook 在iOS上的一些优秀实践，很多值得我们学习，希望大家也多多关注。
 [SwiftGG](http://swift.gg/) | 翻译的Swift国外优秀技术博客
+[objc.io](https://www.objc.io/about/) | objc.io was founded 2013 in Berlin by Chris Eidhof, Daniel Eggert, and Florian Kugler. We started objc.io to create a platform for in-depth technical topics relevant to all iOS and OS X developers.
