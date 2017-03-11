@@ -88,6 +88,7 @@
 [Migrating to Swift 2.3 or Swift 3 from Swift 2.2](https://swift.org/migration-guide/)| swift官方迁移指南
 [Chris Lattner谈Swift 3和Cocoa“重命名”](http://www.infoq.com/cn/news/2016/02/lattner-swift3-renamification)|近日，在“swift-evolution”邮件列表中，Swift创建者Chris Lattner在一篇博文中概述了Swift 3定义的一些指导原则，并明确表示该版本会带来破坏性修改。
 
+
 ## Swift Style Guide
 名称  |  简介
 ---- | ----
@@ -223,6 +224,7 @@
 [Test Doubles: Mocks, Stubs, and More](https://www.objc.io/issues/15-testing/mocking-stubbing/)
 [Dependency Injection](https://www.objc.io/issues/15-testing/dependency-injection/)
 [Bad Testing Practices](https://www.objc.io/issues/15-testing/bad-testing-practices/)
+[如何进行 HTTP Mock](http://draveness.me/http-mock/) | HTTP Mock 在测试中非常好用，我们可以在不需要后端 API 的情况下，在本地对 HTTP 请求进行拦截，返回想要的 json 数据，而 OHHTTPStubs 就为我们提供了这样一种解决方案。
 
 ### 源码解析
 文章名称  |  简介
@@ -243,6 +245,7 @@
 [Open-source Swift: Booleans](https://swiftunboxed.com/open-source/Bool/)| Booleans -- Swift源码阅读
 [Swift Weak References](https://www.mikeash.com/pyblog/friday-qa-2015-12-11-swift-weak-references.html)| Swift 下若引用原理解析。推荐阅读
 [NSCache](https://github.com/nixzhu/dev-blog/blob/master/2015-12-09-nscache.md)| NSCache -- Swift源码阅读
+[Swifty Time](http://www.swiftytime.com/) | 一个收录了大量swift优秀源码的网站
 
 ### 多线程
 文章名称  |  简介
@@ -256,8 +259,7 @@
 [concurrency apis and pitfalls](https://www.objc.io/issues/2-concurrency/concurrency-apis-and-pitfalls/)|concurrency apis and pitfalls
 [Low level concurrency apis](https://www.objc.io/issues/2-concurrency/low-level-concurrency-apis/)|Low level concurrency apis
 [Common background practices](https://www.objc.io/issues/2-concurrency/common-background-practices/)|Common background practices
-
-
+[iOS开发之Alamofire源码解析前奏--NSURLSession全家桶](http://www.cnblogs.com/ludashi/p/5556088.html)| NSURLSession源码解析
 ### 性能优化
 文章名称  |  简介
 ---- | ----
@@ -274,7 +276,7 @@
 [iOS同步对象性能对比](http://ksnowlv.github.io/blog/2014/09/07/ios-tong-bu-suo-xing-neng-dui-bi/) | iOS同步对象性能对比
 [Delivering high scroll performance](https://code.facebook.com/posts/456535491190613/delivering-high-scroll-performance/)| Delivering high scroll performance
 [优化Facebook iOS app启动时间](https://code.facebook.com/posts/1675399786008080/optimizing-facebook-for-ios-start-time/)|优化Facebook iOS app启动时间
-
+[今日头条iOS客户端启动速度优化](http://www.cocoachina.com/ios/20170208/18651.html) |优化App启动时间
 ### 工具使用
 文章名称  |  简介
 ---- | ----
