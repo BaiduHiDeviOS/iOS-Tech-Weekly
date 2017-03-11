@@ -220,7 +220,6 @@
 [Singleton如何测试](http://zixun.github.io/blog/2015/04/16/iosdan-yuan-ce-shi-xi-lie-singletonru-he-ce-shi/) | 介绍Singleton如何测试
 [单元测试编码规范](http://zixun.github.io/blog/2015/04/16/iosdan-yuan-ce-shi-xi-lie-dan-yuan-ce-shi-bian-ma-gui-fan/) | 介绍单元测试编码规范
 [How to write a unit test which passes if a function throws?](https://forums.developer.apple.com/thread/5824)| 目前Xcode Unit Test没有对抛出异常的函数进行处理的XCT方法，文中添加了第三方的写法。
-//TODO
 [Test Doubles: Mocks, Stubs, and More](https://www.objc.io/issues/15-testing/mocking-stubbing/)
 [Dependency Injection](https://www.objc.io/issues/15-testing/dependency-injection/)
 [Bad Testing Practices](https://www.objc.io/issues/15-testing/bad-testing-practices/)
