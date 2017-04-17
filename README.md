@@ -329,7 +329,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 
 
 
-##应用架构相关
+## 应用架构相关
 文章名称  |  简介
 ---- | ---
 [Immutable models and data consistency in our iOS App](https://engineering.pinterest.com/blog/immutable-models-and-data-consistency-our-ios-app)|Immutable models and data consistency in our iOS App
@@ -539,7 +539,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 [React Native](http://facebook.github.io/react-native/) |Facebook的开源库，使用 React.js 开发原生应用。
 [Facebook f8 app open source](https://github.com/fbsamples/f8app)|React Native 最佳学习项目来了，Facebook 开源了 F8 App 全套代码，包括 Android，iOS 和 Server 端，其中涉及 React Native, Redux, Relay, GraphQL 等技术，更感人的是配套了教程讲解整个 APP（包括前后端） 是怎么做出来。[教程](http://makeitopen.com/)
 
-##Reactive Cocoa & RxSwift & Functional Programming
+## Reactive Cocoa & RxSwift & Functional Programming
 标题  | 内容简介
 ---- | -----
 [rx-sample-code](https://github.com/DianQK/rx-sample-code)| rxSwift Demo code.
@@ -569,7 +569,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 [深入浅出－iOS函数式编程的实现 && 响应式编程概念](http://www.jianshu.com/p/7017a220f34c) |本篇主要回顾一下－－iOS函数式编程 && 响应式编程概念 ,如何一步步实现函数式编程的过程，对阅读Masonry  &&  SnapKit源码有一定的帮助
 
 
-##iOS HotFix相关
+## iOS HotFix相关
 标题  | 内容简介
 ---- | -----
 [JSPatch 平台新特性：实时监控](http://jspatch.com/Docs/monitor?sukey=3997c0719f151520ab00603b2cde8a85e49ef9df3e5939d88d3508acfaf2ccf7b853de9807f35857be4a86e5f7fa8161)|JSPatch 平台新特性：实时监控
@@ -589,7 +589,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 [Objective-C Runtime Guide](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ObjCRuntimeGuide/ObjCRuntimeGuide.pdf)| OC runtime相关知识， 对了解JSPatch有一定帮助。
 [iOS热修复(动态Framework) ](http://www.finalshares.com/read-6951)|介绍动态framework修复app
 
-##AsyncDisplayKit
+## AsyncDisplayKit
 标题  | 内容简介
 ---- | -----
 [AsyncDisplayKit State of the Code (WWDC 2016)](https://www.youtube.com/watch?v=8ngXakpE2x8)| AsyncDisplayKit最新变化
@@ -607,7 +607,7 @@ Cocoapods系列教程 | [一](http://www.pluto-y.com/cocoapods-getting-stared/) 
 [iOS App Performance: Responsiveness](https://developer.apple.com/videos/play/wwdc2012-235/)|iOS App Performance: Responsiveness
 [Building Concurrent User Interfaces on iOS](https://developer.apple.com/videos/play/wwdc2012-211/)| For a great user experience, it's essential to keep your application responsive while it renders complex UI elements and processes data. Learn how to use concurrency at the UIKit layer to perform drawing and other common operations without blocking user interaction.
 
-##视频资源
+## 视频资源
 标题  | 内容简介
 ---- | -----
 [Type Erasure Magic](https://realm.io/cn/news/altconf-hector-matos-type-erasure-magic/)|Type Erasure Magic
@@ -630,7 +630,7 @@ iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://w
 [The evolution of an iOS programmer](https://www.youtube.com/watch?v=yXFflqGTZ3Q)|Chris Eidhof本人讲述自己在iOS开发过程中的成长与收获。其中还是有很多点比较具有通用性，比如，写代码的时候时刻想着是为以后接收你代码人而写等等。
 
 
-##Debug
+## Debug
 标题  | 内容简介
 ---- | -----
 [iOS高效调试](http://www.jianshu.com/p/a4ae30a10fb8)|iOS高效调试
@@ -641,7 +641,7 @@ iOS内存管理及优化| [上](http://www.imooc.com/video/11075) [下](http://w
 [Xcode8调试黑科技：Memory Graph实战解决闭包引用循环问题](http://www.jianshu.com/p/f792f9aa2e45) | 
 Memory Graph 实战演练
 
-##iOS 新特性
+## iOS 新特性
 标题  | 内容简介
 ---- | -----
 [iOS 10 Runtime Headers](https://github.com/JaviSoto/iOS10-Runtime-Headers)|iOS 10 Runtime Headers
